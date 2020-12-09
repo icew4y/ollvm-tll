@@ -1,0 +1,4 @@
+﻿  Building Custom Rule D:/Project/ollvm-tll/tools/clang/tools/c-index-test/CMakeLists.txt
+  c-index-test.c
+  core_main.cpp
+  c-index-test.vcxproj -> D:\Project\ollvm-tll\build\Release\bin\c-index-test.exe

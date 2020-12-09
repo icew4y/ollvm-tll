@@ -1,0 +1,3 @@
+﻿  Building Custom Rule D:/Project/ollvm-tll/tools/clang/tools/clang-rename/CMakeLists.txt
+  ClangRename.cpp
+  clang-rename.vcxproj -> D:\Project\ollvm-tll\build\Release\bin\clang-rename.exe

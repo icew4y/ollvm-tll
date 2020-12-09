@@ -1,0 +1,3 @@
+﻿  Building Custom Rule D:/Project/ollvm-tll/tools/verify-uselistorder/CMakeLists.txt
+  verify-uselistorder.cpp
+  verify-uselistorder.vcxproj -> D:\Project\ollvm-tll\build\Release\bin\verify-uselistorder.exe

@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\Project\ollvm-tll\build\CMakeFiles\57d238721bea726974ea075b9650d81c\LanaiGenAsmMatcher.inc.tmp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\ollvm-tll\build\CMakeFiles\57d238721bea726974ea075b9650d81c\LanaiGenAsmMatcher.inc.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\ollvm-tll\build\CMakeFiles\57d238721bea726974ea075b9650d81c\LanaiGenAsmWriter.inc.tmp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\ollvm-tll\build\CMakeFiles\57d238721bea726974ea075b9650d81c\LanaiGenAsmWriter.inc.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\ollvm-tll\build\CMakeFiles\57d238721bea726974ea075b9650d81c\LanaiGenCallingConv.inc.tmp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\ollvm-tll\build\CMakeFiles\57d238721bea726974ea075b9650d81c\LanaiGenCallingConv.inc.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\ollvm-tll\build\CMakeFiles\57d238721bea726974ea075b9650d81c\LanaiGenDAGISel.inc.tmp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\ollvm-tll\build\CMakeFiles\57d238721bea726974ea075b9650d81c\LanaiGenDAGISel.inc.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\ollvm-tll\build\CMakeFiles\57d238721bea726974ea075b9650d81c\LanaiGenDisassemblerTables.inc.tmp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\ollvm-tll\build\CMakeFiles\57d238721bea726974ea075b9650d81c\LanaiGenDisassemblerTables.inc.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\ollvm-tll\build\CMakeFiles\57d238721bea726974ea075b9650d81c\LanaiGenInstrInfo.inc.tmp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\ollvm-tll\build\CMakeFiles\57d238721bea726974ea075b9650d81c\LanaiGenInstrInfo.inc.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\ollvm-tll\build\CMakeFiles\57d238721bea726974ea075b9650d81c\LanaiGenMCCodeEmitter.inc.tmp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\ollvm-tll\build\CMakeFiles\57d238721bea726974ea075b9650d81c\LanaiGenMCCodeEmitter.inc.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\ollvm-tll\build\CMakeFiles\57d238721bea726974ea075b9650d81c\LanaiGenRegisterInfo.inc.tmp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\ollvm-tll\build\CMakeFiles\57d238721bea726974ea075b9650d81c\LanaiGenRegisterInfo.inc.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\ollvm-tll\build\CMakeFiles\57d238721bea726974ea075b9650d81c\LanaiGenSubtargetInfo.inc.tmp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\ollvm-tll\build\CMakeFiles\57d238721bea726974ea075b9650d81c\LanaiGenSubtargetInfo.inc.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\ollvm-tll\build\CMakeFiles\5cb5149b9557fce69388e84f8069519f\LanaiCommonTableGen.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\ollvm-tll\lib\Target\Lanai\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="D:\Project\ollvm-tll\build\lib\Target\Lanai\CMakeFiles\LanaiCommonTableGen" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{3698E70E-4983-3879-9511-40ADFE058358}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

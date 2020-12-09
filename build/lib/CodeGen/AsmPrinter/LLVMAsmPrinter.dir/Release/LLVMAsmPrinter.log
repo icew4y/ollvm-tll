@@ -1,0 +1,25 @@
+﻿  Building Custom Rule D:/Project/ollvm-tll/lib/CodeGen/AsmPrinter/CMakeLists.txt
+  AddressPool.cpp
+  ARMException.cpp
+  AsmPrinter.cpp
+  AsmPrinterDwarf.cpp
+  AsmPrinterInlineAsm.cpp
+  DbgValueHistoryCalculator.cpp
+  DebugHandlerBase.cpp
+  DebugLocStream.cpp
+  DIE.cpp
+  DIEHash.cpp
+  DwarfAccelTable.cpp
+  DwarfCFIException.cpp
+  DwarfCompileUnit.cpp
+  DwarfDebug.cpp
+  DwarfExpression.cpp
+  DwarfFile.cpp
+  DwarfStringPool.cpp
+  DwarfUnit.cpp
+  EHStreamer.cpp
+  ErlangGCPrinter.cpp
+  OcamlGCPrinter.cpp
+  WinException.cpp
+  CodeViewDebug.cpp
+  LLVMAsmPrinter.vcxproj -> D:\Project\ollvm-tll\build\Release\lib\LLVMAsmPrinter.lib

@@ -1,0 +1,297 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\Project\ollvm-tll\tools\clang\lib\CodeGen\BackendUtil.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\ollvm-tll\tools\clang\lib\CodeGen\CGAtomic.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\ollvm-tll\tools\clang\lib\CodeGen\CGBlocks.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\ollvm-tll\tools\clang\lib\CodeGen\CGBuiltin.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\ollvm-tll\tools\clang\lib\CodeGen\CGCUDANV.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\ollvm-tll\tools\clang\lib\CodeGen\CGCUDARuntime.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\ollvm-tll\tools\clang\lib\CodeGen\CGCXX.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\ollvm-tll\tools\clang\lib\CodeGen\CGCXXABI.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\ollvm-tll\tools\clang\lib\CodeGen\CGCall.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\ollvm-tll\tools\clang\lib\CodeGen\CGClass.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\ollvm-tll\tools\clang\lib\CodeGen\CGCleanup.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\ollvm-tll\tools\clang\lib\CodeGen\CGCoroutine.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\ollvm-tll\tools\clang\lib\CodeGen\CGDebugInfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\ollvm-tll\tools\clang\lib\CodeGen\CGDecl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\ollvm-tll\tools\clang\lib\CodeGen\CGDeclCXX.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\ollvm-tll\tools\clang\lib\CodeGen\CGException.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\ollvm-tll\tools\clang\lib\CodeGen\CGExpr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\ollvm-tll\tools\clang\lib\CodeGen\CGExprAgg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\ollvm-tll\tools\clang\lib\CodeGen\CGExprCXX.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\ollvm-tll\tools\clang\lib\CodeGen\CGExprComplex.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\ollvm-tll\tools\clang\lib\CodeGen\CGExprConstant.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\ollvm-tll\tools\clang\lib\CodeGen\CGExprScalar.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\ollvm-tll\tools\clang\lib\CodeGen\CGGPUBuiltin.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\ollvm-tll\tools\clang\lib\CodeGen\CGLoopInfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\ollvm-tll\tools\clang\lib\CodeGen\CGObjC.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\ollvm-tll\tools\clang\lib\CodeGen\CGObjCGNU.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\ollvm-tll\tools\clang\lib\CodeGen\CGObjCMac.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\ollvm-tll\tools\clang\lib\CodeGen\CGObjCRuntime.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\ollvm-tll\tools\clang\lib\CodeGen\CGOpenCLRuntime.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\ollvm-tll\tools\clang\lib\CodeGen\CGOpenMPRuntime.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\ollvm-tll\tools\clang\lib\CodeGen\CGOpenMPRuntimeNVPTX.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\ollvm-tll\tools\clang\lib\CodeGen\CGRecordLayoutBuilder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\ollvm-tll\tools\clang\lib\CodeGen\CGStmt.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\ollvm-tll\tools\clang\lib\CodeGen\CGStmtOpenMP.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\ollvm-tll\tools\clang\lib\CodeGen\CGVTT.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\ollvm-tll\tools\clang\lib\CodeGen\CGVTables.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\ollvm-tll\tools\clang\lib\CodeGen\CodeGenABITypes.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\ollvm-tll\tools\clang\lib\CodeGen\CodeGenAction.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\ollvm-tll\tools\clang\lib\CodeGen\CodeGenFunction.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\ollvm-tll\tools\clang\lib\CodeGen\CodeGenModule.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\ollvm-tll\tools\clang\lib\CodeGen\CodeGenPGO.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\ollvm-tll\tools\clang\lib\CodeGen\CodeGenTBAA.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\ollvm-tll\tools\clang\lib\CodeGen\CodeGenTypes.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\ollvm-tll\tools\clang\lib\CodeGen\ConstantInitBuilder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\ollvm-tll\tools\clang\lib\CodeGen\CoverageMappingGen.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\ollvm-tll\tools\clang\lib\CodeGen\ItaniumCXXABI.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\ollvm-tll\tools\clang\lib\CodeGen\MacroPPCallbacks.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\ollvm-tll\tools\clang\lib\CodeGen\MicrosoftCXXABI.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\ollvm-tll\tools\clang\lib\CodeGen\ModuleBuilder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\ollvm-tll\tools\clang\lib\CodeGen\ObjectFilePCHContainerOperations.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\ollvm-tll\tools\clang\lib\CodeGen\SanitizerMetadata.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\ollvm-tll\tools\clang\lib\CodeGen\SwiftCallingConv.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\ollvm-tll\tools\clang\lib\CodeGen\TargetInfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\ollvm-tll\tools\clang\lib\CodeGen\VarBypassDetector.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\Project\ollvm-tll\tools\clang\include\clang\CodeGen\BackendUtil.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\ollvm-tll\tools\clang\include\clang\CodeGen\CGFunctionInfo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\ollvm-tll\tools\clang\include\clang\CodeGen\CodeGenABITypes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\ollvm-tll\tools\clang\include\clang\CodeGen\CodeGenAction.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\ollvm-tll\tools\clang\include\clang\CodeGen\ConstantInitBuilder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\ollvm-tll\tools\clang\include\clang\CodeGen\ConstantInitFuture.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\ollvm-tll\tools\clang\include\clang\CodeGen\ModuleBuilder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\ollvm-tll\tools\clang\include\clang\CodeGen\ObjectFilePCHContainerOperations.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\ollvm-tll\tools\clang\include\clang\CodeGen\SwiftCallingConv.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\ollvm-tll\tools\clang\lib\CodeGen\ABIInfo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\ollvm-tll\tools\clang\lib\CodeGen\Address.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\ollvm-tll\tools\clang\lib\CodeGen\CGBlocks.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\ollvm-tll\tools\clang\lib\CodeGen\CGBuilder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\ollvm-tll\tools\clang\lib\CodeGen\CGCUDARuntime.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\ollvm-tll\tools\clang\lib\CodeGen\CGCXXABI.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\ollvm-tll\tools\clang\lib\CodeGen\CGCall.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\ollvm-tll\tools\clang\lib\CodeGen\CGCleanup.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\ollvm-tll\tools\clang\lib\CodeGen\CGDebugInfo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\ollvm-tll\tools\clang\lib\CodeGen\CGLoopInfo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\ollvm-tll\tools\clang\lib\CodeGen\CGObjCRuntime.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\ollvm-tll\tools\clang\lib\CodeGen\CGOpenCLRuntime.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\ollvm-tll\tools\clang\lib\CodeGen\CGOpenMPRuntime.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\ollvm-tll\tools\clang\lib\CodeGen\CGOpenMPRuntimeNVPTX.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\ollvm-tll\tools\clang\lib\CodeGen\CGRecordLayout.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\ollvm-tll\tools\clang\lib\CodeGen\CGVTables.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\ollvm-tll\tools\clang\lib\CodeGen\CGValue.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\ollvm-tll\tools\clang\lib\CodeGen\CodeGenFunction.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\ollvm-tll\tools\clang\lib\CodeGen\CodeGenModule.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\ollvm-tll\tools\clang\lib\CodeGen\CodeGenPGO.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\ollvm-tll\tools\clang\lib\CodeGen\CodeGenTBAA.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\ollvm-tll\tools\clang\lib\CodeGen\CodeGenTypeCache.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\ollvm-tll\tools\clang\lib\CodeGen\CodeGenTypes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\ollvm-tll\tools\clang\lib\CodeGen\ConstantEmitter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\ollvm-tll\tools\clang\lib\CodeGen\CoverageMappingGen.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\ollvm-tll\tools\clang\lib\CodeGen\EHScopeStack.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\ollvm-tll\tools\clang\lib\CodeGen\MacroPPCallbacks.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\ollvm-tll\tools\clang\lib\CodeGen\SanitizerMetadata.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\ollvm-tll\tools\clang\lib\CodeGen\TargetInfo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\ollvm-tll\tools\clang\lib\CodeGen\VarBypassDetector.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Project\ollvm-tll\tools\clang\lib\CodeGen\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{7F933372-2FE1-3187-85EF-89AB220864DF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{F96933D9-D7DE-3E51-ABE8-57E9102435B2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

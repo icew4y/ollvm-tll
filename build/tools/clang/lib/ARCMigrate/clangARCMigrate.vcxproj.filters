@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\Project\ollvm-tll\tools\clang\lib\ARCMigrate\ARCMT.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\ollvm-tll\tools\clang\lib\ARCMigrate\ARCMTActions.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\ollvm-tll\tools\clang\lib\ARCMigrate\FileRemapper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\ollvm-tll\tools\clang\lib\ARCMigrate\ObjCMT.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\ollvm-tll\tools\clang\lib\ARCMigrate\PlistReporter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\ollvm-tll\tools\clang\lib\ARCMigrate\TransAPIUses.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\ollvm-tll\tools\clang\lib\ARCMigrate\TransARCAssign.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\ollvm-tll\tools\clang\lib\ARCMigrate\TransAutoreleasePool.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\ollvm-tll\tools\clang\lib\ARCMigrate\TransBlockObjCVariable.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\ollvm-tll\tools\clang\lib\ARCMigrate\TransEmptyStatementsAndDealloc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\ollvm-tll\tools\clang\lib\ARCMigrate\TransGCAttrs.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\ollvm-tll\tools\clang\lib\ARCMigrate\TransGCCalls.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\ollvm-tll\tools\clang\lib\ARCMigrate\TransProperties.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\ollvm-tll\tools\clang\lib\ARCMigrate\TransProtectedScope.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\ollvm-tll\tools\clang\lib\ARCMigrate\TransRetainReleaseDealloc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\ollvm-tll\tools\clang\lib\ARCMigrate\TransUnbridgedCasts.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\ollvm-tll\tools\clang\lib\ARCMigrate\TransUnusedInitDelegate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\ollvm-tll\tools\clang\lib\ARCMigrate\TransZeroOutPropsInDealloc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\ollvm-tll\tools\clang\lib\ARCMigrate\TransformActions.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\ollvm-tll\tools\clang\lib\ARCMigrate\Transforms.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\Project\ollvm-tll\tools\clang\include\clang\ARCMigrate\ARCMT.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\ollvm-tll\tools\clang\include\clang\ARCMigrate\ARCMTActions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\ollvm-tll\tools\clang\include\clang\ARCMigrate\FileRemapper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\ollvm-tll\tools\clang\lib\ARCMigrate\Internals.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\ollvm-tll\tools\clang\lib\ARCMigrate\Transforms.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Project\ollvm-tll\tools\clang\lib\ARCMigrate\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{7F933372-2FE1-3187-85EF-89AB220864DF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{F96933D9-D7DE-3E51-ABE8-57E9102435B2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\Project\ollvm-tll\build\CMakeFiles\b6a84e5afe62e30d0d4fc7b752058a08\AMDGPUGenRegisterInfo.inc.tmp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\ollvm-tll\build\CMakeFiles\b6a84e5afe62e30d0d4fc7b752058a08\AMDGPUGenRegisterInfo.inc.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\ollvm-tll\build\CMakeFiles\b6a84e5afe62e30d0d4fc7b752058a08\AMDGPUGenInstrInfo.inc.tmp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\ollvm-tll\build\CMakeFiles\b6a84e5afe62e30d0d4fc7b752058a08\AMDGPUGenInstrInfo.inc.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\ollvm-tll\build\CMakeFiles\b6a84e5afe62e30d0d4fc7b752058a08\AMDGPUGenDAGISel.inc.tmp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\ollvm-tll\build\CMakeFiles\b6a84e5afe62e30d0d4fc7b752058a08\AMDGPUGenDAGISel.inc.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\ollvm-tll\build\CMakeFiles\b6a84e5afe62e30d0d4fc7b752058a08\AMDGPUGenCallingConv.inc.tmp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\ollvm-tll\build\CMakeFiles\b6a84e5afe62e30d0d4fc7b752058a08\AMDGPUGenCallingConv.inc.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\ollvm-tll\build\CMakeFiles\b6a84e5afe62e30d0d4fc7b752058a08\AMDGPUGenSubtargetInfo.inc.tmp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\ollvm-tll\build\CMakeFiles\b6a84e5afe62e30d0d4fc7b752058a08\AMDGPUGenSubtargetInfo.inc.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\ollvm-tll\build\CMakeFiles\b6a84e5afe62e30d0d4fc7b752058a08\AMDGPUGenIntrinsics.inc.tmp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\ollvm-tll\build\CMakeFiles\b6a84e5afe62e30d0d4fc7b752058a08\AMDGPUGenIntrinsics.inc.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\ollvm-tll\build\CMakeFiles\b6a84e5afe62e30d0d4fc7b752058a08\AMDGPUGenMCCodeEmitter.inc.tmp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\ollvm-tll\build\CMakeFiles\b6a84e5afe62e30d0d4fc7b752058a08\AMDGPUGenMCCodeEmitter.inc.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\ollvm-tll\build\CMakeFiles\b6a84e5afe62e30d0d4fc7b752058a08\AMDGPUGenDFAPacketizer.inc.tmp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\ollvm-tll\build\CMakeFiles\b6a84e5afe62e30d0d4fc7b752058a08\AMDGPUGenDFAPacketizer.inc.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\ollvm-tll\build\CMakeFiles\b6a84e5afe62e30d0d4fc7b752058a08\AMDGPUGenAsmWriter.inc.tmp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\ollvm-tll\build\CMakeFiles\b6a84e5afe62e30d0d4fc7b752058a08\AMDGPUGenAsmWriter.inc.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\ollvm-tll\build\CMakeFiles\b6a84e5afe62e30d0d4fc7b752058a08\AMDGPUGenAsmMatcher.inc.tmp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\ollvm-tll\build\CMakeFiles\b6a84e5afe62e30d0d4fc7b752058a08\AMDGPUGenAsmMatcher.inc.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\ollvm-tll\build\CMakeFiles\b6a84e5afe62e30d0d4fc7b752058a08\AMDGPUGenDisassemblerTables.inc.tmp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\ollvm-tll\build\CMakeFiles\b6a84e5afe62e30d0d4fc7b752058a08\AMDGPUGenDisassemblerTables.inc.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\ollvm-tll\build\CMakeFiles\b6a84e5afe62e30d0d4fc7b752058a08\AMDGPUGenMCPseudoLowering.inc.tmp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\ollvm-tll\build\CMakeFiles\b6a84e5afe62e30d0d4fc7b752058a08\AMDGPUGenMCPseudoLowering.inc.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\ollvm-tll\build\CMakeFiles\b6a84e5afe62e30d0d4fc7b752058a08\AMDGPUGenRegisterBank.inc.tmp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\ollvm-tll\build\CMakeFiles\b6a84e5afe62e30d0d4fc7b752058a08\AMDGPUGenRegisterBank.inc.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\ollvm-tll\build\CMakeFiles\ff219ff9f8b362e2d435c32d3c3db529\AMDGPUCommonTableGen.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\ollvm-tll\lib\Target\AMDGPU\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="D:\Project\ollvm-tll\build\lib\Target\AMDGPU\CMakeFiles\AMDGPUCommonTableGen" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{3698E70E-4983-3879-9511-40ADFE058358}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

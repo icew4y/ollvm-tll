@@ -1,0 +1,5 @@
+﻿  Building Custom Rule D:/Project/ollvm-tll/lib/ProfileData/Coverage/CMakeLists.txt
+  CoverageMapping.cpp
+  CoverageMappingWriter.cpp
+  CoverageMappingReader.cpp
+  LLVMCoverage.vcxproj -> D:\Project\ollvm-tll\build\Release\lib\LLVMCoverage.lib

@@ -1,0 +1,3 @@
+﻿  Building Custom Rule D:/Project/ollvm-tll/tools/llvm-modextract/CMakeLists.txt
+  llvm-modextract.cpp
+  llvm-modextract.vcxproj -> D:\Project\ollvm-tll\build\Release\bin\llvm-modextract.exe

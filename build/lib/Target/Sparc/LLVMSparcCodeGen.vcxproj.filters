@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\Project\ollvm-tll\lib\Target\Sparc\DelaySlotFiller.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\ollvm-tll\lib\Target\Sparc\LeonPasses.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\ollvm-tll\lib\Target\Sparc\SparcAsmPrinter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\ollvm-tll\lib\Target\Sparc\SparcInstrInfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\ollvm-tll\lib\Target\Sparc\SparcISelDAGToDAG.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\ollvm-tll\lib\Target\Sparc\SparcISelLowering.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\ollvm-tll\lib\Target\Sparc\SparcFrameLowering.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\ollvm-tll\lib\Target\Sparc\SparcMachineFunctionInfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\ollvm-tll\lib\Target\Sparc\SparcRegisterInfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\ollvm-tll\lib\Target\Sparc\SparcSubtarget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\ollvm-tll\lib\Target\Sparc\SparcTargetMachine.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\ollvm-tll\lib\Target\Sparc\SparcMCInstLower.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\ollvm-tll\lib\Target\Sparc\SparcTargetObjectFile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\Project\ollvm-tll\lib\Target\Sparc\LeonFeatures.td">
+      <Filter>TableGen descriptions</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\ollvm-tll\lib\Target\Sparc\Sparc.td">
+      <Filter>TableGen descriptions</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\ollvm-tll\lib\Target\Sparc\SparcCallingConv.td">
+      <Filter>TableGen descriptions</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\ollvm-tll\lib\Target\Sparc\SparcInstr64Bit.td">
+      <Filter>TableGen descriptions</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\ollvm-tll\lib\Target\Sparc\SparcInstrAliases.td">
+      <Filter>TableGen descriptions</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\ollvm-tll\lib\Target\Sparc\SparcInstrFormats.td">
+      <Filter>TableGen descriptions</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\ollvm-tll\lib\Target\Sparc\SparcInstrInfo.td">
+      <Filter>TableGen descriptions</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\ollvm-tll\lib\Target\Sparc\SparcInstrVIS.td">
+      <Filter>TableGen descriptions</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\ollvm-tll\lib\Target\Sparc\SparcRegisterInfo.td">
+      <Filter>TableGen descriptions</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\ollvm-tll\lib\Target\Sparc\SparcSchedule.td">
+      <Filter>TableGen descriptions</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\ollvm-tll\lib\Target\Sparc\LeonPasses.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\ollvm-tll\lib\Target\Sparc\Sparc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\ollvm-tll\lib\Target\Sparc\SparcFrameLowering.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\ollvm-tll\lib\Target\Sparc\SparcISelLowering.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\ollvm-tll\lib\Target\Sparc\SparcInstrInfo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\ollvm-tll\lib\Target\Sparc\SparcMachineFunctionInfo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\ollvm-tll\lib\Target\Sparc\SparcRegisterInfo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\ollvm-tll\lib\Target\Sparc\SparcSubtarget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\ollvm-tll\lib\Target\Sparc\SparcTargetMachine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\ollvm-tll\lib\Target\Sparc\SparcTargetObjectFile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\ollvm-tll\lib\Target\Sparc\SparcTargetStreamer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Project\ollvm-tll\lib\Target\Sparc\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{7F933372-2FE1-3187-85EF-89AB220864DF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{F96933D9-D7DE-3E51-ABE8-57E9102435B2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TableGen descriptions">
+      <UniqueIdentifier>{1FF65CC3-CA6B-3B7D-937D-12C5078CFB24}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,13 @@
+﻿  Building Custom Rule D:/Project/ollvm-tll/tools/clang/utils/TableGen/CMakeLists.txt
+  ClangASTNodesEmitter.cpp
+  ClangAttrEmitter.cpp
+  ClangCommentCommandInfoEmitter.cpp
+  ClangCommentHTMLNamedCharacterReferenceEmitter.cpp
+  ClangCommentHTMLTagsEmitter.cpp
+  ClangDataCollectorsEmitter.cpp
+  ClangDiagnosticsEmitter.cpp
+  ClangOptionDocEmitter.cpp
+  ClangSACheckersEmitter.cpp
+  NeonEmitter.cpp
+  TableGen.cpp
+  obj.clang-tblgen.vcxproj -> D:\Project\ollvm-tll\build\tools\clang\utils\TableGen\obj.clang-tblgen.dir\Release\obj.clang-tblgen.lib

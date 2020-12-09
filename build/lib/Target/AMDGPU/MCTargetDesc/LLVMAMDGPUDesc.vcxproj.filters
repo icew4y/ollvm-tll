@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\Project\ollvm-tll\lib\Target\AMDGPU\MCTargetDesc\AMDGPUAsmBackend.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\ollvm-tll\lib\Target\AMDGPU\MCTargetDesc\AMDGPUELFObjectWriter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\ollvm-tll\lib\Target\AMDGPU\MCTargetDesc\AMDGPUELFStreamer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\ollvm-tll\lib\Target\AMDGPU\MCTargetDesc\AMDGPUHSAMetadataStreamer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\ollvm-tll\lib\Target\AMDGPU\MCTargetDesc\AMDGPUMCAsmInfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\ollvm-tll\lib\Target\AMDGPU\MCTargetDesc\AMDGPUMCCodeEmitter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\ollvm-tll\lib\Target\AMDGPU\MCTargetDesc\AMDGPUMCTargetDesc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\ollvm-tll\lib\Target\AMDGPU\MCTargetDesc\AMDGPUTargetStreamer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\ollvm-tll\lib\Target\AMDGPU\MCTargetDesc\R600MCCodeEmitter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\ollvm-tll\lib\Target\AMDGPU\MCTargetDesc\SIMCCodeEmitter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\Project\ollvm-tll\lib\Target\AMDGPU\MCTargetDesc\AMDGPUELFStreamer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\ollvm-tll\lib\Target\AMDGPU\MCTargetDesc\AMDGPUFixupKinds.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\ollvm-tll\lib\Target\AMDGPU\MCTargetDesc\AMDGPUHSAMetadataStreamer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\ollvm-tll\lib\Target\AMDGPU\MCTargetDesc\AMDGPUMCAsmInfo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\ollvm-tll\lib\Target\AMDGPU\MCTargetDesc\AMDGPUMCCodeEmitter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\ollvm-tll\lib\Target\AMDGPU\MCTargetDesc\AMDGPUMCTargetDesc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\ollvm-tll\lib\Target\AMDGPU\MCTargetDesc\AMDGPUTargetStreamer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Project\ollvm-tll\lib\Target\AMDGPU\MCTargetDesc\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{7F933372-2FE1-3187-85EF-89AB220864DF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{F96933D9-D7DE-3E51-ABE8-57E9102435B2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

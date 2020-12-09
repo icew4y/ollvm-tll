@@ -34,6 +34,8 @@
 #include <cstdio>
 #ifdef _WINDOWS
 # include <random>
+#include <windows.h>
+#include <wincrypt.h>
 #endif // _WINDOWS
 
 // Stats

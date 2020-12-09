@@ -1,0 +1,16 @@
+﻿  Building Custom Rule D:/Project/ollvm-tll/lib/CodeGen/GlobalISel/CMakeLists.txt
+  CallLowering.cpp
+  GlobalISel.cpp
+  IRTranslator.cpp
+  InstructionSelect.cpp
+  InstructionSelector.cpp
+  LegalizerHelper.cpp
+  Legalizer.cpp
+  LegalizerInfo.cpp
+  Localizer.cpp
+  MachineIRBuilder.cpp
+  RegBankSelect.cpp
+  RegisterBank.cpp
+  RegisterBankInfo.cpp
+  Utils.cpp
+  LLVMGlobalISel.vcxproj -> D:\Project\ollvm-tll\build\Release\lib\LLVMGlobalISel.lib

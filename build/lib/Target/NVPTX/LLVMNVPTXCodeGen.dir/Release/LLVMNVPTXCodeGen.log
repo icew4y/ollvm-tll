@@ -1,0 +1,25 @@
+﻿  Building Custom Rule D:/Project/ollvm-tll/lib/Target/NVPTX/CMakeLists.txt
+  NVPTXAllocaHoisting.cpp
+  NVPTXAsmPrinter.cpp
+  NVPTXAssignValidGlobalNames.cpp
+  NVPTXFrameLowering.cpp
+  NVPTXGenericToNVVM.cpp
+  NVPTXISelDAGToDAG.cpp
+  NVPTXISelLowering.cpp
+  NVPTXImageOptimizer.cpp
+  NVPTXInstrInfo.cpp
+  NVPTXLowerAggrCopies.cpp
+  NVPTXLowerArgs.cpp
+  NVPTXLowerAlloca.cpp
+  NVPTXPeephole.cpp
+  NVPTXMCExpr.cpp
+  NVPTXPrologEpilogPass.cpp
+  NVPTXRegisterInfo.cpp
+  NVPTXReplaceImageHandles.cpp
+  NVPTXSubtarget.cpp
+  NVPTXTargetMachine.cpp
+  NVPTXTargetTransformInfo.cpp
+  NVPTXUtilities.cpp
+  NVVMIntrRange.cpp
+  NVVMReflect.cpp
+  LLVMNVPTXCodeGen.vcxproj -> D:\Project\ollvm-tll\build\Release\lib\LLVMNVPTXCodeGen.lib

@@ -1,0 +1,26 @@
+﻿  Building Custom Rule D:/Project/ollvm-tll/lib/DebugInfo/DWARF/CMakeLists.txt
+  DWARFAbbreviationDeclaration.cpp
+  DWARFAcceleratorTable.cpp
+  DWARFCompileUnit.cpp
+  DWARFContext.cpp
+  DWARFDataExtractor.cpp
+  DWARFDebugAbbrev.cpp
+  DWARFDebugArangeSet.cpp
+  DWARFDebugAranges.cpp
+  DWARFDebugFrame.cpp
+  DWARFDebugInfoEntry.cpp
+  DWARFDebugLine.cpp
+  DWARFDebugLoc.cpp
+  DWARFDebugMacro.cpp
+  DWARFDebugPubTable.cpp
+  DWARFDebugRangeList.cpp
+  DWARFDie.cpp
+  DWARFExpression.cpp
+  DWARFFormValue.cpp
+  DWARFGdbIndex.cpp
+  DWARFTypeUnit.cpp
+  DWARFUnitIndex.cpp
+  DWARFUnit.cpp
+  DWARFVerifier.cpp
+  SyntaxHighlighting.cpp
+  LLVMDebugInfoDWARF.vcxproj -> D:\Project\ollvm-tll\build\Release\lib\LLVMDebugInfoDWARF.lib

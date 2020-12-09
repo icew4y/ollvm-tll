@@ -1,0 +1,3 @@
+﻿  Building Custom Rule D:/Project/ollvm-tll/tools/clang/tools/arcmt-test/CMakeLists.txt
+  arcmt-test.cpp
+  arcmt-test.vcxproj -> D:\Project\ollvm-tll\build\Release\bin\arcmt-test.exe

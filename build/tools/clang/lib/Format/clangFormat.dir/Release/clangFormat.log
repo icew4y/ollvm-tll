@@ -1,0 +1,16 @@
+﻿  Building Custom Rule D:/Project/ollvm-tll/tools/clang/lib/Format/CMakeLists.txt
+  AffectedRangeManager.cpp
+  BreakableToken.cpp
+  ContinuationIndenter.cpp
+  Format.cpp
+  FormatToken.cpp
+  FormatTokenLexer.cpp
+  NamespaceEndCommentsFixer.cpp
+  SortJavaScriptImports.cpp
+  TokenAnalyzer.cpp
+  TokenAnnotator.cpp
+  UnwrappedLineFormatter.cpp
+  UnwrappedLineParser.cpp
+  UsingDeclarationsSorter.cpp
+  WhitespaceManager.cpp
+  clangFormat.vcxproj -> D:\Project\ollvm-tll\build\Release\lib\clangFormat.lib

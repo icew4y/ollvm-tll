@@ -1,0 +1,4 @@
+﻿  Building Custom Rule D:/Project/ollvm-tll/lib/Target/MSP430/MCTargetDesc/CMakeLists.txt
+  MSP430MCTargetDesc.cpp
+  MSP430MCAsmInfo.cpp
+  LLVMMSP430Desc.vcxproj -> D:\Project\ollvm-tll\build\Release\lib\LLVMMSP430Desc.lib

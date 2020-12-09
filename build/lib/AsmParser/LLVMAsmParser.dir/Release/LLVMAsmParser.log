@@ -1,0 +1,5 @@
+﻿  Building Custom Rule D:/Project/ollvm-tll/lib/AsmParser/CMakeLists.txt
+  LLLexer.cpp
+  LLParser.cpp
+  Parser.cpp
+  LLVMAsmParser.vcxproj -> D:\Project\ollvm-tll\build\Release\lib\LLVMAsmParser.lib

@@ -1,0 +1,4 @@
+# CMake generation dependency list for this directory.
+D:/Project/ollvm-tll/cmake/modules/CMakeLists.txt
+D:/Project/ollvm-tll/cmake/modules/LLVMConfig.cmake.in
+D:/Project/ollvm-tll/cmake/modules/LLVMConfigVersion.cmake.in

@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\Project\ollvm-tll\build\CMakeFiles\0420ff757a5718f37ab8c0edd018be85\DiagnosticCommonKinds.inc.tmp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\ollvm-tll\build\CMakeFiles\0420ff757a5718f37ab8c0edd018be85\DiagnosticCommonKinds.inc.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\ollvm-tll\build\CMakeFiles\566f6451708e887ae6f19cceb3b1dcb1\ClangDiagnosticCommon.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\ollvm-tll\tools\clang\include\clang\Basic\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="D:\Project\ollvm-tll\build\tools\clang\include\clang\Basic\CMakeFiles\ClangDiagnosticCommon" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{3698E70E-4983-3879-9511-40ADFE058358}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\Project\ollvm-tll\tools\clang\utils\TableGen\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Object Include="D:\Project\ollvm-tll\build\tools\clang\utils\TableGen\obj.clang-tblgen.dir\$(Configuration)\ClangASTNodesEmitter.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\Project\ollvm-tll\build\tools\clang\utils\TableGen\obj.clang-tblgen.dir\$(Configuration)\ClangAttrEmitter.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\Project\ollvm-tll\build\tools\clang\utils\TableGen\obj.clang-tblgen.dir\$(Configuration)\ClangCommentCommandInfoEmitter.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\Project\ollvm-tll\build\tools\clang\utils\TableGen\obj.clang-tblgen.dir\$(Configuration)\ClangCommentHTMLNamedCharacterReferenceEmitter.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\Project\ollvm-tll\build\tools\clang\utils\TableGen\obj.clang-tblgen.dir\$(Configuration)\ClangCommentHTMLTagsEmitter.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\Project\ollvm-tll\build\tools\clang\utils\TableGen\obj.clang-tblgen.dir\$(Configuration)\ClangDataCollectorsEmitter.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\Project\ollvm-tll\build\tools\clang\utils\TableGen\obj.clang-tblgen.dir\$(Configuration)\ClangDiagnosticsEmitter.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\Project\ollvm-tll\build\tools\clang\utils\TableGen\obj.clang-tblgen.dir\$(Configuration)\ClangOptionDocEmitter.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\Project\ollvm-tll\build\tools\clang\utils\TableGen\obj.clang-tblgen.dir\$(Configuration)\ClangSACheckersEmitter.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\Project\ollvm-tll\build\tools\clang\utils\TableGen\obj.clang-tblgen.dir\$(Configuration)\NeonEmitter.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\Project\ollvm-tll\build\tools\clang\utils\TableGen\obj.clang-tblgen.dir\$(Configuration)\TableGen.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="D:\Project\ollvm-tll\resources\windows_version_resource.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Object Libraries">
+      <UniqueIdentifier>{4214CF51-291C-39CE-BF23-EB20DE3484DE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{2074D2C8-1AB5-325E-8678-EA2663A4E747}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

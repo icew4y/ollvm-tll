@@ -1,0 +1,12 @@
+﻿  Building Custom Rule D:/Project/ollvm-tll/tools/llvm-xray/CMakeLists.txt
+  llvm-xray.cc
+  func-id-helper.cc
+  xray-account.cc
+  xray-color-helper.cc
+  xray-converter.cc
+  xray-extract.cc
+  xray-graph.cc
+  xray-graph-diff.cc
+  xray-stacks.cc
+  xray-registry.cc
+  llvm-xray.vcxproj -> D:\Project\ollvm-tll\build\Release\bin\llvm-xray.exe

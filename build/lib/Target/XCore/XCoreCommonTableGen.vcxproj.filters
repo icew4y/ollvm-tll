@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\Project\ollvm-tll\build\CMakeFiles\354e0efa061eefda74ff2cef3c114c4d\XCoreGenRegisterInfo.inc.tmp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\ollvm-tll\build\CMakeFiles\354e0efa061eefda74ff2cef3c114c4d\XCoreGenRegisterInfo.inc.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\ollvm-tll\build\CMakeFiles\354e0efa061eefda74ff2cef3c114c4d\XCoreGenInstrInfo.inc.tmp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\ollvm-tll\build\CMakeFiles\354e0efa061eefda74ff2cef3c114c4d\XCoreGenInstrInfo.inc.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\ollvm-tll\build\CMakeFiles\354e0efa061eefda74ff2cef3c114c4d\XCoreGenDisassemblerTables.inc.tmp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\ollvm-tll\build\CMakeFiles\354e0efa061eefda74ff2cef3c114c4d\XCoreGenDisassemblerTables.inc.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\ollvm-tll\build\CMakeFiles\354e0efa061eefda74ff2cef3c114c4d\XCoreGenAsmWriter.inc.tmp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\ollvm-tll\build\CMakeFiles\354e0efa061eefda74ff2cef3c114c4d\XCoreGenAsmWriter.inc.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\ollvm-tll\build\CMakeFiles\354e0efa061eefda74ff2cef3c114c4d\XCoreGenDAGISel.inc.tmp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\ollvm-tll\build\CMakeFiles\354e0efa061eefda74ff2cef3c114c4d\XCoreGenDAGISel.inc.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\ollvm-tll\build\CMakeFiles\354e0efa061eefda74ff2cef3c114c4d\XCoreGenCallingConv.inc.tmp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\ollvm-tll\build\CMakeFiles\354e0efa061eefda74ff2cef3c114c4d\XCoreGenCallingConv.inc.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\ollvm-tll\build\CMakeFiles\354e0efa061eefda74ff2cef3c114c4d\XCoreGenSubtargetInfo.inc.tmp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\ollvm-tll\build\CMakeFiles\354e0efa061eefda74ff2cef3c114c4d\XCoreGenSubtargetInfo.inc.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\ollvm-tll\build\CMakeFiles\06b917ce56a6f47e51d04be77d57f7f9\XCoreCommonTableGen.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\ollvm-tll\lib\Target\XCore\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="D:\Project\ollvm-tll\build\lib\Target\XCore\CMakeFiles\XCoreCommonTableGen" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{3698E70E-4983-3879-9511-40ADFE058358}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

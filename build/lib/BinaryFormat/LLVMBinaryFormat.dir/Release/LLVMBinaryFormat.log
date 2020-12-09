@@ -1,0 +1,4 @@
+﻿  Building Custom Rule D:/Project/ollvm-tll/lib/BinaryFormat/CMakeLists.txt
+  Dwarf.cpp
+  Magic.cpp
+  LLVMBinaryFormat.vcxproj -> D:\Project\ollvm-tll\build\Release\lib\LLVMBinaryFormat.lib

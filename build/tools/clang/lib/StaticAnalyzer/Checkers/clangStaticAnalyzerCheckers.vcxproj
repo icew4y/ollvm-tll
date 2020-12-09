@@ -1,0 +1,428 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{AF571E99-1CE1-38FE-910C-25F83F8FAC22}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.18362.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>clangStaticAnalyzerCheckers</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Project\ollvm-tll\build\Debug\lib\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">clangStaticAnalyzerCheckers.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">clangStaticAnalyzerCheckers</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Project\ollvm-tll\build\Release\lib\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">clangStaticAnalyzerCheckers.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">clangStaticAnalyzerCheckers</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Project\ollvm-tll\build\MinSizeRel\lib\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">clangStaticAnalyzerCheckers.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">clangStaticAnalyzerCheckers</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Project\ollvm-tll\build\RelWithDebInfo\lib\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">clangStaticAnalyzerCheckers.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">clangStaticAnalyzerCheckers</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\Project\ollvm-tll\build\tools\clang\lib\StaticAnalyzer\Checkers;D:\Project\ollvm-tll\tools\clang\lib\StaticAnalyzer\Checkers;D:\Project\ollvm-tll\tools\clang\include;D:\Project\ollvm-tll\build\tools\clang\include;D:\Project\ollvm-tll\build\include;D:\Project\ollvm-tll\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /Zc:strictStrings -w14062 /EHs-c-</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4141;4146;4180;4244;4258;4267;4291;4345;4351;4355;4456;4457;4458;4459;4503;4624;4722;4800;4100;4127;4512;4505;4610;4510;4702;4245;4706;4310;4701;4703;4389;4611;4805;4204;4577;4091;4592;4319;4324</DisableSpecificWarnings>
+      <EnforceTypeConversionRules>true</EnforceTypeConversionRules>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RemoveUnreferencedCodeData>true</RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>false</RuntimeTypeInfo>
+      <TreatSpecificWarningsAsErrors>4238</TreatSpecificWarningsAsErrors>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_HAS_EXCEPTIONS=0;GTEST_HAS_RTTI=0;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;_CRT_NONSTDC_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;UNICODE;_UNICODE;__STDC_CONSTANT_MACROS;__STDC_FORMAT_MACROS;__STDC_LIMIT_MACROS;_GNU_SOURCE;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_HAS_EXCEPTIONS=0;GTEST_HAS_RTTI=0;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;_CRT_NONSTDC_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;UNICODE;_UNICODE;__STDC_CONSTANT_MACROS;__STDC_FORMAT_MACROS;__STDC_LIMIT_MACROS;_GNU_SOURCE;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\Project\ollvm-tll\build\tools\clang\lib\StaticAnalyzer\Checkers;D:\Project\ollvm-tll\tools\clang\lib\StaticAnalyzer\Checkers;D:\Project\ollvm-tll\tools\clang\include;D:\Project\ollvm-tll\build\tools\clang\include;D:\Project\ollvm-tll\build\include;D:\Project\ollvm-tll\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Project\ollvm-tll\build\tools\clang\lib\StaticAnalyzer\Checkers;D:\Project\ollvm-tll\tools\clang\lib\StaticAnalyzer\Checkers;D:\Project\ollvm-tll\tools\clang\include;D:\Project\ollvm-tll\build\tools\clang\include;D:\Project\ollvm-tll\build\include;D:\Project\ollvm-tll\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\Project\ollvm-tll\build\tools\clang\lib\StaticAnalyzer\Checkers;D:\Project\ollvm-tll\tools\clang\lib\StaticAnalyzer\Checkers;D:\Project\ollvm-tll\tools\clang\include;D:\Project\ollvm-tll\build\tools\clang\include;D:\Project\ollvm-tll\build\include;D:\Project\ollvm-tll\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /Zc:strictStrings -w14062 /EHs-c-</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings>4141;4146;4180;4244;4258;4267;4291;4345;4351;4355;4456;4457;4458;4459;4503;4624;4722;4800;4100;4127;4512;4505;4610;4510;4702;4245;4706;4310;4701;4703;4389;4611;4805;4204;4577;4091;4592;4319;4324</DisableSpecificWarnings>
+      <EnforceTypeConversionRules>true</EnforceTypeConversionRules>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RemoveUnreferencedCodeData>true</RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>false</RuntimeTypeInfo>
+      <TreatSpecificWarningsAsErrors>4238</TreatSpecificWarningsAsErrors>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_HAS_EXCEPTIONS=0;GTEST_HAS_RTTI=0;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;_CRT_NONSTDC_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;UNICODE;_UNICODE;__STDC_CONSTANT_MACROS;__STDC_FORMAT_MACROS;__STDC_LIMIT_MACROS;_GNU_SOURCE;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_HAS_EXCEPTIONS=0;GTEST_HAS_RTTI=0;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;_CRT_NONSTDC_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;UNICODE;_UNICODE;__STDC_CONSTANT_MACROS;__STDC_FORMAT_MACROS;__STDC_LIMIT_MACROS;_GNU_SOURCE;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\Project\ollvm-tll\build\tools\clang\lib\StaticAnalyzer\Checkers;D:\Project\ollvm-tll\tools\clang\lib\StaticAnalyzer\Checkers;D:\Project\ollvm-tll\tools\clang\include;D:\Project\ollvm-tll\build\tools\clang\include;D:\Project\ollvm-tll\build\include;D:\Project\ollvm-tll\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Project\ollvm-tll\build\tools\clang\lib\StaticAnalyzer\Checkers;D:\Project\ollvm-tll\tools\clang\lib\StaticAnalyzer\Checkers;D:\Project\ollvm-tll\tools\clang\include;D:\Project\ollvm-tll\build\tools\clang\include;D:\Project\ollvm-tll\build\include;D:\Project\ollvm-tll\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\Project\ollvm-tll\build\tools\clang\lib\StaticAnalyzer\Checkers;D:\Project\ollvm-tll\tools\clang\lib\StaticAnalyzer\Checkers;D:\Project\ollvm-tll\tools\clang\include;D:\Project\ollvm-tll\build\tools\clang\include;D:\Project\ollvm-tll\build\include;D:\Project\ollvm-tll\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /Zc:strictStrings -w14062 /EHs-c-</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings>4141;4146;4180;4244;4258;4267;4291;4345;4351;4355;4456;4457;4458;4459;4503;4624;4722;4800;4100;4127;4512;4505;4610;4510;4702;4245;4706;4310;4701;4703;4389;4611;4805;4204;4577;4091;4592;4319;4324</DisableSpecificWarnings>
+      <EnforceTypeConversionRules>true</EnforceTypeConversionRules>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RemoveUnreferencedCodeData>true</RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>false</RuntimeTypeInfo>
+      <TreatSpecificWarningsAsErrors>4238</TreatSpecificWarningsAsErrors>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_HAS_EXCEPTIONS=0;GTEST_HAS_RTTI=0;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;_CRT_NONSTDC_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;UNICODE;_UNICODE;__STDC_CONSTANT_MACROS;__STDC_FORMAT_MACROS;__STDC_LIMIT_MACROS;_GNU_SOURCE;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_HAS_EXCEPTIONS=0;GTEST_HAS_RTTI=0;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;_CRT_NONSTDC_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;UNICODE;_UNICODE;__STDC_CONSTANT_MACROS;__STDC_FORMAT_MACROS;__STDC_LIMIT_MACROS;_GNU_SOURCE;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\Project\ollvm-tll\build\tools\clang\lib\StaticAnalyzer\Checkers;D:\Project\ollvm-tll\tools\clang\lib\StaticAnalyzer\Checkers;D:\Project\ollvm-tll\tools\clang\include;D:\Project\ollvm-tll\build\tools\clang\include;D:\Project\ollvm-tll\build\include;D:\Project\ollvm-tll\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Project\ollvm-tll\build\tools\clang\lib\StaticAnalyzer\Checkers;D:\Project\ollvm-tll\tools\clang\lib\StaticAnalyzer\Checkers;D:\Project\ollvm-tll\tools\clang\include;D:\Project\ollvm-tll\build\tools\clang\include;D:\Project\ollvm-tll\build\include;D:\Project\ollvm-tll\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\Project\ollvm-tll\build\tools\clang\lib\StaticAnalyzer\Checkers;D:\Project\ollvm-tll\tools\clang\lib\StaticAnalyzer\Checkers;D:\Project\ollvm-tll\tools\clang\include;D:\Project\ollvm-tll\build\tools\clang\include;D:\Project\ollvm-tll\build\include;D:\Project\ollvm-tll\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /Zc:strictStrings -w14062 /EHs-c-</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4141;4146;4180;4244;4258;4267;4291;4345;4351;4355;4456;4457;4458;4459;4503;4624;4722;4800;4100;4127;4512;4505;4610;4510;4702;4245;4706;4310;4701;4703;4389;4611;4805;4204;4577;4091;4592;4319;4324</DisableSpecificWarnings>
+      <EnforceTypeConversionRules>true</EnforceTypeConversionRules>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RemoveUnreferencedCodeData>true</RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>false</RuntimeTypeInfo>
+      <TreatSpecificWarningsAsErrors>4238</TreatSpecificWarningsAsErrors>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_HAS_EXCEPTIONS=0;GTEST_HAS_RTTI=0;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;_CRT_NONSTDC_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;UNICODE;_UNICODE;__STDC_CONSTANT_MACROS;__STDC_FORMAT_MACROS;__STDC_LIMIT_MACROS;_GNU_SOURCE;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_HAS_EXCEPTIONS=0;GTEST_HAS_RTTI=0;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;_CRT_NONSTDC_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;UNICODE;_UNICODE;__STDC_CONSTANT_MACROS;__STDC_FORMAT_MACROS;__STDC_LIMIT_MACROS;_GNU_SOURCE;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\Project\ollvm-tll\build\tools\clang\lib\StaticAnalyzer\Checkers;D:\Project\ollvm-tll\tools\clang\lib\StaticAnalyzer\Checkers;D:\Project\ollvm-tll\tools\clang\include;D:\Project\ollvm-tll\build\tools\clang\include;D:\Project\ollvm-tll\build\include;D:\Project\ollvm-tll\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Project\ollvm-tll\build\tools\clang\lib\StaticAnalyzer\Checkers;D:\Project\ollvm-tll\tools\clang\lib\StaticAnalyzer\Checkers;D:\Project\ollvm-tll\tools\clang\include;D:\Project\ollvm-tll\build\tools\clang\include;D:\Project\ollvm-tll\build\include;D:\Project\ollvm-tll\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Project\ollvm-tll\tools\clang\lib\StaticAnalyzer\Checkers\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/Project/ollvm-tll/tools/clang/lib/StaticAnalyzer/Checkers/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/Project/ollvm-tll -BD:/Project/ollvm-tll/build --check-stamp-file D:/Project/ollvm-tll/build/tools/clang/lib/StaticAnalyzer/Checkers/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Project\ollvm-tll\build\tools\clang\lib\StaticAnalyzer\Checkers\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/Project/ollvm-tll/tools/clang/lib/StaticAnalyzer/Checkers/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/Project/ollvm-tll -BD:/Project/ollvm-tll/build --check-stamp-file D:/Project/ollvm-tll/build/tools/clang/lib/StaticAnalyzer/Checkers/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Project\ollvm-tll\build\tools\clang\lib\StaticAnalyzer\Checkers\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule D:/Project/ollvm-tll/tools/clang/lib/StaticAnalyzer/Checkers/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/Project/ollvm-tll -BD:/Project/ollvm-tll/build --check-stamp-file D:/Project/ollvm-tll/build/tools/clang/lib/StaticAnalyzer/Checkers/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Project\ollvm-tll\build\tools\clang\lib\StaticAnalyzer\Checkers\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule D:/Project/ollvm-tll/tools/clang/lib/StaticAnalyzer/Checkers/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/Project/ollvm-tll -BD:/Project/ollvm-tll/build --check-stamp-file D:/Project/ollvm-tll/build/tools/clang/lib/StaticAnalyzer/Checkers/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Project\ollvm-tll\build\tools\clang\lib\StaticAnalyzer\Checkers\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="D:\Project\ollvm-tll\tools\clang\lib\StaticAnalyzer\Checkers\AllocationDiagnostics.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\tools\clang\lib\StaticAnalyzer\Checkers\AnalysisOrderChecker.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\tools\clang\lib\StaticAnalyzer\Checkers\AnalyzerStatsChecker.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\tools\clang\lib\StaticAnalyzer\Checkers\ArrayBoundChecker.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\tools\clang\lib\StaticAnalyzer\Checkers\ArrayBoundCheckerV2.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\tools\clang\lib\StaticAnalyzer\Checkers\BasicObjCFoundationChecks.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\tools\clang\lib\StaticAnalyzer\Checkers\BlockInCriticalSectionChecker.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\tools\clang\lib\StaticAnalyzer\Checkers\BoolAssignmentChecker.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\tools\clang\lib\StaticAnalyzer\Checkers\BuiltinFunctionChecker.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\tools\clang\lib\StaticAnalyzer\Checkers\CStringChecker.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\tools\clang\lib\StaticAnalyzer\Checkers\CStringSyntaxChecker.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\tools\clang\lib\StaticAnalyzer\Checkers\CallAndMessageChecker.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\tools\clang\lib\StaticAnalyzer\Checkers\CastSizeChecker.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\tools\clang\lib\StaticAnalyzer\Checkers\CastToStructChecker.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\tools\clang\lib\StaticAnalyzer\Checkers\CheckObjCDealloc.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\tools\clang\lib\StaticAnalyzer\Checkers\CheckObjCInstMethSignature.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\tools\clang\lib\StaticAnalyzer\Checkers\CheckSecuritySyntaxOnly.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\tools\clang\lib\StaticAnalyzer\Checkers\CheckSizeofPointer.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\tools\clang\lib\StaticAnalyzer\Checkers\CheckerDocumentation.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\tools\clang\lib\StaticAnalyzer\Checkers\ChrootChecker.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\tools\clang\lib\StaticAnalyzer\Checkers\ClangCheckers.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\tools\clang\lib\StaticAnalyzer\Checkers\CloneChecker.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\tools\clang\lib\StaticAnalyzer\Checkers\ConversionChecker.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\tools\clang\lib\StaticAnalyzer\Checkers\CXXSelfAssignmentChecker.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\tools\clang\lib\StaticAnalyzer\Checkers\DeadStoresChecker.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\tools\clang\lib\StaticAnalyzer\Checkers\DebugCheckers.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\tools\clang\lib\StaticAnalyzer\Checkers\DeleteWithNonVirtualDtorChecker.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\tools\clang\lib\StaticAnalyzer\Checkers\DereferenceChecker.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\tools\clang\lib\StaticAnalyzer\Checkers\DirectIvarAssignment.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\tools\clang\lib\StaticAnalyzer\Checkers\DivZeroChecker.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\tools\clang\lib\StaticAnalyzer\Checkers\DynamicTypePropagation.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\tools\clang\lib\StaticAnalyzer\Checkers\DynamicTypeChecker.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\tools\clang\lib\StaticAnalyzer\Checkers\ExprInspectionChecker.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\tools\clang\lib\StaticAnalyzer\Checkers\FixedAddressChecker.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\tools\clang\lib\StaticAnalyzer\Checkers\GenericTaintChecker.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\tools\clang\lib\StaticAnalyzer\Checkers\GTestChecker.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\tools\clang\lib\StaticAnalyzer\Checkers\IdenticalExprChecker.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\tools\clang\lib\StaticAnalyzer\Checkers\IteratorChecker.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\tools\clang\lib\StaticAnalyzer\Checkers\IvarInvalidationChecker.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\tools\clang\lib\StaticAnalyzer\Checkers\LLVMConventionsChecker.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\tools\clang\lib\StaticAnalyzer\Checkers\LocalizationChecker.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\tools\clang\lib\StaticAnalyzer\Checkers\MacOSKeychainAPIChecker.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\tools\clang\lib\StaticAnalyzer\Checkers\MacOSXAPIChecker.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\tools\clang\lib\StaticAnalyzer\Checkers\MallocChecker.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\tools\clang\lib\StaticAnalyzer\Checkers\MallocOverflowSecurityChecker.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\tools\clang\lib\StaticAnalyzer\Checkers\MallocSizeofChecker.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\tools\clang\lib\StaticAnalyzer\Checkers\MisusedMovedObjectChecker.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\tools\clang\lib\StaticAnalyzer\Checkers\MPI-Checker\MPIBugReporter.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\tools\clang\lib\StaticAnalyzer\Checkers\MPI-Checker\MPIChecker.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\tools\clang\lib\StaticAnalyzer\Checkers\MPI-Checker\MPIFunctionClassifier.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\tools\clang\lib\StaticAnalyzer\Checkers\NSAutoreleasePoolChecker.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\tools\clang\lib\StaticAnalyzer\Checkers\NSErrorChecker.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\tools\clang\lib\StaticAnalyzer\Checkers\NoReturnFunctionChecker.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\tools\clang\lib\StaticAnalyzer\Checkers\NonNullParamChecker.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\tools\clang\lib\StaticAnalyzer\Checkers\NonnullGlobalConstantsChecker.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\tools\clang\lib\StaticAnalyzer\Checkers\NullabilityChecker.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\tools\clang\lib\StaticAnalyzer\Checkers\NumberObjectConversionChecker.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\tools\clang\lib\StaticAnalyzer\Checkers\ObjCAtSyncChecker.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\tools\clang\lib\StaticAnalyzer\Checkers\ObjCContainersASTChecker.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\tools\clang\lib\StaticAnalyzer\Checkers\ObjCContainersChecker.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\tools\clang\lib\StaticAnalyzer\Checkers\ObjCMissingSuperCallChecker.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\tools\clang\lib\StaticAnalyzer\Checkers\ObjCPropertyChecker.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\tools\clang\lib\StaticAnalyzer\Checkers\ObjCSelfInitChecker.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\tools\clang\lib\StaticAnalyzer\Checkers\ObjCSuperDeallocChecker.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\tools\clang\lib\StaticAnalyzer\Checkers\ObjCUnusedIVarsChecker.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\tools\clang\lib\StaticAnalyzer\Checkers\PaddingChecker.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\tools\clang\lib\StaticAnalyzer\Checkers\PointerArithChecker.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\tools\clang\lib\StaticAnalyzer\Checkers\PointerSubChecker.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\tools\clang\lib\StaticAnalyzer\Checkers\PthreadLockChecker.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\tools\clang\lib\StaticAnalyzer\Checkers\RetainCountChecker.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\tools\clang\lib\StaticAnalyzer\Checkers\ReturnPointerRangeChecker.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\tools\clang\lib\StaticAnalyzer\Checkers\ReturnUndefChecker.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\tools\clang\lib\StaticAnalyzer\Checkers\SimpleStreamChecker.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\tools\clang\lib\StaticAnalyzer\Checkers\StackAddrEscapeChecker.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\tools\clang\lib\StaticAnalyzer\Checkers\StdLibraryFunctionsChecker.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\tools\clang\lib\StaticAnalyzer\Checkers\StreamChecker.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\tools\clang\lib\StaticAnalyzer\Checkers\TaintTesterChecker.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\tools\clang\lib\StaticAnalyzer\Checkers\TestAfterDivZeroChecker.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\tools\clang\lib\StaticAnalyzer\Checkers\TraversalChecker.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\tools\clang\lib\StaticAnalyzer\Checkers\UndefBranchChecker.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\tools\clang\lib\StaticAnalyzer\Checkers\UndefCapturedBlockVarChecker.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\tools\clang\lib\StaticAnalyzer\Checkers\UndefResultChecker.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\tools\clang\lib\StaticAnalyzer\Checkers\UndefinedArraySubscriptChecker.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\tools\clang\lib\StaticAnalyzer\Checkers\UndefinedAssignmentChecker.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\tools\clang\lib\StaticAnalyzer\Checkers\UnixAPIChecker.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\tools\clang\lib\StaticAnalyzer\Checkers\UnreachableCodeChecker.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\tools\clang\lib\StaticAnalyzer\Checkers\VforkChecker.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\tools\clang\lib\StaticAnalyzer\Checkers\VLASizeChecker.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\tools\clang\lib\StaticAnalyzer\Checkers\ValistChecker.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\tools\clang\lib\StaticAnalyzer\Checkers\VirtualCallChecker.cpp" />
+    <ClInclude Include="D:\Project\ollvm-tll\tools\clang\include\clang\StaticAnalyzer\Checkers\ClangCheckers.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\tools\clang\include\clang\StaticAnalyzer\Checkers\LocalCheckers.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\tools\clang\include\clang\StaticAnalyzer\Checkers\MPIFunctionClassifier.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\tools\clang\include\clang\StaticAnalyzer\Checkers\ObjCRetainCount.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\tools\clang\include\clang\StaticAnalyzer\Checkers\SValExplainer.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\tools\clang\include\clang\StaticAnalyzer\Checkers\CheckerBase.td" />
+    <ClInclude Include="D:\Project\ollvm-tll\tools\clang\include\clang\StaticAnalyzer\Checkers\Checkers.td" />
+    <ClInclude Include="D:\Project\ollvm-tll\tools\clang\lib\StaticAnalyzer\Checkers\AllocationDiagnostics.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\tools\clang\lib\StaticAnalyzer\Checkers\ClangSACheckers.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\tools\clang\lib\StaticAnalyzer\Checkers\InterCheckerAPI.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\tools\clang\lib\StaticAnalyzer\Checkers\SelectorExtras.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:\Project\ollvm-tll\build\ZERO_CHECK.vcxproj">
+      <Project>{991F28C1-BAA2-3294-A8DB-19EEB6478608}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\ollvm-tll\build\tools\clang\include\clang\StaticAnalyzer\Checkers\ClangSACheckers.vcxproj">
+      <Project>{CFA6BB60-77A6-302C-9263-41BE60F327DC}</Project>
+      <Name>ClangSACheckers</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\ollvm-tll\build\tools\clang\clang-tablegen-targets.vcxproj">
+      <Project>{2A41526D-4384-3821-9020-63CBECB192F5}</Project>
+      <Name>clang-tablegen-targets</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

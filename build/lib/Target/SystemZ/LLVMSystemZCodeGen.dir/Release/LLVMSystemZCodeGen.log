@@ -1,0 +1,24 @@
+﻿  Building Custom Rule D:/Project/ollvm-tll/lib/Target/SystemZ/CMakeLists.txt
+  SystemZAsmPrinter.cpp
+  SystemZCallingConv.cpp
+  SystemZConstantPoolValue.cpp
+  SystemZElimCompare.cpp
+  SystemZExpandPseudo.cpp
+  SystemZFrameLowering.cpp
+  SystemZHazardRecognizer.cpp
+  SystemZISelDAGToDAG.cpp
+  SystemZISelLowering.cpp
+  SystemZInstrInfo.cpp
+  SystemZLDCleanup.cpp
+  SystemZLongBranch.cpp
+  SystemZMachineFunctionInfo.cpp
+  SystemZMachineScheduler.cpp
+  SystemZMCInstLower.cpp
+  SystemZRegisterInfo.cpp
+  SystemZSelectionDAGInfo.cpp
+  SystemZShortenInst.cpp
+  SystemZSubtarget.cpp
+  SystemZTargetMachine.cpp
+  SystemZTargetTransformInfo.cpp
+  SystemZTDC.cpp
+  LLVMSystemZCodeGen.vcxproj -> D:\Project\ollvm-tll\build\Release\lib\LLVMSystemZCodeGen.lib

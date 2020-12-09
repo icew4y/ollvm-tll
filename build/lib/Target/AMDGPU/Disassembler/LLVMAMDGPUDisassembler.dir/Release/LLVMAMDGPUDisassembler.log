@@ -1,0 +1,3 @@
+﻿  Building Custom Rule D:/Project/ollvm-tll/lib/Target/AMDGPU/Disassembler/CMakeLists.txt
+  AMDGPUDisassembler.cpp
+  LLVMAMDGPUDisassembler.vcxproj -> D:\Project\ollvm-tll\build\Release\lib\LLVMAMDGPUDisassembler.lib

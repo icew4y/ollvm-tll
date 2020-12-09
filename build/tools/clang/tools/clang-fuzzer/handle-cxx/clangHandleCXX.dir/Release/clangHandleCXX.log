@@ -1,0 +1,3 @@
+﻿  Building Custom Rule D:/Project/ollvm-tll/tools/clang/tools/clang-fuzzer/handle-cxx/CMakeLists.txt
+  handle_cxx.cpp
+  clangHandleCXX.vcxproj -> D:\Project\ollvm-tll\build\Release\lib\clangHandleCXX.lib

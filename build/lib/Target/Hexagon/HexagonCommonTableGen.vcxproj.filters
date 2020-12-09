@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\Project\ollvm-tll\build\CMakeFiles\8a9e9b055c6a354a05115829f8d417fb\HexagonGenAsmMatcher.inc.tmp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\ollvm-tll\build\CMakeFiles\8a9e9b055c6a354a05115829f8d417fb\HexagonGenAsmMatcher.inc.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\ollvm-tll\build\CMakeFiles\8a9e9b055c6a354a05115829f8d417fb\HexagonGenAsmWriter.inc.tmp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\ollvm-tll\build\CMakeFiles\8a9e9b055c6a354a05115829f8d417fb\HexagonGenAsmWriter.inc.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\ollvm-tll\build\CMakeFiles\8a9e9b055c6a354a05115829f8d417fb\HexagonGenDAGISel.inc.tmp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\ollvm-tll\build\CMakeFiles\8a9e9b055c6a354a05115829f8d417fb\HexagonGenDAGISel.inc.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\ollvm-tll\build\CMakeFiles\8a9e9b055c6a354a05115829f8d417fb\HexagonGenDFAPacketizer.inc.tmp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\ollvm-tll\build\CMakeFiles\8a9e9b055c6a354a05115829f8d417fb\HexagonGenDFAPacketizer.inc.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\ollvm-tll\build\CMakeFiles\8a9e9b055c6a354a05115829f8d417fb\HexagonGenDisassemblerTables.inc.tmp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\ollvm-tll\build\CMakeFiles\8a9e9b055c6a354a05115829f8d417fb\HexagonGenDisassemblerTables.inc.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\ollvm-tll\build\CMakeFiles\8a9e9b055c6a354a05115829f8d417fb\HexagonGenInstrInfo.inc.tmp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\ollvm-tll\build\CMakeFiles\8a9e9b055c6a354a05115829f8d417fb\HexagonGenInstrInfo.inc.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\ollvm-tll\build\CMakeFiles\8a9e9b055c6a354a05115829f8d417fb\HexagonGenMCCodeEmitter.inc.tmp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\ollvm-tll\build\CMakeFiles\8a9e9b055c6a354a05115829f8d417fb\HexagonGenMCCodeEmitter.inc.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\ollvm-tll\build\CMakeFiles\8a9e9b055c6a354a05115829f8d417fb\HexagonGenRegisterInfo.inc.tmp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\ollvm-tll\build\CMakeFiles\8a9e9b055c6a354a05115829f8d417fb\HexagonGenRegisterInfo.inc.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\ollvm-tll\build\CMakeFiles\8a9e9b055c6a354a05115829f8d417fb\HexagonGenSubtargetInfo.inc.tmp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\ollvm-tll\build\CMakeFiles\8a9e9b055c6a354a05115829f8d417fb\HexagonGenSubtargetInfo.inc.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\ollvm-tll\build\CMakeFiles\8bf664675b37f850393f40398ea3296c\HexagonCommonTableGen.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Project\ollvm-tll\lib\Target\Hexagon\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="D:\Project\ollvm-tll\build\lib\Target\Hexagon\CMakeFiles\HexagonCommonTableGen" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{3698E70E-4983-3879-9511-40ADFE058358}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

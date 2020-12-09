@@ -1,0 +1,16 @@
+﻿  Building Custom Rule D:/Project/ollvm-tll/lib/Target/XCore/CMakeLists.txt
+  XCoreAsmPrinter.cpp
+  XCoreFrameLowering.cpp
+  XCoreInstrInfo.cpp
+  XCoreISelDAGToDAG.cpp
+  XCoreISelLowering.cpp
+  XCoreLowerThreadLocal.cpp
+  XCoreMachineFunctionInfo.cpp
+  XCoreMCInstLower.cpp
+  XCoreRegisterInfo.cpp
+  XCoreSubtarget.cpp
+  XCoreTargetMachine.cpp
+  XCoreTargetObjectFile.cpp
+  XCoreSelectionDAGInfo.cpp
+  XCoreFrameToArgsOffsetElim.cpp
+  LLVMXCoreCodeGen.vcxproj -> D:\Project\ollvm-tll\build\Release\lib\LLVMXCoreCodeGen.lib

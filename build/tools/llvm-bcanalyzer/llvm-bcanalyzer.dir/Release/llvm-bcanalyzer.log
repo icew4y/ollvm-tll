@@ -1,0 +1,3 @@
+﻿  Building Custom Rule D:/Project/ollvm-tll/tools/llvm-bcanalyzer/CMakeLists.txt
+  llvm-bcanalyzer.cpp
+  llvm-bcanalyzer.vcxproj -> D:\Project\ollvm-tll\build\Release\bin\llvm-bcanalyzer.exe

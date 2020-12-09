@@ -1,0 +1,7 @@
+﻿  Building Custom Rule D:/Project/ollvm-tll/lib/MC/MCDisassembler/CMakeLists.txt
+  Disassembler.cpp
+  MCDisassembler.cpp
+  MCExternalSymbolizer.cpp
+  MCRelocationInfo.cpp
+  MCSymbolizer.cpp
+  LLVMMCDisassembler.vcxproj -> D:\Project\ollvm-tll\build\Release\lib\LLVMMCDisassembler.lib

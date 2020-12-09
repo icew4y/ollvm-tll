@@ -1,0 +1,13 @@
+﻿  Building Custom Rule D:/Project/ollvm-tll/tools/clang/lib/Tooling/Refactoring/CMakeLists.txt
+  ASTSelection.cpp
+  ASTSelectionRequirements.cpp
+  AtomicChange.cpp
+  Extract.cpp
+  SourceExtraction.cpp
+  RefactoringActions.cpp
+  RenamingAction.cpp
+  SymbolOccurrences.cpp
+  USRFinder.cpp
+  USRFindingAction.cpp
+  USRLocFinder.cpp
+  clangToolingRefactor.vcxproj -> D:\Project\ollvm-tll\build\Release\lib\clangToolingRefactor.lib

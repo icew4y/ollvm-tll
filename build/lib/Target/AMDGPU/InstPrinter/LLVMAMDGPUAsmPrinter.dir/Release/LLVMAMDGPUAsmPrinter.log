@@ -1,0 +1,3 @@
+﻿  Building Custom Rule D:/Project/ollvm-tll/lib/Target/AMDGPU/InstPrinter/CMakeLists.txt
+  AMDGPUInstPrinter.cpp
+  LLVMAMDGPUAsmPrinter.vcxproj -> D:\Project\ollvm-tll\build\Release\lib\LLVMAMDGPUAsmPrinter.lib

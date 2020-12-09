@@ -1,0 +1,3 @@
+﻿  Building Custom Rule D:/Project/ollvm-tll/tools/llvm-link/CMakeLists.txt
+  llvm-link.cpp
+  llvm-link.vcxproj -> D:\Project\ollvm-tll\build\Release\bin\llvm-link.exe

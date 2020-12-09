@@ -1,0 +1,15 @@
+﻿  Building Custom Rule D:/Project/ollvm-tll/lib/Target/Sparc/CMakeLists.txt
+  DelaySlotFiller.cpp
+  LeonPasses.cpp
+  SparcAsmPrinter.cpp
+  SparcInstrInfo.cpp
+  SparcISelDAGToDAG.cpp
+  SparcISelLowering.cpp
+  SparcFrameLowering.cpp
+  SparcMachineFunctionInfo.cpp
+  SparcRegisterInfo.cpp
+  SparcSubtarget.cpp
+  SparcTargetMachine.cpp
+  SparcMCInstLower.cpp
+  SparcTargetObjectFile.cpp
+  LLVMSparcCodeGen.vcxproj -> D:\Project\ollvm-tll\build\Release\lib\LLVMSparcCodeGen.lib

@@ -1,0 +1,17 @@
+﻿  Building Custom Rule D:/Project/ollvm-tll/tools/clang/lib/Parse/CMakeLists.txt
+  ParseAST.cpp
+  ParseCXXInlineMethods.cpp
+  ParseDecl.cpp
+  ParseDeclCXX.cpp
+  ParseExpr.cpp
+  ParseExprCXX.cpp
+  ParseInit.cpp
+  ParseObjc.cpp
+  ParseOpenMP.cpp
+  ParsePragma.cpp
+  ParseStmt.cpp
+  ParseStmtAsm.cpp
+  ParseTemplate.cpp
+  ParseTentative.cpp
+  Parser.cpp
+  clangParse.vcxproj -> D:\Project\ollvm-tll\build\Release\lib\clangParse.lib

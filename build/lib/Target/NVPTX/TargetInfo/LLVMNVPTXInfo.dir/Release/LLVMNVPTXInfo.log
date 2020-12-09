@@ -1,0 +1,3 @@
+﻿  Building Custom Rule D:/Project/ollvm-tll/lib/Target/NVPTX/TargetInfo/CMakeLists.txt
+  NVPTXTargetInfo.cpp
+  LLVMNVPTXInfo.vcxproj -> D:\Project\ollvm-tll\build\Release\lib\LLVMNVPTXInfo.lib

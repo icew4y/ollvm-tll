@@ -1,0 +1,3 @@
+﻿  Building Custom Rule D:/Project/ollvm-tll/tools/llvm-symbolizer/CMakeLists.txt
+  llvm-symbolizer.cpp
+  llvm-symbolizer.vcxproj -> D:\Project\ollvm-tll\build\Release\bin\llvm-symbolizer.exe

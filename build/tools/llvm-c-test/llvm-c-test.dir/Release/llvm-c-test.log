@@ -1,0 +1,15 @@
+﻿  Building Custom Rule D:/Project/ollvm-tll/tools/llvm-c-test/CMakeLists.txt
+  attributes.c
+  calc.c
+  debuginfo.c
+  diagnostic.c
+  disassemble.c
+  helpers.c
+  include-all.c
+  main.c
+  module.c
+  metadata.c
+  object.c
+  targets.c
+  echo.cpp
+  llvm-c-test.vcxproj -> D:\Project\ollvm-tll\build\Release\bin\llvm-c-test.exe

@@ -1,0 +1,4 @@
+﻿  Building Custom Rule D:/Project/ollvm-tll/lib/Target/X86/Disassembler/CMakeLists.txt
+  X86Disassembler.cpp
+  X86DisassemblerDecoder.cpp
+  LLVMX86Disassembler.vcxproj -> D:\Project\ollvm-tll\build\Release\lib\LLVMX86Disassembler.lib

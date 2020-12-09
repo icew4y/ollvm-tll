@@ -1,0 +1,3 @@
+﻿  Building Custom Rule D:/Project/ollvm-tll/lib/Target/Mips/Disassembler/CMakeLists.txt
+  MipsDisassembler.cpp
+  LLVMMipsDisassembler.vcxproj -> D:\Project\ollvm-tll\build\Release\lib\LLVMMipsDisassembler.lib

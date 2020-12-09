@@ -1,0 +1,10 @@
+﻿  Building Custom Rule D:/Project/ollvm-tll/lib/ExecutionEngine/Orc/CMakeLists.txt
+  ExecutionUtils.cpp
+  IndirectionUtils.cpp
+  NullResolver.cpp
+  OrcABISupport.cpp
+  OrcCBindings.cpp
+  OrcError.cpp
+  OrcMCJITReplacement.cpp
+  RPCUtils.cpp
+  LLVMOrcJIT.vcxproj -> D:\Project\ollvm-tll\build\Release\lib\LLVMOrcJIT.lib

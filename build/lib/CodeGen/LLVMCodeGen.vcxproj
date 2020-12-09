@@ -1,0 +1,614 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{1ADA5067-4845-3BFE-B232-DA1D86FF7C75}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.18362.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>LLVMCodeGen</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Project\ollvm-tll\build\Debug\lib\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">LLVMCodeGen.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">LLVMCodeGen</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Project\ollvm-tll\build\Release\lib\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">LLVMCodeGen.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">LLVMCodeGen</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Project\ollvm-tll\build\MinSizeRel\lib\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">LLVMCodeGen.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">LLVMCodeGen</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Project\ollvm-tll\build\RelWithDebInfo\lib\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">LLVMCodeGen.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">LLVMCodeGen</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\Project\ollvm-tll\build\lib\CodeGen;D:\Project\ollvm-tll\lib\CodeGen;D:\Project\ollvm-tll\build\include;D:\Project\ollvm-tll\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /Zc:strictStrings -w14062 /EHs-c-</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4141;4146;4180;4244;4258;4267;4291;4345;4351;4355;4456;4457;4458;4459;4503;4624;4722;4800;4100;4127;4512;4505;4610;4510;4702;4245;4706;4310;4701;4703;4389;4611;4805;4204;4577;4091;4592;4319;4324</DisableSpecificWarnings>
+      <EnforceTypeConversionRules>true</EnforceTypeConversionRules>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RemoveUnreferencedCodeData>true</RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>false</RuntimeTypeInfo>
+      <TreatSpecificWarningsAsErrors>4238</TreatSpecificWarningsAsErrors>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_HAS_EXCEPTIONS=0;GTEST_HAS_RTTI=0;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;_CRT_NONSTDC_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;UNICODE;_UNICODE;__STDC_CONSTANT_MACROS;__STDC_FORMAT_MACROS;__STDC_LIMIT_MACROS;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_HAS_EXCEPTIONS=0;GTEST_HAS_RTTI=0;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;_CRT_NONSTDC_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;UNICODE;_UNICODE;__STDC_CONSTANT_MACROS;__STDC_FORMAT_MACROS;__STDC_LIMIT_MACROS;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\Project\ollvm-tll\build\lib\CodeGen;D:\Project\ollvm-tll\lib\CodeGen;D:\Project\ollvm-tll\build\include;D:\Project\ollvm-tll\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Project\ollvm-tll\build\lib\CodeGen;D:\Project\ollvm-tll\lib\CodeGen;D:\Project\ollvm-tll\build\include;D:\Project\ollvm-tll\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\Project\ollvm-tll\build\lib\CodeGen;D:\Project\ollvm-tll\lib\CodeGen;D:\Project\ollvm-tll\build\include;D:\Project\ollvm-tll\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /Zc:strictStrings -w14062 /EHs-c-</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings>4141;4146;4180;4244;4258;4267;4291;4345;4351;4355;4456;4457;4458;4459;4503;4624;4722;4800;4100;4127;4512;4505;4610;4510;4702;4245;4706;4310;4701;4703;4389;4611;4805;4204;4577;4091;4592;4319;4324</DisableSpecificWarnings>
+      <EnforceTypeConversionRules>true</EnforceTypeConversionRules>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RemoveUnreferencedCodeData>true</RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>false</RuntimeTypeInfo>
+      <TreatSpecificWarningsAsErrors>4238</TreatSpecificWarningsAsErrors>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_HAS_EXCEPTIONS=0;GTEST_HAS_RTTI=0;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;_CRT_NONSTDC_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;UNICODE;_UNICODE;__STDC_CONSTANT_MACROS;__STDC_FORMAT_MACROS;__STDC_LIMIT_MACROS;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_HAS_EXCEPTIONS=0;GTEST_HAS_RTTI=0;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;_CRT_NONSTDC_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;UNICODE;_UNICODE;__STDC_CONSTANT_MACROS;__STDC_FORMAT_MACROS;__STDC_LIMIT_MACROS;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\Project\ollvm-tll\build\lib\CodeGen;D:\Project\ollvm-tll\lib\CodeGen;D:\Project\ollvm-tll\build\include;D:\Project\ollvm-tll\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Project\ollvm-tll\build\lib\CodeGen;D:\Project\ollvm-tll\lib\CodeGen;D:\Project\ollvm-tll\build\include;D:\Project\ollvm-tll\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\Project\ollvm-tll\build\lib\CodeGen;D:\Project\ollvm-tll\lib\CodeGen;D:\Project\ollvm-tll\build\include;D:\Project\ollvm-tll\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /Zc:strictStrings -w14062 /EHs-c-</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings>4141;4146;4180;4244;4258;4267;4291;4345;4351;4355;4456;4457;4458;4459;4503;4624;4722;4800;4100;4127;4512;4505;4610;4510;4702;4245;4706;4310;4701;4703;4389;4611;4805;4204;4577;4091;4592;4319;4324</DisableSpecificWarnings>
+      <EnforceTypeConversionRules>true</EnforceTypeConversionRules>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RemoveUnreferencedCodeData>true</RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>false</RuntimeTypeInfo>
+      <TreatSpecificWarningsAsErrors>4238</TreatSpecificWarningsAsErrors>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_HAS_EXCEPTIONS=0;GTEST_HAS_RTTI=0;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;_CRT_NONSTDC_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;UNICODE;_UNICODE;__STDC_CONSTANT_MACROS;__STDC_FORMAT_MACROS;__STDC_LIMIT_MACROS;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_HAS_EXCEPTIONS=0;GTEST_HAS_RTTI=0;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;_CRT_NONSTDC_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;UNICODE;_UNICODE;__STDC_CONSTANT_MACROS;__STDC_FORMAT_MACROS;__STDC_LIMIT_MACROS;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\Project\ollvm-tll\build\lib\CodeGen;D:\Project\ollvm-tll\lib\CodeGen;D:\Project\ollvm-tll\build\include;D:\Project\ollvm-tll\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Project\ollvm-tll\build\lib\CodeGen;D:\Project\ollvm-tll\lib\CodeGen;D:\Project\ollvm-tll\build\include;D:\Project\ollvm-tll\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\Project\ollvm-tll\build\lib\CodeGen;D:\Project\ollvm-tll\lib\CodeGen;D:\Project\ollvm-tll\build\include;D:\Project\ollvm-tll\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /Zc:strictStrings -w14062 /EHs-c-</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4141;4146;4180;4244;4258;4267;4291;4345;4351;4355;4456;4457;4458;4459;4503;4624;4722;4800;4100;4127;4512;4505;4610;4510;4702;4245;4706;4310;4701;4703;4389;4611;4805;4204;4577;4091;4592;4319;4324</DisableSpecificWarnings>
+      <EnforceTypeConversionRules>true</EnforceTypeConversionRules>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RemoveUnreferencedCodeData>true</RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>false</RuntimeTypeInfo>
+      <TreatSpecificWarningsAsErrors>4238</TreatSpecificWarningsAsErrors>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_HAS_EXCEPTIONS=0;GTEST_HAS_RTTI=0;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;_CRT_NONSTDC_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;UNICODE;_UNICODE;__STDC_CONSTANT_MACROS;__STDC_FORMAT_MACROS;__STDC_LIMIT_MACROS;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_HAS_EXCEPTIONS=0;GTEST_HAS_RTTI=0;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;_CRT_NONSTDC_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;UNICODE;_UNICODE;__STDC_CONSTANT_MACROS;__STDC_FORMAT_MACROS;__STDC_LIMIT_MACROS;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\Project\ollvm-tll\build\lib\CodeGen;D:\Project\ollvm-tll\lib\CodeGen;D:\Project\ollvm-tll\build\include;D:\Project\ollvm-tll\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Project\ollvm-tll\build\lib\CodeGen;D:\Project\ollvm-tll\lib\CodeGen;D:\Project\ollvm-tll\build\include;D:\Project\ollvm-tll\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Project\ollvm-tll\lib\CodeGen\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/Project/ollvm-tll/lib/CodeGen/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/Project/ollvm-tll -BD:/Project/ollvm-tll/build --check-stamp-file D:/Project/ollvm-tll/build/lib/CodeGen/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Project\ollvm-tll\build\lib\CodeGen\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/Project/ollvm-tll/lib/CodeGen/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/Project/ollvm-tll -BD:/Project/ollvm-tll/build --check-stamp-file D:/Project/ollvm-tll/build/lib/CodeGen/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Project\ollvm-tll\build\lib\CodeGen\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule D:/Project/ollvm-tll/lib/CodeGen/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/Project/ollvm-tll -BD:/Project/ollvm-tll/build --check-stamp-file D:/Project/ollvm-tll/build/lib/CodeGen/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Project\ollvm-tll\build\lib\CodeGen\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule D:/Project/ollvm-tll/lib/CodeGen/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/Project/ollvm-tll -BD:/Project/ollvm-tll/build --check-stamp-file D:/Project/ollvm-tll/build/lib/CodeGen/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Project\ollvm-tll\build\lib\CodeGen\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="D:\Project\ollvm-tll\lib\CodeGen\AggressiveAntiDepBreaker.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\lib\CodeGen\AllocationOrder.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\lib\CodeGen\Analysis.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\lib\CodeGen\AtomicExpandPass.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\lib\CodeGen\BasicTargetTransformInfo.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\lib\CodeGen\BranchFolding.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\lib\CodeGen\BranchRelaxation.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\lib\CodeGen\BuiltinGCs.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\lib\CodeGen\CalcSpillWeights.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\lib\CodeGen\CallingConvLower.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\lib\CodeGen\CodeGen.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\lib\CodeGen\CodeGenPrepare.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\lib\CodeGen\CriticalAntiDepBreaker.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\lib\CodeGen\DeadMachineInstructionElim.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\lib\CodeGen\DetectDeadLanes.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\lib\CodeGen\DFAPacketizer.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\lib\CodeGen\DwarfEHPrepare.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\lib\CodeGen\EarlyIfConversion.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\lib\CodeGen\EdgeBundles.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\lib\CodeGen\ExecutionDepsFix.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\lib\CodeGen\ExpandISelPseudos.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\lib\CodeGen\ExpandMemCmp.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\lib\CodeGen\ExpandPostRAPseudos.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\lib\CodeGen\ExpandReductions.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\lib\CodeGen\FaultMaps.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\lib\CodeGen\FEntryInserter.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\lib\CodeGen\FuncletLayout.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\lib\CodeGen\GCMetadata.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\lib\CodeGen\GCMetadataPrinter.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\lib\CodeGen\GCRootLowering.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\lib\CodeGen\GCStrategy.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\lib\CodeGen\GlobalMerge.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\lib\CodeGen\IfConversion.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\lib\CodeGen\ImplicitNullChecks.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\lib\CodeGen\IndirectBrExpandPass.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\lib\CodeGen\InlineSpiller.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\lib\CodeGen\InterferenceCache.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\lib\CodeGen\InterleavedAccessPass.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\lib\CodeGen\IntrinsicLowering.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\lib\CodeGen\LatencyPriorityQueue.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\lib\CodeGen\LazyMachineBlockFrequencyInfo.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\lib\CodeGen\LexicalScopes.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\lib\CodeGen\LiveDebugValues.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\lib\CodeGen\LiveDebugVariables.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\lib\CodeGen\LiveIntervals.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\lib\CodeGen\LiveInterval.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\lib\CodeGen\LiveIntervalUnion.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\lib\CodeGen\LivePhysRegs.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\lib\CodeGen\LiveRangeCalc.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\lib\CodeGen\LiveRangeEdit.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\lib\CodeGen\LiveRangeShrink.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\lib\CodeGen\LiveRegMatrix.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\lib\CodeGen\LiveRegUnits.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\lib\CodeGen\LiveStacks.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\lib\CodeGen\LiveVariables.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\lib\CodeGen\LLVMTargetMachine.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\lib\CodeGen\LocalStackSlotAllocation.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\lib\CodeGen\LowLevelType.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\lib\CodeGen\LowerEmuTLS.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\lib\CodeGen\MachineBasicBlock.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\lib\CodeGen\MachineBlockFrequencyInfo.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\lib\CodeGen\MachineBlockPlacement.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\lib\CodeGen\MachineBranchProbabilityInfo.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\lib\CodeGen\MachineCombiner.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\lib\CodeGen\MachineCopyPropagation.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\lib\CodeGen\MachineCSE.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\lib\CodeGen\MachineDominanceFrontier.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\lib\CodeGen\MachineDominators.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\lib\CodeGen\MachineFrameInfo.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\lib\CodeGen\MachineFunction.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\lib\CodeGen\MachineFunctionPass.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\lib\CodeGen\MachineFunctionPrinterPass.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\lib\CodeGen\MachineInstrBundle.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\lib\CodeGen\MachineInstr.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\lib\CodeGen\MachineLICM.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\lib\CodeGen\MachineLoopInfo.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\lib\CodeGen\MachineModuleInfo.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\lib\CodeGen\MachineModuleInfoImpls.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\lib\CodeGen\MachineOperand.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\lib\CodeGen\MachineOptimizationRemarkEmitter.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\lib\CodeGen\MachineOutliner.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\lib\CodeGen\MachinePassRegistry.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\lib\CodeGen\MachinePipeliner.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\lib\CodeGen\MachinePostDominators.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\lib\CodeGen\MachineRegionInfo.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\lib\CodeGen\MachineRegisterInfo.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\lib\CodeGen\MachineScheduler.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\lib\CodeGen\MachineSink.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\lib\CodeGen\MachineSSAUpdater.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\lib\CodeGen\MachineTraceMetrics.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\lib\CodeGen\MachineVerifier.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\lib\CodeGen\PatchableFunction.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\lib\CodeGen\MIRPrinter.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\lib\CodeGen\MIRPrintingPass.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\lib\CodeGen\MacroFusion.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\lib\CodeGen\OptimizePHIs.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\lib\CodeGen\ParallelCG.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\lib\CodeGen\PeepholeOptimizer.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\lib\CodeGen\PHIElimination.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\lib\CodeGen\PHIEliminationUtils.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\lib\CodeGen\PostRAHazardRecognizer.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\lib\CodeGen\PostRASchedulerList.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\lib\CodeGen\PreISelIntrinsicLowering.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\lib\CodeGen\ProcessImplicitDefs.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\lib\CodeGen\PrologEpilogInserter.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\lib\CodeGen\PseudoSourceValue.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\lib\CodeGen\RegAllocBase.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\lib\CodeGen\RegAllocBasic.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\lib\CodeGen\RegAllocFast.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\lib\CodeGen\RegAllocGreedy.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\lib\CodeGen\RegAllocPBQP.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\lib\CodeGen\RegisterClassInfo.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\lib\CodeGen\RegisterCoalescer.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\lib\CodeGen\RegisterPressure.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\lib\CodeGen\RegisterScavenging.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\lib\CodeGen\RenameIndependentSubregs.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\lib\CodeGen\MIRCanonicalizerPass.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\lib\CodeGen\RegisterUsageInfo.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\lib\CodeGen\RegUsageInfoCollector.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\lib\CodeGen\RegUsageInfoPropagate.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\lib\CodeGen\ResetMachineFunctionPass.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\lib\CodeGen\SafeStack.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\lib\CodeGen\SafeStackColoring.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\lib\CodeGen\SafeStackLayout.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\lib\CodeGen\ScalarizeMaskedMemIntrin.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\lib\CodeGen\ScheduleDAG.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\lib\CodeGen\ScheduleDAGInstrs.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\lib\CodeGen\ScheduleDAGPrinter.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\lib\CodeGen\ScoreboardHazardRecognizer.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\lib\CodeGen\ShadowStackGCLowering.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\lib\CodeGen\ShrinkWrap.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\lib\CodeGen\SjLjEHPrepare.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\lib\CodeGen\SlotIndexes.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\lib\CodeGen\SpillPlacement.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\lib\CodeGen\SplitKit.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\lib\CodeGen\StackColoring.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\lib\CodeGen\StackMapLivenessAnalysis.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\lib\CodeGen\StackMaps.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\lib\CodeGen\StackProtector.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\lib\CodeGen\StackSlotColoring.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\lib\CodeGen\TailDuplication.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\lib\CodeGen\TailDuplicator.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\lib\CodeGen\TargetFrameLoweringImpl.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\lib\CodeGen\TargetInstrInfo.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\lib\CodeGen\TargetLoweringBase.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\lib\CodeGen\TargetLoweringObjectFileImpl.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\lib\CodeGen\TargetOptionsImpl.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\lib\CodeGen\TargetPassConfig.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\lib\CodeGen\TargetRegisterInfo.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\lib\CodeGen\TargetSchedule.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\lib\CodeGen\TargetSubtargetInfo.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\lib\CodeGen\TwoAddressInstructionPass.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\lib\CodeGen\UnreachableBlockElim.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\lib\CodeGen\VirtRegMap.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\lib\CodeGen\WinEHPrepare.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\lib\CodeGen\XRayInstrumentation.cpp" />
+    <ClInclude Include="D:\Project\ollvm-tll\lib\CodeGen\AggressiveAntiDepBreaker.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\lib\CodeGen\AllocationOrder.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\lib\CodeGen\AntiDepBreaker.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\lib\CodeGen\BranchFolding.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\lib\CodeGen\CriticalAntiDepBreaker.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\lib\CodeGen\InterferenceCache.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\lib\CodeGen\LiveDebugVariables.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\lib\CodeGen\LiveRangeCalc.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\lib\CodeGen\LiveRangeUtils.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\lib\CodeGen\PHIEliminationUtils.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\lib\CodeGen\RegAllocBase.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\lib\CodeGen\RegisterCoalescer.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\lib\CodeGen\SafeStackColoring.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\lib\CodeGen\SafeStackLayout.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\lib\CodeGen\SpillPlacement.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\lib\CodeGen\Spiller.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\lib\CodeGen\SplitKit.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\include\llvm\CodeGen\Analysis.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\include\llvm\CodeGen\AsmPrinter.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\include\llvm\CodeGen\AtomicExpandUtils.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\include\llvm\CodeGen\BasicTTIImpl.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\include\llvm\CodeGen\CalcSpillWeights.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\include\llvm\CodeGen\CallingConvLower.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\include\llvm\CodeGen\CostTable.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\include\llvm\CodeGen\DAGCombine.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\include\llvm\CodeGen\DFAPacketizer.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\include\llvm\CodeGen\DIE.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\include\llvm\CodeGen\DwarfStringPoolEntry.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\include\llvm\CodeGen\EdgeBundles.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\include\llvm\CodeGen\ExecutionDepsFix.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\include\llvm\CodeGen\ExpandReductions.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\include\llvm\CodeGen\FastISel.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\include\llvm\CodeGen\FaultMaps.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\include\llvm\CodeGen\FunctionLoweringInfo.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\include\llvm\CodeGen\GCMetadata.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\include\llvm\CodeGen\GCMetadataPrinter.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\include\llvm\CodeGen\GCStrategy.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\include\llvm\CodeGen\GCs.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\include\llvm\CodeGen\ISDOpcodes.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\include\llvm\CodeGen\IntrinsicLowering.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\include\llvm\CodeGen\LatencyPriorityQueue.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\include\llvm\CodeGen\LazyMachineBlockFrequencyInfo.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\include\llvm\CodeGen\LexicalScopes.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\include\llvm\CodeGen\LinkAllAsmWriterComponents.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\include\llvm\CodeGen\LinkAllCodegenComponents.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\include\llvm\CodeGen\LiveInterval.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\include\llvm\CodeGen\LiveIntervalUnion.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\include\llvm\CodeGen\LiveIntervals.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\include\llvm\CodeGen\LivePhysRegs.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\include\llvm\CodeGen\LiveRangeEdit.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\include\llvm\CodeGen\LiveRegMatrix.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\include\llvm\CodeGen\LiveRegUnits.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\include\llvm\CodeGen\LiveStacks.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\include\llvm\CodeGen\LiveVariables.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\include\llvm\CodeGen\LowLevelType.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\include\llvm\CodeGen\MIRPrinter.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\include\llvm\CodeGen\MIRYamlMapping.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\include\llvm\CodeGen\MachORelocation.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\include\llvm\CodeGen\MachineBasicBlock.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\include\llvm\CodeGen\MachineBlockFrequencyInfo.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\include\llvm\CodeGen\MachineBranchProbabilityInfo.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\include\llvm\CodeGen\MachineCombinerPattern.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\include\llvm\CodeGen\MachineConstantPool.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\include\llvm\CodeGen\MachineDominanceFrontier.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\include\llvm\CodeGen\MachineDominators.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\include\llvm\CodeGen\MachineFrameInfo.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\include\llvm\CodeGen\MachineFunction.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\include\llvm\CodeGen\MachineFunctionPass.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\include\llvm\CodeGen\MachineInstr.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\include\llvm\CodeGen\MachineInstrBuilder.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\include\llvm\CodeGen\MachineInstrBundle.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\include\llvm\CodeGen\MachineInstrBundleIterator.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\include\llvm\CodeGen\MachineJumpTableInfo.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\include\llvm\CodeGen\MachineLoopInfo.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\include\llvm\CodeGen\MachineMemOperand.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\include\llvm\CodeGen\MachineModuleInfo.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\include\llvm\CodeGen\MachineModuleInfoImpls.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\include\llvm\CodeGen\MachineOperand.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\include\llvm\CodeGen\MachineOptimizationRemarkEmitter.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\include\llvm\CodeGen\MachinePassRegistry.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\include\llvm\CodeGen\MachinePostDominators.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\include\llvm\CodeGen\MachineRegionInfo.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\include\llvm\CodeGen\MachineRegisterInfo.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\include\llvm\CodeGen\MachineSSAUpdater.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\include\llvm\CodeGen\MachineScheduler.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\include\llvm\CodeGen\MachineTraceMetrics.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\include\llvm\CodeGen\MachineValueType.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\include\llvm\CodeGen\MacroFusion.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\include\llvm\CodeGen\PBQPRAConstraint.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\include\llvm\CodeGen\ParallelCG.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\include\llvm\CodeGen\Passes.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\include\llvm\CodeGen\PreISelIntrinsicLowering.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\include\llvm\CodeGen\PseudoSourceValue.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\include\llvm\CodeGen\RegAllocPBQP.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\include\llvm\CodeGen\RegAllocRegistry.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\include\llvm\CodeGen\RegisterClassInfo.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\include\llvm\CodeGen\RegisterPressure.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\include\llvm\CodeGen\RegisterScavenging.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\include\llvm\CodeGen\RegisterUsageInfo.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\include\llvm\CodeGen\ResourcePriorityQueue.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\include\llvm\CodeGen\RuntimeLibcalls.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\include\llvm\CodeGen\ScheduleDAG.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\include\llvm\CodeGen\ScheduleDAGInstrs.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\include\llvm\CodeGen\ScheduleDAGMutation.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\include\llvm\CodeGen\ScheduleDFS.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\include\llvm\CodeGen\ScheduleHazardRecognizer.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\include\llvm\CodeGen\SchedulerRegistry.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\include\llvm\CodeGen\ScoreboardHazardRecognizer.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\include\llvm\CodeGen\SelectionDAG.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\include\llvm\CodeGen\SelectionDAGAddressAnalysis.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\include\llvm\CodeGen\SelectionDAGISel.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\include\llvm\CodeGen\SelectionDAGNodes.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\include\llvm\CodeGen\SelectionDAGTargetInfo.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\include\llvm\CodeGen\SlotIndexes.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\include\llvm\CodeGen\StackMaps.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\include\llvm\CodeGen\StackProtector.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\include\llvm\CodeGen\TailDuplicator.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\include\llvm\CodeGen\TargetCallingConv.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\include\llvm\CodeGen\TargetFrameLowering.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\include\llvm\CodeGen\TargetInstrInfo.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\include\llvm\CodeGen\TargetLowering.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\include\llvm\CodeGen\TargetLoweringObjectFile.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\include\llvm\CodeGen\TargetLoweringObjectFileImpl.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\include\llvm\CodeGen\TargetOpcodes.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\include\llvm\CodeGen\TargetPassConfig.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\include\llvm\CodeGen\TargetRegisterInfo.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\include\llvm\CodeGen\TargetSchedule.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\include\llvm\CodeGen\TargetSubtargetInfo.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\include\llvm\CodeGen\UnreachableBlockElim.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\include\llvm\CodeGen\ValueTypes.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\include\llvm\CodeGen\VirtRegMap.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\include\llvm\CodeGen\WinEHFuncInfo.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\include\llvm\CodeGen\PBQP\CostAllocator.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\include\llvm\CodeGen\PBQP\Graph.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\include\llvm\CodeGen\PBQP\Math.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\include\llvm\CodeGen\PBQP\ReductionRules.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\include\llvm\CodeGen\PBQP\Solution.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:\Project\ollvm-tll\build\ZERO_CHECK.vcxproj">
+      <Project>{991F28C1-BAA2-3294-A8DB-19EEB6478608}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\ollvm-tll\build\include\llvm\IR\intrinsics_gen.vcxproj">
+      <Project>{CFADA3AD-9E25-396B-9ABE-5EB7D06EC363}</Project>
+      <Name>intrinsics_gen</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

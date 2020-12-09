@@ -1,0 +1,3 @@
+﻿  Building Custom Rule D:/Project/ollvm-tll/lib/Target/Sparc/InstPrinter/CMakeLists.txt
+  SparcInstPrinter.cpp
+  LLVMSparcAsmPrinter.vcxproj -> D:\Project\ollvm-tll\build\Release\lib\LLVMSparcAsmPrinter.lib

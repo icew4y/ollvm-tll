@@ -1,0 +1,3 @@
+﻿  Building Custom Rule D:/Project/ollvm-tll/lib/Target/MSP430/InstPrinter/CMakeLists.txt
+  MSP430InstPrinter.cpp
+  LLVMMSP430AsmPrinter.vcxproj -> D:\Project\ollvm-tll\build\Release\lib\LLVMMSP430AsmPrinter.lib

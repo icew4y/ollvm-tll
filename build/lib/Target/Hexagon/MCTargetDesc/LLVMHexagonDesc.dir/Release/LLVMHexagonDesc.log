@@ -1,0 +1,16 @@
+﻿  Building Custom Rule D:/Project/ollvm-tll/lib/Target/Hexagon/MCTargetDesc/CMakeLists.txt
+  HexagonAsmBackend.cpp
+  HexagonELFObjectWriter.cpp
+  HexagonInstPrinter.cpp
+  HexagonMCAsmInfo.cpp
+  HexagonMCChecker.cpp
+  HexagonMCCodeEmitter.cpp
+  HexagonMCCompound.cpp
+  HexagonMCDuplexInfo.cpp
+  HexagonMCELFStreamer.cpp
+  HexagonMCExpr.cpp
+  HexagonMCInstrInfo.cpp
+  HexagonMCShuffler.cpp
+  HexagonMCTargetDesc.cpp
+  HexagonShuffler.cpp
+  LLVMHexagonDesc.vcxproj -> D:\Project\ollvm-tll\build\Release\lib\LLVMHexagonDesc.lib

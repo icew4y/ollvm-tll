@@ -1,0 +1,3 @@
+﻿  Building Custom Rule D:/Project/ollvm-tll/lib/Target/BPF/TargetInfo/CMakeLists.txt
+  BPFTargetInfo.cpp
+  LLVMBPFInfo.vcxproj -> D:\Project\ollvm-tll\build\Release\lib\LLVMBPFInfo.lib

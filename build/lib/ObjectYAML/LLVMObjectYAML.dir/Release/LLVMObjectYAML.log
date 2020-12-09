@@ -1,0 +1,15 @@
+﻿  Building Custom Rule D:/Project/ollvm-tll/lib/ObjectYAML/CMakeLists.txt
+  CodeViewYAMLDebugSections.cpp
+  CodeViewYAMLSymbols.cpp
+  CodeViewYAMLTypeHashing.cpp
+  CodeViewYAMLTypes.cpp
+  COFFYAML.cpp
+  DWARFEmitter.cpp
+  DWARFVisitor.cpp
+  DWARFYAML.cpp
+  ELFYAML.cpp
+  MachOYAML.cpp
+  ObjectYAML.cpp
+  WasmYAML.cpp
+  YAML.cpp
+  LLVMObjectYAML.vcxproj -> D:\Project\ollvm-tll\build\Release\lib\LLVMObjectYAML.lib

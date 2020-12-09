@@ -1,0 +1,463 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{28058599-BCBC-3A50-8502-3D8E41A7F3DE}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.18362.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>LLVMCore</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Project\ollvm-tll\build\Debug\lib\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">LLVMCore.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">LLVMCore</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Project\ollvm-tll\build\Release\lib\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">LLVMCore.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">LLVMCore</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Project\ollvm-tll\build\MinSizeRel\lib\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">LLVMCore.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">LLVMCore</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Project\ollvm-tll\build\RelWithDebInfo\lib\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">LLVMCore.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">LLVMCore</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\Project\ollvm-tll\build\lib\IR;D:\Project\ollvm-tll\lib\IR;D:\Project\ollvm-tll\build\include;D:\Project\ollvm-tll\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /Zc:strictStrings -w14062 /EHs-c-</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4141;4146;4180;4244;4258;4267;4291;4345;4351;4355;4456;4457;4458;4459;4503;4624;4722;4800;4100;4127;4512;4505;4610;4510;4702;4245;4706;4310;4701;4703;4389;4611;4805;4204;4577;4091;4592;4319;4324</DisableSpecificWarnings>
+      <EnforceTypeConversionRules>true</EnforceTypeConversionRules>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RemoveUnreferencedCodeData>true</RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>false</RuntimeTypeInfo>
+      <TreatSpecificWarningsAsErrors>4238</TreatSpecificWarningsAsErrors>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_HAS_EXCEPTIONS=0;GTEST_HAS_RTTI=0;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;_CRT_NONSTDC_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;UNICODE;_UNICODE;__STDC_CONSTANT_MACROS;__STDC_FORMAT_MACROS;__STDC_LIMIT_MACROS;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_HAS_EXCEPTIONS=0;GTEST_HAS_RTTI=0;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;_CRT_NONSTDC_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;UNICODE;_UNICODE;__STDC_CONSTANT_MACROS;__STDC_FORMAT_MACROS;__STDC_LIMIT_MACROS;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\Project\ollvm-tll\build\lib\IR;D:\Project\ollvm-tll\lib\IR;D:\Project\ollvm-tll\build\include;D:\Project\ollvm-tll\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Project\ollvm-tll\build\lib\IR;D:\Project\ollvm-tll\lib\IR;D:\Project\ollvm-tll\build\include;D:\Project\ollvm-tll\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\Project\ollvm-tll\build\lib\IR;D:\Project\ollvm-tll\lib\IR;D:\Project\ollvm-tll\build\include;D:\Project\ollvm-tll\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /Zc:strictStrings -w14062 /EHs-c-</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings>4141;4146;4180;4244;4258;4267;4291;4345;4351;4355;4456;4457;4458;4459;4503;4624;4722;4800;4100;4127;4512;4505;4610;4510;4702;4245;4706;4310;4701;4703;4389;4611;4805;4204;4577;4091;4592;4319;4324</DisableSpecificWarnings>
+      <EnforceTypeConversionRules>true</EnforceTypeConversionRules>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RemoveUnreferencedCodeData>true</RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>false</RuntimeTypeInfo>
+      <TreatSpecificWarningsAsErrors>4238</TreatSpecificWarningsAsErrors>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_HAS_EXCEPTIONS=0;GTEST_HAS_RTTI=0;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;_CRT_NONSTDC_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;UNICODE;_UNICODE;__STDC_CONSTANT_MACROS;__STDC_FORMAT_MACROS;__STDC_LIMIT_MACROS;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_HAS_EXCEPTIONS=0;GTEST_HAS_RTTI=0;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;_CRT_NONSTDC_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;UNICODE;_UNICODE;__STDC_CONSTANT_MACROS;__STDC_FORMAT_MACROS;__STDC_LIMIT_MACROS;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\Project\ollvm-tll\build\lib\IR;D:\Project\ollvm-tll\lib\IR;D:\Project\ollvm-tll\build\include;D:\Project\ollvm-tll\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Project\ollvm-tll\build\lib\IR;D:\Project\ollvm-tll\lib\IR;D:\Project\ollvm-tll\build\include;D:\Project\ollvm-tll\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\Project\ollvm-tll\build\lib\IR;D:\Project\ollvm-tll\lib\IR;D:\Project\ollvm-tll\build\include;D:\Project\ollvm-tll\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /Zc:strictStrings -w14062 /EHs-c-</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings>4141;4146;4180;4244;4258;4267;4291;4345;4351;4355;4456;4457;4458;4459;4503;4624;4722;4800;4100;4127;4512;4505;4610;4510;4702;4245;4706;4310;4701;4703;4389;4611;4805;4204;4577;4091;4592;4319;4324</DisableSpecificWarnings>
+      <EnforceTypeConversionRules>true</EnforceTypeConversionRules>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RemoveUnreferencedCodeData>true</RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>false</RuntimeTypeInfo>
+      <TreatSpecificWarningsAsErrors>4238</TreatSpecificWarningsAsErrors>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_HAS_EXCEPTIONS=0;GTEST_HAS_RTTI=0;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;_CRT_NONSTDC_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;UNICODE;_UNICODE;__STDC_CONSTANT_MACROS;__STDC_FORMAT_MACROS;__STDC_LIMIT_MACROS;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_HAS_EXCEPTIONS=0;GTEST_HAS_RTTI=0;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;_CRT_NONSTDC_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;UNICODE;_UNICODE;__STDC_CONSTANT_MACROS;__STDC_FORMAT_MACROS;__STDC_LIMIT_MACROS;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\Project\ollvm-tll\build\lib\IR;D:\Project\ollvm-tll\lib\IR;D:\Project\ollvm-tll\build\include;D:\Project\ollvm-tll\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Project\ollvm-tll\build\lib\IR;D:\Project\ollvm-tll\lib\IR;D:\Project\ollvm-tll\build\include;D:\Project\ollvm-tll\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\Project\ollvm-tll\build\lib\IR;D:\Project\ollvm-tll\lib\IR;D:\Project\ollvm-tll\build\include;D:\Project\ollvm-tll\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /Zc:strictStrings -w14062 /EHs-c-</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4141;4146;4180;4244;4258;4267;4291;4345;4351;4355;4456;4457;4458;4459;4503;4624;4722;4800;4100;4127;4512;4505;4610;4510;4702;4245;4706;4310;4701;4703;4389;4611;4805;4204;4577;4091;4592;4319;4324</DisableSpecificWarnings>
+      <EnforceTypeConversionRules>true</EnforceTypeConversionRules>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RemoveUnreferencedCodeData>true</RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>false</RuntimeTypeInfo>
+      <TreatSpecificWarningsAsErrors>4238</TreatSpecificWarningsAsErrors>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_HAS_EXCEPTIONS=0;GTEST_HAS_RTTI=0;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;_CRT_NONSTDC_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;UNICODE;_UNICODE;__STDC_CONSTANT_MACROS;__STDC_FORMAT_MACROS;__STDC_LIMIT_MACROS;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_HAS_EXCEPTIONS=0;GTEST_HAS_RTTI=0;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;_CRT_NONSTDC_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;UNICODE;_UNICODE;__STDC_CONSTANT_MACROS;__STDC_FORMAT_MACROS;__STDC_LIMIT_MACROS;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\Project\ollvm-tll\build\lib\IR;D:\Project\ollvm-tll\lib\IR;D:\Project\ollvm-tll\build\include;D:\Project\ollvm-tll\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Project\ollvm-tll\build\lib\IR;D:\Project\ollvm-tll\lib\IR;D:\Project\ollvm-tll\build\include;D:\Project\ollvm-tll\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Project\ollvm-tll\lib\IR\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/Project/ollvm-tll/lib/IR/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/Project/ollvm-tll -BD:/Project/ollvm-tll/build --check-stamp-file D:/Project/ollvm-tll/build/lib/IR/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Project\ollvm-tll\build\lib\IR\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/Project/ollvm-tll/lib/IR/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/Project/ollvm-tll -BD:/Project/ollvm-tll/build --check-stamp-file D:/Project/ollvm-tll/build/lib/IR/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Project\ollvm-tll\build\lib\IR\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule D:/Project/ollvm-tll/lib/IR/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/Project/ollvm-tll -BD:/Project/ollvm-tll/build --check-stamp-file D:/Project/ollvm-tll/build/lib/IR/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Project\ollvm-tll\build\lib\IR\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule D:/Project/ollvm-tll/lib/IR/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/Project/ollvm-tll -BD:/Project/ollvm-tll/build --check-stamp-file D:/Project/ollvm-tll/build/lib/IR/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Project\ollvm-tll\build\lib\IR\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="D:\Project\ollvm-tll\lib\IR\AsmWriter.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\lib\IR\Attributes.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\lib\IR\AutoUpgrade.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\lib\IR\BasicBlock.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\lib\IR\Comdat.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\lib\IR\ConstantFold.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\lib\IR\ConstantRange.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\lib\IR\Constants.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\lib\IR\Core.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\lib\IR\DIBuilder.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\lib\IR\DataLayout.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\lib\IR\DebugInfo.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\lib\IR\DebugInfoMetadata.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\lib\IR\DebugLoc.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\lib\IR\DiagnosticHandler.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\lib\IR\DiagnosticInfo.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\lib\IR\DiagnosticPrinter.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\lib\IR\Dominators.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\lib\IR\Function.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\lib\IR\GVMaterializer.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\lib\IR\Globals.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\lib\IR\IRBuilder.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\lib\IR\IRPrintingPasses.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\lib\IR\InlineAsm.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\lib\IR\Instruction.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\lib\IR\Instructions.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\lib\IR\IntrinsicInst.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\lib\IR\LLVMContext.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\lib\IR\LLVMContextImpl.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\lib\IR\LegacyPassManager.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\lib\IR\MDBuilder.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\lib\IR\Mangler.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\lib\IR\Metadata.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\lib\IR\Module.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\lib\IR\ModuleSummaryIndex.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\lib\IR\Operator.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\lib\IR\OptBisect.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\lib\IR\Pass.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\lib\IR\PassManager.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\lib\IR\PassRegistry.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\lib\IR\SafepointIRVerifier.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\lib\IR\ProfileSummary.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\lib\IR\Statepoint.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\lib\IR\Type.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\lib\IR\TypeFinder.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\lib\IR\Use.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\lib\IR\User.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\lib\IR\Value.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\lib\IR\ValueSymbolTable.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\lib\IR\ValueTypes.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\lib\IR\Verifier.cpp" />
+    <ClInclude Include="D:\Project\ollvm-tll\lib\IR\AttributesCompatFunc.td" />
+    <ClInclude Include="D:\Project\ollvm-tll\lib\IR\AttributeImpl.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\lib\IR\ConstantFold.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\lib\IR\ConstantsContext.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\lib\IR\LLVMContextImpl.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\lib\IR\MetadataImpl.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\lib\IR\SymbolTableListTraitsImpl.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\include\llvm\IR\Argument.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\include\llvm\IR\AssemblyAnnotationWriter.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\include\llvm\IR\Attributes.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\include\llvm\IR\AutoUpgrade.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\include\llvm\IR\BasicBlock.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\include\llvm\IR\CFG.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\include\llvm\IR\CallSite.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\include\llvm\IR\CallingConv.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\include\llvm\IR\Comdat.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\include\llvm\IR\Constant.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\include\llvm\IR\ConstantFolder.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\include\llvm\IR\ConstantRange.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\include\llvm\IR\Constants.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\include\llvm\IR\DIBuilder.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\include\llvm\IR\DataLayout.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\include\llvm\IR\DebugInfo.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\include\llvm\IR\DebugInfoMetadata.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\include\llvm\IR\DebugLoc.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\include\llvm\IR\DerivedTypes.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\include\llvm\IR\DerivedUser.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\include\llvm\IR\DiagnosticHandler.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\include\llvm\IR\DiagnosticInfo.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\include\llvm\IR\DiagnosticPrinter.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\include\llvm\IR\Dominators.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\include\llvm\IR\Function.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\include\llvm\IR\GVMaterializer.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\include\llvm\IR\GetElementPtrTypeIterator.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\include\llvm\IR\GlobalAlias.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\include\llvm\IR\GlobalIFunc.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\include\llvm\IR\GlobalIndirectSymbol.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\include\llvm\IR\GlobalObject.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\include\llvm\IR\GlobalValue.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\include\llvm\IR\GlobalVariable.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\include\llvm\IR\IRBuilder.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\include\llvm\IR\IRPrintingPasses.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\include\llvm\IR\InlineAsm.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\include\llvm\IR\InstIterator.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\include\llvm\IR\InstVisitor.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\include\llvm\IR\InstrTypes.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\include\llvm\IR\Instruction.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\include\llvm\IR\Instructions.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\include\llvm\IR\IntrinsicInst.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\include\llvm\IR\Intrinsics.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\include\llvm\IR\LLVMContext.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\include\llvm\IR\LegacyPassManager.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\include\llvm\IR\LegacyPassManagers.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\include\llvm\IR\LegacyPassNameParser.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\include\llvm\IR\MDBuilder.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\include\llvm\IR\Mangler.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\include\llvm\IR\Metadata.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\include\llvm\IR\Module.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\include\llvm\IR\ModuleSlotTracker.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\include\llvm\IR\ModuleSummaryIndex.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\include\llvm\IR\ModuleSummaryIndexYAML.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\include\llvm\IR\NoFolder.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\include\llvm\IR\OperandTraits.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\include\llvm\IR\Operator.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\include\llvm\IR\OptBisect.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\include\llvm\IR\PassManager.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\include\llvm\IR\PassManagerInternal.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\include\llvm\IR\PatternMatch.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\include\llvm\IR\PredIteratorCache.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\include\llvm\IR\ProfileSummary.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\include\llvm\IR\SafepointIRVerifier.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\include\llvm\IR\Statepoint.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\include\llvm\IR\SymbolTableListTraits.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\include\llvm\IR\TrackingMDRef.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\include\llvm\IR\Type.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\include\llvm\IR\TypeBuilder.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\include\llvm\IR\TypeFinder.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\include\llvm\IR\Use.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\include\llvm\IR\UseListOrder.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\include\llvm\IR\User.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\include\llvm\IR\Value.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\include\llvm\IR\ValueHandle.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\include\llvm\IR\ValueMap.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\include\llvm\IR\ValueSymbolTable.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\include\llvm\IR\Verifier.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:\Project\ollvm-tll\build\ZERO_CHECK.vcxproj">
+      <Project>{991F28C1-BAA2-3294-A8DB-19EEB6478608}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\ollvm-tll\build\lib\IR\AttributeCompatFuncTableGen.vcxproj">
+      <Project>{7118EF01-4F28-3921-981E-D44C7D92F4AC}</Project>
+      <Name>AttributeCompatFuncTableGen</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\ollvm-tll\build\include\llvm\IR\intrinsics_gen.vcxproj">
+      <Project>{CFADA3AD-9E25-396B-9ABE-5EB7D06EC363}</Project>
+      <Name>intrinsics_gen</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

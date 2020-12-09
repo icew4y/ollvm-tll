@@ -1,0 +1,5 @@
+﻿  Building Custom Rule D:/Project/ollvm-tll/tools/lto/CMakeLists.txt
+  LTODisassembler.cpp
+  lto.cpp
+    正在创建库 D:/Project/ollvm-tll/build/Release/lib/LTO.lib 和对象 D:/Project/ollvm-tll/build/Release/lib/LTO.exp
+  LTO.vcxproj -> D:\Project\ollvm-tll\build\Release\bin\LTO.dll

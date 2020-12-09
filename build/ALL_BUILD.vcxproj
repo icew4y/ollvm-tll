@@ -1,0 +1,1174 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{143AEE6A-3A5D-3CEB-885C-6D02127926EA}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.18362.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Project\ollvm-tll\build;D:\Project\ollvm-tll;D:\Project\ollvm-tll\build\include;D:\Project\ollvm-tll\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Project\ollvm-tll\build;D:\Project\ollvm-tll;D:\Project\ollvm-tll\build\include;D:\Project\ollvm-tll\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Project\ollvm-tll\build;D:\Project\ollvm-tll;D:\Project\ollvm-tll\build\include;D:\Project\ollvm-tll\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Project\ollvm-tll\build;D:\Project\ollvm-tll;D:\Project\ollvm-tll\build\include;D:\Project\ollvm-tll\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Project\ollvm-tll\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/Project/ollvm-tll/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/Project/ollvm-tll -BD:/Project/ollvm-tll/build --check-stamp-file D:/Project/ollvm-tll/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.17\Modules\AddFileDependencies.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeASMInformation.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakePushCheckState.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CPack.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CPackComponent.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CheckCCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CheckCXXCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CheckFunctionExists.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CheckSymbolExists.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CheckTypeSize.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Compiler\MSVC-ASM.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\ExternalProject.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\FindBacktrace.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\FindPythonInterp.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\InstallRequiredSystemLibraries.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\TestBigEndian.cmake;C:\Program Files\CMake\share\cmake-3.17\Templates\CPackConfig.cmake.in;D:\Project\ollvm-tll\LLVMBuild.txt;D:\Project\ollvm-tll\bindings\LLVMBuild.txt;D:\Project\ollvm-tll\build\CMakeFiles\3.17.2\CMakeASMCompiler.cmake;D:\Project\ollvm-tll\build\CMakeFiles\3.17.2\CMakeCCompiler.cmake;D:\Project\ollvm-tll\build\CMakeFiles\3.17.2\CMakeCXXCompiler.cmake;D:\Project\ollvm-tll\build\CMakeFiles\3.17.2\CMakeRCCompiler.cmake;D:\Project\ollvm-tll\build\CMakeFiles\3.17.2\CMakeSystem.cmake;D:\Project\ollvm-tll\build\LLVMBuild.cmake;D:\Project\ollvm-tll\cmake\config-ix.cmake;D:\Project\ollvm-tll\cmake\modules\AddLLVM.cmake;D:\Project\ollvm-tll\cmake\modules\AddOCaml.cmake;D:\Project\ollvm-tll\cmake\modules\CheckAtomic.cmake;D:\Project\ollvm-tll\cmake\modules\CheckCompilerVersion.cmake;D:\Project\ollvm-tll\cmake\modules\ChooseMSVCCRT.cmake;D:\Project\ollvm-tll\cmake\modules\DetermineGCCCompatible.cmake;D:\Project\ollvm-tll\cmake\modules\FindOCaml.cmake;D:\Project\ollvm-tll\cmake\modules\GetHostTriple.cmake;D:\Project\ollvm-tll\cmake\modules\HandleLLVMOptions.cmake;D:\Project\ollvm-tll\cmake\modules\HandleLLVMStdlib.cmake;D:\Project\ollvm-tll\cmake\modules\LLVM-Config.cmake;D:\Project\ollvm-tll\cmake\modules\LLVMExternalProjectUtils.cmake;D:\Project\ollvm-tll\cmake\modules\LLVMProcessSources.cmake;D:\Project\ollvm-tll\cmake\modules\TableGen.cmake;D:\Project\ollvm-tll\cmake\modules\VersionFromVCS.cmake;D:\Project\ollvm-tll\docs\LLVMBuild.txt;D:\Project\ollvm-tll\examples\LLVMBuild.txt;D:\Project\ollvm-tll\include\llvm\Config\AsmParsers.def.in;D:\Project\ollvm-tll\include\llvm\Config\AsmPrinters.def.in;D:\Project\ollvm-tll\include\llvm\Config\Disassemblers.def.in;D:\Project\ollvm-tll\include\llvm\Config\Targets.def.in;D:\Project\ollvm-tll\include\llvm\Config\abi-breaking.h.cmake;D:\Project\ollvm-tll\include\llvm\Config\config.h.cmake;D:\Project\ollvm-tll\include\llvm\Config\llvm-config.h.cmake;D:\Project\ollvm-tll\include\llvm\Support\DataTypes.h.cmake;D:\Project\ollvm-tll\lib\Analysis\LLVMBuild.txt;D:\Project\ollvm-tll\lib\AsmParser\LLVMBuild.txt;D:\Project\ollvm-tll\lib\BinaryFormat\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Bitcode\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Bitcode\Reader\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Bitcode\Writer\LLVMBuild.txt;D:\Project\ollvm-tll\lib\CodeGen\AsmPrinter\LLVMBuild.txt;D:\Project\ollvm-tll\lib\CodeGen\GlobalISel\LLVMBuild.txt;D:\Project\ollvm-tll\lib\CodeGen\LLVMBuild.txt;D:\Project\ollvm-tll\lib\CodeGen\MIRParser\LLVMBuild.txt;D:\Project\ollvm-tll\lib\CodeGen\SelectionDAG\LLVMBuild.txt;D:\Project\ollvm-tll\lib\DebugInfo\CodeView\LLVMBuild.txt;D:\Project\ollvm-tll\lib\DebugInfo\DWARF\LLVMBuild.txt;D:\Project\ollvm-tll\lib\DebugInfo\LLVMBuild.txt;D:\Project\ollvm-tll\lib\DebugInfo\MSF\LLVMBuild.txt;D:\Project\ollvm-tll\lib\DebugInfo\PDB\LLVMBuild.txt;D:\Project\ollvm-tll\lib\DebugInfo\Symbolize\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Demangle\LLVMBuild.txt;D:\Project\ollvm-tll\lib\ExecutionEngine\IntelJITEvents\LLVMBuild.txt;D:\Project\ollvm-tll\lib\ExecutionEngine\Interpreter\LLVMBuild.txt;D:\Project\ollvm-tll\lib\ExecutionEngine\LLVMBuild.txt;D:\Project\ollvm-tll\lib\ExecutionEngine\MCJIT\LLVMBuild.txt;D:\Project\ollvm-tll\lib\ExecutionEngine\OProfileJIT\LLVMBuild.txt;D:\Project\ollvm-tll\lib\ExecutionEngine\Orc\LLVMBuild.txt;D:\Project\ollvm-tll\lib\ExecutionEngine\RuntimeDyld\LLVMBuild.txt;D:\Project\ollvm-tll\lib\FuzzMutate\LLVMBuild.txt;D:\Project\ollvm-tll\lib\IR\LLVMBuild.txt;D:\Project\ollvm-tll\lib\IRReader\LLVMBuild.txt;D:\Project\ollvm-tll\lib\LLVMBuild.txt;D:\Project\ollvm-tll\lib\LTO\LLVMBuild.txt;D:\Project\ollvm-tll\lib\LineEditor\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Linker\LLVMBuild.txt;D:\Project\ollvm-tll\lib\MC\LLVMBuild.txt;D:\Project\ollvm-tll\lib\MC\MCDisassembler\LLVMBuild.txt;D:\Project\ollvm-tll\lib\MC\MCParser\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Object\LLVMBuild.txt;D:\Project\ollvm-tll\lib\ObjectYAML\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Option\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Passes\LLVMBuild.txt;D:\Project\ollvm-tll\lib\ProfileData\Coverage\LLVMBuild.txt;D:\Project\ollvm-tll\lib\ProfileData\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Support\LLVMBuild.txt;D:\Project\ollvm-tll\lib\TableGen\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\AArch64\AsmParser\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\AArch64\Disassembler\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\AArch64\InstPrinter\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\AArch64\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\AArch64\MCTargetDesc\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\AArch64\TargetInfo\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\AArch64\Utils\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\AMDGPU\AsmParser\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\AMDGPU\Disassembler\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\AMDGPU\InstPrinter\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\AMDGPU\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\AMDGPU\MCTargetDesc\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\AMDGPU\TargetInfo\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\AMDGPU\Utils\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\ARC\Disassembler\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\ARC\InstPrinter\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\ARC\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\ARC\MCTargetDesc\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\ARC\TargetInfo\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\ARM\AsmParser\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\ARM\Disassembler\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\ARM\InstPrinter\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\ARM\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\ARM\MCTargetDesc\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\ARM\TargetInfo\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\ARM\Utils\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\AVR\AsmParser\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\AVR\Disassembler\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\AVR\InstPrinter\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\AVR\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\AVR\MCTargetDesc\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\AVR\TargetInfo\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\BPF\AsmParser\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\BPF\Disassembler\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\BPF\InstPrinter\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\BPF\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\BPF\MCTargetDesc\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\BPF\TargetInfo\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\Hexagon\AsmParser\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\Hexagon\Disassembler\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\Hexagon\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\Hexagon\MCTargetDesc\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\Hexagon\TargetInfo\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\Lanai\AsmParser\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\Lanai\Disassembler\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\Lanai\InstPrinter\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\Lanai\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\Lanai\MCTargetDesc\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\Lanai\TargetInfo\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\MSP430\InstPrinter\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\MSP430\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\MSP430\MCTargetDesc\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\MSP430\TargetInfo\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\Mips\AsmParser\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\Mips\Disassembler\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\Mips\InstPrinter\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\Mips\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\Mips\MCTargetDesc\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\Mips\TargetInfo\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\NVPTX\InstPrinter\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\NVPTX\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\NVPTX\MCTargetDesc\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\NVPTX\TargetInfo\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\Nios2\InstPrinter\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\Nios2\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\Nios2\MCTargetDesc\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\Nios2\TargetInfo\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\PowerPC\AsmParser\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\PowerPC\Disassembler\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\PowerPC\InstPrinter\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\PowerPC\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\PowerPC\MCTargetDesc\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\PowerPC\TargetInfo\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\RISCV\AsmParser\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\RISCV\Disassembler\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\RISCV\InstPrinter\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\RISCV\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\RISCV\MCTargetDesc\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\RISCV\TargetInfo\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\Sparc\AsmParser\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\Sparc\Disassembler\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\Sparc\InstPrinter\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\Sparc\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\Sparc\MCTargetDesc\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\Sparc\TargetInfo\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\SystemZ\AsmParser\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\SystemZ\Disassembler\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\SystemZ\InstPrinter\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\SystemZ\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\SystemZ\MCTargetDesc\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\SystemZ\TargetInfo\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\WebAssembly\Disassembler\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\WebAssembly\InstPrinter\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\WebAssembly\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\WebAssembly\MCTargetDesc\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\WebAssembly\TargetInfo\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\X86\AsmParser\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\X86\Disassembler\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\X86\InstPrinter\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\X86\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\X86\MCTargetDesc\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\X86\TargetInfo\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\X86\Utils\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\XCore\Disassembler\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\XCore\InstPrinter\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\XCore\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\XCore\MCTargetDesc\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\XCore\TargetInfo\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Testing\Support\LLVMBuild.txt;D:\Project\ollvm-tll\lib\ToolDrivers\LLVMBuild.txt;D:\Project\ollvm-tll\lib\ToolDrivers\llvm-dlltool\LLVMBuild.txt;D:\Project\ollvm-tll\lib\ToolDrivers\llvm-lib\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Transforms\Coroutines\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Transforms\IPO\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Transforms\InstCombine\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Transforms\Instrumentation\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Transforms\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Transforms\Obfuscation\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Transforms\ObjCARC\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Transforms\Scalar\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Transforms\Utils\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Transforms\Vectorize\LLVMBuild.txt;D:\Project\ollvm-tll\lib\WindowsManifest\LLVMBuild.txt;D:\Project\ollvm-tll\llvm.spec.in;D:\Project\ollvm-tll\projects\LLVMBuild.txt;D:\Project\ollvm-tll\tools\LLVMBuild.txt;D:\Project\ollvm-tll\tools\bugpoint\LLVMBuild.txt;D:\Project\ollvm-tll\tools\dsymutil\LLVMBuild.txt;D:\Project\ollvm-tll\tools\llc\LLVMBuild.txt;D:\Project\ollvm-tll\tools\lli\ChildTarget\LLVMBuild.txt;D:\Project\ollvm-tll\tools\lli\LLVMBuild.txt;D:\Project\ollvm-tll\tools\llvm-ar\LLVMBuild.txt;D:\Project\ollvm-tll\tools\llvm-as\LLVMBuild.txt;D:\Project\ollvm-tll\tools\llvm-bcanalyzer\LLVMBuild.txt;D:\Project\ollvm-tll\tools\llvm-cat\LLVMBuild.txt;D:\Project\ollvm-tll\tools\llvm-cfi-verify\LLVMBuild.txt;D:\Project\ollvm-tll\tools\llvm-cov\LLVMBuild.txt;D:\Project\ollvm-tll\tools\llvm-cvtres\LLVMBuild.txt;D:\Project\ollvm-tll\tools\llvm-diff\LLVMBuild.txt;D:\Project\ollvm-tll\tools\llvm-dis\LLVMBuild.txt;D:\Project\ollvm-tll\tools\llvm-dwarfdump\LLVMBuild.txt;D:\Project\ollvm-tll\tools\llvm-dwp\LLVMBuild.txt;D:\Project\ollvm-tll\tools\llvm-extract\LLVMBuild.txt;D:\Project\ollvm-tll\tools\llvm-jitlistener\LLVMBuild.txt;D:\Project\ollvm-tll\tools\llvm-link\LLVMBuild.txt;D:\Project\ollvm-tll\tools\llvm-lto\LLVMBuild.txt;D:\Project\ollvm-tll\tools\llvm-mc\LLVMBuild.txt;D:\Project\ollvm-tll\tools\llvm-mcmarkup\LLVMBuild.txt;D:\Project\ollvm-tll\tools\llvm-modextract\LLVMBuild.txt;D:\Project\ollvm-tll\tools\llvm-mt\LLVMBuild.txt;D:\Project\ollvm-tll\tools\llvm-nm\LLVMBuild.txt;D:\Project\ollvm-tll\tools\llvm-objcopy\LLVMBuild.txt;D:\Project\ollvm-tll\tools\llvm-objdump\LLVMBuild.txt;D:\Project\ollvm-tll\tools\llvm-pdbutil\LLVMBuild.txt;D:\Project\ollvm-tll\tools\llvm-profdata\LLVMBuild.txt;D:\Project\ollvm-tll\tools\llvm-rc\LLVMBuild.txt;D:\Project\ollvm-tll\tools\llvm-rtdyld\LLVMBuild.txt;D:\Project\ollvm-tll\tools\llvm-size\LLVMBuild.txt;D:\Project\ollvm-tll\tools\llvm-split\LLVMBuild.txt;D:\Project\ollvm-tll\tools\opt\LLVMBuild.txt;D:\Project\ollvm-tll\tools\verify-uselistorder\LLVMBuild.txt;D:\Project\ollvm-tll\utils\LLVMBuild.txt;D:\Project\ollvm-tll\utils\TableGen\LLVMBuild.txt;D:\Project\ollvm-tll\utils\llvm-build\llvmbuild\__init__.py;D:\Project\ollvm-tll\utils\llvm-build\llvmbuild\componentinfo.py;D:\Project\ollvm-tll\utils\llvm-build\llvmbuild\configutil.py;D:\Project\ollvm-tll\utils\llvm-build\llvmbuild\main.py;D:\Project\ollvm-tll\utils\llvm-build\llvmbuild\util.py;D:\Project\ollvm-tll\utils\unittest\LLVMBuild.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Project\ollvm-tll\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/Project/ollvm-tll/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/Project/ollvm-tll -BD:/Project/ollvm-tll/build --check-stamp-file D:/Project/ollvm-tll/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-3.17\Modules\AddFileDependencies.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeASMInformation.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakePushCheckState.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CPack.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CPackComponent.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CheckCCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CheckCXXCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CheckFunctionExists.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CheckSymbolExists.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CheckTypeSize.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Compiler\MSVC-ASM.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\ExternalProject.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\FindBacktrace.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\FindPythonInterp.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\InstallRequiredSystemLibraries.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\TestBigEndian.cmake;C:\Program Files\CMake\share\cmake-3.17\Templates\CPackConfig.cmake.in;D:\Project\ollvm-tll\LLVMBuild.txt;D:\Project\ollvm-tll\bindings\LLVMBuild.txt;D:\Project\ollvm-tll\build\CMakeFiles\3.17.2\CMakeASMCompiler.cmake;D:\Project\ollvm-tll\build\CMakeFiles\3.17.2\CMakeCCompiler.cmake;D:\Project\ollvm-tll\build\CMakeFiles\3.17.2\CMakeCXXCompiler.cmake;D:\Project\ollvm-tll\build\CMakeFiles\3.17.2\CMakeRCCompiler.cmake;D:\Project\ollvm-tll\build\CMakeFiles\3.17.2\CMakeSystem.cmake;D:\Project\ollvm-tll\build\LLVMBuild.cmake;D:\Project\ollvm-tll\cmake\config-ix.cmake;D:\Project\ollvm-tll\cmake\modules\AddLLVM.cmake;D:\Project\ollvm-tll\cmake\modules\AddOCaml.cmake;D:\Project\ollvm-tll\cmake\modules\CheckAtomic.cmake;D:\Project\ollvm-tll\cmake\modules\CheckCompilerVersion.cmake;D:\Project\ollvm-tll\cmake\modules\ChooseMSVCCRT.cmake;D:\Project\ollvm-tll\cmake\modules\DetermineGCCCompatible.cmake;D:\Project\ollvm-tll\cmake\modules\FindOCaml.cmake;D:\Project\ollvm-tll\cmake\modules\GetHostTriple.cmake;D:\Project\ollvm-tll\cmake\modules\HandleLLVMOptions.cmake;D:\Project\ollvm-tll\cmake\modules\HandleLLVMStdlib.cmake;D:\Project\ollvm-tll\cmake\modules\LLVM-Config.cmake;D:\Project\ollvm-tll\cmake\modules\LLVMExternalProjectUtils.cmake;D:\Project\ollvm-tll\cmake\modules\LLVMProcessSources.cmake;D:\Project\ollvm-tll\cmake\modules\TableGen.cmake;D:\Project\ollvm-tll\cmake\modules\VersionFromVCS.cmake;D:\Project\ollvm-tll\docs\LLVMBuild.txt;D:\Project\ollvm-tll\examples\LLVMBuild.txt;D:\Project\ollvm-tll\include\llvm\Config\AsmParsers.def.in;D:\Project\ollvm-tll\include\llvm\Config\AsmPrinters.def.in;D:\Project\ollvm-tll\include\llvm\Config\Disassemblers.def.in;D:\Project\ollvm-tll\include\llvm\Config\Targets.def.in;D:\Project\ollvm-tll\include\llvm\Config\abi-breaking.h.cmake;D:\Project\ollvm-tll\include\llvm\Config\config.h.cmake;D:\Project\ollvm-tll\include\llvm\Config\llvm-config.h.cmake;D:\Project\ollvm-tll\include\llvm\Support\DataTypes.h.cmake;D:\Project\ollvm-tll\lib\Analysis\LLVMBuild.txt;D:\Project\ollvm-tll\lib\AsmParser\LLVMBuild.txt;D:\Project\ollvm-tll\lib\BinaryFormat\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Bitcode\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Bitcode\Reader\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Bitcode\Writer\LLVMBuild.txt;D:\Project\ollvm-tll\lib\CodeGen\AsmPrinter\LLVMBuild.txt;D:\Project\ollvm-tll\lib\CodeGen\GlobalISel\LLVMBuild.txt;D:\Project\ollvm-tll\lib\CodeGen\LLVMBuild.txt;D:\Project\ollvm-tll\lib\CodeGen\MIRParser\LLVMBuild.txt;D:\Project\ollvm-tll\lib\CodeGen\SelectionDAG\LLVMBuild.txt;D:\Project\ollvm-tll\lib\DebugInfo\CodeView\LLVMBuild.txt;D:\Project\ollvm-tll\lib\DebugInfo\DWARF\LLVMBuild.txt;D:\Project\ollvm-tll\lib\DebugInfo\LLVMBuild.txt;D:\Project\ollvm-tll\lib\DebugInfo\MSF\LLVMBuild.txt;D:\Project\ollvm-tll\lib\DebugInfo\PDB\LLVMBuild.txt;D:\Project\ollvm-tll\lib\DebugInfo\Symbolize\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Demangle\LLVMBuild.txt;D:\Project\ollvm-tll\lib\ExecutionEngine\IntelJITEvents\LLVMBuild.txt;D:\Project\ollvm-tll\lib\ExecutionEngine\Interpreter\LLVMBuild.txt;D:\Project\ollvm-tll\lib\ExecutionEngine\LLVMBuild.txt;D:\Project\ollvm-tll\lib\ExecutionEngine\MCJIT\LLVMBuild.txt;D:\Project\ollvm-tll\lib\ExecutionEngine\OProfileJIT\LLVMBuild.txt;D:\Project\ollvm-tll\lib\ExecutionEngine\Orc\LLVMBuild.txt;D:\Project\ollvm-tll\lib\ExecutionEngine\RuntimeDyld\LLVMBuild.txt;D:\Project\ollvm-tll\lib\FuzzMutate\LLVMBuild.txt;D:\Project\ollvm-tll\lib\IR\LLVMBuild.txt;D:\Project\ollvm-tll\lib\IRReader\LLVMBuild.txt;D:\Project\ollvm-tll\lib\LLVMBuild.txt;D:\Project\ollvm-tll\lib\LTO\LLVMBuild.txt;D:\Project\ollvm-tll\lib\LineEditor\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Linker\LLVMBuild.txt;D:\Project\ollvm-tll\lib\MC\LLVMBuild.txt;D:\Project\ollvm-tll\lib\MC\MCDisassembler\LLVMBuild.txt;D:\Project\ollvm-tll\lib\MC\MCParser\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Object\LLVMBuild.txt;D:\Project\ollvm-tll\lib\ObjectYAML\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Option\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Passes\LLVMBuild.txt;D:\Project\ollvm-tll\lib\ProfileData\Coverage\LLVMBuild.txt;D:\Project\ollvm-tll\lib\ProfileData\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Support\LLVMBuild.txt;D:\Project\ollvm-tll\lib\TableGen\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\AArch64\AsmParser\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\AArch64\Disassembler\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\AArch64\InstPrinter\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\AArch64\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\AArch64\MCTargetDesc\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\AArch64\TargetInfo\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\AArch64\Utils\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\AMDGPU\AsmParser\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\AMDGPU\Disassembler\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\AMDGPU\InstPrinter\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\AMDGPU\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\AMDGPU\MCTargetDesc\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\AMDGPU\TargetInfo\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\AMDGPU\Utils\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\ARC\Disassembler\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\ARC\InstPrinter\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\ARC\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\ARC\MCTargetDesc\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\ARC\TargetInfo\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\ARM\AsmParser\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\ARM\Disassembler\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\ARM\InstPrinter\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\ARM\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\ARM\MCTargetDesc\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\ARM\TargetInfo\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\ARM\Utils\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\AVR\AsmParser\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\AVR\Disassembler\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\AVR\InstPrinter\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\AVR\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\AVR\MCTargetDesc\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\AVR\TargetInfo\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\BPF\AsmParser\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\BPF\Disassembler\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\BPF\InstPrinter\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\BPF\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\BPF\MCTargetDesc\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\BPF\TargetInfo\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\Hexagon\AsmParser\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\Hexagon\Disassembler\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\Hexagon\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\Hexagon\MCTargetDesc\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\Hexagon\TargetInfo\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\Lanai\AsmParser\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\Lanai\Disassembler\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\Lanai\InstPrinter\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\Lanai\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\Lanai\MCTargetDesc\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\Lanai\TargetInfo\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\MSP430\InstPrinter\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\MSP430\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\MSP430\MCTargetDesc\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\MSP430\TargetInfo\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\Mips\AsmParser\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\Mips\Disassembler\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\Mips\InstPrinter\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\Mips\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\Mips\MCTargetDesc\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\Mips\TargetInfo\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\NVPTX\InstPrinter\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\NVPTX\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\NVPTX\MCTargetDesc\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\NVPTX\TargetInfo\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\Nios2\InstPrinter\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\Nios2\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\Nios2\MCTargetDesc\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\Nios2\TargetInfo\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\PowerPC\AsmParser\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\PowerPC\Disassembler\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\PowerPC\InstPrinter\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\PowerPC\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\PowerPC\MCTargetDesc\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\PowerPC\TargetInfo\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\RISCV\AsmParser\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\RISCV\Disassembler\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\RISCV\InstPrinter\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\RISCV\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\RISCV\MCTargetDesc\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\RISCV\TargetInfo\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\Sparc\AsmParser\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\Sparc\Disassembler\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\Sparc\InstPrinter\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\Sparc\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\Sparc\MCTargetDesc\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\Sparc\TargetInfo\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\SystemZ\AsmParser\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\SystemZ\Disassembler\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\SystemZ\InstPrinter\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\SystemZ\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\SystemZ\MCTargetDesc\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\SystemZ\TargetInfo\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\WebAssembly\Disassembler\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\WebAssembly\InstPrinter\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\WebAssembly\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\WebAssembly\MCTargetDesc\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\WebAssembly\TargetInfo\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\X86\AsmParser\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\X86\Disassembler\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\X86\InstPrinter\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\X86\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\X86\MCTargetDesc\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\X86\TargetInfo\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\X86\Utils\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\XCore\Disassembler\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\XCore\InstPrinter\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\XCore\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\XCore\MCTargetDesc\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\XCore\TargetInfo\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Testing\Support\LLVMBuild.txt;D:\Project\ollvm-tll\lib\ToolDrivers\LLVMBuild.txt;D:\Project\ollvm-tll\lib\ToolDrivers\llvm-dlltool\LLVMBuild.txt;D:\Project\ollvm-tll\lib\ToolDrivers\llvm-lib\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Transforms\Coroutines\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Transforms\IPO\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Transforms\InstCombine\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Transforms\Instrumentation\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Transforms\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Transforms\Obfuscation\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Transforms\ObjCARC\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Transforms\Scalar\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Transforms\Utils\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Transforms\Vectorize\LLVMBuild.txt;D:\Project\ollvm-tll\lib\WindowsManifest\LLVMBuild.txt;D:\Project\ollvm-tll\llvm.spec.in;D:\Project\ollvm-tll\projects\LLVMBuild.txt;D:\Project\ollvm-tll\tools\LLVMBuild.txt;D:\Project\ollvm-tll\tools\bugpoint\LLVMBuild.txt;D:\Project\ollvm-tll\tools\dsymutil\LLVMBuild.txt;D:\Project\ollvm-tll\tools\llc\LLVMBuild.txt;D:\Project\ollvm-tll\tools\lli\ChildTarget\LLVMBuild.txt;D:\Project\ollvm-tll\tools\lli\LLVMBuild.txt;D:\Project\ollvm-tll\tools\llvm-ar\LLVMBuild.txt;D:\Project\ollvm-tll\tools\llvm-as\LLVMBuild.txt;D:\Project\ollvm-tll\tools\llvm-bcanalyzer\LLVMBuild.txt;D:\Project\ollvm-tll\tools\llvm-cat\LLVMBuild.txt;D:\Project\ollvm-tll\tools\llvm-cfi-verify\LLVMBuild.txt;D:\Project\ollvm-tll\tools\llvm-cov\LLVMBuild.txt;D:\Project\ollvm-tll\tools\llvm-cvtres\LLVMBuild.txt;D:\Project\ollvm-tll\tools\llvm-diff\LLVMBuild.txt;D:\Project\ollvm-tll\tools\llvm-dis\LLVMBuild.txt;D:\Project\ollvm-tll\tools\llvm-dwarfdump\LLVMBuild.txt;D:\Project\ollvm-tll\tools\llvm-dwp\LLVMBuild.txt;D:\Project\ollvm-tll\tools\llvm-extract\LLVMBuild.txt;D:\Project\ollvm-tll\tools\llvm-jitlistener\LLVMBuild.txt;D:\Project\ollvm-tll\tools\llvm-link\LLVMBuild.txt;D:\Project\ollvm-tll\tools\llvm-lto\LLVMBuild.txt;D:\Project\ollvm-tll\tools\llvm-mc\LLVMBuild.txt;D:\Project\ollvm-tll\tools\llvm-mcmarkup\LLVMBuild.txt;D:\Project\ollvm-tll\tools\llvm-modextract\LLVMBuild.txt;D:\Project\ollvm-tll\tools\llvm-mt\LLVMBuild.txt;D:\Project\ollvm-tll\tools\llvm-nm\LLVMBuild.txt;D:\Project\ollvm-tll\tools\llvm-objcopy\LLVMBuild.txt;D:\Project\ollvm-tll\tools\llvm-objdump\LLVMBuild.txt;D:\Project\ollvm-tll\tools\llvm-pdbutil\LLVMBuild.txt;D:\Project\ollvm-tll\tools\llvm-profdata\LLVMBuild.txt;D:\Project\ollvm-tll\tools\llvm-rc\LLVMBuild.txt;D:\Project\ollvm-tll\tools\llvm-rtdyld\LLVMBuild.txt;D:\Project\ollvm-tll\tools\llvm-size\LLVMBuild.txt;D:\Project\ollvm-tll\tools\llvm-split\LLVMBuild.txt;D:\Project\ollvm-tll\tools\opt\LLVMBuild.txt;D:\Project\ollvm-tll\tools\verify-uselistorder\LLVMBuild.txt;D:\Project\ollvm-tll\utils\LLVMBuild.txt;D:\Project\ollvm-tll\utils\TableGen\LLVMBuild.txt;D:\Project\ollvm-tll\utils\llvm-build\llvmbuild\__init__.py;D:\Project\ollvm-tll\utils\llvm-build\llvmbuild\componentinfo.py;D:\Project\ollvm-tll\utils\llvm-build\llvmbuild\configutil.py;D:\Project\ollvm-tll\utils\llvm-build\llvmbuild\main.py;D:\Project\ollvm-tll\utils\llvm-build\llvmbuild\util.py;D:\Project\ollvm-tll\utils\unittest\LLVMBuild.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Project\ollvm-tll\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule D:/Project/ollvm-tll/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/Project/ollvm-tll -BD:/Project/ollvm-tll/build --check-stamp-file D:/Project/ollvm-tll/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-3.17\Modules\AddFileDependencies.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeASMInformation.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakePushCheckState.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CPack.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CPackComponent.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CheckCCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CheckCXXCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CheckFunctionExists.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CheckSymbolExists.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CheckTypeSize.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Compiler\MSVC-ASM.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\ExternalProject.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\FindBacktrace.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\FindPythonInterp.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\InstallRequiredSystemLibraries.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\TestBigEndian.cmake;C:\Program Files\CMake\share\cmake-3.17\Templates\CPackConfig.cmake.in;D:\Project\ollvm-tll\LLVMBuild.txt;D:\Project\ollvm-tll\bindings\LLVMBuild.txt;D:\Project\ollvm-tll\build\CMakeFiles\3.17.2\CMakeASMCompiler.cmake;D:\Project\ollvm-tll\build\CMakeFiles\3.17.2\CMakeCCompiler.cmake;D:\Project\ollvm-tll\build\CMakeFiles\3.17.2\CMakeCXXCompiler.cmake;D:\Project\ollvm-tll\build\CMakeFiles\3.17.2\CMakeRCCompiler.cmake;D:\Project\ollvm-tll\build\CMakeFiles\3.17.2\CMakeSystem.cmake;D:\Project\ollvm-tll\build\LLVMBuild.cmake;D:\Project\ollvm-tll\cmake\config-ix.cmake;D:\Project\ollvm-tll\cmake\modules\AddLLVM.cmake;D:\Project\ollvm-tll\cmake\modules\AddOCaml.cmake;D:\Project\ollvm-tll\cmake\modules\CheckAtomic.cmake;D:\Project\ollvm-tll\cmake\modules\CheckCompilerVersion.cmake;D:\Project\ollvm-tll\cmake\modules\ChooseMSVCCRT.cmake;D:\Project\ollvm-tll\cmake\modules\DetermineGCCCompatible.cmake;D:\Project\ollvm-tll\cmake\modules\FindOCaml.cmake;D:\Project\ollvm-tll\cmake\modules\GetHostTriple.cmake;D:\Project\ollvm-tll\cmake\modules\HandleLLVMOptions.cmake;D:\Project\ollvm-tll\cmake\modules\HandleLLVMStdlib.cmake;D:\Project\ollvm-tll\cmake\modules\LLVM-Config.cmake;D:\Project\ollvm-tll\cmake\modules\LLVMExternalProjectUtils.cmake;D:\Project\ollvm-tll\cmake\modules\LLVMProcessSources.cmake;D:\Project\ollvm-tll\cmake\modules\TableGen.cmake;D:\Project\ollvm-tll\cmake\modules\VersionFromVCS.cmake;D:\Project\ollvm-tll\docs\LLVMBuild.txt;D:\Project\ollvm-tll\examples\LLVMBuild.txt;D:\Project\ollvm-tll\include\llvm\Config\AsmParsers.def.in;D:\Project\ollvm-tll\include\llvm\Config\AsmPrinters.def.in;D:\Project\ollvm-tll\include\llvm\Config\Disassemblers.def.in;D:\Project\ollvm-tll\include\llvm\Config\Targets.def.in;D:\Project\ollvm-tll\include\llvm\Config\abi-breaking.h.cmake;D:\Project\ollvm-tll\include\llvm\Config\config.h.cmake;D:\Project\ollvm-tll\include\llvm\Config\llvm-config.h.cmake;D:\Project\ollvm-tll\include\llvm\Support\DataTypes.h.cmake;D:\Project\ollvm-tll\lib\Analysis\LLVMBuild.txt;D:\Project\ollvm-tll\lib\AsmParser\LLVMBuild.txt;D:\Project\ollvm-tll\lib\BinaryFormat\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Bitcode\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Bitcode\Reader\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Bitcode\Writer\LLVMBuild.txt;D:\Project\ollvm-tll\lib\CodeGen\AsmPrinter\LLVMBuild.txt;D:\Project\ollvm-tll\lib\CodeGen\GlobalISel\LLVMBuild.txt;D:\Project\ollvm-tll\lib\CodeGen\LLVMBuild.txt;D:\Project\ollvm-tll\lib\CodeGen\MIRParser\LLVMBuild.txt;D:\Project\ollvm-tll\lib\CodeGen\SelectionDAG\LLVMBuild.txt;D:\Project\ollvm-tll\lib\DebugInfo\CodeView\LLVMBuild.txt;D:\Project\ollvm-tll\lib\DebugInfo\DWARF\LLVMBuild.txt;D:\Project\ollvm-tll\lib\DebugInfo\LLVMBuild.txt;D:\Project\ollvm-tll\lib\DebugInfo\MSF\LLVMBuild.txt;D:\Project\ollvm-tll\lib\DebugInfo\PDB\LLVMBuild.txt;D:\Project\ollvm-tll\lib\DebugInfo\Symbolize\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Demangle\LLVMBuild.txt;D:\Project\ollvm-tll\lib\ExecutionEngine\IntelJITEvents\LLVMBuild.txt;D:\Project\ollvm-tll\lib\ExecutionEngine\Interpreter\LLVMBuild.txt;D:\Project\ollvm-tll\lib\ExecutionEngine\LLVMBuild.txt;D:\Project\ollvm-tll\lib\ExecutionEngine\MCJIT\LLVMBuild.txt;D:\Project\ollvm-tll\lib\ExecutionEngine\OProfileJIT\LLVMBuild.txt;D:\Project\ollvm-tll\lib\ExecutionEngine\Orc\LLVMBuild.txt;D:\Project\ollvm-tll\lib\ExecutionEngine\RuntimeDyld\LLVMBuild.txt;D:\Project\ollvm-tll\lib\FuzzMutate\LLVMBuild.txt;D:\Project\ollvm-tll\lib\IR\LLVMBuild.txt;D:\Project\ollvm-tll\lib\IRReader\LLVMBuild.txt;D:\Project\ollvm-tll\lib\LLVMBuild.txt;D:\Project\ollvm-tll\lib\LTO\LLVMBuild.txt;D:\Project\ollvm-tll\lib\LineEditor\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Linker\LLVMBuild.txt;D:\Project\ollvm-tll\lib\MC\LLVMBuild.txt;D:\Project\ollvm-tll\lib\MC\MCDisassembler\LLVMBuild.txt;D:\Project\ollvm-tll\lib\MC\MCParser\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Object\LLVMBuild.txt;D:\Project\ollvm-tll\lib\ObjectYAML\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Option\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Passes\LLVMBuild.txt;D:\Project\ollvm-tll\lib\ProfileData\Coverage\LLVMBuild.txt;D:\Project\ollvm-tll\lib\ProfileData\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Support\LLVMBuild.txt;D:\Project\ollvm-tll\lib\TableGen\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\AArch64\AsmParser\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\AArch64\Disassembler\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\AArch64\InstPrinter\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\AArch64\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\AArch64\MCTargetDesc\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\AArch64\TargetInfo\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\AArch64\Utils\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\AMDGPU\AsmParser\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\AMDGPU\Disassembler\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\AMDGPU\InstPrinter\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\AMDGPU\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\AMDGPU\MCTargetDesc\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\AMDGPU\TargetInfo\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\AMDGPU\Utils\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\ARC\Disassembler\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\ARC\InstPrinter\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\ARC\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\ARC\MCTargetDesc\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\ARC\TargetInfo\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\ARM\AsmParser\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\ARM\Disassembler\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\ARM\InstPrinter\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\ARM\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\ARM\MCTargetDesc\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\ARM\TargetInfo\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\ARM\Utils\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\AVR\AsmParser\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\AVR\Disassembler\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\AVR\InstPrinter\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\AVR\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\AVR\MCTargetDesc\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\AVR\TargetInfo\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\BPF\AsmParser\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\BPF\Disassembler\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\BPF\InstPrinter\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\BPF\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\BPF\MCTargetDesc\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\BPF\TargetInfo\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\Hexagon\AsmParser\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\Hexagon\Disassembler\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\Hexagon\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\Hexagon\MCTargetDesc\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\Hexagon\TargetInfo\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\Lanai\AsmParser\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\Lanai\Disassembler\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\Lanai\InstPrinter\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\Lanai\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\Lanai\MCTargetDesc\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\Lanai\TargetInfo\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\MSP430\InstPrinter\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\MSP430\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\MSP430\MCTargetDesc\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\MSP430\TargetInfo\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\Mips\AsmParser\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\Mips\Disassembler\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\Mips\InstPrinter\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\Mips\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\Mips\MCTargetDesc\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\Mips\TargetInfo\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\NVPTX\InstPrinter\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\NVPTX\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\NVPTX\MCTargetDesc\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\NVPTX\TargetInfo\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\Nios2\InstPrinter\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\Nios2\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\Nios2\MCTargetDesc\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\Nios2\TargetInfo\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\PowerPC\AsmParser\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\PowerPC\Disassembler\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\PowerPC\InstPrinter\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\PowerPC\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\PowerPC\MCTargetDesc\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\PowerPC\TargetInfo\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\RISCV\AsmParser\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\RISCV\Disassembler\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\RISCV\InstPrinter\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\RISCV\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\RISCV\MCTargetDesc\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\RISCV\TargetInfo\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\Sparc\AsmParser\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\Sparc\Disassembler\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\Sparc\InstPrinter\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\Sparc\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\Sparc\MCTargetDesc\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\Sparc\TargetInfo\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\SystemZ\AsmParser\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\SystemZ\Disassembler\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\SystemZ\InstPrinter\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\SystemZ\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\SystemZ\MCTargetDesc\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\SystemZ\TargetInfo\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\WebAssembly\Disassembler\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\WebAssembly\InstPrinter\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\WebAssembly\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\WebAssembly\MCTargetDesc\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\WebAssembly\TargetInfo\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\X86\AsmParser\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\X86\Disassembler\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\X86\InstPrinter\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\X86\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\X86\MCTargetDesc\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\X86\TargetInfo\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\X86\Utils\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\XCore\Disassembler\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\XCore\InstPrinter\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\XCore\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\XCore\MCTargetDesc\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\XCore\TargetInfo\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Testing\Support\LLVMBuild.txt;D:\Project\ollvm-tll\lib\ToolDrivers\LLVMBuild.txt;D:\Project\ollvm-tll\lib\ToolDrivers\llvm-dlltool\LLVMBuild.txt;D:\Project\ollvm-tll\lib\ToolDrivers\llvm-lib\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Transforms\Coroutines\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Transforms\IPO\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Transforms\InstCombine\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Transforms\Instrumentation\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Transforms\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Transforms\Obfuscation\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Transforms\ObjCARC\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Transforms\Scalar\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Transforms\Utils\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Transforms\Vectorize\LLVMBuild.txt;D:\Project\ollvm-tll\lib\WindowsManifest\LLVMBuild.txt;D:\Project\ollvm-tll\llvm.spec.in;D:\Project\ollvm-tll\projects\LLVMBuild.txt;D:\Project\ollvm-tll\tools\LLVMBuild.txt;D:\Project\ollvm-tll\tools\bugpoint\LLVMBuild.txt;D:\Project\ollvm-tll\tools\dsymutil\LLVMBuild.txt;D:\Project\ollvm-tll\tools\llc\LLVMBuild.txt;D:\Project\ollvm-tll\tools\lli\ChildTarget\LLVMBuild.txt;D:\Project\ollvm-tll\tools\lli\LLVMBuild.txt;D:\Project\ollvm-tll\tools\llvm-ar\LLVMBuild.txt;D:\Project\ollvm-tll\tools\llvm-as\LLVMBuild.txt;D:\Project\ollvm-tll\tools\llvm-bcanalyzer\LLVMBuild.txt;D:\Project\ollvm-tll\tools\llvm-cat\LLVMBuild.txt;D:\Project\ollvm-tll\tools\llvm-cfi-verify\LLVMBuild.txt;D:\Project\ollvm-tll\tools\llvm-cov\LLVMBuild.txt;D:\Project\ollvm-tll\tools\llvm-cvtres\LLVMBuild.txt;D:\Project\ollvm-tll\tools\llvm-diff\LLVMBuild.txt;D:\Project\ollvm-tll\tools\llvm-dis\LLVMBuild.txt;D:\Project\ollvm-tll\tools\llvm-dwarfdump\LLVMBuild.txt;D:\Project\ollvm-tll\tools\llvm-dwp\LLVMBuild.txt;D:\Project\ollvm-tll\tools\llvm-extract\LLVMBuild.txt;D:\Project\ollvm-tll\tools\llvm-jitlistener\LLVMBuild.txt;D:\Project\ollvm-tll\tools\llvm-link\LLVMBuild.txt;D:\Project\ollvm-tll\tools\llvm-lto\LLVMBuild.txt;D:\Project\ollvm-tll\tools\llvm-mc\LLVMBuild.txt;D:\Project\ollvm-tll\tools\llvm-mcmarkup\LLVMBuild.txt;D:\Project\ollvm-tll\tools\llvm-modextract\LLVMBuild.txt;D:\Project\ollvm-tll\tools\llvm-mt\LLVMBuild.txt;D:\Project\ollvm-tll\tools\llvm-nm\LLVMBuild.txt;D:\Project\ollvm-tll\tools\llvm-objcopy\LLVMBuild.txt;D:\Project\ollvm-tll\tools\llvm-objdump\LLVMBuild.txt;D:\Project\ollvm-tll\tools\llvm-pdbutil\LLVMBuild.txt;D:\Project\ollvm-tll\tools\llvm-profdata\LLVMBuild.txt;D:\Project\ollvm-tll\tools\llvm-rc\LLVMBuild.txt;D:\Project\ollvm-tll\tools\llvm-rtdyld\LLVMBuild.txt;D:\Project\ollvm-tll\tools\llvm-size\LLVMBuild.txt;D:\Project\ollvm-tll\tools\llvm-split\LLVMBuild.txt;D:\Project\ollvm-tll\tools\opt\LLVMBuild.txt;D:\Project\ollvm-tll\tools\verify-uselistorder\LLVMBuild.txt;D:\Project\ollvm-tll\utils\LLVMBuild.txt;D:\Project\ollvm-tll\utils\TableGen\LLVMBuild.txt;D:\Project\ollvm-tll\utils\llvm-build\llvmbuild\__init__.py;D:\Project\ollvm-tll\utils\llvm-build\llvmbuild\componentinfo.py;D:\Project\ollvm-tll\utils\llvm-build\llvmbuild\configutil.py;D:\Project\ollvm-tll\utils\llvm-build\llvmbuild\main.py;D:\Project\ollvm-tll\utils\llvm-build\llvmbuild\util.py;D:\Project\ollvm-tll\utils\unittest\LLVMBuild.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Project\ollvm-tll\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule D:/Project/ollvm-tll/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/Project/ollvm-tll -BD:/Project/ollvm-tll/build --check-stamp-file D:/Project/ollvm-tll/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-3.17\Modules\AddFileDependencies.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeASMInformation.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakePushCheckState.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CPack.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CPackComponent.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CheckCCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CheckCXXCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CheckFunctionExists.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CheckSymbolExists.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\CheckTypeSize.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Compiler\MSVC-ASM.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\ExternalProject.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\FindBacktrace.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\FindPythonInterp.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\InstallRequiredSystemLibraries.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.17\Modules\TestBigEndian.cmake;C:\Program Files\CMake\share\cmake-3.17\Templates\CPackConfig.cmake.in;D:\Project\ollvm-tll\LLVMBuild.txt;D:\Project\ollvm-tll\bindings\LLVMBuild.txt;D:\Project\ollvm-tll\build\CMakeFiles\3.17.2\CMakeASMCompiler.cmake;D:\Project\ollvm-tll\build\CMakeFiles\3.17.2\CMakeCCompiler.cmake;D:\Project\ollvm-tll\build\CMakeFiles\3.17.2\CMakeCXXCompiler.cmake;D:\Project\ollvm-tll\build\CMakeFiles\3.17.2\CMakeRCCompiler.cmake;D:\Project\ollvm-tll\build\CMakeFiles\3.17.2\CMakeSystem.cmake;D:\Project\ollvm-tll\build\LLVMBuild.cmake;D:\Project\ollvm-tll\cmake\config-ix.cmake;D:\Project\ollvm-tll\cmake\modules\AddLLVM.cmake;D:\Project\ollvm-tll\cmake\modules\AddOCaml.cmake;D:\Project\ollvm-tll\cmake\modules\CheckAtomic.cmake;D:\Project\ollvm-tll\cmake\modules\CheckCompilerVersion.cmake;D:\Project\ollvm-tll\cmake\modules\ChooseMSVCCRT.cmake;D:\Project\ollvm-tll\cmake\modules\DetermineGCCCompatible.cmake;D:\Project\ollvm-tll\cmake\modules\FindOCaml.cmake;D:\Project\ollvm-tll\cmake\modules\GetHostTriple.cmake;D:\Project\ollvm-tll\cmake\modules\HandleLLVMOptions.cmake;D:\Project\ollvm-tll\cmake\modules\HandleLLVMStdlib.cmake;D:\Project\ollvm-tll\cmake\modules\LLVM-Config.cmake;D:\Project\ollvm-tll\cmake\modules\LLVMExternalProjectUtils.cmake;D:\Project\ollvm-tll\cmake\modules\LLVMProcessSources.cmake;D:\Project\ollvm-tll\cmake\modules\TableGen.cmake;D:\Project\ollvm-tll\cmake\modules\VersionFromVCS.cmake;D:\Project\ollvm-tll\docs\LLVMBuild.txt;D:\Project\ollvm-tll\examples\LLVMBuild.txt;D:\Project\ollvm-tll\include\llvm\Config\AsmParsers.def.in;D:\Project\ollvm-tll\include\llvm\Config\AsmPrinters.def.in;D:\Project\ollvm-tll\include\llvm\Config\Disassemblers.def.in;D:\Project\ollvm-tll\include\llvm\Config\Targets.def.in;D:\Project\ollvm-tll\include\llvm\Config\abi-breaking.h.cmake;D:\Project\ollvm-tll\include\llvm\Config\config.h.cmake;D:\Project\ollvm-tll\include\llvm\Config\llvm-config.h.cmake;D:\Project\ollvm-tll\include\llvm\Support\DataTypes.h.cmake;D:\Project\ollvm-tll\lib\Analysis\LLVMBuild.txt;D:\Project\ollvm-tll\lib\AsmParser\LLVMBuild.txt;D:\Project\ollvm-tll\lib\BinaryFormat\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Bitcode\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Bitcode\Reader\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Bitcode\Writer\LLVMBuild.txt;D:\Project\ollvm-tll\lib\CodeGen\AsmPrinter\LLVMBuild.txt;D:\Project\ollvm-tll\lib\CodeGen\GlobalISel\LLVMBuild.txt;D:\Project\ollvm-tll\lib\CodeGen\LLVMBuild.txt;D:\Project\ollvm-tll\lib\CodeGen\MIRParser\LLVMBuild.txt;D:\Project\ollvm-tll\lib\CodeGen\SelectionDAG\LLVMBuild.txt;D:\Project\ollvm-tll\lib\DebugInfo\CodeView\LLVMBuild.txt;D:\Project\ollvm-tll\lib\DebugInfo\DWARF\LLVMBuild.txt;D:\Project\ollvm-tll\lib\DebugInfo\LLVMBuild.txt;D:\Project\ollvm-tll\lib\DebugInfo\MSF\LLVMBuild.txt;D:\Project\ollvm-tll\lib\DebugInfo\PDB\LLVMBuild.txt;D:\Project\ollvm-tll\lib\DebugInfo\Symbolize\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Demangle\LLVMBuild.txt;D:\Project\ollvm-tll\lib\ExecutionEngine\IntelJITEvents\LLVMBuild.txt;D:\Project\ollvm-tll\lib\ExecutionEngine\Interpreter\LLVMBuild.txt;D:\Project\ollvm-tll\lib\ExecutionEngine\LLVMBuild.txt;D:\Project\ollvm-tll\lib\ExecutionEngine\MCJIT\LLVMBuild.txt;D:\Project\ollvm-tll\lib\ExecutionEngine\OProfileJIT\LLVMBuild.txt;D:\Project\ollvm-tll\lib\ExecutionEngine\Orc\LLVMBuild.txt;D:\Project\ollvm-tll\lib\ExecutionEngine\RuntimeDyld\LLVMBuild.txt;D:\Project\ollvm-tll\lib\FuzzMutate\LLVMBuild.txt;D:\Project\ollvm-tll\lib\IR\LLVMBuild.txt;D:\Project\ollvm-tll\lib\IRReader\LLVMBuild.txt;D:\Project\ollvm-tll\lib\LLVMBuild.txt;D:\Project\ollvm-tll\lib\LTO\LLVMBuild.txt;D:\Project\ollvm-tll\lib\LineEditor\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Linker\LLVMBuild.txt;D:\Project\ollvm-tll\lib\MC\LLVMBuild.txt;D:\Project\ollvm-tll\lib\MC\MCDisassembler\LLVMBuild.txt;D:\Project\ollvm-tll\lib\MC\MCParser\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Object\LLVMBuild.txt;D:\Project\ollvm-tll\lib\ObjectYAML\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Option\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Passes\LLVMBuild.txt;D:\Project\ollvm-tll\lib\ProfileData\Coverage\LLVMBuild.txt;D:\Project\ollvm-tll\lib\ProfileData\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Support\LLVMBuild.txt;D:\Project\ollvm-tll\lib\TableGen\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\AArch64\AsmParser\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\AArch64\Disassembler\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\AArch64\InstPrinter\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\AArch64\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\AArch64\MCTargetDesc\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\AArch64\TargetInfo\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\AArch64\Utils\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\AMDGPU\AsmParser\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\AMDGPU\Disassembler\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\AMDGPU\InstPrinter\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\AMDGPU\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\AMDGPU\MCTargetDesc\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\AMDGPU\TargetInfo\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\AMDGPU\Utils\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\ARC\Disassembler\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\ARC\InstPrinter\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\ARC\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\ARC\MCTargetDesc\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\ARC\TargetInfo\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\ARM\AsmParser\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\ARM\Disassembler\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\ARM\InstPrinter\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\ARM\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\ARM\MCTargetDesc\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\ARM\TargetInfo\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\ARM\Utils\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\AVR\AsmParser\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\AVR\Disassembler\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\AVR\InstPrinter\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\AVR\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\AVR\MCTargetDesc\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\AVR\TargetInfo\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\BPF\AsmParser\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\BPF\Disassembler\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\BPF\InstPrinter\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\BPF\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\BPF\MCTargetDesc\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\BPF\TargetInfo\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\Hexagon\AsmParser\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\Hexagon\Disassembler\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\Hexagon\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\Hexagon\MCTargetDesc\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\Hexagon\TargetInfo\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\Lanai\AsmParser\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\Lanai\Disassembler\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\Lanai\InstPrinter\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\Lanai\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\Lanai\MCTargetDesc\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\Lanai\TargetInfo\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\MSP430\InstPrinter\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\MSP430\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\MSP430\MCTargetDesc\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\MSP430\TargetInfo\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\Mips\AsmParser\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\Mips\Disassembler\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\Mips\InstPrinter\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\Mips\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\Mips\MCTargetDesc\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\Mips\TargetInfo\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\NVPTX\InstPrinter\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\NVPTX\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\NVPTX\MCTargetDesc\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\NVPTX\TargetInfo\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\Nios2\InstPrinter\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\Nios2\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\Nios2\MCTargetDesc\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\Nios2\TargetInfo\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\PowerPC\AsmParser\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\PowerPC\Disassembler\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\PowerPC\InstPrinter\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\PowerPC\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\PowerPC\MCTargetDesc\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\PowerPC\TargetInfo\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\RISCV\AsmParser\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\RISCV\Disassembler\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\RISCV\InstPrinter\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\RISCV\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\RISCV\MCTargetDesc\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\RISCV\TargetInfo\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\Sparc\AsmParser\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\Sparc\Disassembler\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\Sparc\InstPrinter\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\Sparc\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\Sparc\MCTargetDesc\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\Sparc\TargetInfo\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\SystemZ\AsmParser\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\SystemZ\Disassembler\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\SystemZ\InstPrinter\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\SystemZ\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\SystemZ\MCTargetDesc\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\SystemZ\TargetInfo\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\WebAssembly\Disassembler\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\WebAssembly\InstPrinter\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\WebAssembly\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\WebAssembly\MCTargetDesc\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\WebAssembly\TargetInfo\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\X86\AsmParser\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\X86\Disassembler\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\X86\InstPrinter\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\X86\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\X86\MCTargetDesc\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\X86\TargetInfo\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\X86\Utils\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\XCore\Disassembler\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\XCore\InstPrinter\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\XCore\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\XCore\MCTargetDesc\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Target\XCore\TargetInfo\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Testing\Support\LLVMBuild.txt;D:\Project\ollvm-tll\lib\ToolDrivers\LLVMBuild.txt;D:\Project\ollvm-tll\lib\ToolDrivers\llvm-dlltool\LLVMBuild.txt;D:\Project\ollvm-tll\lib\ToolDrivers\llvm-lib\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Transforms\Coroutines\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Transforms\IPO\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Transforms\InstCombine\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Transforms\Instrumentation\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Transforms\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Transforms\Obfuscation\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Transforms\ObjCARC\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Transforms\Scalar\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Transforms\Utils\LLVMBuild.txt;D:\Project\ollvm-tll\lib\Transforms\Vectorize\LLVMBuild.txt;D:\Project\ollvm-tll\lib\WindowsManifest\LLVMBuild.txt;D:\Project\ollvm-tll\llvm.spec.in;D:\Project\ollvm-tll\projects\LLVMBuild.txt;D:\Project\ollvm-tll\tools\LLVMBuild.txt;D:\Project\ollvm-tll\tools\bugpoint\LLVMBuild.txt;D:\Project\ollvm-tll\tools\dsymutil\LLVMBuild.txt;D:\Project\ollvm-tll\tools\llc\LLVMBuild.txt;D:\Project\ollvm-tll\tools\lli\ChildTarget\LLVMBuild.txt;D:\Project\ollvm-tll\tools\lli\LLVMBuild.txt;D:\Project\ollvm-tll\tools\llvm-ar\LLVMBuild.txt;D:\Project\ollvm-tll\tools\llvm-as\LLVMBuild.txt;D:\Project\ollvm-tll\tools\llvm-bcanalyzer\LLVMBuild.txt;D:\Project\ollvm-tll\tools\llvm-cat\LLVMBuild.txt;D:\Project\ollvm-tll\tools\llvm-cfi-verify\LLVMBuild.txt;D:\Project\ollvm-tll\tools\llvm-cov\LLVMBuild.txt;D:\Project\ollvm-tll\tools\llvm-cvtres\LLVMBuild.txt;D:\Project\ollvm-tll\tools\llvm-diff\LLVMBuild.txt;D:\Project\ollvm-tll\tools\llvm-dis\LLVMBuild.txt;D:\Project\ollvm-tll\tools\llvm-dwarfdump\LLVMBuild.txt;D:\Project\ollvm-tll\tools\llvm-dwp\LLVMBuild.txt;D:\Project\ollvm-tll\tools\llvm-extract\LLVMBuild.txt;D:\Project\ollvm-tll\tools\llvm-jitlistener\LLVMBuild.txt;D:\Project\ollvm-tll\tools\llvm-link\LLVMBuild.txt;D:\Project\ollvm-tll\tools\llvm-lto\LLVMBuild.txt;D:\Project\ollvm-tll\tools\llvm-mc\LLVMBuild.txt;D:\Project\ollvm-tll\tools\llvm-mcmarkup\LLVMBuild.txt;D:\Project\ollvm-tll\tools\llvm-modextract\LLVMBuild.txt;D:\Project\ollvm-tll\tools\llvm-mt\LLVMBuild.txt;D:\Project\ollvm-tll\tools\llvm-nm\LLVMBuild.txt;D:\Project\ollvm-tll\tools\llvm-objcopy\LLVMBuild.txt;D:\Project\ollvm-tll\tools\llvm-objdump\LLVMBuild.txt;D:\Project\ollvm-tll\tools\llvm-pdbutil\LLVMBuild.txt;D:\Project\ollvm-tll\tools\llvm-profdata\LLVMBuild.txt;D:\Project\ollvm-tll\tools\llvm-rc\LLVMBuild.txt;D:\Project\ollvm-tll\tools\llvm-rtdyld\LLVMBuild.txt;D:\Project\ollvm-tll\tools\llvm-size\LLVMBuild.txt;D:\Project\ollvm-tll\tools\llvm-split\LLVMBuild.txt;D:\Project\ollvm-tll\tools\opt\LLVMBuild.txt;D:\Project\ollvm-tll\tools\verify-uselistorder\LLVMBuild.txt;D:\Project\ollvm-tll\utils\LLVMBuild.txt;D:\Project\ollvm-tll\utils\TableGen\LLVMBuild.txt;D:\Project\ollvm-tll\utils\llvm-build\llvmbuild\__init__.py;D:\Project\ollvm-tll\utils\llvm-build\llvmbuild\componentinfo.py;D:\Project\ollvm-tll\utils\llvm-build\llvmbuild\configutil.py;D:\Project\ollvm-tll\utils\llvm-build\llvmbuild\main.py;D:\Project\ollvm-tll\utils\llvm-build\llvmbuild\util.py;D:\Project\ollvm-tll\utils\unittest\LLVMBuild.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Project\ollvm-tll\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:\Project\ollvm-tll\build\ZERO_CHECK.vcxproj">
+      <Project>{991F28C1-BAA2-3294-A8DB-19EEB6478608}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\ollvm-tll\build\utils\FileCheck\FileCheck.vcxproj">
+      <Project>{9B14C8D9-3C6E-315C-864A-A40D5F198730}</Project>
+      <Name>FileCheck</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\ollvm-tll\build\lib\Target\AArch64\AsmParser\LLVMAArch64AsmParser.vcxproj">
+      <Project>{2B898778-3BBC-34C3-AB19-CB3805352FC9}</Project>
+      <Name>LLVMAArch64AsmParser</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\ollvm-tll\build\lib\Target\AArch64\InstPrinter\LLVMAArch64AsmPrinter.vcxproj">
+      <Project>{5D47C223-A39A-385E-A890-6A55AF8C993C}</Project>
+      <Name>LLVMAArch64AsmPrinter</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\ollvm-tll\build\lib\Target\AArch64\LLVMAArch64CodeGen.vcxproj">
+      <Project>{4AEB01F7-09A0-3933-BB35-934C4E6613C1}</Project>
+      <Name>LLVMAArch64CodeGen</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\ollvm-tll\build\lib\Target\AArch64\MCTargetDesc\LLVMAArch64Desc.vcxproj">
+      <Project>{DB33C7BE-3DBD-3A00-8927-4AA47CED2B5F}</Project>
+      <Name>LLVMAArch64Desc</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\ollvm-tll\build\lib\Target\AArch64\Disassembler\LLVMAArch64Disassembler.vcxproj">
+      <Project>{ACD212F2-BF09-351A-AF38-F23A198EBAAF}</Project>
+      <Name>LLVMAArch64Disassembler</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\ollvm-tll\build\lib\Target\AArch64\TargetInfo\LLVMAArch64Info.vcxproj">
+      <Project>{9694B31D-2C12-3975-9198-52AA2BB6E38E}</Project>
+      <Name>LLVMAArch64Info</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\ollvm-tll\build\lib\Target\AArch64\Utils\LLVMAArch64Utils.vcxproj">
+      <Project>{50822F59-9F4E-3BF0-8AA3-2DFBA745DAD7}</Project>
+      <Name>LLVMAArch64Utils</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\ollvm-tll\build\lib\Target\AMDGPU\AsmParser\LLVMAMDGPUAsmParser.vcxproj">
+      <Project>{E312E7A7-5EF4-30DA-BFF7-18285725ABF2}</Project>
+      <Name>LLVMAMDGPUAsmParser</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\ollvm-tll\build\lib\Target\AMDGPU\InstPrinter\LLVMAMDGPUAsmPrinter.vcxproj">
+      <Project>{8B31BD8B-BF78-3A55-8D2A-7B5A45B0297D}</Project>
+      <Name>LLVMAMDGPUAsmPrinter</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\ollvm-tll\build\lib\Target\AMDGPU\LLVMAMDGPUCodeGen.vcxproj">
+      <Project>{11634329-74AA-3C67-9C54-ED54EFEF0EA5}</Project>
+      <Name>LLVMAMDGPUCodeGen</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\ollvm-tll\build\lib\Target\AMDGPU\MCTargetDesc\LLVMAMDGPUDesc.vcxproj">
+      <Project>{DF52EA92-562A-391A-984E-ED60D24212C6}</Project>
+      <Name>LLVMAMDGPUDesc</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\ollvm-tll\build\lib\Target\AMDGPU\Disassembler\LLVMAMDGPUDisassembler.vcxproj">
+      <Project>{B941AEC0-0C6E-3282-91E7-A4A9E584FA03}</Project>
+      <Name>LLVMAMDGPUDisassembler</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\ollvm-tll\build\lib\Target\AMDGPU\TargetInfo\LLVMAMDGPUInfo.vcxproj">
+      <Project>{7EBE46F1-469F-3AC3-9FD1-CE25F92C36F9}</Project>
+      <Name>LLVMAMDGPUInfo</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\ollvm-tll\build\lib\Target\AMDGPU\Utils\LLVMAMDGPUUtils.vcxproj">
+      <Project>{2DC6C31C-7253-36CC-B6D5-96927D5626BD}</Project>
+      <Name>LLVMAMDGPUUtils</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\ollvm-tll\build\lib\Target\ARM\AsmParser\LLVMARMAsmParser.vcxproj">
+      <Project>{0769F26A-11B2-333A-B47E-39A2C6F930D9}</Project>
+      <Name>LLVMARMAsmParser</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\ollvm-tll\build\lib\Target\ARM\InstPrinter\LLVMARMAsmPrinter.vcxproj">
+      <Project>{81C6E5BC-6224-3E03-9CA6-76E0B1CC7575}</Project>
+      <Name>LLVMARMAsmPrinter</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\ollvm-tll\build\lib\Target\ARM\LLVMARMCodeGen.vcxproj">
+      <Project>{337FB1E6-A123-3491-AF38-EC1DC546EF00}</Project>
+      <Name>LLVMARMCodeGen</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\ollvm-tll\build\lib\Target\ARM\MCTargetDesc\LLVMARMDesc.vcxproj">
+      <Project>{AA5BBEE0-0037-3949-8D20-70943563D1E7}</Project>
+      <Name>LLVMARMDesc</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\ollvm-tll\build\lib\Target\ARM\Disassembler\LLVMARMDisassembler.vcxproj">
+      <Project>{F72A4F80-1DD5-3DB4-A015-E91D72718496}</Project>
+      <Name>LLVMARMDisassembler</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\ollvm-tll\build\lib\Target\ARM\TargetInfo\LLVMARMInfo.vcxproj">
+      <Project>{A7AA88DC-3EE8-3DFD-AEA2-B85E4BD00CFD}</Project>
+      <Name>LLVMARMInfo</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\ollvm-tll\build\lib\Target\ARM\Utils\LLVMARMUtils.vcxproj">
+      <Project>{20A13EDC-4030-3FE3-8177-DD7FAD45B425}</Project>
+      <Name>LLVMARMUtils</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\ollvm-tll\build\lib\Analysis\LLVMAnalysis.vcxproj">
+      <Project>{30477D13-0682-35D6-A773-077D18DDB4E6}</Project>
+      <Name>LLVMAnalysis</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\ollvm-tll\build\lib\AsmParser\LLVMAsmParser.vcxproj">
+      <Project>{7787D4AE-1A11-3343-B994-93004592470C}</Project>
+      <Name>LLVMAsmParser</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\ollvm-tll\build\lib\CodeGen\AsmPrinter\LLVMAsmPrinter.vcxproj">
+      <Project>{5DB7D4FF-D081-341D-A47B-B492C044E804}</Project>
+      <Name>LLVMAsmPrinter</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\ollvm-tll\build\lib\Target\BPF\AsmParser\LLVMBPFAsmParser.vcxproj">
+      <Project>{ED8463AC-2D04-3E65-9000-4E71EE7C926B}</Project>
+      <Name>LLVMBPFAsmParser</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\ollvm-tll\build\lib\Target\BPF\InstPrinter\LLVMBPFAsmPrinter.vcxproj">
+      <Project>{0DEE770C-CF64-394B-96A2-196461F22D78}</Project>
+      <Name>LLVMBPFAsmPrinter</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\ollvm-tll\build\lib\Target\BPF\LLVMBPFCodeGen.vcxproj">
+      <Project>{37ABDA79-E56A-317C-A511-659852A2374F}</Project>
+      <Name>LLVMBPFCodeGen</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\ollvm-tll\build\lib\Target\BPF\MCTargetDesc\LLVMBPFDesc.vcxproj">
+      <Project>{753885A7-48FB-3E06-8C99-8DF89232E20E}</Project>
+      <Name>LLVMBPFDesc</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\ollvm-tll\build\lib\Target\BPF\Disassembler\LLVMBPFDisassembler.vcxproj">
+      <Project>{9D33CED3-0558-3109-9889-1CB8A54F352B}</Project>
+      <Name>LLVMBPFDisassembler</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\ollvm-tll\build\lib\Target\BPF\TargetInfo\LLVMBPFInfo.vcxproj">
+      <Project>{D962EF2B-F9C4-3B66-B650-FCCCB7B016FC}</Project>
+      <Name>LLVMBPFInfo</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\ollvm-tll\build\lib\BinaryFormat\LLVMBinaryFormat.vcxproj">
+      <Project>{F596149D-E026-31C5-9845-91FF756E3454}</Project>
+      <Name>LLVMBinaryFormat</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\ollvm-tll\build\lib\Bitcode\Reader\LLVMBitReader.vcxproj">
+      <Project>{963FCE91-6423-3B82-B950-50A2751297FA}</Project>
+      <Name>LLVMBitReader</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\ollvm-tll\build\lib\Bitcode\Writer\LLVMBitWriter.vcxproj">
+      <Project>{B2DCBE68-6E44-30C0-9BB4-2C26E54D239E}</Project>
+      <Name>LLVMBitWriter</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\ollvm-tll\build\tools\llvm-cfi-verify\lib\LLVMCFIVerify.vcxproj">
+      <Project>{10DB9122-0311-37EC-A0E4-7CEDF12409ED}</Project>
+      <Name>LLVMCFIVerify</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\ollvm-tll\build\lib\CodeGen\LLVMCodeGen.vcxproj">
+      <Project>{1ADA5067-4845-3BFE-B232-DA1D86FF7C75}</Project>
+      <Name>LLVMCodeGen</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\ollvm-tll\build\lib\IR\LLVMCore.vcxproj">
+      <Project>{28058599-BCBC-3A50-8502-3D8E41A7F3DE}</Project>
+      <Name>LLVMCore</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\ollvm-tll\build\lib\Transforms\Coroutines\LLVMCoroutines.vcxproj">
+      <Project>{48540918-79F6-3010-A03E-E2CF22DB07E9}</Project>
+      <Name>LLVMCoroutines</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\ollvm-tll\build\lib\ProfileData\Coverage\LLVMCoverage.vcxproj">
+      <Project>{A436A3B2-D8B2-3897-BE19-BC964F92E98B}</Project>
+      <Name>LLVMCoverage</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\ollvm-tll\build\lib\DebugInfo\CodeView\LLVMDebugInfoCodeView.vcxproj">
+      <Project>{C93884B8-2CC7-3AC2-B611-CF5961054CEA}</Project>
+      <Name>LLVMDebugInfoCodeView</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\ollvm-tll\build\lib\DebugInfo\DWARF\LLVMDebugInfoDWARF.vcxproj">
+      <Project>{B10B6518-EFC9-37CB-B8FD-C882BC317127}</Project>
+      <Name>LLVMDebugInfoDWARF</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\ollvm-tll\build\lib\DebugInfo\MSF\LLVMDebugInfoMSF.vcxproj">
+      <Project>{0F90D210-84B4-3418-8B85-3322C040E509}</Project>
+      <Name>LLVMDebugInfoMSF</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\ollvm-tll\build\lib\DebugInfo\PDB\LLVMDebugInfoPDB.vcxproj">
+      <Project>{262FCE3E-316A-3B44-964B-5BC4258E1AFD}</Project>
+      <Name>LLVMDebugInfoPDB</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\ollvm-tll\build\lib\Demangle\LLVMDemangle.vcxproj">
+      <Project>{5F7C45EE-A5CA-3025-A9D3-BF6F68471643}</Project>
+      <Name>LLVMDemangle</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\ollvm-tll\build\lib\ToolDrivers\llvm-dlltool\LLVMDlltoolDriver.vcxproj">
+      <Project>{6A4C3906-FC58-3B3F-B41F-4A0AC0C13A84}</Project>
+      <Name>LLVMDlltoolDriver</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\ollvm-tll\build\lib\ExecutionEngine\LLVMExecutionEngine.vcxproj">
+      <Project>{C4AE1CC5-43A6-3753-8F6E-E5A22C29B7FC}</Project>
+      <Name>LLVMExecutionEngine</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\ollvm-tll\build\lib\FuzzMutate\LLVMFuzzMutate.vcxproj">
+      <Project>{DCEFAB78-F055-3D8E-8ABE-F5D3E51AD97A}</Project>
+      <Name>LLVMFuzzMutate</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\ollvm-tll\build\lib\CodeGen\GlobalISel\LLVMGlobalISel.vcxproj">
+      <Project>{93A2909B-630C-30FA-899A-DF07BBB1EB60}</Project>
+      <Name>LLVMGlobalISel</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\ollvm-tll\build\lib\Target\Hexagon\AsmParser\LLVMHexagonAsmParser.vcxproj">
+      <Project>{78C0D9E1-F59E-35DC-9F44-B0917CAE8A68}</Project>
+      <Name>LLVMHexagonAsmParser</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\ollvm-tll\build\lib\Target\Hexagon\LLVMHexagonCodeGen.vcxproj">
+      <Project>{1E1F8360-01D8-39C7-B92E-AF5334CE9BEF}</Project>
+      <Name>LLVMHexagonCodeGen</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\ollvm-tll\build\lib\Target\Hexagon\MCTargetDesc\LLVMHexagonDesc.vcxproj">
+      <Project>{075C726D-C82D-3C06-A485-93301DE97C46}</Project>
+      <Name>LLVMHexagonDesc</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\ollvm-tll\build\lib\Target\Hexagon\Disassembler\LLVMHexagonDisassembler.vcxproj">
+      <Project>{BC0EF669-4853-354B-961A-1E1308B0617B}</Project>
+      <Name>LLVMHexagonDisassembler</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\ollvm-tll\build\lib\Target\Hexagon\TargetInfo\LLVMHexagonInfo.vcxproj">
+      <Project>{4ACD9D39-F5BA-3CDE-94B5-FEDDCDE6A794}</Project>
+      <Name>LLVMHexagonInfo</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\ollvm-tll\build\lib\IRReader\LLVMIRReader.vcxproj">
+      <Project>{A969783A-945A-3D96-9C79-F593A5EB324E}</Project>
+      <Name>LLVMIRReader</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\ollvm-tll\build\lib\Transforms\InstCombine\LLVMInstCombine.vcxproj">
+      <Project>{491041A6-D990-3293-805E-38DC841B7369}</Project>
+      <Name>LLVMInstCombine</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\ollvm-tll\build\lib\Transforms\Instrumentation\LLVMInstrumentation.vcxproj">
+      <Project>{47DEC4AD-DBB1-3654-842F-E3A552286917}</Project>
+      <Name>LLVMInstrumentation</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\ollvm-tll\build\lib\ExecutionEngine\Interpreter\LLVMInterpreter.vcxproj">
+      <Project>{8898DA53-4839-31AB-B2AF-1F564B66E653}</Project>
+      <Name>LLVMInterpreter</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\ollvm-tll\build\lib\LTO\LLVMLTO.vcxproj">
+      <Project>{4BFAC421-CEBB-355E-9E09-38CAFB98EC0F}</Project>
+      <Name>LLVMLTO</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\ollvm-tll\build\lib\Target\Lanai\AsmParser\LLVMLanaiAsmParser.vcxproj">
+      <Project>{E47CBE30-5427-3FAC-9D71-4CA8D2ADAD14}</Project>
+      <Name>LLVMLanaiAsmParser</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\ollvm-tll\build\lib\Target\Lanai\InstPrinter\LLVMLanaiAsmPrinter.vcxproj">
+      <Project>{CFCF3687-B360-3999-8766-2758F277AFD7}</Project>
+      <Name>LLVMLanaiAsmPrinter</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\ollvm-tll\build\lib\Target\Lanai\LLVMLanaiCodeGen.vcxproj">
+      <Project>{877584B3-9063-3DFB-9C45-D9A0FD8DB714}</Project>
+      <Name>LLVMLanaiCodeGen</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\ollvm-tll\build\lib\Target\Lanai\MCTargetDesc\LLVMLanaiDesc.vcxproj">
+      <Project>{58191E12-4110-38D5-89FA-4A0E16D83ED0}</Project>
+      <Name>LLVMLanaiDesc</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\ollvm-tll\build\lib\Target\Lanai\Disassembler\LLVMLanaiDisassembler.vcxproj">
+      <Project>{6EF659F5-6431-3D90-ABF7-E55F1E3EDB96}</Project>
+      <Name>LLVMLanaiDisassembler</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\ollvm-tll\build\lib\Target\Lanai\TargetInfo\LLVMLanaiInfo.vcxproj">
+      <Project>{E7305E72-4C2D-3700-A0AB-16E0CBDCFE0C}</Project>
+      <Name>LLVMLanaiInfo</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\ollvm-tll\build\lib\ToolDrivers\llvm-lib\LLVMLibDriver.vcxproj">
+      <Project>{2FF170D1-3282-384E-A59C-FF5C304A85AC}</Project>
+      <Name>LLVMLibDriver</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\ollvm-tll\build\lib\LineEditor\LLVMLineEditor.vcxproj">
+      <Project>{6A7371E9-6042-3FCC-AE9A-DE779BE9FBF0}</Project>
+      <Name>LLVMLineEditor</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\ollvm-tll\build\lib\Linker\LLVMLinker.vcxproj">
+      <Project>{FC88DB0C-9339-32C7-8DCF-6A91BD4EA51D}</Project>
+      <Name>LLVMLinker</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\ollvm-tll\build\lib\MC\LLVMMC.vcxproj">
+      <Project>{62CA5DB6-8C96-302C-8CC2-C6A8F5010321}</Project>
+      <Name>LLVMMC</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\ollvm-tll\build\lib\MC\MCDisassembler\LLVMMCDisassembler.vcxproj">
+      <Project>{A32EE5AE-3E0A-392F-943A-A0CDE74855BC}</Project>
+      <Name>LLVMMCDisassembler</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\ollvm-tll\build\lib\ExecutionEngine\MCJIT\LLVMMCJIT.vcxproj">
+      <Project>{BA6C4DB0-BEB3-398F-A4F6-83ECC9BE2F01}</Project>
+      <Name>LLVMMCJIT</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\ollvm-tll\build\lib\MC\MCParser\LLVMMCParser.vcxproj">
+      <Project>{466ACFAD-4531-3083-A4C7-11E6755FF326}</Project>
+      <Name>LLVMMCParser</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\ollvm-tll\build\lib\CodeGen\MIRParser\LLVMMIRParser.vcxproj">
+      <Project>{F920DDDE-D815-3CC9-93F2-C136DF042900}</Project>
+      <Name>LLVMMIRParser</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\ollvm-tll\build\lib\Target\MSP430\InstPrinter\LLVMMSP430AsmPrinter.vcxproj">
+      <Project>{9633F340-D26C-3B19-8710-A801B48CEA89}</Project>
+      <Name>LLVMMSP430AsmPrinter</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\ollvm-tll\build\lib\Target\MSP430\LLVMMSP430CodeGen.vcxproj">
+      <Project>{4D404F8E-89A2-3D91-A0E9-BD8A214FF048}</Project>
+      <Name>LLVMMSP430CodeGen</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\ollvm-tll\build\lib\Target\MSP430\MCTargetDesc\LLVMMSP430Desc.vcxproj">
+      <Project>{1E5B065C-8F2E-3BF0-8441-A907D3FA1BE8}</Project>
+      <Name>LLVMMSP430Desc</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\ollvm-tll\build\lib\Target\MSP430\TargetInfo\LLVMMSP430Info.vcxproj">
+      <Project>{A43CE0FD-6863-37CA-AA1F-CD3AFC159015}</Project>
+      <Name>LLVMMSP430Info</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\ollvm-tll\build\lib\Target\Mips\AsmParser\LLVMMipsAsmParser.vcxproj">
+      <Project>{240A9B97-18A3-3812-BFB9-AE65AE98929F}</Project>
+      <Name>LLVMMipsAsmParser</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\ollvm-tll\build\lib\Target\Mips\InstPrinter\LLVMMipsAsmPrinter.vcxproj">
+      <Project>{D1BDDFA2-9780-3946-ABBD-BE8C80033493}</Project>
+      <Name>LLVMMipsAsmPrinter</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\ollvm-tll\build\lib\Target\Mips\LLVMMipsCodeGen.vcxproj">
+      <Project>{EBB42112-89ED-3BE0-9299-D1FEA3DF80E3}</Project>
+      <Name>LLVMMipsCodeGen</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\ollvm-tll\build\lib\Target\Mips\MCTargetDesc\LLVMMipsDesc.vcxproj">
+      <Project>{2E07546D-05FF-3EC0-AB12-6E7BE18E2BA1}</Project>
+      <Name>LLVMMipsDesc</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\ollvm-tll\build\lib\Target\Mips\Disassembler\LLVMMipsDisassembler.vcxproj">
+      <Project>{05D0DE34-D967-342D-BFD3-893422F40F9F}</Project>
+      <Name>LLVMMipsDisassembler</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\ollvm-tll\build\lib\Target\Mips\TargetInfo\LLVMMipsInfo.vcxproj">
+      <Project>{AB9DF280-1BCE-3572-8D6D-DAA5CEC7A226}</Project>
+      <Name>LLVMMipsInfo</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\ollvm-tll\build\lib\Target\NVPTX\InstPrinter\LLVMNVPTXAsmPrinter.vcxproj">
+      <Project>{710C6699-8285-3D44-8CA4-E2551334D66D}</Project>
+      <Name>LLVMNVPTXAsmPrinter</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\ollvm-tll\build\lib\Target\NVPTX\LLVMNVPTXCodeGen.vcxproj">
+      <Project>{70370AA7-38B4-394A-AE3E-4CAC82EFCC2D}</Project>
+      <Name>LLVMNVPTXCodeGen</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\ollvm-tll\build\lib\Target\NVPTX\MCTargetDesc\LLVMNVPTXDesc.vcxproj">
+      <Project>{A1D406D3-0563-366C-AE28-5A267CD4E2D9}</Project>
+      <Name>LLVMNVPTXDesc</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\ollvm-tll\build\lib\Target\NVPTX\TargetInfo\LLVMNVPTXInfo.vcxproj">
+      <Project>{0870B8FC-928C-35F9-8724-A7B3CAC27197}</Project>
+      <Name>LLVMNVPTXInfo</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\ollvm-tll\build\lib\Transforms\Obfuscation\LLVMObfuscation.vcxproj">
+      <Project>{01F50200-5611-3D8F-9D16-E1CFEB1D01DF}</Project>
+      <Name>LLVMObfuscation</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\ollvm-tll\build\lib\Transforms\ObjCARC\LLVMObjCARCOpts.vcxproj">
+      <Project>{4ED0CBB4-4BD1-3B1E-8504-D3C6779F91D4}</Project>
+      <Name>LLVMObjCARCOpts</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\ollvm-tll\build\lib\Object\LLVMObject.vcxproj">
+      <Project>{13424255-8921-37A6-BDCA-08D16EC56504}</Project>
+      <Name>LLVMObject</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\ollvm-tll\build\lib\ObjectYAML\LLVMObjectYAML.vcxproj">
+      <Project>{078E6DB5-0460-396D-B26E-88053205AA98}</Project>
+      <Name>LLVMObjectYAML</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\ollvm-tll\build\lib\Option\LLVMOption.vcxproj">
+      <Project>{E4835BC2-D78B-3FEF-814D-E08C82A92244}</Project>
+      <Name>LLVMOption</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\ollvm-tll\build\lib\ExecutionEngine\Orc\LLVMOrcJIT.vcxproj">
+      <Project>{954A9F6D-8587-35A4-A9FF-5C0C70AF55C8}</Project>
+      <Name>LLVMOrcJIT</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\ollvm-tll\build\lib\Passes\LLVMPasses.vcxproj">
+      <Project>{F6CF643E-B3EA-35A9-ABF9-6E3853A868C4}</Project>
+      <Name>LLVMPasses</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\ollvm-tll\build\lib\Target\PowerPC\AsmParser\LLVMPowerPCAsmParser.vcxproj">
+      <Project>{2A06B1D2-D1D0-3306-B5AD-496D98AFD81A}</Project>
+      <Name>LLVMPowerPCAsmParser</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\ollvm-tll\build\lib\Target\PowerPC\InstPrinter\LLVMPowerPCAsmPrinter.vcxproj">
+      <Project>{DF55E679-B2AC-35F4-B389-6BDF586ED7FC}</Project>
+      <Name>LLVMPowerPCAsmPrinter</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\ollvm-tll\build\lib\Target\PowerPC\LLVMPowerPCCodeGen.vcxproj">
+      <Project>{6A823386-5719-3843-9BBA-18A61C10719D}</Project>
+      <Name>LLVMPowerPCCodeGen</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\ollvm-tll\build\lib\Target\PowerPC\MCTargetDesc\LLVMPowerPCDesc.vcxproj">
+      <Project>{0A4B3FB6-0FF3-30B6-BD5A-CE8379AC039B}</Project>
+      <Name>LLVMPowerPCDesc</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\ollvm-tll\build\lib\Target\PowerPC\Disassembler\LLVMPowerPCDisassembler.vcxproj">
+      <Project>{FDD58425-F7E0-3CF2-A045-C513AE42DA41}</Project>
+      <Name>LLVMPowerPCDisassembler</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\ollvm-tll\build\lib\Target\PowerPC\TargetInfo\LLVMPowerPCInfo.vcxproj">
+      <Project>{799C7001-1346-347C-B6FD-31A94876D8E6}</Project>
+      <Name>LLVMPowerPCInfo</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\ollvm-tll\build\lib\ProfileData\LLVMProfileData.vcxproj">
+      <Project>{FD141AE4-2889-3A36-82CE-E51135B5F115}</Project>
+      <Name>LLVMProfileData</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\ollvm-tll\build\lib\ExecutionEngine\RuntimeDyld\LLVMRuntimeDyld.vcxproj">
+      <Project>{9BA8AB7F-9257-3658-B2C3-89A599B52911}</Project>
+      <Name>LLVMRuntimeDyld</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\ollvm-tll\build\lib\Transforms\Scalar\LLVMScalarOpts.vcxproj">
+      <Project>{5688B47F-F865-3460-A89D-8EC36FF86D54}</Project>
+      <Name>LLVMScalarOpts</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\ollvm-tll\build\lib\CodeGen\SelectionDAG\LLVMSelectionDAG.vcxproj">
+      <Project>{D98B2FAE-57B4-3BC3-9A54-480E43739584}</Project>
+      <Name>LLVMSelectionDAG</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\ollvm-tll\build\lib\Target\Sparc\AsmParser\LLVMSparcAsmParser.vcxproj">
+      <Project>{80AF8989-569B-3FD7-A9FF-BA13648D960D}</Project>
+      <Name>LLVMSparcAsmParser</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\ollvm-tll\build\lib\Target\Sparc\InstPrinter\LLVMSparcAsmPrinter.vcxproj">
+      <Project>{3CCCA480-0BFB-3B22-9B07-AA3251A12F42}</Project>
+      <Name>LLVMSparcAsmPrinter</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\ollvm-tll\build\lib\Target\Sparc\LLVMSparcCodeGen.vcxproj">
+      <Project>{0A667C0D-D521-3477-A146-12EAAD01EC48}</Project>
+      <Name>LLVMSparcCodeGen</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\ollvm-tll\build\lib\Target\Sparc\MCTargetDesc\LLVMSparcDesc.vcxproj">
+      <Project>{3B8627FB-1F72-3865-A769-E63E48FF17A7}</Project>
+      <Name>LLVMSparcDesc</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\ollvm-tll\build\lib\Target\Sparc\Disassembler\LLVMSparcDisassembler.vcxproj">
+      <Project>{3A2AB887-C694-3B8F-8705-CF53B4B89CB4}</Project>
+      <Name>LLVMSparcDisassembler</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\ollvm-tll\build\lib\Target\Sparc\TargetInfo\LLVMSparcInfo.vcxproj">
+      <Project>{A568D22B-5AF2-3DDF-BB39-27B1CF533E17}</Project>
+      <Name>LLVMSparcInfo</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\ollvm-tll\build\lib\Support\LLVMSupport.vcxproj">
+      <Project>{7A851BB8-AC4A-3BD9-AE02-02697640B40B}</Project>
+      <Name>LLVMSupport</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\ollvm-tll\build\lib\DebugInfo\Symbolize\LLVMSymbolize.vcxproj">
+      <Project>{9F5D818A-C915-3EDD-950A-BD826755846A}</Project>
+      <Name>LLVMSymbolize</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\ollvm-tll\build\lib\Target\SystemZ\AsmParser\LLVMSystemZAsmParser.vcxproj">
+      <Project>{EAE720DD-F527-3E2C-BBB7-4DE0452CEBD1}</Project>
+      <Name>LLVMSystemZAsmParser</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\ollvm-tll\build\lib\Target\SystemZ\InstPrinter\LLVMSystemZAsmPrinter.vcxproj">
+      <Project>{FBEA7D52-4BB5-38AA-8BE8-54C3D9D57DAD}</Project>
+      <Name>LLVMSystemZAsmPrinter</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\ollvm-tll\build\lib\Target\SystemZ\LLVMSystemZCodeGen.vcxproj">
+      <Project>{1790E213-763D-3886-8D7A-02CC5AB4741B}</Project>
+      <Name>LLVMSystemZCodeGen</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\ollvm-tll\build\lib\Target\SystemZ\MCTargetDesc\LLVMSystemZDesc.vcxproj">
+      <Project>{2227C24E-79C6-3E71-9D7E-4257B96EBC86}</Project>
+      <Name>LLVMSystemZDesc</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\ollvm-tll\build\lib\Target\SystemZ\Disassembler\LLVMSystemZDisassembler.vcxproj">
+      <Project>{9595310F-AF37-3FD5-93A8-28C29A973D8F}</Project>
+      <Name>LLVMSystemZDisassembler</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\ollvm-tll\build\lib\Target\SystemZ\TargetInfo\LLVMSystemZInfo.vcxproj">
+      <Project>{18DCB03C-FC3A-3A68-808F-E5C9E52EA5B6}</Project>
+      <Name>LLVMSystemZInfo</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\ollvm-tll\build\lib\TableGen\LLVMTableGen.vcxproj">
+      <Project>{06756B95-7B93-3277-8097-A07D8FBF9A52}</Project>
+      <Name>LLVMTableGen</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\ollvm-tll\build\lib\Target\LLVMTarget.vcxproj">
+      <Project>{D6C3EDDA-35B8-33F7-B95E-124C1A7C4F46}</Project>
+      <Name>LLVMTarget</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\ollvm-tll\build\lib\Testing\Support\LLVMTestingSupport.vcxproj">
+      <Project>{6B977E0A-5C81-3C05-8CDC-974881D21318}</Project>
+      <Name>LLVMTestingSupport</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\ollvm-tll\build\lib\Transforms\Utils\LLVMTransformUtils.vcxproj">
+      <Project>{3A63C879-5A98-37C3-9045-0FB7D19D1000}</Project>
+      <Name>LLVMTransformUtils</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\ollvm-tll\build\lib\Transforms\Vectorize\LLVMVectorize.vcxproj">
+      <Project>{1FABDFB5-1FE5-3D1B-8001-0ED060152F45}</Project>
+      <Name>LLVMVectorize</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\ollvm-tll\build\lib\WindowsManifest\LLVMWindowsManifest.vcxproj">
+      <Project>{AE20EBA4-F3E4-3A1E-AC53-DFA3F28EDA99}</Project>
+      <Name>LLVMWindowsManifest</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\ollvm-tll\build\lib\Target\X86\AsmParser\LLVMX86AsmParser.vcxproj">
+      <Project>{6E35540E-6DE3-39DD-A21C-D1F770A6D35E}</Project>
+      <Name>LLVMX86AsmParser</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\ollvm-tll\build\lib\Target\X86\InstPrinter\LLVMX86AsmPrinter.vcxproj">
+      <Project>{E2EC7673-0D81-3AEC-B5B7-41F49B23440B}</Project>
+      <Name>LLVMX86AsmPrinter</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\ollvm-tll\build\lib\Target\X86\LLVMX86CodeGen.vcxproj">
+      <Project>{ACB3A52C-A95E-399E-A2AF-184FE4EF3CC2}</Project>
+      <Name>LLVMX86CodeGen</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\ollvm-tll\build\lib\Target\X86\MCTargetDesc\LLVMX86Desc.vcxproj">
+      <Project>{B05D8456-A7EC-366E-BDA5-44F2C19B8AF8}</Project>
+      <Name>LLVMX86Desc</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\ollvm-tll\build\lib\Target\X86\Disassembler\LLVMX86Disassembler.vcxproj">
+      <Project>{8299DDF8-2C52-36C9-A513-84F2BD79E5C3}</Project>
+      <Name>LLVMX86Disassembler</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\ollvm-tll\build\lib\Target\X86\TargetInfo\LLVMX86Info.vcxproj">
+      <Project>{A24451C5-F346-3C7E-B1C5-24AFB0D7B88B}</Project>
+      <Name>LLVMX86Info</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\ollvm-tll\build\lib\Target\X86\Utils\LLVMX86Utils.vcxproj">
+      <Project>{DD117421-F07E-325D-8DB6-BBBF199DF6BD}</Project>
+      <Name>LLVMX86Utils</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\ollvm-tll\build\lib\Target\XCore\InstPrinter\LLVMXCoreAsmPrinter.vcxproj">
+      <Project>{092F12DB-837C-38C9-9919-18DE5FAE0271}</Project>
+      <Name>LLVMXCoreAsmPrinter</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\ollvm-tll\build\lib\Target\XCore\LLVMXCoreCodeGen.vcxproj">
+      <Project>{940FE568-4880-3C12-B724-9A95AEA1548E}</Project>
+      <Name>LLVMXCoreCodeGen</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\ollvm-tll\build\lib\Target\XCore\MCTargetDesc\LLVMXCoreDesc.vcxproj">
+      <Project>{BAEFE333-1F12-33B6-839F-9CC1A2859CBC}</Project>
+      <Name>LLVMXCoreDesc</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\ollvm-tll\build\lib\Target\XCore\Disassembler\LLVMXCoreDisassembler.vcxproj">
+      <Project>{937C56E4-F362-39DB-9746-2E4819F9203F}</Project>
+      <Name>LLVMXCoreDisassembler</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\ollvm-tll\build\lib\Target\XCore\TargetInfo\LLVMXCoreInfo.vcxproj">
+      <Project>{76ED7FA0-720A-32D9-98AC-19DA4B4FAB99}</Project>
+      <Name>LLVMXCoreInfo</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\ollvm-tll\build\lib\XRay\LLVMXRay.vcxproj">
+      <Project>{54511CC0-12D4-35E8-97F9-F31E89FEC3D5}</Project>
+      <Name>LLVMXRay</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\ollvm-tll\build\lib\Transforms\IPO\LLVMipo.vcxproj">
+      <Project>{C1101032-0870-3A80-9307-B23248A4061B}</Project>
+      <Name>LLVMipo</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\ollvm-tll\build\tools\lto\LTO.vcxproj">
+      <Project>{5598B308-E6FC-3066-A75D-12A4A8C46FB9}</Project>
+      <Name>LTO</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\ollvm-tll\build\tools\clang\tools\arcmt-test\arcmt-test.vcxproj">
+      <Project>{3E611F14-2B1C-3FBA-9FCB-66BF0B9FB7C5}</Project>
+      <Name>arcmt-test</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\ollvm-tll\build\tools\bugpoint\bugpoint.vcxproj">
+      <Project>{068D2F48-7ED6-3199-92C8-F6B154888EDB}</Project>
+      <Name>bugpoint</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\ollvm-tll\build\tools\clang\tools\c-arcmt-test\c-arcmt-test.vcxproj">
+      <Project>{7B6B1A9A-E9A0-343A-86DC-F4B2D2528698}</Project>
+      <Name>c-arcmt-test</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\ollvm-tll\build\tools\clang\tools\c-index-test\c-index-test.vcxproj">
+      <Project>{253705AC-6834-3D29-9CB5-5228251E3DD0}</Project>
+      <Name>c-index-test</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\ollvm-tll\build\tools\clang\tools\driver\clang.vcxproj">
+      <Project>{761FAF85-6999-3C68-A3E3-6D970281FA56}</Project>
+      <Name>clang</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\ollvm-tll\build\tools\clang\tools\clang-check\clang-check.vcxproj">
+      <Project>{207FF0D1-5C36-3079-8B5E-F07F33456A80}</Project>
+      <Name>clang-check</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\ollvm-tll\build\tools\clang\tools\clang-diff\clang-diff.vcxproj">
+      <Project>{64C8B0F0-8249-38E1-B823-1B0C4EFA51FF}</Project>
+      <Name>clang-diff</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\ollvm-tll\build\tools\clang\tools\clang-format\clang-format.vcxproj">
+      <Project>{080BC4D2-0F00-394C-A5B5-DE5039D1E784}</Project>
+      <Name>clang-format</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\ollvm-tll\build\tools\clang\tools\clang-func-mapping\clang-func-mapping.vcxproj">
+      <Project>{8073C598-67F2-3BF6-B29B-8D8CD9CCF6F6}</Project>
+      <Name>clang-func-mapping</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\ollvm-tll\build\tools\clang\lib\Headers\clang-headers.vcxproj">
+      <Project>{8A6DC81A-480A-3F12-9B08-71585BD77DAF}</Project>
+      <Name>clang-headers</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\ollvm-tll\build\tools\clang\tools\clang-import-test\clang-import-test.vcxproj">
+      <Project>{31396F0E-4117-393E-9AE4-2E0614D2E550}</Project>
+      <Name>clang-import-test</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\ollvm-tll\build\tools\clang\tools\clang-offload-bundler\clang-offload-bundler.vcxproj">
+      <Project>{FA595536-CF45-3FC3-B186-9A1B17B6631B}</Project>
+      <Name>clang-offload-bundler</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\ollvm-tll\build\tools\clang\tools\clang-refactor\clang-refactor.vcxproj">
+      <Project>{8973D50A-84D5-370F-8FDA-44800C20E3CE}</Project>
+      <Name>clang-refactor</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\ollvm-tll\build\tools\clang\tools\clang-rename\clang-rename.vcxproj">
+      <Project>{EE46FA9B-B155-33E6-902B-B59EC16B50E7}</Project>
+      <Name>clang-rename</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\ollvm-tll\build\tools\clang\utils\TableGen\clang-tblgen.vcxproj">
+      <Project>{B6DA859A-2A4E-3A7F-B83C-EF29A20BD755}</Project>
+      <Name>clang-tblgen</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\ollvm-tll\build\tools\clang\lib\ARCMigrate\clangARCMigrate.vcxproj">
+      <Project>{4D515375-D362-3172-B102-3D8E2A2F8EE3}</Project>
+      <Name>clangARCMigrate</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\ollvm-tll\build\tools\clang\lib\AST\clangAST.vcxproj">
+      <Project>{236DE5BD-EE2C-3DE6-BDEB-62A64A5B4EDF}</Project>
+      <Name>clangAST</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\ollvm-tll\build\tools\clang\lib\ASTMatchers\clangASTMatchers.vcxproj">
+      <Project>{DA8688C6-116C-3188-8611-1920CDD6A85E}</Project>
+      <Name>clangASTMatchers</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\ollvm-tll\build\tools\clang\lib\Analysis\clangAnalysis.vcxproj">
+      <Project>{12733701-7D07-3B71-AE00-0DFACC2B5C87}</Project>
+      <Name>clangAnalysis</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\ollvm-tll\build\tools\clang\lib\Basic\clangBasic.vcxproj">
+      <Project>{36F5CADC-60AE-3AD1-BB91-AD4AB0FA1EB1}</Project>
+      <Name>clangBasic</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\ollvm-tll\build\tools\clang\lib\CodeGen\clangCodeGen.vcxproj">
+      <Project>{7BCD30B3-AE7E-35EC-AC28-E31F2D404C23}</Project>
+      <Name>clangCodeGen</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\ollvm-tll\build\tools\clang\lib\CrossTU\clangCrossTU.vcxproj">
+      <Project>{0AE14AB7-4BF3-39D4-B34C-679304A11E17}</Project>
+      <Name>clangCrossTU</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\ollvm-tll\build\tools\clang\lib\Driver\clangDriver.vcxproj">
+      <Project>{0035B315-5578-32E5-993E-5256D4FD4F8E}</Project>
+      <Name>clangDriver</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\ollvm-tll\build\tools\clang\lib\ASTMatchers\Dynamic\clangDynamicASTMatchers.vcxproj">
+      <Project>{55B6810F-953A-3AB1-AD0E-B902BFF199CD}</Project>
+      <Name>clangDynamicASTMatchers</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\ollvm-tll\build\tools\clang\lib\Edit\clangEdit.vcxproj">
+      <Project>{A9687E30-85C3-3AB1-91D7-9D326D907802}</Project>
+      <Name>clangEdit</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\ollvm-tll\build\tools\clang\lib\Format\clangFormat.vcxproj">
+      <Project>{8012088D-056E-3260-8EB0-AACFBC355115}</Project>
+      <Name>clangFormat</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\ollvm-tll\build\tools\clang\lib\Frontend\clangFrontend.vcxproj">
+      <Project>{1E590AB2-D673-32EE-AFAD-0AAB39C115A7}</Project>
+      <Name>clangFrontend</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\ollvm-tll\build\tools\clang\lib\FrontendTool\clangFrontendTool.vcxproj">
+      <Project>{AE75A6A9-FC45-3749-8F55-0DBF82CF5E3D}</Project>
+      <Name>clangFrontendTool</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\ollvm-tll\build\tools\clang\tools\clang-fuzzer\handle-cxx\clangHandleCXX.vcxproj">
+      <Project>{8E71C574-EBD0-3BA2-AD2B-C562E30645C8}</Project>
+      <Name>clangHandleCXX</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\ollvm-tll\build\tools\clang\lib\Index\clangIndex.vcxproj">
+      <Project>{AFEBED9D-2F53-37B3-96D9-20DCD51CB178}</Project>
+      <Name>clangIndex</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\ollvm-tll\build\tools\clang\lib\Lex\clangLex.vcxproj">
+      <Project>{3B4CE3B8-BFB2-30C2-80D7-16508081F47D}</Project>
+      <Name>clangLex</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\ollvm-tll\build\tools\clang\lib\Parse\clangParse.vcxproj">
+      <Project>{62022052-B6E0-332A-BC72-0C802D49B626}</Project>
+      <Name>clangParse</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\ollvm-tll\build\tools\clang\lib\Rewrite\clangRewrite.vcxproj">
+      <Project>{C0876AD3-29A1-316F-932F-2D2BC73F74E3}</Project>
+      <Name>clangRewrite</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\ollvm-tll\build\tools\clang\lib\Frontend\Rewrite\clangRewriteFrontend.vcxproj">
+      <Project>{F72F56B4-6979-3B26-B42B-8B7CB5E7D5AC}</Project>
+      <Name>clangRewriteFrontend</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\ollvm-tll\build\tools\clang\lib\Sema\clangSema.vcxproj">
+      <Project>{D590409A-B3CB-30F3-B1DA-1857D6F8E98A}</Project>
+      <Name>clangSema</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\ollvm-tll\build\tools\clang\lib\Serialization\clangSerialization.vcxproj">
+      <Project>{9715F3BF-04EC-323B-B9E7-85E425F2D827}</Project>
+      <Name>clangSerialization</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\ollvm-tll\build\tools\clang\lib\StaticAnalyzer\Checkers\clangStaticAnalyzerCheckers.vcxproj">
+      <Project>{AF571E99-1CE1-38FE-910C-25F83F8FAC22}</Project>
+      <Name>clangStaticAnalyzerCheckers</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\ollvm-tll\build\tools\clang\lib\StaticAnalyzer\Core\clangStaticAnalyzerCore.vcxproj">
+      <Project>{3ECA6E67-C3EA-32DD-A214-D35150066CB2}</Project>
+      <Name>clangStaticAnalyzerCore</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\ollvm-tll\build\tools\clang\lib\StaticAnalyzer\Frontend\clangStaticAnalyzerFrontend.vcxproj">
+      <Project>{4B3A8B33-3009-347C-9F74-205F8CE3CD3A}</Project>
+      <Name>clangStaticAnalyzerFrontend</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\ollvm-tll\build\tools\clang\lib\Tooling\clangTooling.vcxproj">
+      <Project>{F8AC864E-5921-3987-9235-2ACEAB82BCB7}</Project>
+      <Name>clangTooling</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\ollvm-tll\build\tools\clang\lib\Tooling\ASTDiff\clangToolingASTDiff.vcxproj">
+      <Project>{532BEC4E-6079-3870-8039-F89B37A58740}</Project>
+      <Name>clangToolingASTDiff</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\ollvm-tll\build\tools\clang\lib\Tooling\Core\clangToolingCore.vcxproj">
+      <Project>{5B77481D-D340-33FC-BDF4-6C310433E58A}</Project>
+      <Name>clangToolingCore</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\ollvm-tll\build\tools\clang\lib\Tooling\Refactoring\clangToolingRefactor.vcxproj">
+      <Project>{64818FF4-BEB4-33E8-964A-C09A9559D911}</Project>
+      <Name>clangToolingRefactor</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\ollvm-tll\build\utils\count\count.vcxproj">
+      <Project>{93A68071-6782-3EA9-B743-299E11941285}</Project>
+      <Name>count</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\ollvm-tll\build\tools\clang\tools\diagtool\diagtool.vcxproj">
+      <Project>{058851F9-B8AB-3807-969C-6C0E9A8E5E58}</Project>
+      <Name>diagtool</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\ollvm-tll\build\tools\clang\tools\libclang\libclang.vcxproj">
+      <Project>{4095C624-ECD7-3F51-A8B9-2376DFF34835}</Project>
+      <Name>libclang</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\ollvm-tll\build\tools\llc\llc.vcxproj">
+      <Project>{D6FAD475-3CE6-32E5-BEB4-5B62C9730EF7}</Project>
+      <Name>llc</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\ollvm-tll\build\tools\lli\lli.vcxproj">
+      <Project>{E0605298-EBF9-39E9-9572-421AB492F517}</Project>
+      <Name>lli</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\ollvm-tll\build\tools\lli\ChildTarget\lli-child-target.vcxproj">
+      <Project>{5CB52E5F-006B-3CF8-9A35-5F423A1A3672}</Project>
+      <Name>lli-child-target</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\ollvm-tll\build\utils\PerfectShuffle\llvm-PerfectShuffle.vcxproj">
+      <Project>{04B59EEB-1ACE-32BB-A475-4173B90EC22E}</Project>
+      <Name>llvm-PerfectShuffle</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\ollvm-tll\build\tools\llvm-ar\llvm-ar.vcxproj">
+      <Project>{A4CA416E-5019-3110-8680-3CA585A0D3AA}</Project>
+      <Name>llvm-ar</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\ollvm-tll\build\tools\llvm-as\llvm-as.vcxproj">
+      <Project>{EB09D026-9E2E-304A-8BCF-C1CAAED70C0F}</Project>
+      <Name>llvm-as</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\ollvm-tll\build\tools\llvm-bcanalyzer\llvm-bcanalyzer.vcxproj">
+      <Project>{17A33278-E5CB-3373-B785-43131FC68565}</Project>
+      <Name>llvm-bcanalyzer</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\ollvm-tll\build\tools\llvm-c-test\llvm-c-test.vcxproj">
+      <Project>{04E36B1B-087E-3E28-A279-CC094AC1D1C1}</Project>
+      <Name>llvm-c-test</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\ollvm-tll\build\tools\llvm-cat\llvm-cat.vcxproj">
+      <Project>{E02D8969-1A0C-32EC-852C-C517E3CA809A}</Project>
+      <Name>llvm-cat</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\ollvm-tll\build\tools\llvm-cfi-verify\llvm-cfi-verify.vcxproj">
+      <Project>{5BE75305-A830-35A4-A302-A872A0C28348}</Project>
+      <Name>llvm-cfi-verify</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\ollvm-tll\build\tools\llvm-config\llvm-config.vcxproj">
+      <Project>{D9D0095D-9161-3B74-A087-3C8C47BEEBA6}</Project>
+      <Name>llvm-config</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\ollvm-tll\build\tools\llvm-cov\llvm-cov.vcxproj">
+      <Project>{C35346E2-459D-3E02-B3C5-255B43CAE267}</Project>
+      <Name>llvm-cov</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\ollvm-tll\build\tools\llvm-cvtres\llvm-cvtres.vcxproj">
+      <Project>{1DF895ED-8691-3CF6-AB2C-AC9174777E37}</Project>
+      <Name>llvm-cvtres</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\ollvm-tll\build\tools\llvm-cxxdump\llvm-cxxdump.vcxproj">
+      <Project>{61B6FC48-C187-3307-85AE-77387625BC3F}</Project>
+      <Name>llvm-cxxdump</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\ollvm-tll\build\tools\llvm-cxxfilt\llvm-cxxfilt.vcxproj">
+      <Project>{D1DB8A1C-BE4C-3917-8DBC-44B9D46276E8}</Project>
+      <Name>llvm-cxxfilt</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\ollvm-tll\build\tools\llvm-demangle-fuzzer\llvm-demangle-fuzzer.vcxproj">
+      <Project>{BE21E179-866F-306E-B917-A3C2C5A22462}</Project>
+      <Name>llvm-demangle-fuzzer</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\ollvm-tll\build\tools\llvm-diff\llvm-diff.vcxproj">
+      <Project>{79AF792C-7A4C-324A-BC16-7B5A316AD22D}</Project>
+      <Name>llvm-diff</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\ollvm-tll\build\tools\llvm-dis\llvm-dis.vcxproj">
+      <Project>{CA278F84-89DB-3455-8D81-39E0B85EE8DB}</Project>
+      <Name>llvm-dis</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\ollvm-tll\build\tools\llvm-ar\llvm-dlltool.vcxproj">
+      <Project>{B0E45240-5E97-35DA-8F17-9964455AEE63}</Project>
+      <Name>llvm-dlltool</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\ollvm-tll\build\tools\dsymutil\llvm-dsymutil.vcxproj">
+      <Project>{900BA4D8-D962-33D7-96BC-48C87E9D90DC}</Project>
+      <Name>llvm-dsymutil</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\ollvm-tll\build\tools\llvm-dwarfdump\llvm-dwarfdump.vcxproj">
+      <Project>{D80C8EBA-56FC-3208-A7DB-6F8D73CA4D32}</Project>
+      <Name>llvm-dwarfdump</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\ollvm-tll\build\tools\llvm-dwp\llvm-dwp.vcxproj">
+      <Project>{AF1E0054-9B73-319E-80E1-12F226C62FE9}</Project>
+      <Name>llvm-dwp</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\ollvm-tll\build\tools\llvm-extract\llvm-extract.vcxproj">
+      <Project>{76C37157-B716-399C-923A-9F039D63D94E}</Project>
+      <Name>llvm-extract</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\ollvm-tll\build\tools\llvm-isel-fuzzer\llvm-isel-fuzzer.vcxproj">
+      <Project>{5F2A15C1-F2B1-33F2-8AF8-204570121FF1}</Project>
+      <Name>llvm-isel-fuzzer</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\ollvm-tll\build\tools\llvm-ar\llvm-lib.vcxproj">
+      <Project>{F421AAA9-A497-33CD-956A-71B61DC49385}</Project>
+      <Name>llvm-lib</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\ollvm-tll\build\tools\llvm-link\llvm-link.vcxproj">
+      <Project>{B648D961-078B-327B-BBEA-8CAF4317F69C}</Project>
+      <Name>llvm-link</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\ollvm-tll\build\tools\llvm-lto\llvm-lto.vcxproj">
+      <Project>{9F6145F9-EECE-378F-9D14-1CE65FFF5F8F}</Project>
+      <Name>llvm-lto</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\ollvm-tll\build\tools\llvm-lto2\llvm-lto2.vcxproj">
+      <Project>{BB1A053A-254B-33E4-B1E8-3CB17AA0A00D}</Project>
+      <Name>llvm-lto2</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\ollvm-tll\build\tools\llvm-mc\llvm-mc.vcxproj">
+      <Project>{37FA5D63-A901-3D39-AC8F-FECCD3B2E385}</Project>
+      <Name>llvm-mc</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\ollvm-tll\build\tools\llvm-mcmarkup\llvm-mcmarkup.vcxproj">
+      <Project>{9E269003-0B8F-38BB-8D6C-AE6FF8E5E4D8}</Project>
+      <Name>llvm-mcmarkup</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\ollvm-tll\build\tools\llvm-modextract\llvm-modextract.vcxproj">
+      <Project>{5FF4B8C7-C280-36DD-9994-0E72B1A60998}</Project>
+      <Name>llvm-modextract</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\ollvm-tll\build\tools\llvm-mt\llvm-mt.vcxproj">
+      <Project>{FBBA9652-2F93-31D1-93DF-CCA07DFC6FAF}</Project>
+      <Name>llvm-mt</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\ollvm-tll\build\tools\llvm-nm\llvm-nm.vcxproj">
+      <Project>{A3512D20-86EC-33F0-B187-C11886854DBF}</Project>
+      <Name>llvm-nm</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\ollvm-tll\build\tools\llvm-objcopy\llvm-objcopy.vcxproj">
+      <Project>{5DAC10C3-3578-37C1-A53B-DD10145D75C5}</Project>
+      <Name>llvm-objcopy</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\ollvm-tll\build\tools\llvm-objdump\llvm-objdump.vcxproj">
+      <Project>{5E358D4C-31DA-3D39-891E-09DC3CFF425A}</Project>
+      <Name>llvm-objdump</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\ollvm-tll\build\tools\llvm-opt-fuzzer\llvm-opt-fuzzer.vcxproj">
+      <Project>{F18F8B36-CA3B-352A-B8DF-B7ACAB00A6A7}</Project>
+      <Name>llvm-opt-fuzzer</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\ollvm-tll\build\tools\llvm-opt-report\llvm-opt-report.vcxproj">
+      <Project>{071304ED-D32A-3574-BA8C-B3337E595EEA}</Project>
+      <Name>llvm-opt-report</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\ollvm-tll\build\tools\llvm-pdbutil\llvm-pdbutil.vcxproj">
+      <Project>{77736A20-C9E5-3D3B-B7E9-CBD04062BAD6}</Project>
+      <Name>llvm-pdbutil</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\ollvm-tll\build\tools\llvm-profdata\llvm-profdata.vcxproj">
+      <Project>{4EB69B84-CAF7-3D8A-9E6F-78C232DD8A00}</Project>
+      <Name>llvm-profdata</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\ollvm-tll\build\tools\llvm-ar\llvm-ranlib.vcxproj">
+      <Project>{99F47BB8-C9DA-3520-BB2B-A9C6CF5971EC}</Project>
+      <Name>llvm-ranlib</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\ollvm-tll\build\tools\llvm-rc\llvm-rc.vcxproj">
+      <Project>{4FFEED7B-02E4-3232-94AA-527E1E0920DF}</Project>
+      <Name>llvm-rc</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\ollvm-tll\build\tools\llvm-readobj\llvm-readelf.vcxproj">
+      <Project>{5C817605-6E3E-3E72-B805-FD415480BB85}</Project>
+      <Name>llvm-readelf</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\ollvm-tll\build\tools\llvm-readobj\llvm-readobj.vcxproj">
+      <Project>{9FFAC16F-F6B2-330B-8C7C-95D365E4BEEA}</Project>
+      <Name>llvm-readobj</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\ollvm-tll\build\tools\llvm-rtdyld\llvm-rtdyld.vcxproj">
+      <Project>{377AEC95-6E2A-3180-A6C3-8CAF9A164D3E}</Project>
+      <Name>llvm-rtdyld</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\ollvm-tll\build\tools\llvm-size\llvm-size.vcxproj">
+      <Project>{EDFE0B93-665D-3E5B-98CE-E02E17175B6B}</Project>
+      <Name>llvm-size</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\ollvm-tll\build\tools\llvm-special-case-list-fuzzer\llvm-special-case-list-fuzzer.vcxproj">
+      <Project>{BBD96F08-1773-3A9F-844E-68FD24CBFA3B}</Project>
+      <Name>llvm-special-case-list-fuzzer</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\ollvm-tll\build\tools\llvm-split\llvm-split.vcxproj">
+      <Project>{DFDFCDFC-A2E2-3A3D-9428-4591A52743E0}</Project>
+      <Name>llvm-split</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\ollvm-tll\build\tools\llvm-stress\llvm-stress.vcxproj">
+      <Project>{029871C9-E5D3-344D-A716-F4EF72CB7EB1}</Project>
+      <Name>llvm-stress</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\ollvm-tll\build\tools\llvm-strings\llvm-strings.vcxproj">
+      <Project>{03297348-8B98-3209-B618-17720AF83D8A}</Project>
+      <Name>llvm-strings</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\ollvm-tll\build\tools\llvm-symbolizer\llvm-symbolizer.vcxproj">
+      <Project>{9DECBB1F-F076-35F7-AF9F-FD69709A9CEF}</Project>
+      <Name>llvm-symbolizer</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\ollvm-tll\build\utils\TableGen\llvm-tblgen.vcxproj">
+      <Project>{CD111E96-FFF2-3391-A865-D4796CC65128}</Project>
+      <Name>llvm-tblgen</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\ollvm-tll\build\tools\llvm-xray\llvm-xray.vcxproj">
+      <Project>{FAC6D0D9-BF6F-3FC4-91F7-63FE80E68ED4}</Project>
+      <Name>llvm-xray</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\ollvm-tll\build\utils\not\not.vcxproj">
+      <Project>{77D63A54-E1AB-347A-B7B8-98F110FE676B}</Project>
+      <Name>not</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\ollvm-tll\build\tools\obj2yaml\obj2yaml.vcxproj">
+      <Project>{C89B8A81-4016-3060-9059-359E3FE1E582}</Project>
+      <Name>obj2yaml</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\ollvm-tll\build\tools\opt\opt.vcxproj">
+      <Project>{B4A00767-98B5-3D61-96BA-7EB78B200E84}</Project>
+      <Name>opt</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\ollvm-tll\build\tools\sancov\sancov.vcxproj">
+      <Project>{7DE86963-05AF-3E5C-9243-3AA3D0061BD1}</Project>
+      <Name>sancov</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\ollvm-tll\build\tools\sanstats\sanstats.vcxproj">
+      <Project>{5F0F86D7-7422-3F0B-91AD-0B8A815ED156}</Project>
+      <Name>sanstats</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\ollvm-tll\build\tools\clang\tools\scan-build\scan-build.vcxproj">
+      <Project>{F55BFC7F-A893-35D1-B575-C992E93F0A2F}</Project>
+      <Name>scan-build</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\ollvm-tll\build\tools\clang\tools\scan-view\scan-view.vcxproj">
+      <Project>{C55D74F1-2F41-33BD-9076-CF1D61ACF69F}</Project>
+      <Name>scan-view</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\ollvm-tll\build\tools\verify-uselistorder\verify-uselistorder.vcxproj">
+      <Project>{8655B1E3-B86B-3D5C-809D-1010D3D16B18}</Project>
+      <Name>verify-uselistorder</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\ollvm-tll\build\utils\yaml-bench\yaml-bench.vcxproj">
+      <Project>{2BB35832-BC5B-38AA-AB7A-C09A4A108E6B}</Project>
+      <Name>yaml-bench</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\ollvm-tll\build\tools\yaml2obj\yaml2obj.vcxproj">
+      <Project>{0B004F6B-6150-321B-96BC-438A04779CAD}</Project>
+      <Name>yaml2obj</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

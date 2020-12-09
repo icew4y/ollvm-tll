@@ -1,0 +1,1247 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{639FD05C-8E21-3C67-AAAF-E2498A4CF42D}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.18362.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>LanaiCommonTableGen</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Project\ollvm-tll\build\lib\Target\Lanai;D:\Project\ollvm-tll\lib\Target\Lanai;D:\Project\ollvm-tll\build\include;D:\Project\ollvm-tll\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Project\ollvm-tll\build\lib\Target\Lanai;D:\Project\ollvm-tll\lib\Target\Lanai;D:\Project\ollvm-tll\build\include;D:\Project\ollvm-tll\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Project\ollvm-tll\build\lib\Target\Lanai;D:\Project\ollvm-tll\lib\Target\Lanai;D:\Project\ollvm-tll\build\include;D:\Project\ollvm-tll\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Project\ollvm-tll\build\lib\Target\Lanai;D:\Project\ollvm-tll\lib\Target\Lanai;D:\Project\ollvm-tll\build\include;D:\Project\ollvm-tll\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Project\ollvm-tll\build\CMakeFiles\57d238721bea726974ea075b9650d81c\LanaiGenAsmMatcher.inc.tmp.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building LanaiGenAsmMatcher.inc...</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+..\..\..\Debug\bin\llvm-tblgen.exe -gen-asm-matcher -I D:/Project/ollvm-tll/lib/Target/Lanai -I D:/Project/ollvm-tll/include -I D:/Project/ollvm-tll/lib/Target D:/Project/ollvm-tll/lib/Target/Lanai/Lanai.td -o D:/Project/ollvm-tll/build/lib/Target/Lanai/LanaiGenAsmMatcher.inc.tmp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Project\ollvm-tll\build\Debug\bin\llvm-tblgen.exe;D:\Project\ollvm-tll\lib\Target\Lanai\Lanai.td;D:\Project\ollvm-tll\lib\Target\Lanai\LanaiCallingConv.td;D:\Project\ollvm-tll\lib\Target\Lanai\LanaiInstrFormats.td;D:\Project\ollvm-tll\lib\Target\Lanai\LanaiInstrInfo.td;D:\Project\ollvm-tll\lib\Target\Lanai\LanaiRegisterInfo.td;D:\Project\ollvm-tll\lib\Target\Lanai\LanaiSchedule.td;D:\Project\ollvm-tll\include\llvm\CodeGen\SDNodeProperties.td;D:\Project\ollvm-tll\include\llvm\CodeGen\ValueTypes.td;D:\Project\ollvm-tll\include\llvm\IR\Attributes.td;D:\Project\ollvm-tll\include\llvm\IR\Intrinsics.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsAArch64.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsAMDGPU.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsARM.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsBPF.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsHexagon.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsMips.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsNVVM.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsPowerPC.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsSystemZ.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsWebAssembly.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsX86.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsXCore.td;D:\Project\ollvm-tll\include\llvm\Option\OptParser.td;D:\Project\ollvm-tll\include\llvm\TableGen\SearchableTable.td;D:\Project\ollvm-tll\include\llvm\Target\GenericOpcodes.td;D:\Project\ollvm-tll\include\llvm\Target\GlobalISel\RegisterBank.td;D:\Project\ollvm-tll\include\llvm\Target\GlobalISel\SelectionDAGCompat.td;D:\Project\ollvm-tll\include\llvm\Target\GlobalISel\Target.td;D:\Project\ollvm-tll\include\llvm\Target\Target.td;D:\Project\ollvm-tll\include\llvm\Target\TargetCallingConv.td;D:\Project\ollvm-tll\include\llvm\Target\TargetItinerary.td;D:\Project\ollvm-tll\include\llvm\Target\TargetSchedule.td;D:\Project\ollvm-tll\include\llvm\Target\TargetSelectionDAG.td;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Project\ollvm-tll\build\lib\Target\Lanai\LanaiGenAsmMatcher.inc.tmp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building LanaiGenAsmMatcher.inc...</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+..\..\..\Release\bin\llvm-tblgen.exe -gen-asm-matcher -I D:/Project/ollvm-tll/lib/Target/Lanai -I D:/Project/ollvm-tll/include -I D:/Project/ollvm-tll/lib/Target D:/Project/ollvm-tll/lib/Target/Lanai/Lanai.td -o D:/Project/ollvm-tll/build/lib/Target/Lanai/LanaiGenAsmMatcher.inc.tmp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Project\ollvm-tll\build\Release\bin\llvm-tblgen.exe;D:\Project\ollvm-tll\lib\Target\Lanai\Lanai.td;D:\Project\ollvm-tll\lib\Target\Lanai\LanaiCallingConv.td;D:\Project\ollvm-tll\lib\Target\Lanai\LanaiInstrFormats.td;D:\Project\ollvm-tll\lib\Target\Lanai\LanaiInstrInfo.td;D:\Project\ollvm-tll\lib\Target\Lanai\LanaiRegisterInfo.td;D:\Project\ollvm-tll\lib\Target\Lanai\LanaiSchedule.td;D:\Project\ollvm-tll\include\llvm\CodeGen\SDNodeProperties.td;D:\Project\ollvm-tll\include\llvm\CodeGen\ValueTypes.td;D:\Project\ollvm-tll\include\llvm\IR\Attributes.td;D:\Project\ollvm-tll\include\llvm\IR\Intrinsics.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsAArch64.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsAMDGPU.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsARM.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsBPF.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsHexagon.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsMips.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsNVVM.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsPowerPC.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsSystemZ.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsWebAssembly.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsX86.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsXCore.td;D:\Project\ollvm-tll\include\llvm\Option\OptParser.td;D:\Project\ollvm-tll\include\llvm\TableGen\SearchableTable.td;D:\Project\ollvm-tll\include\llvm\Target\GenericOpcodes.td;D:\Project\ollvm-tll\include\llvm\Target\GlobalISel\RegisterBank.td;D:\Project\ollvm-tll\include\llvm\Target\GlobalISel\SelectionDAGCompat.td;D:\Project\ollvm-tll\include\llvm\Target\GlobalISel\Target.td;D:\Project\ollvm-tll\include\llvm\Target\Target.td;D:\Project\ollvm-tll\include\llvm\Target\TargetCallingConv.td;D:\Project\ollvm-tll\include\llvm\Target\TargetItinerary.td;D:\Project\ollvm-tll\include\llvm\Target\TargetSchedule.td;D:\Project\ollvm-tll\include\llvm\Target\TargetSelectionDAG.td;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Project\ollvm-tll\build\lib\Target\Lanai\LanaiGenAsmMatcher.inc.tmp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building LanaiGenAsmMatcher.inc...</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+..\..\..\MinSizeRel\bin\llvm-tblgen.exe -gen-asm-matcher -I D:/Project/ollvm-tll/lib/Target/Lanai -I D:/Project/ollvm-tll/include -I D:/Project/ollvm-tll/lib/Target D:/Project/ollvm-tll/lib/Target/Lanai/Lanai.td -o D:/Project/ollvm-tll/build/lib/Target/Lanai/LanaiGenAsmMatcher.inc.tmp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Project\ollvm-tll\build\MinSizeRel\bin\llvm-tblgen.exe;D:\Project\ollvm-tll\lib\Target\Lanai\Lanai.td;D:\Project\ollvm-tll\lib\Target\Lanai\LanaiCallingConv.td;D:\Project\ollvm-tll\lib\Target\Lanai\LanaiInstrFormats.td;D:\Project\ollvm-tll\lib\Target\Lanai\LanaiInstrInfo.td;D:\Project\ollvm-tll\lib\Target\Lanai\LanaiRegisterInfo.td;D:\Project\ollvm-tll\lib\Target\Lanai\LanaiSchedule.td;D:\Project\ollvm-tll\include\llvm\CodeGen\SDNodeProperties.td;D:\Project\ollvm-tll\include\llvm\CodeGen\ValueTypes.td;D:\Project\ollvm-tll\include\llvm\IR\Attributes.td;D:\Project\ollvm-tll\include\llvm\IR\Intrinsics.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsAArch64.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsAMDGPU.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsARM.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsBPF.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsHexagon.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsMips.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsNVVM.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsPowerPC.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsSystemZ.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsWebAssembly.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsX86.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsXCore.td;D:\Project\ollvm-tll\include\llvm\Option\OptParser.td;D:\Project\ollvm-tll\include\llvm\TableGen\SearchableTable.td;D:\Project\ollvm-tll\include\llvm\Target\GenericOpcodes.td;D:\Project\ollvm-tll\include\llvm\Target\GlobalISel\RegisterBank.td;D:\Project\ollvm-tll\include\llvm\Target\GlobalISel\SelectionDAGCompat.td;D:\Project\ollvm-tll\include\llvm\Target\GlobalISel\Target.td;D:\Project\ollvm-tll\include\llvm\Target\Target.td;D:\Project\ollvm-tll\include\llvm\Target\TargetCallingConv.td;D:\Project\ollvm-tll\include\llvm\Target\TargetItinerary.td;D:\Project\ollvm-tll\include\llvm\Target\TargetSchedule.td;D:\Project\ollvm-tll\include\llvm\Target\TargetSelectionDAG.td;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Project\ollvm-tll\build\lib\Target\Lanai\LanaiGenAsmMatcher.inc.tmp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building LanaiGenAsmMatcher.inc...</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+..\..\..\RelWithDebInfo\bin\llvm-tblgen.exe -gen-asm-matcher -I D:/Project/ollvm-tll/lib/Target/Lanai -I D:/Project/ollvm-tll/include -I D:/Project/ollvm-tll/lib/Target D:/Project/ollvm-tll/lib/Target/Lanai/Lanai.td -o D:/Project/ollvm-tll/build/lib/Target/Lanai/LanaiGenAsmMatcher.inc.tmp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Project\ollvm-tll\build\RelWithDebInfo\bin\llvm-tblgen.exe;D:\Project\ollvm-tll\lib\Target\Lanai\Lanai.td;D:\Project\ollvm-tll\lib\Target\Lanai\LanaiCallingConv.td;D:\Project\ollvm-tll\lib\Target\Lanai\LanaiInstrFormats.td;D:\Project\ollvm-tll\lib\Target\Lanai\LanaiInstrInfo.td;D:\Project\ollvm-tll\lib\Target\Lanai\LanaiRegisterInfo.td;D:\Project\ollvm-tll\lib\Target\Lanai\LanaiSchedule.td;D:\Project\ollvm-tll\include\llvm\CodeGen\SDNodeProperties.td;D:\Project\ollvm-tll\include\llvm\CodeGen\ValueTypes.td;D:\Project\ollvm-tll\include\llvm\IR\Attributes.td;D:\Project\ollvm-tll\include\llvm\IR\Intrinsics.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsAArch64.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsAMDGPU.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsARM.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsBPF.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsHexagon.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsMips.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsNVVM.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsPowerPC.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsSystemZ.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsWebAssembly.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsX86.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsXCore.td;D:\Project\ollvm-tll\include\llvm\Option\OptParser.td;D:\Project\ollvm-tll\include\llvm\TableGen\SearchableTable.td;D:\Project\ollvm-tll\include\llvm\Target\GenericOpcodes.td;D:\Project\ollvm-tll\include\llvm\Target\GlobalISel\RegisterBank.td;D:\Project\ollvm-tll\include\llvm\Target\GlobalISel\SelectionDAGCompat.td;D:\Project\ollvm-tll\include\llvm\Target\GlobalISel\Target.td;D:\Project\ollvm-tll\include\llvm\Target\Target.td;D:\Project\ollvm-tll\include\llvm\Target\TargetCallingConv.td;D:\Project\ollvm-tll\include\llvm\Target\TargetItinerary.td;D:\Project\ollvm-tll\include\llvm\Target\TargetSchedule.td;D:\Project\ollvm-tll\include\llvm\Target\TargetSelectionDAG.td;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Project\ollvm-tll\build\lib\Target\Lanai\LanaiGenAsmMatcher.inc.tmp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Project\ollvm-tll\build\CMakeFiles\57d238721bea726974ea075b9650d81c\LanaiGenAsmMatcher.inc.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Updating LanaiGenAsmMatcher.inc...</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different D:/Project/ollvm-tll/build/lib/Target/Lanai/LanaiGenAsmMatcher.inc.tmp D:/Project/ollvm-tll/build/lib/Target/Lanai/LanaiGenAsmMatcher.inc
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Project\ollvm-tll\build\lib\Target\Lanai\LanaiGenAsmMatcher.inc.tmp;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Project\ollvm-tll\build\lib\Target\Lanai\LanaiGenAsmMatcher.inc</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Updating LanaiGenAsmMatcher.inc...</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different D:/Project/ollvm-tll/build/lib/Target/Lanai/LanaiGenAsmMatcher.inc.tmp D:/Project/ollvm-tll/build/lib/Target/Lanai/LanaiGenAsmMatcher.inc
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Project\ollvm-tll\build\lib\Target\Lanai\LanaiGenAsmMatcher.inc.tmp;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Project\ollvm-tll\build\lib\Target\Lanai\LanaiGenAsmMatcher.inc</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Updating LanaiGenAsmMatcher.inc...</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different D:/Project/ollvm-tll/build/lib/Target/Lanai/LanaiGenAsmMatcher.inc.tmp D:/Project/ollvm-tll/build/lib/Target/Lanai/LanaiGenAsmMatcher.inc
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Project\ollvm-tll\build\lib\Target\Lanai\LanaiGenAsmMatcher.inc.tmp;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Project\ollvm-tll\build\lib\Target\Lanai\LanaiGenAsmMatcher.inc</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Updating LanaiGenAsmMatcher.inc...</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different D:/Project/ollvm-tll/build/lib/Target/Lanai/LanaiGenAsmMatcher.inc.tmp D:/Project/ollvm-tll/build/lib/Target/Lanai/LanaiGenAsmMatcher.inc
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Project\ollvm-tll\build\lib\Target\Lanai\LanaiGenAsmMatcher.inc.tmp;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Project\ollvm-tll\build\lib\Target\Lanai\LanaiGenAsmMatcher.inc</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Project\ollvm-tll\build\CMakeFiles\57d238721bea726974ea075b9650d81c\LanaiGenAsmWriter.inc.tmp.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building LanaiGenAsmWriter.inc...</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+..\..\..\Debug\bin\llvm-tblgen.exe -gen-asm-writer -I D:/Project/ollvm-tll/lib/Target/Lanai -I D:/Project/ollvm-tll/include -I D:/Project/ollvm-tll/lib/Target D:/Project/ollvm-tll/lib/Target/Lanai/Lanai.td -o D:/Project/ollvm-tll/build/lib/Target/Lanai/LanaiGenAsmWriter.inc.tmp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Project\ollvm-tll\build\Debug\bin\llvm-tblgen.exe;D:\Project\ollvm-tll\lib\Target\Lanai\Lanai.td;D:\Project\ollvm-tll\lib\Target\Lanai\LanaiCallingConv.td;D:\Project\ollvm-tll\lib\Target\Lanai\LanaiInstrFormats.td;D:\Project\ollvm-tll\lib\Target\Lanai\LanaiInstrInfo.td;D:\Project\ollvm-tll\lib\Target\Lanai\LanaiRegisterInfo.td;D:\Project\ollvm-tll\lib\Target\Lanai\LanaiSchedule.td;D:\Project\ollvm-tll\include\llvm\CodeGen\SDNodeProperties.td;D:\Project\ollvm-tll\include\llvm\CodeGen\ValueTypes.td;D:\Project\ollvm-tll\include\llvm\IR\Attributes.td;D:\Project\ollvm-tll\include\llvm\IR\Intrinsics.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsAArch64.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsAMDGPU.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsARM.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsBPF.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsHexagon.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsMips.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsNVVM.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsPowerPC.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsSystemZ.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsWebAssembly.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsX86.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsXCore.td;D:\Project\ollvm-tll\include\llvm\Option\OptParser.td;D:\Project\ollvm-tll\include\llvm\TableGen\SearchableTable.td;D:\Project\ollvm-tll\include\llvm\Target\GenericOpcodes.td;D:\Project\ollvm-tll\include\llvm\Target\GlobalISel\RegisterBank.td;D:\Project\ollvm-tll\include\llvm\Target\GlobalISel\SelectionDAGCompat.td;D:\Project\ollvm-tll\include\llvm\Target\GlobalISel\Target.td;D:\Project\ollvm-tll\include\llvm\Target\Target.td;D:\Project\ollvm-tll\include\llvm\Target\TargetCallingConv.td;D:\Project\ollvm-tll\include\llvm\Target\TargetItinerary.td;D:\Project\ollvm-tll\include\llvm\Target\TargetSchedule.td;D:\Project\ollvm-tll\include\llvm\Target\TargetSelectionDAG.td;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Project\ollvm-tll\build\lib\Target\Lanai\LanaiGenAsmWriter.inc.tmp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building LanaiGenAsmWriter.inc...</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+..\..\..\Release\bin\llvm-tblgen.exe -gen-asm-writer -I D:/Project/ollvm-tll/lib/Target/Lanai -I D:/Project/ollvm-tll/include -I D:/Project/ollvm-tll/lib/Target D:/Project/ollvm-tll/lib/Target/Lanai/Lanai.td -o D:/Project/ollvm-tll/build/lib/Target/Lanai/LanaiGenAsmWriter.inc.tmp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Project\ollvm-tll\build\Release\bin\llvm-tblgen.exe;D:\Project\ollvm-tll\lib\Target\Lanai\Lanai.td;D:\Project\ollvm-tll\lib\Target\Lanai\LanaiCallingConv.td;D:\Project\ollvm-tll\lib\Target\Lanai\LanaiInstrFormats.td;D:\Project\ollvm-tll\lib\Target\Lanai\LanaiInstrInfo.td;D:\Project\ollvm-tll\lib\Target\Lanai\LanaiRegisterInfo.td;D:\Project\ollvm-tll\lib\Target\Lanai\LanaiSchedule.td;D:\Project\ollvm-tll\include\llvm\CodeGen\SDNodeProperties.td;D:\Project\ollvm-tll\include\llvm\CodeGen\ValueTypes.td;D:\Project\ollvm-tll\include\llvm\IR\Attributes.td;D:\Project\ollvm-tll\include\llvm\IR\Intrinsics.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsAArch64.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsAMDGPU.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsARM.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsBPF.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsHexagon.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsMips.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsNVVM.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsPowerPC.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsSystemZ.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsWebAssembly.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsX86.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsXCore.td;D:\Project\ollvm-tll\include\llvm\Option\OptParser.td;D:\Project\ollvm-tll\include\llvm\TableGen\SearchableTable.td;D:\Project\ollvm-tll\include\llvm\Target\GenericOpcodes.td;D:\Project\ollvm-tll\include\llvm\Target\GlobalISel\RegisterBank.td;D:\Project\ollvm-tll\include\llvm\Target\GlobalISel\SelectionDAGCompat.td;D:\Project\ollvm-tll\include\llvm\Target\GlobalISel\Target.td;D:\Project\ollvm-tll\include\llvm\Target\Target.td;D:\Project\ollvm-tll\include\llvm\Target\TargetCallingConv.td;D:\Project\ollvm-tll\include\llvm\Target\TargetItinerary.td;D:\Project\ollvm-tll\include\llvm\Target\TargetSchedule.td;D:\Project\ollvm-tll\include\llvm\Target\TargetSelectionDAG.td;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Project\ollvm-tll\build\lib\Target\Lanai\LanaiGenAsmWriter.inc.tmp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building LanaiGenAsmWriter.inc...</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+..\..\..\MinSizeRel\bin\llvm-tblgen.exe -gen-asm-writer -I D:/Project/ollvm-tll/lib/Target/Lanai -I D:/Project/ollvm-tll/include -I D:/Project/ollvm-tll/lib/Target D:/Project/ollvm-tll/lib/Target/Lanai/Lanai.td -o D:/Project/ollvm-tll/build/lib/Target/Lanai/LanaiGenAsmWriter.inc.tmp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Project\ollvm-tll\build\MinSizeRel\bin\llvm-tblgen.exe;D:\Project\ollvm-tll\lib\Target\Lanai\Lanai.td;D:\Project\ollvm-tll\lib\Target\Lanai\LanaiCallingConv.td;D:\Project\ollvm-tll\lib\Target\Lanai\LanaiInstrFormats.td;D:\Project\ollvm-tll\lib\Target\Lanai\LanaiInstrInfo.td;D:\Project\ollvm-tll\lib\Target\Lanai\LanaiRegisterInfo.td;D:\Project\ollvm-tll\lib\Target\Lanai\LanaiSchedule.td;D:\Project\ollvm-tll\include\llvm\CodeGen\SDNodeProperties.td;D:\Project\ollvm-tll\include\llvm\CodeGen\ValueTypes.td;D:\Project\ollvm-tll\include\llvm\IR\Attributes.td;D:\Project\ollvm-tll\include\llvm\IR\Intrinsics.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsAArch64.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsAMDGPU.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsARM.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsBPF.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsHexagon.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsMips.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsNVVM.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsPowerPC.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsSystemZ.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsWebAssembly.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsX86.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsXCore.td;D:\Project\ollvm-tll\include\llvm\Option\OptParser.td;D:\Project\ollvm-tll\include\llvm\TableGen\SearchableTable.td;D:\Project\ollvm-tll\include\llvm\Target\GenericOpcodes.td;D:\Project\ollvm-tll\include\llvm\Target\GlobalISel\RegisterBank.td;D:\Project\ollvm-tll\include\llvm\Target\GlobalISel\SelectionDAGCompat.td;D:\Project\ollvm-tll\include\llvm\Target\GlobalISel\Target.td;D:\Project\ollvm-tll\include\llvm\Target\Target.td;D:\Project\ollvm-tll\include\llvm\Target\TargetCallingConv.td;D:\Project\ollvm-tll\include\llvm\Target\TargetItinerary.td;D:\Project\ollvm-tll\include\llvm\Target\TargetSchedule.td;D:\Project\ollvm-tll\include\llvm\Target\TargetSelectionDAG.td;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Project\ollvm-tll\build\lib\Target\Lanai\LanaiGenAsmWriter.inc.tmp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building LanaiGenAsmWriter.inc...</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+..\..\..\RelWithDebInfo\bin\llvm-tblgen.exe -gen-asm-writer -I D:/Project/ollvm-tll/lib/Target/Lanai -I D:/Project/ollvm-tll/include -I D:/Project/ollvm-tll/lib/Target D:/Project/ollvm-tll/lib/Target/Lanai/Lanai.td -o D:/Project/ollvm-tll/build/lib/Target/Lanai/LanaiGenAsmWriter.inc.tmp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Project\ollvm-tll\build\RelWithDebInfo\bin\llvm-tblgen.exe;D:\Project\ollvm-tll\lib\Target\Lanai\Lanai.td;D:\Project\ollvm-tll\lib\Target\Lanai\LanaiCallingConv.td;D:\Project\ollvm-tll\lib\Target\Lanai\LanaiInstrFormats.td;D:\Project\ollvm-tll\lib\Target\Lanai\LanaiInstrInfo.td;D:\Project\ollvm-tll\lib\Target\Lanai\LanaiRegisterInfo.td;D:\Project\ollvm-tll\lib\Target\Lanai\LanaiSchedule.td;D:\Project\ollvm-tll\include\llvm\CodeGen\SDNodeProperties.td;D:\Project\ollvm-tll\include\llvm\CodeGen\ValueTypes.td;D:\Project\ollvm-tll\include\llvm\IR\Attributes.td;D:\Project\ollvm-tll\include\llvm\IR\Intrinsics.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsAArch64.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsAMDGPU.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsARM.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsBPF.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsHexagon.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsMips.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsNVVM.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsPowerPC.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsSystemZ.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsWebAssembly.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsX86.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsXCore.td;D:\Project\ollvm-tll\include\llvm\Option\OptParser.td;D:\Project\ollvm-tll\include\llvm\TableGen\SearchableTable.td;D:\Project\ollvm-tll\include\llvm\Target\GenericOpcodes.td;D:\Project\ollvm-tll\include\llvm\Target\GlobalISel\RegisterBank.td;D:\Project\ollvm-tll\include\llvm\Target\GlobalISel\SelectionDAGCompat.td;D:\Project\ollvm-tll\include\llvm\Target\GlobalISel\Target.td;D:\Project\ollvm-tll\include\llvm\Target\Target.td;D:\Project\ollvm-tll\include\llvm\Target\TargetCallingConv.td;D:\Project\ollvm-tll\include\llvm\Target\TargetItinerary.td;D:\Project\ollvm-tll\include\llvm\Target\TargetSchedule.td;D:\Project\ollvm-tll\include\llvm\Target\TargetSelectionDAG.td;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Project\ollvm-tll\build\lib\Target\Lanai\LanaiGenAsmWriter.inc.tmp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Project\ollvm-tll\build\CMakeFiles\57d238721bea726974ea075b9650d81c\LanaiGenAsmWriter.inc.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Updating LanaiGenAsmWriter.inc...</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different D:/Project/ollvm-tll/build/lib/Target/Lanai/LanaiGenAsmWriter.inc.tmp D:/Project/ollvm-tll/build/lib/Target/Lanai/LanaiGenAsmWriter.inc
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Project\ollvm-tll\build\lib\Target\Lanai\LanaiGenAsmWriter.inc.tmp;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Project\ollvm-tll\build\lib\Target\Lanai\LanaiGenAsmWriter.inc</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Updating LanaiGenAsmWriter.inc...</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different D:/Project/ollvm-tll/build/lib/Target/Lanai/LanaiGenAsmWriter.inc.tmp D:/Project/ollvm-tll/build/lib/Target/Lanai/LanaiGenAsmWriter.inc
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Project\ollvm-tll\build\lib\Target\Lanai\LanaiGenAsmWriter.inc.tmp;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Project\ollvm-tll\build\lib\Target\Lanai\LanaiGenAsmWriter.inc</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Updating LanaiGenAsmWriter.inc...</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different D:/Project/ollvm-tll/build/lib/Target/Lanai/LanaiGenAsmWriter.inc.tmp D:/Project/ollvm-tll/build/lib/Target/Lanai/LanaiGenAsmWriter.inc
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Project\ollvm-tll\build\lib\Target\Lanai\LanaiGenAsmWriter.inc.tmp;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Project\ollvm-tll\build\lib\Target\Lanai\LanaiGenAsmWriter.inc</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Updating LanaiGenAsmWriter.inc...</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different D:/Project/ollvm-tll/build/lib/Target/Lanai/LanaiGenAsmWriter.inc.tmp D:/Project/ollvm-tll/build/lib/Target/Lanai/LanaiGenAsmWriter.inc
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Project\ollvm-tll\build\lib\Target\Lanai\LanaiGenAsmWriter.inc.tmp;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Project\ollvm-tll\build\lib\Target\Lanai\LanaiGenAsmWriter.inc</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Project\ollvm-tll\build\CMakeFiles\57d238721bea726974ea075b9650d81c\LanaiGenCallingConv.inc.tmp.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building LanaiGenCallingConv.inc...</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+..\..\..\Debug\bin\llvm-tblgen.exe -gen-callingconv -I D:/Project/ollvm-tll/lib/Target/Lanai -I D:/Project/ollvm-tll/include -I D:/Project/ollvm-tll/lib/Target D:/Project/ollvm-tll/lib/Target/Lanai/Lanai.td -o D:/Project/ollvm-tll/build/lib/Target/Lanai/LanaiGenCallingConv.inc.tmp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Project\ollvm-tll\build\Debug\bin\llvm-tblgen.exe;D:\Project\ollvm-tll\lib\Target\Lanai\Lanai.td;D:\Project\ollvm-tll\lib\Target\Lanai\LanaiCallingConv.td;D:\Project\ollvm-tll\lib\Target\Lanai\LanaiInstrFormats.td;D:\Project\ollvm-tll\lib\Target\Lanai\LanaiInstrInfo.td;D:\Project\ollvm-tll\lib\Target\Lanai\LanaiRegisterInfo.td;D:\Project\ollvm-tll\lib\Target\Lanai\LanaiSchedule.td;D:\Project\ollvm-tll\include\llvm\CodeGen\SDNodeProperties.td;D:\Project\ollvm-tll\include\llvm\CodeGen\ValueTypes.td;D:\Project\ollvm-tll\include\llvm\IR\Attributes.td;D:\Project\ollvm-tll\include\llvm\IR\Intrinsics.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsAArch64.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsAMDGPU.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsARM.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsBPF.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsHexagon.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsMips.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsNVVM.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsPowerPC.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsSystemZ.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsWebAssembly.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsX86.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsXCore.td;D:\Project\ollvm-tll\include\llvm\Option\OptParser.td;D:\Project\ollvm-tll\include\llvm\TableGen\SearchableTable.td;D:\Project\ollvm-tll\include\llvm\Target\GenericOpcodes.td;D:\Project\ollvm-tll\include\llvm\Target\GlobalISel\RegisterBank.td;D:\Project\ollvm-tll\include\llvm\Target\GlobalISel\SelectionDAGCompat.td;D:\Project\ollvm-tll\include\llvm\Target\GlobalISel\Target.td;D:\Project\ollvm-tll\include\llvm\Target\Target.td;D:\Project\ollvm-tll\include\llvm\Target\TargetCallingConv.td;D:\Project\ollvm-tll\include\llvm\Target\TargetItinerary.td;D:\Project\ollvm-tll\include\llvm\Target\TargetSchedule.td;D:\Project\ollvm-tll\include\llvm\Target\TargetSelectionDAG.td;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Project\ollvm-tll\build\lib\Target\Lanai\LanaiGenCallingConv.inc.tmp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building LanaiGenCallingConv.inc...</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+..\..\..\Release\bin\llvm-tblgen.exe -gen-callingconv -I D:/Project/ollvm-tll/lib/Target/Lanai -I D:/Project/ollvm-tll/include -I D:/Project/ollvm-tll/lib/Target D:/Project/ollvm-tll/lib/Target/Lanai/Lanai.td -o D:/Project/ollvm-tll/build/lib/Target/Lanai/LanaiGenCallingConv.inc.tmp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Project\ollvm-tll\build\Release\bin\llvm-tblgen.exe;D:\Project\ollvm-tll\lib\Target\Lanai\Lanai.td;D:\Project\ollvm-tll\lib\Target\Lanai\LanaiCallingConv.td;D:\Project\ollvm-tll\lib\Target\Lanai\LanaiInstrFormats.td;D:\Project\ollvm-tll\lib\Target\Lanai\LanaiInstrInfo.td;D:\Project\ollvm-tll\lib\Target\Lanai\LanaiRegisterInfo.td;D:\Project\ollvm-tll\lib\Target\Lanai\LanaiSchedule.td;D:\Project\ollvm-tll\include\llvm\CodeGen\SDNodeProperties.td;D:\Project\ollvm-tll\include\llvm\CodeGen\ValueTypes.td;D:\Project\ollvm-tll\include\llvm\IR\Attributes.td;D:\Project\ollvm-tll\include\llvm\IR\Intrinsics.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsAArch64.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsAMDGPU.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsARM.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsBPF.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsHexagon.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsMips.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsNVVM.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsPowerPC.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsSystemZ.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsWebAssembly.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsX86.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsXCore.td;D:\Project\ollvm-tll\include\llvm\Option\OptParser.td;D:\Project\ollvm-tll\include\llvm\TableGen\SearchableTable.td;D:\Project\ollvm-tll\include\llvm\Target\GenericOpcodes.td;D:\Project\ollvm-tll\include\llvm\Target\GlobalISel\RegisterBank.td;D:\Project\ollvm-tll\include\llvm\Target\GlobalISel\SelectionDAGCompat.td;D:\Project\ollvm-tll\include\llvm\Target\GlobalISel\Target.td;D:\Project\ollvm-tll\include\llvm\Target\Target.td;D:\Project\ollvm-tll\include\llvm\Target\TargetCallingConv.td;D:\Project\ollvm-tll\include\llvm\Target\TargetItinerary.td;D:\Project\ollvm-tll\include\llvm\Target\TargetSchedule.td;D:\Project\ollvm-tll\include\llvm\Target\TargetSelectionDAG.td;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Project\ollvm-tll\build\lib\Target\Lanai\LanaiGenCallingConv.inc.tmp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building LanaiGenCallingConv.inc...</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+..\..\..\MinSizeRel\bin\llvm-tblgen.exe -gen-callingconv -I D:/Project/ollvm-tll/lib/Target/Lanai -I D:/Project/ollvm-tll/include -I D:/Project/ollvm-tll/lib/Target D:/Project/ollvm-tll/lib/Target/Lanai/Lanai.td -o D:/Project/ollvm-tll/build/lib/Target/Lanai/LanaiGenCallingConv.inc.tmp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Project\ollvm-tll\build\MinSizeRel\bin\llvm-tblgen.exe;D:\Project\ollvm-tll\lib\Target\Lanai\Lanai.td;D:\Project\ollvm-tll\lib\Target\Lanai\LanaiCallingConv.td;D:\Project\ollvm-tll\lib\Target\Lanai\LanaiInstrFormats.td;D:\Project\ollvm-tll\lib\Target\Lanai\LanaiInstrInfo.td;D:\Project\ollvm-tll\lib\Target\Lanai\LanaiRegisterInfo.td;D:\Project\ollvm-tll\lib\Target\Lanai\LanaiSchedule.td;D:\Project\ollvm-tll\include\llvm\CodeGen\SDNodeProperties.td;D:\Project\ollvm-tll\include\llvm\CodeGen\ValueTypes.td;D:\Project\ollvm-tll\include\llvm\IR\Attributes.td;D:\Project\ollvm-tll\include\llvm\IR\Intrinsics.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsAArch64.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsAMDGPU.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsARM.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsBPF.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsHexagon.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsMips.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsNVVM.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsPowerPC.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsSystemZ.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsWebAssembly.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsX86.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsXCore.td;D:\Project\ollvm-tll\include\llvm\Option\OptParser.td;D:\Project\ollvm-tll\include\llvm\TableGen\SearchableTable.td;D:\Project\ollvm-tll\include\llvm\Target\GenericOpcodes.td;D:\Project\ollvm-tll\include\llvm\Target\GlobalISel\RegisterBank.td;D:\Project\ollvm-tll\include\llvm\Target\GlobalISel\SelectionDAGCompat.td;D:\Project\ollvm-tll\include\llvm\Target\GlobalISel\Target.td;D:\Project\ollvm-tll\include\llvm\Target\Target.td;D:\Project\ollvm-tll\include\llvm\Target\TargetCallingConv.td;D:\Project\ollvm-tll\include\llvm\Target\TargetItinerary.td;D:\Project\ollvm-tll\include\llvm\Target\TargetSchedule.td;D:\Project\ollvm-tll\include\llvm\Target\TargetSelectionDAG.td;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Project\ollvm-tll\build\lib\Target\Lanai\LanaiGenCallingConv.inc.tmp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building LanaiGenCallingConv.inc...</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+..\..\..\RelWithDebInfo\bin\llvm-tblgen.exe -gen-callingconv -I D:/Project/ollvm-tll/lib/Target/Lanai -I D:/Project/ollvm-tll/include -I D:/Project/ollvm-tll/lib/Target D:/Project/ollvm-tll/lib/Target/Lanai/Lanai.td -o D:/Project/ollvm-tll/build/lib/Target/Lanai/LanaiGenCallingConv.inc.tmp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Project\ollvm-tll\build\RelWithDebInfo\bin\llvm-tblgen.exe;D:\Project\ollvm-tll\lib\Target\Lanai\Lanai.td;D:\Project\ollvm-tll\lib\Target\Lanai\LanaiCallingConv.td;D:\Project\ollvm-tll\lib\Target\Lanai\LanaiInstrFormats.td;D:\Project\ollvm-tll\lib\Target\Lanai\LanaiInstrInfo.td;D:\Project\ollvm-tll\lib\Target\Lanai\LanaiRegisterInfo.td;D:\Project\ollvm-tll\lib\Target\Lanai\LanaiSchedule.td;D:\Project\ollvm-tll\include\llvm\CodeGen\SDNodeProperties.td;D:\Project\ollvm-tll\include\llvm\CodeGen\ValueTypes.td;D:\Project\ollvm-tll\include\llvm\IR\Attributes.td;D:\Project\ollvm-tll\include\llvm\IR\Intrinsics.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsAArch64.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsAMDGPU.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsARM.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsBPF.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsHexagon.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsMips.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsNVVM.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsPowerPC.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsSystemZ.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsWebAssembly.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsX86.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsXCore.td;D:\Project\ollvm-tll\include\llvm\Option\OptParser.td;D:\Project\ollvm-tll\include\llvm\TableGen\SearchableTable.td;D:\Project\ollvm-tll\include\llvm\Target\GenericOpcodes.td;D:\Project\ollvm-tll\include\llvm\Target\GlobalISel\RegisterBank.td;D:\Project\ollvm-tll\include\llvm\Target\GlobalISel\SelectionDAGCompat.td;D:\Project\ollvm-tll\include\llvm\Target\GlobalISel\Target.td;D:\Project\ollvm-tll\include\llvm\Target\Target.td;D:\Project\ollvm-tll\include\llvm\Target\TargetCallingConv.td;D:\Project\ollvm-tll\include\llvm\Target\TargetItinerary.td;D:\Project\ollvm-tll\include\llvm\Target\TargetSchedule.td;D:\Project\ollvm-tll\include\llvm\Target\TargetSelectionDAG.td;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Project\ollvm-tll\build\lib\Target\Lanai\LanaiGenCallingConv.inc.tmp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Project\ollvm-tll\build\CMakeFiles\57d238721bea726974ea075b9650d81c\LanaiGenCallingConv.inc.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Updating LanaiGenCallingConv.inc...</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different D:/Project/ollvm-tll/build/lib/Target/Lanai/LanaiGenCallingConv.inc.tmp D:/Project/ollvm-tll/build/lib/Target/Lanai/LanaiGenCallingConv.inc
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Project\ollvm-tll\build\lib\Target\Lanai\LanaiGenCallingConv.inc.tmp;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Project\ollvm-tll\build\lib\Target\Lanai\LanaiGenCallingConv.inc</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Updating LanaiGenCallingConv.inc...</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different D:/Project/ollvm-tll/build/lib/Target/Lanai/LanaiGenCallingConv.inc.tmp D:/Project/ollvm-tll/build/lib/Target/Lanai/LanaiGenCallingConv.inc
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Project\ollvm-tll\build\lib\Target\Lanai\LanaiGenCallingConv.inc.tmp;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Project\ollvm-tll\build\lib\Target\Lanai\LanaiGenCallingConv.inc</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Updating LanaiGenCallingConv.inc...</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different D:/Project/ollvm-tll/build/lib/Target/Lanai/LanaiGenCallingConv.inc.tmp D:/Project/ollvm-tll/build/lib/Target/Lanai/LanaiGenCallingConv.inc
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Project\ollvm-tll\build\lib\Target\Lanai\LanaiGenCallingConv.inc.tmp;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Project\ollvm-tll\build\lib\Target\Lanai\LanaiGenCallingConv.inc</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Updating LanaiGenCallingConv.inc...</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different D:/Project/ollvm-tll/build/lib/Target/Lanai/LanaiGenCallingConv.inc.tmp D:/Project/ollvm-tll/build/lib/Target/Lanai/LanaiGenCallingConv.inc
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Project\ollvm-tll\build\lib\Target\Lanai\LanaiGenCallingConv.inc.tmp;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Project\ollvm-tll\build\lib\Target\Lanai\LanaiGenCallingConv.inc</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Project\ollvm-tll\build\CMakeFiles\57d238721bea726974ea075b9650d81c\LanaiGenDAGISel.inc.tmp.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building LanaiGenDAGISel.inc...</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+..\..\..\Debug\bin\llvm-tblgen.exe -gen-dag-isel -I D:/Project/ollvm-tll/lib/Target/Lanai -I D:/Project/ollvm-tll/include -I D:/Project/ollvm-tll/lib/Target D:/Project/ollvm-tll/lib/Target/Lanai/Lanai.td -o D:/Project/ollvm-tll/build/lib/Target/Lanai/LanaiGenDAGISel.inc.tmp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Project\ollvm-tll\build\Debug\bin\llvm-tblgen.exe;D:\Project\ollvm-tll\lib\Target\Lanai\Lanai.td;D:\Project\ollvm-tll\lib\Target\Lanai\LanaiCallingConv.td;D:\Project\ollvm-tll\lib\Target\Lanai\LanaiInstrFormats.td;D:\Project\ollvm-tll\lib\Target\Lanai\LanaiInstrInfo.td;D:\Project\ollvm-tll\lib\Target\Lanai\LanaiRegisterInfo.td;D:\Project\ollvm-tll\lib\Target\Lanai\LanaiSchedule.td;D:\Project\ollvm-tll\include\llvm\CodeGen\SDNodeProperties.td;D:\Project\ollvm-tll\include\llvm\CodeGen\ValueTypes.td;D:\Project\ollvm-tll\include\llvm\IR\Attributes.td;D:\Project\ollvm-tll\include\llvm\IR\Intrinsics.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsAArch64.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsAMDGPU.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsARM.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsBPF.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsHexagon.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsMips.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsNVVM.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsPowerPC.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsSystemZ.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsWebAssembly.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsX86.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsXCore.td;D:\Project\ollvm-tll\include\llvm\Option\OptParser.td;D:\Project\ollvm-tll\include\llvm\TableGen\SearchableTable.td;D:\Project\ollvm-tll\include\llvm\Target\GenericOpcodes.td;D:\Project\ollvm-tll\include\llvm\Target\GlobalISel\RegisterBank.td;D:\Project\ollvm-tll\include\llvm\Target\GlobalISel\SelectionDAGCompat.td;D:\Project\ollvm-tll\include\llvm\Target\GlobalISel\Target.td;D:\Project\ollvm-tll\include\llvm\Target\Target.td;D:\Project\ollvm-tll\include\llvm\Target\TargetCallingConv.td;D:\Project\ollvm-tll\include\llvm\Target\TargetItinerary.td;D:\Project\ollvm-tll\include\llvm\Target\TargetSchedule.td;D:\Project\ollvm-tll\include\llvm\Target\TargetSelectionDAG.td;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Project\ollvm-tll\build\lib\Target\Lanai\LanaiGenDAGISel.inc.tmp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building LanaiGenDAGISel.inc...</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+..\..\..\Release\bin\llvm-tblgen.exe -gen-dag-isel -I D:/Project/ollvm-tll/lib/Target/Lanai -I D:/Project/ollvm-tll/include -I D:/Project/ollvm-tll/lib/Target D:/Project/ollvm-tll/lib/Target/Lanai/Lanai.td -o D:/Project/ollvm-tll/build/lib/Target/Lanai/LanaiGenDAGISel.inc.tmp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Project\ollvm-tll\build\Release\bin\llvm-tblgen.exe;D:\Project\ollvm-tll\lib\Target\Lanai\Lanai.td;D:\Project\ollvm-tll\lib\Target\Lanai\LanaiCallingConv.td;D:\Project\ollvm-tll\lib\Target\Lanai\LanaiInstrFormats.td;D:\Project\ollvm-tll\lib\Target\Lanai\LanaiInstrInfo.td;D:\Project\ollvm-tll\lib\Target\Lanai\LanaiRegisterInfo.td;D:\Project\ollvm-tll\lib\Target\Lanai\LanaiSchedule.td;D:\Project\ollvm-tll\include\llvm\CodeGen\SDNodeProperties.td;D:\Project\ollvm-tll\include\llvm\CodeGen\ValueTypes.td;D:\Project\ollvm-tll\include\llvm\IR\Attributes.td;D:\Project\ollvm-tll\include\llvm\IR\Intrinsics.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsAArch64.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsAMDGPU.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsARM.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsBPF.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsHexagon.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsMips.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsNVVM.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsPowerPC.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsSystemZ.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsWebAssembly.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsX86.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsXCore.td;D:\Project\ollvm-tll\include\llvm\Option\OptParser.td;D:\Project\ollvm-tll\include\llvm\TableGen\SearchableTable.td;D:\Project\ollvm-tll\include\llvm\Target\GenericOpcodes.td;D:\Project\ollvm-tll\include\llvm\Target\GlobalISel\RegisterBank.td;D:\Project\ollvm-tll\include\llvm\Target\GlobalISel\SelectionDAGCompat.td;D:\Project\ollvm-tll\include\llvm\Target\GlobalISel\Target.td;D:\Project\ollvm-tll\include\llvm\Target\Target.td;D:\Project\ollvm-tll\include\llvm\Target\TargetCallingConv.td;D:\Project\ollvm-tll\include\llvm\Target\TargetItinerary.td;D:\Project\ollvm-tll\include\llvm\Target\TargetSchedule.td;D:\Project\ollvm-tll\include\llvm\Target\TargetSelectionDAG.td;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Project\ollvm-tll\build\lib\Target\Lanai\LanaiGenDAGISel.inc.tmp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building LanaiGenDAGISel.inc...</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+..\..\..\MinSizeRel\bin\llvm-tblgen.exe -gen-dag-isel -I D:/Project/ollvm-tll/lib/Target/Lanai -I D:/Project/ollvm-tll/include -I D:/Project/ollvm-tll/lib/Target D:/Project/ollvm-tll/lib/Target/Lanai/Lanai.td -o D:/Project/ollvm-tll/build/lib/Target/Lanai/LanaiGenDAGISel.inc.tmp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Project\ollvm-tll\build\MinSizeRel\bin\llvm-tblgen.exe;D:\Project\ollvm-tll\lib\Target\Lanai\Lanai.td;D:\Project\ollvm-tll\lib\Target\Lanai\LanaiCallingConv.td;D:\Project\ollvm-tll\lib\Target\Lanai\LanaiInstrFormats.td;D:\Project\ollvm-tll\lib\Target\Lanai\LanaiInstrInfo.td;D:\Project\ollvm-tll\lib\Target\Lanai\LanaiRegisterInfo.td;D:\Project\ollvm-tll\lib\Target\Lanai\LanaiSchedule.td;D:\Project\ollvm-tll\include\llvm\CodeGen\SDNodeProperties.td;D:\Project\ollvm-tll\include\llvm\CodeGen\ValueTypes.td;D:\Project\ollvm-tll\include\llvm\IR\Attributes.td;D:\Project\ollvm-tll\include\llvm\IR\Intrinsics.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsAArch64.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsAMDGPU.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsARM.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsBPF.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsHexagon.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsMips.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsNVVM.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsPowerPC.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsSystemZ.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsWebAssembly.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsX86.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsXCore.td;D:\Project\ollvm-tll\include\llvm\Option\OptParser.td;D:\Project\ollvm-tll\include\llvm\TableGen\SearchableTable.td;D:\Project\ollvm-tll\include\llvm\Target\GenericOpcodes.td;D:\Project\ollvm-tll\include\llvm\Target\GlobalISel\RegisterBank.td;D:\Project\ollvm-tll\include\llvm\Target\GlobalISel\SelectionDAGCompat.td;D:\Project\ollvm-tll\include\llvm\Target\GlobalISel\Target.td;D:\Project\ollvm-tll\include\llvm\Target\Target.td;D:\Project\ollvm-tll\include\llvm\Target\TargetCallingConv.td;D:\Project\ollvm-tll\include\llvm\Target\TargetItinerary.td;D:\Project\ollvm-tll\include\llvm\Target\TargetSchedule.td;D:\Project\ollvm-tll\include\llvm\Target\TargetSelectionDAG.td;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Project\ollvm-tll\build\lib\Target\Lanai\LanaiGenDAGISel.inc.tmp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building LanaiGenDAGISel.inc...</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+..\..\..\RelWithDebInfo\bin\llvm-tblgen.exe -gen-dag-isel -I D:/Project/ollvm-tll/lib/Target/Lanai -I D:/Project/ollvm-tll/include -I D:/Project/ollvm-tll/lib/Target D:/Project/ollvm-tll/lib/Target/Lanai/Lanai.td -o D:/Project/ollvm-tll/build/lib/Target/Lanai/LanaiGenDAGISel.inc.tmp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Project\ollvm-tll\build\RelWithDebInfo\bin\llvm-tblgen.exe;D:\Project\ollvm-tll\lib\Target\Lanai\Lanai.td;D:\Project\ollvm-tll\lib\Target\Lanai\LanaiCallingConv.td;D:\Project\ollvm-tll\lib\Target\Lanai\LanaiInstrFormats.td;D:\Project\ollvm-tll\lib\Target\Lanai\LanaiInstrInfo.td;D:\Project\ollvm-tll\lib\Target\Lanai\LanaiRegisterInfo.td;D:\Project\ollvm-tll\lib\Target\Lanai\LanaiSchedule.td;D:\Project\ollvm-tll\include\llvm\CodeGen\SDNodeProperties.td;D:\Project\ollvm-tll\include\llvm\CodeGen\ValueTypes.td;D:\Project\ollvm-tll\include\llvm\IR\Attributes.td;D:\Project\ollvm-tll\include\llvm\IR\Intrinsics.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsAArch64.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsAMDGPU.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsARM.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsBPF.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsHexagon.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsMips.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsNVVM.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsPowerPC.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsSystemZ.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsWebAssembly.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsX86.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsXCore.td;D:\Project\ollvm-tll\include\llvm\Option\OptParser.td;D:\Project\ollvm-tll\include\llvm\TableGen\SearchableTable.td;D:\Project\ollvm-tll\include\llvm\Target\GenericOpcodes.td;D:\Project\ollvm-tll\include\llvm\Target\GlobalISel\RegisterBank.td;D:\Project\ollvm-tll\include\llvm\Target\GlobalISel\SelectionDAGCompat.td;D:\Project\ollvm-tll\include\llvm\Target\GlobalISel\Target.td;D:\Project\ollvm-tll\include\llvm\Target\Target.td;D:\Project\ollvm-tll\include\llvm\Target\TargetCallingConv.td;D:\Project\ollvm-tll\include\llvm\Target\TargetItinerary.td;D:\Project\ollvm-tll\include\llvm\Target\TargetSchedule.td;D:\Project\ollvm-tll\include\llvm\Target\TargetSelectionDAG.td;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Project\ollvm-tll\build\lib\Target\Lanai\LanaiGenDAGISel.inc.tmp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Project\ollvm-tll\build\CMakeFiles\57d238721bea726974ea075b9650d81c\LanaiGenDAGISel.inc.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Updating LanaiGenDAGISel.inc...</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different D:/Project/ollvm-tll/build/lib/Target/Lanai/LanaiGenDAGISel.inc.tmp D:/Project/ollvm-tll/build/lib/Target/Lanai/LanaiGenDAGISel.inc
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Project\ollvm-tll\build\lib\Target\Lanai\LanaiGenDAGISel.inc.tmp;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Project\ollvm-tll\build\lib\Target\Lanai\LanaiGenDAGISel.inc</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Updating LanaiGenDAGISel.inc...</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different D:/Project/ollvm-tll/build/lib/Target/Lanai/LanaiGenDAGISel.inc.tmp D:/Project/ollvm-tll/build/lib/Target/Lanai/LanaiGenDAGISel.inc
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Project\ollvm-tll\build\lib\Target\Lanai\LanaiGenDAGISel.inc.tmp;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Project\ollvm-tll\build\lib\Target\Lanai\LanaiGenDAGISel.inc</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Updating LanaiGenDAGISel.inc...</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different D:/Project/ollvm-tll/build/lib/Target/Lanai/LanaiGenDAGISel.inc.tmp D:/Project/ollvm-tll/build/lib/Target/Lanai/LanaiGenDAGISel.inc
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Project\ollvm-tll\build\lib\Target\Lanai\LanaiGenDAGISel.inc.tmp;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Project\ollvm-tll\build\lib\Target\Lanai\LanaiGenDAGISel.inc</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Updating LanaiGenDAGISel.inc...</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different D:/Project/ollvm-tll/build/lib/Target/Lanai/LanaiGenDAGISel.inc.tmp D:/Project/ollvm-tll/build/lib/Target/Lanai/LanaiGenDAGISel.inc
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Project\ollvm-tll\build\lib\Target\Lanai\LanaiGenDAGISel.inc.tmp;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Project\ollvm-tll\build\lib\Target\Lanai\LanaiGenDAGISel.inc</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Project\ollvm-tll\build\CMakeFiles\57d238721bea726974ea075b9650d81c\LanaiGenDisassemblerTables.inc.tmp.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building LanaiGenDisassemblerTables.inc...</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+..\..\..\Debug\bin\llvm-tblgen.exe -gen-disassembler -I D:/Project/ollvm-tll/lib/Target/Lanai -I D:/Project/ollvm-tll/include -I D:/Project/ollvm-tll/lib/Target D:/Project/ollvm-tll/lib/Target/Lanai/Lanai.td -o D:/Project/ollvm-tll/build/lib/Target/Lanai/LanaiGenDisassemblerTables.inc.tmp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Project\ollvm-tll\build\Debug\bin\llvm-tblgen.exe;D:\Project\ollvm-tll\lib\Target\Lanai\Lanai.td;D:\Project\ollvm-tll\lib\Target\Lanai\LanaiCallingConv.td;D:\Project\ollvm-tll\lib\Target\Lanai\LanaiInstrFormats.td;D:\Project\ollvm-tll\lib\Target\Lanai\LanaiInstrInfo.td;D:\Project\ollvm-tll\lib\Target\Lanai\LanaiRegisterInfo.td;D:\Project\ollvm-tll\lib\Target\Lanai\LanaiSchedule.td;D:\Project\ollvm-tll\include\llvm\CodeGen\SDNodeProperties.td;D:\Project\ollvm-tll\include\llvm\CodeGen\ValueTypes.td;D:\Project\ollvm-tll\include\llvm\IR\Attributes.td;D:\Project\ollvm-tll\include\llvm\IR\Intrinsics.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsAArch64.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsAMDGPU.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsARM.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsBPF.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsHexagon.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsMips.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsNVVM.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsPowerPC.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsSystemZ.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsWebAssembly.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsX86.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsXCore.td;D:\Project\ollvm-tll\include\llvm\Option\OptParser.td;D:\Project\ollvm-tll\include\llvm\TableGen\SearchableTable.td;D:\Project\ollvm-tll\include\llvm\Target\GenericOpcodes.td;D:\Project\ollvm-tll\include\llvm\Target\GlobalISel\RegisterBank.td;D:\Project\ollvm-tll\include\llvm\Target\GlobalISel\SelectionDAGCompat.td;D:\Project\ollvm-tll\include\llvm\Target\GlobalISel\Target.td;D:\Project\ollvm-tll\include\llvm\Target\Target.td;D:\Project\ollvm-tll\include\llvm\Target\TargetCallingConv.td;D:\Project\ollvm-tll\include\llvm\Target\TargetItinerary.td;D:\Project\ollvm-tll\include\llvm\Target\TargetSchedule.td;D:\Project\ollvm-tll\include\llvm\Target\TargetSelectionDAG.td;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Project\ollvm-tll\build\lib\Target\Lanai\LanaiGenDisassemblerTables.inc.tmp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building LanaiGenDisassemblerTables.inc...</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+..\..\..\Release\bin\llvm-tblgen.exe -gen-disassembler -I D:/Project/ollvm-tll/lib/Target/Lanai -I D:/Project/ollvm-tll/include -I D:/Project/ollvm-tll/lib/Target D:/Project/ollvm-tll/lib/Target/Lanai/Lanai.td -o D:/Project/ollvm-tll/build/lib/Target/Lanai/LanaiGenDisassemblerTables.inc.tmp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Project\ollvm-tll\build\Release\bin\llvm-tblgen.exe;D:\Project\ollvm-tll\lib\Target\Lanai\Lanai.td;D:\Project\ollvm-tll\lib\Target\Lanai\LanaiCallingConv.td;D:\Project\ollvm-tll\lib\Target\Lanai\LanaiInstrFormats.td;D:\Project\ollvm-tll\lib\Target\Lanai\LanaiInstrInfo.td;D:\Project\ollvm-tll\lib\Target\Lanai\LanaiRegisterInfo.td;D:\Project\ollvm-tll\lib\Target\Lanai\LanaiSchedule.td;D:\Project\ollvm-tll\include\llvm\CodeGen\SDNodeProperties.td;D:\Project\ollvm-tll\include\llvm\CodeGen\ValueTypes.td;D:\Project\ollvm-tll\include\llvm\IR\Attributes.td;D:\Project\ollvm-tll\include\llvm\IR\Intrinsics.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsAArch64.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsAMDGPU.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsARM.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsBPF.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsHexagon.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsMips.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsNVVM.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsPowerPC.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsSystemZ.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsWebAssembly.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsX86.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsXCore.td;D:\Project\ollvm-tll\include\llvm\Option\OptParser.td;D:\Project\ollvm-tll\include\llvm\TableGen\SearchableTable.td;D:\Project\ollvm-tll\include\llvm\Target\GenericOpcodes.td;D:\Project\ollvm-tll\include\llvm\Target\GlobalISel\RegisterBank.td;D:\Project\ollvm-tll\include\llvm\Target\GlobalISel\SelectionDAGCompat.td;D:\Project\ollvm-tll\include\llvm\Target\GlobalISel\Target.td;D:\Project\ollvm-tll\include\llvm\Target\Target.td;D:\Project\ollvm-tll\include\llvm\Target\TargetCallingConv.td;D:\Project\ollvm-tll\include\llvm\Target\TargetItinerary.td;D:\Project\ollvm-tll\include\llvm\Target\TargetSchedule.td;D:\Project\ollvm-tll\include\llvm\Target\TargetSelectionDAG.td;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Project\ollvm-tll\build\lib\Target\Lanai\LanaiGenDisassemblerTables.inc.tmp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building LanaiGenDisassemblerTables.inc...</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+..\..\..\MinSizeRel\bin\llvm-tblgen.exe -gen-disassembler -I D:/Project/ollvm-tll/lib/Target/Lanai -I D:/Project/ollvm-tll/include -I D:/Project/ollvm-tll/lib/Target D:/Project/ollvm-tll/lib/Target/Lanai/Lanai.td -o D:/Project/ollvm-tll/build/lib/Target/Lanai/LanaiGenDisassemblerTables.inc.tmp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Project\ollvm-tll\build\MinSizeRel\bin\llvm-tblgen.exe;D:\Project\ollvm-tll\lib\Target\Lanai\Lanai.td;D:\Project\ollvm-tll\lib\Target\Lanai\LanaiCallingConv.td;D:\Project\ollvm-tll\lib\Target\Lanai\LanaiInstrFormats.td;D:\Project\ollvm-tll\lib\Target\Lanai\LanaiInstrInfo.td;D:\Project\ollvm-tll\lib\Target\Lanai\LanaiRegisterInfo.td;D:\Project\ollvm-tll\lib\Target\Lanai\LanaiSchedule.td;D:\Project\ollvm-tll\include\llvm\CodeGen\SDNodeProperties.td;D:\Project\ollvm-tll\include\llvm\CodeGen\ValueTypes.td;D:\Project\ollvm-tll\include\llvm\IR\Attributes.td;D:\Project\ollvm-tll\include\llvm\IR\Intrinsics.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsAArch64.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsAMDGPU.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsARM.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsBPF.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsHexagon.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsMips.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsNVVM.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsPowerPC.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsSystemZ.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsWebAssembly.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsX86.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsXCore.td;D:\Project\ollvm-tll\include\llvm\Option\OptParser.td;D:\Project\ollvm-tll\include\llvm\TableGen\SearchableTable.td;D:\Project\ollvm-tll\include\llvm\Target\GenericOpcodes.td;D:\Project\ollvm-tll\include\llvm\Target\GlobalISel\RegisterBank.td;D:\Project\ollvm-tll\include\llvm\Target\GlobalISel\SelectionDAGCompat.td;D:\Project\ollvm-tll\include\llvm\Target\GlobalISel\Target.td;D:\Project\ollvm-tll\include\llvm\Target\Target.td;D:\Project\ollvm-tll\include\llvm\Target\TargetCallingConv.td;D:\Project\ollvm-tll\include\llvm\Target\TargetItinerary.td;D:\Project\ollvm-tll\include\llvm\Target\TargetSchedule.td;D:\Project\ollvm-tll\include\llvm\Target\TargetSelectionDAG.td;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Project\ollvm-tll\build\lib\Target\Lanai\LanaiGenDisassemblerTables.inc.tmp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building LanaiGenDisassemblerTables.inc...</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+..\..\..\RelWithDebInfo\bin\llvm-tblgen.exe -gen-disassembler -I D:/Project/ollvm-tll/lib/Target/Lanai -I D:/Project/ollvm-tll/include -I D:/Project/ollvm-tll/lib/Target D:/Project/ollvm-tll/lib/Target/Lanai/Lanai.td -o D:/Project/ollvm-tll/build/lib/Target/Lanai/LanaiGenDisassemblerTables.inc.tmp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Project\ollvm-tll\build\RelWithDebInfo\bin\llvm-tblgen.exe;D:\Project\ollvm-tll\lib\Target\Lanai\Lanai.td;D:\Project\ollvm-tll\lib\Target\Lanai\LanaiCallingConv.td;D:\Project\ollvm-tll\lib\Target\Lanai\LanaiInstrFormats.td;D:\Project\ollvm-tll\lib\Target\Lanai\LanaiInstrInfo.td;D:\Project\ollvm-tll\lib\Target\Lanai\LanaiRegisterInfo.td;D:\Project\ollvm-tll\lib\Target\Lanai\LanaiSchedule.td;D:\Project\ollvm-tll\include\llvm\CodeGen\SDNodeProperties.td;D:\Project\ollvm-tll\include\llvm\CodeGen\ValueTypes.td;D:\Project\ollvm-tll\include\llvm\IR\Attributes.td;D:\Project\ollvm-tll\include\llvm\IR\Intrinsics.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsAArch64.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsAMDGPU.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsARM.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsBPF.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsHexagon.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsMips.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsNVVM.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsPowerPC.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsSystemZ.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsWebAssembly.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsX86.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsXCore.td;D:\Project\ollvm-tll\include\llvm\Option\OptParser.td;D:\Project\ollvm-tll\include\llvm\TableGen\SearchableTable.td;D:\Project\ollvm-tll\include\llvm\Target\GenericOpcodes.td;D:\Project\ollvm-tll\include\llvm\Target\GlobalISel\RegisterBank.td;D:\Project\ollvm-tll\include\llvm\Target\GlobalISel\SelectionDAGCompat.td;D:\Project\ollvm-tll\include\llvm\Target\GlobalISel\Target.td;D:\Project\ollvm-tll\include\llvm\Target\Target.td;D:\Project\ollvm-tll\include\llvm\Target\TargetCallingConv.td;D:\Project\ollvm-tll\include\llvm\Target\TargetItinerary.td;D:\Project\ollvm-tll\include\llvm\Target\TargetSchedule.td;D:\Project\ollvm-tll\include\llvm\Target\TargetSelectionDAG.td;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Project\ollvm-tll\build\lib\Target\Lanai\LanaiGenDisassemblerTables.inc.tmp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Project\ollvm-tll\build\CMakeFiles\57d238721bea726974ea075b9650d81c\LanaiGenDisassemblerTables.inc.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Updating LanaiGenDisassemblerTables.inc...</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different D:/Project/ollvm-tll/build/lib/Target/Lanai/LanaiGenDisassemblerTables.inc.tmp D:/Project/ollvm-tll/build/lib/Target/Lanai/LanaiGenDisassemblerTables.inc
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Project\ollvm-tll\build\lib\Target\Lanai\LanaiGenDisassemblerTables.inc.tmp;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Project\ollvm-tll\build\lib\Target\Lanai\LanaiGenDisassemblerTables.inc</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Updating LanaiGenDisassemblerTables.inc...</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different D:/Project/ollvm-tll/build/lib/Target/Lanai/LanaiGenDisassemblerTables.inc.tmp D:/Project/ollvm-tll/build/lib/Target/Lanai/LanaiGenDisassemblerTables.inc
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Project\ollvm-tll\build\lib\Target\Lanai\LanaiGenDisassemblerTables.inc.tmp;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Project\ollvm-tll\build\lib\Target\Lanai\LanaiGenDisassemblerTables.inc</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Updating LanaiGenDisassemblerTables.inc...</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different D:/Project/ollvm-tll/build/lib/Target/Lanai/LanaiGenDisassemblerTables.inc.tmp D:/Project/ollvm-tll/build/lib/Target/Lanai/LanaiGenDisassemblerTables.inc
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Project\ollvm-tll\build\lib\Target\Lanai\LanaiGenDisassemblerTables.inc.tmp;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Project\ollvm-tll\build\lib\Target\Lanai\LanaiGenDisassemblerTables.inc</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Updating LanaiGenDisassemblerTables.inc...</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different D:/Project/ollvm-tll/build/lib/Target/Lanai/LanaiGenDisassemblerTables.inc.tmp D:/Project/ollvm-tll/build/lib/Target/Lanai/LanaiGenDisassemblerTables.inc
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Project\ollvm-tll\build\lib\Target\Lanai\LanaiGenDisassemblerTables.inc.tmp;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Project\ollvm-tll\build\lib\Target\Lanai\LanaiGenDisassemblerTables.inc</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Project\ollvm-tll\build\CMakeFiles\57d238721bea726974ea075b9650d81c\LanaiGenInstrInfo.inc.tmp.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building LanaiGenInstrInfo.inc...</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+..\..\..\Debug\bin\llvm-tblgen.exe -gen-instr-info -I D:/Project/ollvm-tll/lib/Target/Lanai -I D:/Project/ollvm-tll/include -I D:/Project/ollvm-tll/lib/Target D:/Project/ollvm-tll/lib/Target/Lanai/Lanai.td -o D:/Project/ollvm-tll/build/lib/Target/Lanai/LanaiGenInstrInfo.inc.tmp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Project\ollvm-tll\build\Debug\bin\llvm-tblgen.exe;D:\Project\ollvm-tll\lib\Target\Lanai\Lanai.td;D:\Project\ollvm-tll\lib\Target\Lanai\LanaiCallingConv.td;D:\Project\ollvm-tll\lib\Target\Lanai\LanaiInstrFormats.td;D:\Project\ollvm-tll\lib\Target\Lanai\LanaiInstrInfo.td;D:\Project\ollvm-tll\lib\Target\Lanai\LanaiRegisterInfo.td;D:\Project\ollvm-tll\lib\Target\Lanai\LanaiSchedule.td;D:\Project\ollvm-tll\include\llvm\CodeGen\SDNodeProperties.td;D:\Project\ollvm-tll\include\llvm\CodeGen\ValueTypes.td;D:\Project\ollvm-tll\include\llvm\IR\Attributes.td;D:\Project\ollvm-tll\include\llvm\IR\Intrinsics.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsAArch64.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsAMDGPU.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsARM.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsBPF.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsHexagon.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsMips.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsNVVM.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsPowerPC.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsSystemZ.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsWebAssembly.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsX86.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsXCore.td;D:\Project\ollvm-tll\include\llvm\Option\OptParser.td;D:\Project\ollvm-tll\include\llvm\TableGen\SearchableTable.td;D:\Project\ollvm-tll\include\llvm\Target\GenericOpcodes.td;D:\Project\ollvm-tll\include\llvm\Target\GlobalISel\RegisterBank.td;D:\Project\ollvm-tll\include\llvm\Target\GlobalISel\SelectionDAGCompat.td;D:\Project\ollvm-tll\include\llvm\Target\GlobalISel\Target.td;D:\Project\ollvm-tll\include\llvm\Target\Target.td;D:\Project\ollvm-tll\include\llvm\Target\TargetCallingConv.td;D:\Project\ollvm-tll\include\llvm\Target\TargetItinerary.td;D:\Project\ollvm-tll\include\llvm\Target\TargetSchedule.td;D:\Project\ollvm-tll\include\llvm\Target\TargetSelectionDAG.td;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Project\ollvm-tll\build\lib\Target\Lanai\LanaiGenInstrInfo.inc.tmp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building LanaiGenInstrInfo.inc...</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+..\..\..\Release\bin\llvm-tblgen.exe -gen-instr-info -I D:/Project/ollvm-tll/lib/Target/Lanai -I D:/Project/ollvm-tll/include -I D:/Project/ollvm-tll/lib/Target D:/Project/ollvm-tll/lib/Target/Lanai/Lanai.td -o D:/Project/ollvm-tll/build/lib/Target/Lanai/LanaiGenInstrInfo.inc.tmp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Project\ollvm-tll\build\Release\bin\llvm-tblgen.exe;D:\Project\ollvm-tll\lib\Target\Lanai\Lanai.td;D:\Project\ollvm-tll\lib\Target\Lanai\LanaiCallingConv.td;D:\Project\ollvm-tll\lib\Target\Lanai\LanaiInstrFormats.td;D:\Project\ollvm-tll\lib\Target\Lanai\LanaiInstrInfo.td;D:\Project\ollvm-tll\lib\Target\Lanai\LanaiRegisterInfo.td;D:\Project\ollvm-tll\lib\Target\Lanai\LanaiSchedule.td;D:\Project\ollvm-tll\include\llvm\CodeGen\SDNodeProperties.td;D:\Project\ollvm-tll\include\llvm\CodeGen\ValueTypes.td;D:\Project\ollvm-tll\include\llvm\IR\Attributes.td;D:\Project\ollvm-tll\include\llvm\IR\Intrinsics.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsAArch64.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsAMDGPU.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsARM.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsBPF.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsHexagon.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsMips.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsNVVM.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsPowerPC.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsSystemZ.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsWebAssembly.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsX86.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsXCore.td;D:\Project\ollvm-tll\include\llvm\Option\OptParser.td;D:\Project\ollvm-tll\include\llvm\TableGen\SearchableTable.td;D:\Project\ollvm-tll\include\llvm\Target\GenericOpcodes.td;D:\Project\ollvm-tll\include\llvm\Target\GlobalISel\RegisterBank.td;D:\Project\ollvm-tll\include\llvm\Target\GlobalISel\SelectionDAGCompat.td;D:\Project\ollvm-tll\include\llvm\Target\GlobalISel\Target.td;D:\Project\ollvm-tll\include\llvm\Target\Target.td;D:\Project\ollvm-tll\include\llvm\Target\TargetCallingConv.td;D:\Project\ollvm-tll\include\llvm\Target\TargetItinerary.td;D:\Project\ollvm-tll\include\llvm\Target\TargetSchedule.td;D:\Project\ollvm-tll\include\llvm\Target\TargetSelectionDAG.td;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Project\ollvm-tll\build\lib\Target\Lanai\LanaiGenInstrInfo.inc.tmp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building LanaiGenInstrInfo.inc...</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+..\..\..\MinSizeRel\bin\llvm-tblgen.exe -gen-instr-info -I D:/Project/ollvm-tll/lib/Target/Lanai -I D:/Project/ollvm-tll/include -I D:/Project/ollvm-tll/lib/Target D:/Project/ollvm-tll/lib/Target/Lanai/Lanai.td -o D:/Project/ollvm-tll/build/lib/Target/Lanai/LanaiGenInstrInfo.inc.tmp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Project\ollvm-tll\build\MinSizeRel\bin\llvm-tblgen.exe;D:\Project\ollvm-tll\lib\Target\Lanai\Lanai.td;D:\Project\ollvm-tll\lib\Target\Lanai\LanaiCallingConv.td;D:\Project\ollvm-tll\lib\Target\Lanai\LanaiInstrFormats.td;D:\Project\ollvm-tll\lib\Target\Lanai\LanaiInstrInfo.td;D:\Project\ollvm-tll\lib\Target\Lanai\LanaiRegisterInfo.td;D:\Project\ollvm-tll\lib\Target\Lanai\LanaiSchedule.td;D:\Project\ollvm-tll\include\llvm\CodeGen\SDNodeProperties.td;D:\Project\ollvm-tll\include\llvm\CodeGen\ValueTypes.td;D:\Project\ollvm-tll\include\llvm\IR\Attributes.td;D:\Project\ollvm-tll\include\llvm\IR\Intrinsics.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsAArch64.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsAMDGPU.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsARM.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsBPF.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsHexagon.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsMips.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsNVVM.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsPowerPC.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsSystemZ.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsWebAssembly.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsX86.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsXCore.td;D:\Project\ollvm-tll\include\llvm\Option\OptParser.td;D:\Project\ollvm-tll\include\llvm\TableGen\SearchableTable.td;D:\Project\ollvm-tll\include\llvm\Target\GenericOpcodes.td;D:\Project\ollvm-tll\include\llvm\Target\GlobalISel\RegisterBank.td;D:\Project\ollvm-tll\include\llvm\Target\GlobalISel\SelectionDAGCompat.td;D:\Project\ollvm-tll\include\llvm\Target\GlobalISel\Target.td;D:\Project\ollvm-tll\include\llvm\Target\Target.td;D:\Project\ollvm-tll\include\llvm\Target\TargetCallingConv.td;D:\Project\ollvm-tll\include\llvm\Target\TargetItinerary.td;D:\Project\ollvm-tll\include\llvm\Target\TargetSchedule.td;D:\Project\ollvm-tll\include\llvm\Target\TargetSelectionDAG.td;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Project\ollvm-tll\build\lib\Target\Lanai\LanaiGenInstrInfo.inc.tmp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building LanaiGenInstrInfo.inc...</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+..\..\..\RelWithDebInfo\bin\llvm-tblgen.exe -gen-instr-info -I D:/Project/ollvm-tll/lib/Target/Lanai -I D:/Project/ollvm-tll/include -I D:/Project/ollvm-tll/lib/Target D:/Project/ollvm-tll/lib/Target/Lanai/Lanai.td -o D:/Project/ollvm-tll/build/lib/Target/Lanai/LanaiGenInstrInfo.inc.tmp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Project\ollvm-tll\build\RelWithDebInfo\bin\llvm-tblgen.exe;D:\Project\ollvm-tll\lib\Target\Lanai\Lanai.td;D:\Project\ollvm-tll\lib\Target\Lanai\LanaiCallingConv.td;D:\Project\ollvm-tll\lib\Target\Lanai\LanaiInstrFormats.td;D:\Project\ollvm-tll\lib\Target\Lanai\LanaiInstrInfo.td;D:\Project\ollvm-tll\lib\Target\Lanai\LanaiRegisterInfo.td;D:\Project\ollvm-tll\lib\Target\Lanai\LanaiSchedule.td;D:\Project\ollvm-tll\include\llvm\CodeGen\SDNodeProperties.td;D:\Project\ollvm-tll\include\llvm\CodeGen\ValueTypes.td;D:\Project\ollvm-tll\include\llvm\IR\Attributes.td;D:\Project\ollvm-tll\include\llvm\IR\Intrinsics.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsAArch64.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsAMDGPU.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsARM.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsBPF.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsHexagon.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsMips.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsNVVM.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsPowerPC.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsSystemZ.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsWebAssembly.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsX86.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsXCore.td;D:\Project\ollvm-tll\include\llvm\Option\OptParser.td;D:\Project\ollvm-tll\include\llvm\TableGen\SearchableTable.td;D:\Project\ollvm-tll\include\llvm\Target\GenericOpcodes.td;D:\Project\ollvm-tll\include\llvm\Target\GlobalISel\RegisterBank.td;D:\Project\ollvm-tll\include\llvm\Target\GlobalISel\SelectionDAGCompat.td;D:\Project\ollvm-tll\include\llvm\Target\GlobalISel\Target.td;D:\Project\ollvm-tll\include\llvm\Target\Target.td;D:\Project\ollvm-tll\include\llvm\Target\TargetCallingConv.td;D:\Project\ollvm-tll\include\llvm\Target\TargetItinerary.td;D:\Project\ollvm-tll\include\llvm\Target\TargetSchedule.td;D:\Project\ollvm-tll\include\llvm\Target\TargetSelectionDAG.td;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Project\ollvm-tll\build\lib\Target\Lanai\LanaiGenInstrInfo.inc.tmp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Project\ollvm-tll\build\CMakeFiles\57d238721bea726974ea075b9650d81c\LanaiGenInstrInfo.inc.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Updating LanaiGenInstrInfo.inc...</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different D:/Project/ollvm-tll/build/lib/Target/Lanai/LanaiGenInstrInfo.inc.tmp D:/Project/ollvm-tll/build/lib/Target/Lanai/LanaiGenInstrInfo.inc
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Project\ollvm-tll\build\lib\Target\Lanai\LanaiGenInstrInfo.inc.tmp;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Project\ollvm-tll\build\lib\Target\Lanai\LanaiGenInstrInfo.inc</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Updating LanaiGenInstrInfo.inc...</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different D:/Project/ollvm-tll/build/lib/Target/Lanai/LanaiGenInstrInfo.inc.tmp D:/Project/ollvm-tll/build/lib/Target/Lanai/LanaiGenInstrInfo.inc
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Project\ollvm-tll\build\lib\Target\Lanai\LanaiGenInstrInfo.inc.tmp;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Project\ollvm-tll\build\lib\Target\Lanai\LanaiGenInstrInfo.inc</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Updating LanaiGenInstrInfo.inc...</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different D:/Project/ollvm-tll/build/lib/Target/Lanai/LanaiGenInstrInfo.inc.tmp D:/Project/ollvm-tll/build/lib/Target/Lanai/LanaiGenInstrInfo.inc
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Project\ollvm-tll\build\lib\Target\Lanai\LanaiGenInstrInfo.inc.tmp;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Project\ollvm-tll\build\lib\Target\Lanai\LanaiGenInstrInfo.inc</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Updating LanaiGenInstrInfo.inc...</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different D:/Project/ollvm-tll/build/lib/Target/Lanai/LanaiGenInstrInfo.inc.tmp D:/Project/ollvm-tll/build/lib/Target/Lanai/LanaiGenInstrInfo.inc
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Project\ollvm-tll\build\lib\Target\Lanai\LanaiGenInstrInfo.inc.tmp;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Project\ollvm-tll\build\lib\Target\Lanai\LanaiGenInstrInfo.inc</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Project\ollvm-tll\build\CMakeFiles\57d238721bea726974ea075b9650d81c\LanaiGenMCCodeEmitter.inc.tmp.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building LanaiGenMCCodeEmitter.inc...</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+..\..\..\Debug\bin\llvm-tblgen.exe -gen-emitter -I D:/Project/ollvm-tll/lib/Target/Lanai -I D:/Project/ollvm-tll/include -I D:/Project/ollvm-tll/lib/Target D:/Project/ollvm-tll/lib/Target/Lanai/Lanai.td -o D:/Project/ollvm-tll/build/lib/Target/Lanai/LanaiGenMCCodeEmitter.inc.tmp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Project\ollvm-tll\build\Debug\bin\llvm-tblgen.exe;D:\Project\ollvm-tll\lib\Target\Lanai\Lanai.td;D:\Project\ollvm-tll\lib\Target\Lanai\LanaiCallingConv.td;D:\Project\ollvm-tll\lib\Target\Lanai\LanaiInstrFormats.td;D:\Project\ollvm-tll\lib\Target\Lanai\LanaiInstrInfo.td;D:\Project\ollvm-tll\lib\Target\Lanai\LanaiRegisterInfo.td;D:\Project\ollvm-tll\lib\Target\Lanai\LanaiSchedule.td;D:\Project\ollvm-tll\include\llvm\CodeGen\SDNodeProperties.td;D:\Project\ollvm-tll\include\llvm\CodeGen\ValueTypes.td;D:\Project\ollvm-tll\include\llvm\IR\Attributes.td;D:\Project\ollvm-tll\include\llvm\IR\Intrinsics.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsAArch64.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsAMDGPU.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsARM.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsBPF.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsHexagon.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsMips.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsNVVM.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsPowerPC.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsSystemZ.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsWebAssembly.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsX86.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsXCore.td;D:\Project\ollvm-tll\include\llvm\Option\OptParser.td;D:\Project\ollvm-tll\include\llvm\TableGen\SearchableTable.td;D:\Project\ollvm-tll\include\llvm\Target\GenericOpcodes.td;D:\Project\ollvm-tll\include\llvm\Target\GlobalISel\RegisterBank.td;D:\Project\ollvm-tll\include\llvm\Target\GlobalISel\SelectionDAGCompat.td;D:\Project\ollvm-tll\include\llvm\Target\GlobalISel\Target.td;D:\Project\ollvm-tll\include\llvm\Target\Target.td;D:\Project\ollvm-tll\include\llvm\Target\TargetCallingConv.td;D:\Project\ollvm-tll\include\llvm\Target\TargetItinerary.td;D:\Project\ollvm-tll\include\llvm\Target\TargetSchedule.td;D:\Project\ollvm-tll\include\llvm\Target\TargetSelectionDAG.td;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Project\ollvm-tll\build\lib\Target\Lanai\LanaiGenMCCodeEmitter.inc.tmp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building LanaiGenMCCodeEmitter.inc...</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+..\..\..\Release\bin\llvm-tblgen.exe -gen-emitter -I D:/Project/ollvm-tll/lib/Target/Lanai -I D:/Project/ollvm-tll/include -I D:/Project/ollvm-tll/lib/Target D:/Project/ollvm-tll/lib/Target/Lanai/Lanai.td -o D:/Project/ollvm-tll/build/lib/Target/Lanai/LanaiGenMCCodeEmitter.inc.tmp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Project\ollvm-tll\build\Release\bin\llvm-tblgen.exe;D:\Project\ollvm-tll\lib\Target\Lanai\Lanai.td;D:\Project\ollvm-tll\lib\Target\Lanai\LanaiCallingConv.td;D:\Project\ollvm-tll\lib\Target\Lanai\LanaiInstrFormats.td;D:\Project\ollvm-tll\lib\Target\Lanai\LanaiInstrInfo.td;D:\Project\ollvm-tll\lib\Target\Lanai\LanaiRegisterInfo.td;D:\Project\ollvm-tll\lib\Target\Lanai\LanaiSchedule.td;D:\Project\ollvm-tll\include\llvm\CodeGen\SDNodeProperties.td;D:\Project\ollvm-tll\include\llvm\CodeGen\ValueTypes.td;D:\Project\ollvm-tll\include\llvm\IR\Attributes.td;D:\Project\ollvm-tll\include\llvm\IR\Intrinsics.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsAArch64.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsAMDGPU.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsARM.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsBPF.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsHexagon.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsMips.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsNVVM.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsPowerPC.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsSystemZ.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsWebAssembly.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsX86.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsXCore.td;D:\Project\ollvm-tll\include\llvm\Option\OptParser.td;D:\Project\ollvm-tll\include\llvm\TableGen\SearchableTable.td;D:\Project\ollvm-tll\include\llvm\Target\GenericOpcodes.td;D:\Project\ollvm-tll\include\llvm\Target\GlobalISel\RegisterBank.td;D:\Project\ollvm-tll\include\llvm\Target\GlobalISel\SelectionDAGCompat.td;D:\Project\ollvm-tll\include\llvm\Target\GlobalISel\Target.td;D:\Project\ollvm-tll\include\llvm\Target\Target.td;D:\Project\ollvm-tll\include\llvm\Target\TargetCallingConv.td;D:\Project\ollvm-tll\include\llvm\Target\TargetItinerary.td;D:\Project\ollvm-tll\include\llvm\Target\TargetSchedule.td;D:\Project\ollvm-tll\include\llvm\Target\TargetSelectionDAG.td;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Project\ollvm-tll\build\lib\Target\Lanai\LanaiGenMCCodeEmitter.inc.tmp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building LanaiGenMCCodeEmitter.inc...</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+..\..\..\MinSizeRel\bin\llvm-tblgen.exe -gen-emitter -I D:/Project/ollvm-tll/lib/Target/Lanai -I D:/Project/ollvm-tll/include -I D:/Project/ollvm-tll/lib/Target D:/Project/ollvm-tll/lib/Target/Lanai/Lanai.td -o D:/Project/ollvm-tll/build/lib/Target/Lanai/LanaiGenMCCodeEmitter.inc.tmp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Project\ollvm-tll\build\MinSizeRel\bin\llvm-tblgen.exe;D:\Project\ollvm-tll\lib\Target\Lanai\Lanai.td;D:\Project\ollvm-tll\lib\Target\Lanai\LanaiCallingConv.td;D:\Project\ollvm-tll\lib\Target\Lanai\LanaiInstrFormats.td;D:\Project\ollvm-tll\lib\Target\Lanai\LanaiInstrInfo.td;D:\Project\ollvm-tll\lib\Target\Lanai\LanaiRegisterInfo.td;D:\Project\ollvm-tll\lib\Target\Lanai\LanaiSchedule.td;D:\Project\ollvm-tll\include\llvm\CodeGen\SDNodeProperties.td;D:\Project\ollvm-tll\include\llvm\CodeGen\ValueTypes.td;D:\Project\ollvm-tll\include\llvm\IR\Attributes.td;D:\Project\ollvm-tll\include\llvm\IR\Intrinsics.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsAArch64.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsAMDGPU.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsARM.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsBPF.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsHexagon.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsMips.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsNVVM.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsPowerPC.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsSystemZ.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsWebAssembly.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsX86.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsXCore.td;D:\Project\ollvm-tll\include\llvm\Option\OptParser.td;D:\Project\ollvm-tll\include\llvm\TableGen\SearchableTable.td;D:\Project\ollvm-tll\include\llvm\Target\GenericOpcodes.td;D:\Project\ollvm-tll\include\llvm\Target\GlobalISel\RegisterBank.td;D:\Project\ollvm-tll\include\llvm\Target\GlobalISel\SelectionDAGCompat.td;D:\Project\ollvm-tll\include\llvm\Target\GlobalISel\Target.td;D:\Project\ollvm-tll\include\llvm\Target\Target.td;D:\Project\ollvm-tll\include\llvm\Target\TargetCallingConv.td;D:\Project\ollvm-tll\include\llvm\Target\TargetItinerary.td;D:\Project\ollvm-tll\include\llvm\Target\TargetSchedule.td;D:\Project\ollvm-tll\include\llvm\Target\TargetSelectionDAG.td;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Project\ollvm-tll\build\lib\Target\Lanai\LanaiGenMCCodeEmitter.inc.tmp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building LanaiGenMCCodeEmitter.inc...</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+..\..\..\RelWithDebInfo\bin\llvm-tblgen.exe -gen-emitter -I D:/Project/ollvm-tll/lib/Target/Lanai -I D:/Project/ollvm-tll/include -I D:/Project/ollvm-tll/lib/Target D:/Project/ollvm-tll/lib/Target/Lanai/Lanai.td -o D:/Project/ollvm-tll/build/lib/Target/Lanai/LanaiGenMCCodeEmitter.inc.tmp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Project\ollvm-tll\build\RelWithDebInfo\bin\llvm-tblgen.exe;D:\Project\ollvm-tll\lib\Target\Lanai\Lanai.td;D:\Project\ollvm-tll\lib\Target\Lanai\LanaiCallingConv.td;D:\Project\ollvm-tll\lib\Target\Lanai\LanaiInstrFormats.td;D:\Project\ollvm-tll\lib\Target\Lanai\LanaiInstrInfo.td;D:\Project\ollvm-tll\lib\Target\Lanai\LanaiRegisterInfo.td;D:\Project\ollvm-tll\lib\Target\Lanai\LanaiSchedule.td;D:\Project\ollvm-tll\include\llvm\CodeGen\SDNodeProperties.td;D:\Project\ollvm-tll\include\llvm\CodeGen\ValueTypes.td;D:\Project\ollvm-tll\include\llvm\IR\Attributes.td;D:\Project\ollvm-tll\include\llvm\IR\Intrinsics.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsAArch64.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsAMDGPU.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsARM.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsBPF.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsHexagon.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsMips.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsNVVM.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsPowerPC.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsSystemZ.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsWebAssembly.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsX86.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsXCore.td;D:\Project\ollvm-tll\include\llvm\Option\OptParser.td;D:\Project\ollvm-tll\include\llvm\TableGen\SearchableTable.td;D:\Project\ollvm-tll\include\llvm\Target\GenericOpcodes.td;D:\Project\ollvm-tll\include\llvm\Target\GlobalISel\RegisterBank.td;D:\Project\ollvm-tll\include\llvm\Target\GlobalISel\SelectionDAGCompat.td;D:\Project\ollvm-tll\include\llvm\Target\GlobalISel\Target.td;D:\Project\ollvm-tll\include\llvm\Target\Target.td;D:\Project\ollvm-tll\include\llvm\Target\TargetCallingConv.td;D:\Project\ollvm-tll\include\llvm\Target\TargetItinerary.td;D:\Project\ollvm-tll\include\llvm\Target\TargetSchedule.td;D:\Project\ollvm-tll\include\llvm\Target\TargetSelectionDAG.td;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Project\ollvm-tll\build\lib\Target\Lanai\LanaiGenMCCodeEmitter.inc.tmp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Project\ollvm-tll\build\CMakeFiles\57d238721bea726974ea075b9650d81c\LanaiGenMCCodeEmitter.inc.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Updating LanaiGenMCCodeEmitter.inc...</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different D:/Project/ollvm-tll/build/lib/Target/Lanai/LanaiGenMCCodeEmitter.inc.tmp D:/Project/ollvm-tll/build/lib/Target/Lanai/LanaiGenMCCodeEmitter.inc
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Project\ollvm-tll\build\lib\Target\Lanai\LanaiGenMCCodeEmitter.inc.tmp;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Project\ollvm-tll\build\lib\Target\Lanai\LanaiGenMCCodeEmitter.inc</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Updating LanaiGenMCCodeEmitter.inc...</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different D:/Project/ollvm-tll/build/lib/Target/Lanai/LanaiGenMCCodeEmitter.inc.tmp D:/Project/ollvm-tll/build/lib/Target/Lanai/LanaiGenMCCodeEmitter.inc
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Project\ollvm-tll\build\lib\Target\Lanai\LanaiGenMCCodeEmitter.inc.tmp;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Project\ollvm-tll\build\lib\Target\Lanai\LanaiGenMCCodeEmitter.inc</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Updating LanaiGenMCCodeEmitter.inc...</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different D:/Project/ollvm-tll/build/lib/Target/Lanai/LanaiGenMCCodeEmitter.inc.tmp D:/Project/ollvm-tll/build/lib/Target/Lanai/LanaiGenMCCodeEmitter.inc
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Project\ollvm-tll\build\lib\Target\Lanai\LanaiGenMCCodeEmitter.inc.tmp;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Project\ollvm-tll\build\lib\Target\Lanai\LanaiGenMCCodeEmitter.inc</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Updating LanaiGenMCCodeEmitter.inc...</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different D:/Project/ollvm-tll/build/lib/Target/Lanai/LanaiGenMCCodeEmitter.inc.tmp D:/Project/ollvm-tll/build/lib/Target/Lanai/LanaiGenMCCodeEmitter.inc
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Project\ollvm-tll\build\lib\Target\Lanai\LanaiGenMCCodeEmitter.inc.tmp;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Project\ollvm-tll\build\lib\Target\Lanai\LanaiGenMCCodeEmitter.inc</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Project\ollvm-tll\build\CMakeFiles\57d238721bea726974ea075b9650d81c\LanaiGenRegisterInfo.inc.tmp.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building LanaiGenRegisterInfo.inc...</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+..\..\..\Debug\bin\llvm-tblgen.exe -gen-register-info -I D:/Project/ollvm-tll/lib/Target/Lanai -I D:/Project/ollvm-tll/include -I D:/Project/ollvm-tll/lib/Target D:/Project/ollvm-tll/lib/Target/Lanai/Lanai.td -o D:/Project/ollvm-tll/build/lib/Target/Lanai/LanaiGenRegisterInfo.inc.tmp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Project\ollvm-tll\build\Debug\bin\llvm-tblgen.exe;D:\Project\ollvm-tll\lib\Target\Lanai\Lanai.td;D:\Project\ollvm-tll\lib\Target\Lanai\LanaiCallingConv.td;D:\Project\ollvm-tll\lib\Target\Lanai\LanaiInstrFormats.td;D:\Project\ollvm-tll\lib\Target\Lanai\LanaiInstrInfo.td;D:\Project\ollvm-tll\lib\Target\Lanai\LanaiRegisterInfo.td;D:\Project\ollvm-tll\lib\Target\Lanai\LanaiSchedule.td;D:\Project\ollvm-tll\include\llvm\CodeGen\SDNodeProperties.td;D:\Project\ollvm-tll\include\llvm\CodeGen\ValueTypes.td;D:\Project\ollvm-tll\include\llvm\IR\Attributes.td;D:\Project\ollvm-tll\include\llvm\IR\Intrinsics.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsAArch64.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsAMDGPU.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsARM.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsBPF.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsHexagon.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsMips.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsNVVM.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsPowerPC.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsSystemZ.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsWebAssembly.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsX86.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsXCore.td;D:\Project\ollvm-tll\include\llvm\Option\OptParser.td;D:\Project\ollvm-tll\include\llvm\TableGen\SearchableTable.td;D:\Project\ollvm-tll\include\llvm\Target\GenericOpcodes.td;D:\Project\ollvm-tll\include\llvm\Target\GlobalISel\RegisterBank.td;D:\Project\ollvm-tll\include\llvm\Target\GlobalISel\SelectionDAGCompat.td;D:\Project\ollvm-tll\include\llvm\Target\GlobalISel\Target.td;D:\Project\ollvm-tll\include\llvm\Target\Target.td;D:\Project\ollvm-tll\include\llvm\Target\TargetCallingConv.td;D:\Project\ollvm-tll\include\llvm\Target\TargetItinerary.td;D:\Project\ollvm-tll\include\llvm\Target\TargetSchedule.td;D:\Project\ollvm-tll\include\llvm\Target\TargetSelectionDAG.td;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Project\ollvm-tll\build\lib\Target\Lanai\LanaiGenRegisterInfo.inc.tmp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building LanaiGenRegisterInfo.inc...</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+..\..\..\Release\bin\llvm-tblgen.exe -gen-register-info -I D:/Project/ollvm-tll/lib/Target/Lanai -I D:/Project/ollvm-tll/include -I D:/Project/ollvm-tll/lib/Target D:/Project/ollvm-tll/lib/Target/Lanai/Lanai.td -o D:/Project/ollvm-tll/build/lib/Target/Lanai/LanaiGenRegisterInfo.inc.tmp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Project\ollvm-tll\build\Release\bin\llvm-tblgen.exe;D:\Project\ollvm-tll\lib\Target\Lanai\Lanai.td;D:\Project\ollvm-tll\lib\Target\Lanai\LanaiCallingConv.td;D:\Project\ollvm-tll\lib\Target\Lanai\LanaiInstrFormats.td;D:\Project\ollvm-tll\lib\Target\Lanai\LanaiInstrInfo.td;D:\Project\ollvm-tll\lib\Target\Lanai\LanaiRegisterInfo.td;D:\Project\ollvm-tll\lib\Target\Lanai\LanaiSchedule.td;D:\Project\ollvm-tll\include\llvm\CodeGen\SDNodeProperties.td;D:\Project\ollvm-tll\include\llvm\CodeGen\ValueTypes.td;D:\Project\ollvm-tll\include\llvm\IR\Attributes.td;D:\Project\ollvm-tll\include\llvm\IR\Intrinsics.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsAArch64.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsAMDGPU.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsARM.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsBPF.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsHexagon.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsMips.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsNVVM.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsPowerPC.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsSystemZ.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsWebAssembly.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsX86.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsXCore.td;D:\Project\ollvm-tll\include\llvm\Option\OptParser.td;D:\Project\ollvm-tll\include\llvm\TableGen\SearchableTable.td;D:\Project\ollvm-tll\include\llvm\Target\GenericOpcodes.td;D:\Project\ollvm-tll\include\llvm\Target\GlobalISel\RegisterBank.td;D:\Project\ollvm-tll\include\llvm\Target\GlobalISel\SelectionDAGCompat.td;D:\Project\ollvm-tll\include\llvm\Target\GlobalISel\Target.td;D:\Project\ollvm-tll\include\llvm\Target\Target.td;D:\Project\ollvm-tll\include\llvm\Target\TargetCallingConv.td;D:\Project\ollvm-tll\include\llvm\Target\TargetItinerary.td;D:\Project\ollvm-tll\include\llvm\Target\TargetSchedule.td;D:\Project\ollvm-tll\include\llvm\Target\TargetSelectionDAG.td;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Project\ollvm-tll\build\lib\Target\Lanai\LanaiGenRegisterInfo.inc.tmp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building LanaiGenRegisterInfo.inc...</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+..\..\..\MinSizeRel\bin\llvm-tblgen.exe -gen-register-info -I D:/Project/ollvm-tll/lib/Target/Lanai -I D:/Project/ollvm-tll/include -I D:/Project/ollvm-tll/lib/Target D:/Project/ollvm-tll/lib/Target/Lanai/Lanai.td -o D:/Project/ollvm-tll/build/lib/Target/Lanai/LanaiGenRegisterInfo.inc.tmp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Project\ollvm-tll\build\MinSizeRel\bin\llvm-tblgen.exe;D:\Project\ollvm-tll\lib\Target\Lanai\Lanai.td;D:\Project\ollvm-tll\lib\Target\Lanai\LanaiCallingConv.td;D:\Project\ollvm-tll\lib\Target\Lanai\LanaiInstrFormats.td;D:\Project\ollvm-tll\lib\Target\Lanai\LanaiInstrInfo.td;D:\Project\ollvm-tll\lib\Target\Lanai\LanaiRegisterInfo.td;D:\Project\ollvm-tll\lib\Target\Lanai\LanaiSchedule.td;D:\Project\ollvm-tll\include\llvm\CodeGen\SDNodeProperties.td;D:\Project\ollvm-tll\include\llvm\CodeGen\ValueTypes.td;D:\Project\ollvm-tll\include\llvm\IR\Attributes.td;D:\Project\ollvm-tll\include\llvm\IR\Intrinsics.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsAArch64.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsAMDGPU.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsARM.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsBPF.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsHexagon.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsMips.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsNVVM.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsPowerPC.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsSystemZ.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsWebAssembly.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsX86.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsXCore.td;D:\Project\ollvm-tll\include\llvm\Option\OptParser.td;D:\Project\ollvm-tll\include\llvm\TableGen\SearchableTable.td;D:\Project\ollvm-tll\include\llvm\Target\GenericOpcodes.td;D:\Project\ollvm-tll\include\llvm\Target\GlobalISel\RegisterBank.td;D:\Project\ollvm-tll\include\llvm\Target\GlobalISel\SelectionDAGCompat.td;D:\Project\ollvm-tll\include\llvm\Target\GlobalISel\Target.td;D:\Project\ollvm-tll\include\llvm\Target\Target.td;D:\Project\ollvm-tll\include\llvm\Target\TargetCallingConv.td;D:\Project\ollvm-tll\include\llvm\Target\TargetItinerary.td;D:\Project\ollvm-tll\include\llvm\Target\TargetSchedule.td;D:\Project\ollvm-tll\include\llvm\Target\TargetSelectionDAG.td;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Project\ollvm-tll\build\lib\Target\Lanai\LanaiGenRegisterInfo.inc.tmp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building LanaiGenRegisterInfo.inc...</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+..\..\..\RelWithDebInfo\bin\llvm-tblgen.exe -gen-register-info -I D:/Project/ollvm-tll/lib/Target/Lanai -I D:/Project/ollvm-tll/include -I D:/Project/ollvm-tll/lib/Target D:/Project/ollvm-tll/lib/Target/Lanai/Lanai.td -o D:/Project/ollvm-tll/build/lib/Target/Lanai/LanaiGenRegisterInfo.inc.tmp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Project\ollvm-tll\build\RelWithDebInfo\bin\llvm-tblgen.exe;D:\Project\ollvm-tll\lib\Target\Lanai\Lanai.td;D:\Project\ollvm-tll\lib\Target\Lanai\LanaiCallingConv.td;D:\Project\ollvm-tll\lib\Target\Lanai\LanaiInstrFormats.td;D:\Project\ollvm-tll\lib\Target\Lanai\LanaiInstrInfo.td;D:\Project\ollvm-tll\lib\Target\Lanai\LanaiRegisterInfo.td;D:\Project\ollvm-tll\lib\Target\Lanai\LanaiSchedule.td;D:\Project\ollvm-tll\include\llvm\CodeGen\SDNodeProperties.td;D:\Project\ollvm-tll\include\llvm\CodeGen\ValueTypes.td;D:\Project\ollvm-tll\include\llvm\IR\Attributes.td;D:\Project\ollvm-tll\include\llvm\IR\Intrinsics.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsAArch64.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsAMDGPU.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsARM.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsBPF.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsHexagon.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsMips.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsNVVM.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsPowerPC.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsSystemZ.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsWebAssembly.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsX86.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsXCore.td;D:\Project\ollvm-tll\include\llvm\Option\OptParser.td;D:\Project\ollvm-tll\include\llvm\TableGen\SearchableTable.td;D:\Project\ollvm-tll\include\llvm\Target\GenericOpcodes.td;D:\Project\ollvm-tll\include\llvm\Target\GlobalISel\RegisterBank.td;D:\Project\ollvm-tll\include\llvm\Target\GlobalISel\SelectionDAGCompat.td;D:\Project\ollvm-tll\include\llvm\Target\GlobalISel\Target.td;D:\Project\ollvm-tll\include\llvm\Target\Target.td;D:\Project\ollvm-tll\include\llvm\Target\TargetCallingConv.td;D:\Project\ollvm-tll\include\llvm\Target\TargetItinerary.td;D:\Project\ollvm-tll\include\llvm\Target\TargetSchedule.td;D:\Project\ollvm-tll\include\llvm\Target\TargetSelectionDAG.td;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Project\ollvm-tll\build\lib\Target\Lanai\LanaiGenRegisterInfo.inc.tmp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Project\ollvm-tll\build\CMakeFiles\57d238721bea726974ea075b9650d81c\LanaiGenRegisterInfo.inc.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Updating LanaiGenRegisterInfo.inc...</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different D:/Project/ollvm-tll/build/lib/Target/Lanai/LanaiGenRegisterInfo.inc.tmp D:/Project/ollvm-tll/build/lib/Target/Lanai/LanaiGenRegisterInfo.inc
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Project\ollvm-tll\build\lib\Target\Lanai\LanaiGenRegisterInfo.inc.tmp;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Project\ollvm-tll\build\lib\Target\Lanai\LanaiGenRegisterInfo.inc</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Updating LanaiGenRegisterInfo.inc...</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different D:/Project/ollvm-tll/build/lib/Target/Lanai/LanaiGenRegisterInfo.inc.tmp D:/Project/ollvm-tll/build/lib/Target/Lanai/LanaiGenRegisterInfo.inc
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Project\ollvm-tll\build\lib\Target\Lanai\LanaiGenRegisterInfo.inc.tmp;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Project\ollvm-tll\build\lib\Target\Lanai\LanaiGenRegisterInfo.inc</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Updating LanaiGenRegisterInfo.inc...</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different D:/Project/ollvm-tll/build/lib/Target/Lanai/LanaiGenRegisterInfo.inc.tmp D:/Project/ollvm-tll/build/lib/Target/Lanai/LanaiGenRegisterInfo.inc
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Project\ollvm-tll\build\lib\Target\Lanai\LanaiGenRegisterInfo.inc.tmp;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Project\ollvm-tll\build\lib\Target\Lanai\LanaiGenRegisterInfo.inc</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Updating LanaiGenRegisterInfo.inc...</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different D:/Project/ollvm-tll/build/lib/Target/Lanai/LanaiGenRegisterInfo.inc.tmp D:/Project/ollvm-tll/build/lib/Target/Lanai/LanaiGenRegisterInfo.inc
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Project\ollvm-tll\build\lib\Target\Lanai\LanaiGenRegisterInfo.inc.tmp;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Project\ollvm-tll\build\lib\Target\Lanai\LanaiGenRegisterInfo.inc</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Project\ollvm-tll\build\CMakeFiles\57d238721bea726974ea075b9650d81c\LanaiGenSubtargetInfo.inc.tmp.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building LanaiGenSubtargetInfo.inc...</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+..\..\..\Debug\bin\llvm-tblgen.exe -gen-subtarget -I D:/Project/ollvm-tll/lib/Target/Lanai -I D:/Project/ollvm-tll/include -I D:/Project/ollvm-tll/lib/Target D:/Project/ollvm-tll/lib/Target/Lanai/Lanai.td -o D:/Project/ollvm-tll/build/lib/Target/Lanai/LanaiGenSubtargetInfo.inc.tmp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Project\ollvm-tll\build\Debug\bin\llvm-tblgen.exe;D:\Project\ollvm-tll\lib\Target\Lanai\Lanai.td;D:\Project\ollvm-tll\lib\Target\Lanai\LanaiCallingConv.td;D:\Project\ollvm-tll\lib\Target\Lanai\LanaiInstrFormats.td;D:\Project\ollvm-tll\lib\Target\Lanai\LanaiInstrInfo.td;D:\Project\ollvm-tll\lib\Target\Lanai\LanaiRegisterInfo.td;D:\Project\ollvm-tll\lib\Target\Lanai\LanaiSchedule.td;D:\Project\ollvm-tll\include\llvm\CodeGen\SDNodeProperties.td;D:\Project\ollvm-tll\include\llvm\CodeGen\ValueTypes.td;D:\Project\ollvm-tll\include\llvm\IR\Attributes.td;D:\Project\ollvm-tll\include\llvm\IR\Intrinsics.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsAArch64.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsAMDGPU.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsARM.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsBPF.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsHexagon.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsMips.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsNVVM.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsPowerPC.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsSystemZ.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsWebAssembly.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsX86.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsXCore.td;D:\Project\ollvm-tll\include\llvm\Option\OptParser.td;D:\Project\ollvm-tll\include\llvm\TableGen\SearchableTable.td;D:\Project\ollvm-tll\include\llvm\Target\GenericOpcodes.td;D:\Project\ollvm-tll\include\llvm\Target\GlobalISel\RegisterBank.td;D:\Project\ollvm-tll\include\llvm\Target\GlobalISel\SelectionDAGCompat.td;D:\Project\ollvm-tll\include\llvm\Target\GlobalISel\Target.td;D:\Project\ollvm-tll\include\llvm\Target\Target.td;D:\Project\ollvm-tll\include\llvm\Target\TargetCallingConv.td;D:\Project\ollvm-tll\include\llvm\Target\TargetItinerary.td;D:\Project\ollvm-tll\include\llvm\Target\TargetSchedule.td;D:\Project\ollvm-tll\include\llvm\Target\TargetSelectionDAG.td;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Project\ollvm-tll\build\lib\Target\Lanai\LanaiGenSubtargetInfo.inc.tmp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building LanaiGenSubtargetInfo.inc...</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+..\..\..\Release\bin\llvm-tblgen.exe -gen-subtarget -I D:/Project/ollvm-tll/lib/Target/Lanai -I D:/Project/ollvm-tll/include -I D:/Project/ollvm-tll/lib/Target D:/Project/ollvm-tll/lib/Target/Lanai/Lanai.td -o D:/Project/ollvm-tll/build/lib/Target/Lanai/LanaiGenSubtargetInfo.inc.tmp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Project\ollvm-tll\build\Release\bin\llvm-tblgen.exe;D:\Project\ollvm-tll\lib\Target\Lanai\Lanai.td;D:\Project\ollvm-tll\lib\Target\Lanai\LanaiCallingConv.td;D:\Project\ollvm-tll\lib\Target\Lanai\LanaiInstrFormats.td;D:\Project\ollvm-tll\lib\Target\Lanai\LanaiInstrInfo.td;D:\Project\ollvm-tll\lib\Target\Lanai\LanaiRegisterInfo.td;D:\Project\ollvm-tll\lib\Target\Lanai\LanaiSchedule.td;D:\Project\ollvm-tll\include\llvm\CodeGen\SDNodeProperties.td;D:\Project\ollvm-tll\include\llvm\CodeGen\ValueTypes.td;D:\Project\ollvm-tll\include\llvm\IR\Attributes.td;D:\Project\ollvm-tll\include\llvm\IR\Intrinsics.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsAArch64.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsAMDGPU.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsARM.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsBPF.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsHexagon.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsMips.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsNVVM.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsPowerPC.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsSystemZ.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsWebAssembly.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsX86.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsXCore.td;D:\Project\ollvm-tll\include\llvm\Option\OptParser.td;D:\Project\ollvm-tll\include\llvm\TableGen\SearchableTable.td;D:\Project\ollvm-tll\include\llvm\Target\GenericOpcodes.td;D:\Project\ollvm-tll\include\llvm\Target\GlobalISel\RegisterBank.td;D:\Project\ollvm-tll\include\llvm\Target\GlobalISel\SelectionDAGCompat.td;D:\Project\ollvm-tll\include\llvm\Target\GlobalISel\Target.td;D:\Project\ollvm-tll\include\llvm\Target\Target.td;D:\Project\ollvm-tll\include\llvm\Target\TargetCallingConv.td;D:\Project\ollvm-tll\include\llvm\Target\TargetItinerary.td;D:\Project\ollvm-tll\include\llvm\Target\TargetSchedule.td;D:\Project\ollvm-tll\include\llvm\Target\TargetSelectionDAG.td;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Project\ollvm-tll\build\lib\Target\Lanai\LanaiGenSubtargetInfo.inc.tmp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building LanaiGenSubtargetInfo.inc...</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+..\..\..\MinSizeRel\bin\llvm-tblgen.exe -gen-subtarget -I D:/Project/ollvm-tll/lib/Target/Lanai -I D:/Project/ollvm-tll/include -I D:/Project/ollvm-tll/lib/Target D:/Project/ollvm-tll/lib/Target/Lanai/Lanai.td -o D:/Project/ollvm-tll/build/lib/Target/Lanai/LanaiGenSubtargetInfo.inc.tmp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Project\ollvm-tll\build\MinSizeRel\bin\llvm-tblgen.exe;D:\Project\ollvm-tll\lib\Target\Lanai\Lanai.td;D:\Project\ollvm-tll\lib\Target\Lanai\LanaiCallingConv.td;D:\Project\ollvm-tll\lib\Target\Lanai\LanaiInstrFormats.td;D:\Project\ollvm-tll\lib\Target\Lanai\LanaiInstrInfo.td;D:\Project\ollvm-tll\lib\Target\Lanai\LanaiRegisterInfo.td;D:\Project\ollvm-tll\lib\Target\Lanai\LanaiSchedule.td;D:\Project\ollvm-tll\include\llvm\CodeGen\SDNodeProperties.td;D:\Project\ollvm-tll\include\llvm\CodeGen\ValueTypes.td;D:\Project\ollvm-tll\include\llvm\IR\Attributes.td;D:\Project\ollvm-tll\include\llvm\IR\Intrinsics.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsAArch64.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsAMDGPU.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsARM.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsBPF.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsHexagon.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsMips.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsNVVM.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsPowerPC.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsSystemZ.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsWebAssembly.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsX86.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsXCore.td;D:\Project\ollvm-tll\include\llvm\Option\OptParser.td;D:\Project\ollvm-tll\include\llvm\TableGen\SearchableTable.td;D:\Project\ollvm-tll\include\llvm\Target\GenericOpcodes.td;D:\Project\ollvm-tll\include\llvm\Target\GlobalISel\RegisterBank.td;D:\Project\ollvm-tll\include\llvm\Target\GlobalISel\SelectionDAGCompat.td;D:\Project\ollvm-tll\include\llvm\Target\GlobalISel\Target.td;D:\Project\ollvm-tll\include\llvm\Target\Target.td;D:\Project\ollvm-tll\include\llvm\Target\TargetCallingConv.td;D:\Project\ollvm-tll\include\llvm\Target\TargetItinerary.td;D:\Project\ollvm-tll\include\llvm\Target\TargetSchedule.td;D:\Project\ollvm-tll\include\llvm\Target\TargetSelectionDAG.td;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Project\ollvm-tll\build\lib\Target\Lanai\LanaiGenSubtargetInfo.inc.tmp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building LanaiGenSubtargetInfo.inc...</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+..\..\..\RelWithDebInfo\bin\llvm-tblgen.exe -gen-subtarget -I D:/Project/ollvm-tll/lib/Target/Lanai -I D:/Project/ollvm-tll/include -I D:/Project/ollvm-tll/lib/Target D:/Project/ollvm-tll/lib/Target/Lanai/Lanai.td -o D:/Project/ollvm-tll/build/lib/Target/Lanai/LanaiGenSubtargetInfo.inc.tmp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Project\ollvm-tll\build\RelWithDebInfo\bin\llvm-tblgen.exe;D:\Project\ollvm-tll\lib\Target\Lanai\Lanai.td;D:\Project\ollvm-tll\lib\Target\Lanai\LanaiCallingConv.td;D:\Project\ollvm-tll\lib\Target\Lanai\LanaiInstrFormats.td;D:\Project\ollvm-tll\lib\Target\Lanai\LanaiInstrInfo.td;D:\Project\ollvm-tll\lib\Target\Lanai\LanaiRegisterInfo.td;D:\Project\ollvm-tll\lib\Target\Lanai\LanaiSchedule.td;D:\Project\ollvm-tll\include\llvm\CodeGen\SDNodeProperties.td;D:\Project\ollvm-tll\include\llvm\CodeGen\ValueTypes.td;D:\Project\ollvm-tll\include\llvm\IR\Attributes.td;D:\Project\ollvm-tll\include\llvm\IR\Intrinsics.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsAArch64.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsAMDGPU.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsARM.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsBPF.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsHexagon.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsMips.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsNVVM.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsPowerPC.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsSystemZ.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsWebAssembly.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsX86.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsXCore.td;D:\Project\ollvm-tll\include\llvm\Option\OptParser.td;D:\Project\ollvm-tll\include\llvm\TableGen\SearchableTable.td;D:\Project\ollvm-tll\include\llvm\Target\GenericOpcodes.td;D:\Project\ollvm-tll\include\llvm\Target\GlobalISel\RegisterBank.td;D:\Project\ollvm-tll\include\llvm\Target\GlobalISel\SelectionDAGCompat.td;D:\Project\ollvm-tll\include\llvm\Target\GlobalISel\Target.td;D:\Project\ollvm-tll\include\llvm\Target\Target.td;D:\Project\ollvm-tll\include\llvm\Target\TargetCallingConv.td;D:\Project\ollvm-tll\include\llvm\Target\TargetItinerary.td;D:\Project\ollvm-tll\include\llvm\Target\TargetSchedule.td;D:\Project\ollvm-tll\include\llvm\Target\TargetSelectionDAG.td;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Project\ollvm-tll\build\lib\Target\Lanai\LanaiGenSubtargetInfo.inc.tmp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Project\ollvm-tll\build\CMakeFiles\57d238721bea726974ea075b9650d81c\LanaiGenSubtargetInfo.inc.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Updating LanaiGenSubtargetInfo.inc...</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different D:/Project/ollvm-tll/build/lib/Target/Lanai/LanaiGenSubtargetInfo.inc.tmp D:/Project/ollvm-tll/build/lib/Target/Lanai/LanaiGenSubtargetInfo.inc
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Project\ollvm-tll\build\lib\Target\Lanai\LanaiGenSubtargetInfo.inc.tmp;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Project\ollvm-tll\build\lib\Target\Lanai\LanaiGenSubtargetInfo.inc</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Updating LanaiGenSubtargetInfo.inc...</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different D:/Project/ollvm-tll/build/lib/Target/Lanai/LanaiGenSubtargetInfo.inc.tmp D:/Project/ollvm-tll/build/lib/Target/Lanai/LanaiGenSubtargetInfo.inc
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Project\ollvm-tll\build\lib\Target\Lanai\LanaiGenSubtargetInfo.inc.tmp;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Project\ollvm-tll\build\lib\Target\Lanai\LanaiGenSubtargetInfo.inc</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Updating LanaiGenSubtargetInfo.inc...</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different D:/Project/ollvm-tll/build/lib/Target/Lanai/LanaiGenSubtargetInfo.inc.tmp D:/Project/ollvm-tll/build/lib/Target/Lanai/LanaiGenSubtargetInfo.inc
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Project\ollvm-tll\build\lib\Target\Lanai\LanaiGenSubtargetInfo.inc.tmp;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Project\ollvm-tll\build\lib\Target\Lanai\LanaiGenSubtargetInfo.inc</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Updating LanaiGenSubtargetInfo.inc...</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different D:/Project/ollvm-tll/build/lib/Target/Lanai/LanaiGenSubtargetInfo.inc.tmp D:/Project/ollvm-tll/build/lib/Target/Lanai/LanaiGenSubtargetInfo.inc
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Project\ollvm-tll\build\lib\Target\Lanai\LanaiGenSubtargetInfo.inc.tmp;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Project\ollvm-tll\build\lib\Target\Lanai\LanaiGenSubtargetInfo.inc</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Project\ollvm-tll\build\CMakeFiles\5cb5149b9557fce69388e84f8069519f\LanaiCommonTableGen.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Project\ollvm-tll\build\lib\Target\Lanai\LanaiGenAsmMatcher.inc;D:\Project\ollvm-tll\build\lib\Target\Lanai\LanaiGenAsmWriter.inc;D:\Project\ollvm-tll\build\lib\Target\Lanai\LanaiGenCallingConv.inc;D:\Project\ollvm-tll\build\lib\Target\Lanai\LanaiGenDAGISel.inc;D:\Project\ollvm-tll\build\lib\Target\Lanai\LanaiGenDisassemblerTables.inc;D:\Project\ollvm-tll\build\lib\Target\Lanai\LanaiGenInstrInfo.inc;D:\Project\ollvm-tll\build\lib\Target\Lanai\LanaiGenMCCodeEmitter.inc;D:\Project\ollvm-tll\build\lib\Target\Lanai\LanaiGenRegisterInfo.inc;D:\Project\ollvm-tll\build\lib\Target\Lanai\LanaiGenSubtargetInfo.inc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Project\ollvm-tll\build\lib\Target\Lanai\CMakeFiles\LanaiCommonTableGen</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</VerifyInputsAndOutputsExist>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Project\ollvm-tll\build\lib\Target\Lanai\LanaiGenAsmMatcher.inc;D:\Project\ollvm-tll\build\lib\Target\Lanai\LanaiGenAsmWriter.inc;D:\Project\ollvm-tll\build\lib\Target\Lanai\LanaiGenCallingConv.inc;D:\Project\ollvm-tll\build\lib\Target\Lanai\LanaiGenDAGISel.inc;D:\Project\ollvm-tll\build\lib\Target\Lanai\LanaiGenDisassemblerTables.inc;D:\Project\ollvm-tll\build\lib\Target\Lanai\LanaiGenInstrInfo.inc;D:\Project\ollvm-tll\build\lib\Target\Lanai\LanaiGenMCCodeEmitter.inc;D:\Project\ollvm-tll\build\lib\Target\Lanai\LanaiGenRegisterInfo.inc;D:\Project\ollvm-tll\build\lib\Target\Lanai\LanaiGenSubtargetInfo.inc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Project\ollvm-tll\build\lib\Target\Lanai\CMakeFiles\LanaiCommonTableGen</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</VerifyInputsAndOutputsExist>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Project\ollvm-tll\build\lib\Target\Lanai\LanaiGenAsmMatcher.inc;D:\Project\ollvm-tll\build\lib\Target\Lanai\LanaiGenAsmWriter.inc;D:\Project\ollvm-tll\build\lib\Target\Lanai\LanaiGenCallingConv.inc;D:\Project\ollvm-tll\build\lib\Target\Lanai\LanaiGenDAGISel.inc;D:\Project\ollvm-tll\build\lib\Target\Lanai\LanaiGenDisassemblerTables.inc;D:\Project\ollvm-tll\build\lib\Target\Lanai\LanaiGenInstrInfo.inc;D:\Project\ollvm-tll\build\lib\Target\Lanai\LanaiGenMCCodeEmitter.inc;D:\Project\ollvm-tll\build\lib\Target\Lanai\LanaiGenRegisterInfo.inc;D:\Project\ollvm-tll\build\lib\Target\Lanai\LanaiGenSubtargetInfo.inc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Project\ollvm-tll\build\lib\Target\Lanai\CMakeFiles\LanaiCommonTableGen</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</VerifyInputsAndOutputsExist>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Project\ollvm-tll\build\lib\Target\Lanai\LanaiGenAsmMatcher.inc;D:\Project\ollvm-tll\build\lib\Target\Lanai\LanaiGenAsmWriter.inc;D:\Project\ollvm-tll\build\lib\Target\Lanai\LanaiGenCallingConv.inc;D:\Project\ollvm-tll\build\lib\Target\Lanai\LanaiGenDAGISel.inc;D:\Project\ollvm-tll\build\lib\Target\Lanai\LanaiGenDisassemblerTables.inc;D:\Project\ollvm-tll\build\lib\Target\Lanai\LanaiGenInstrInfo.inc;D:\Project\ollvm-tll\build\lib\Target\Lanai\LanaiGenMCCodeEmitter.inc;D:\Project\ollvm-tll\build\lib\Target\Lanai\LanaiGenRegisterInfo.inc;D:\Project\ollvm-tll\build\lib\Target\Lanai\LanaiGenSubtargetInfo.inc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Project\ollvm-tll\build\lib\Target\Lanai\CMakeFiles\LanaiCommonTableGen</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+      <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</VerifyInputsAndOutputsExist>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Project\ollvm-tll\lib\Target\Lanai\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/Project/ollvm-tll/lib/Target/Lanai/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/Project/ollvm-tll -BD:/Project/ollvm-tll/build --check-stamp-file D:/Project/ollvm-tll/build/lib/Target/Lanai/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Project\ollvm-tll\build\lib\Target\Lanai\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/Project/ollvm-tll/lib/Target/Lanai/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/Project/ollvm-tll -BD:/Project/ollvm-tll/build --check-stamp-file D:/Project/ollvm-tll/build/lib/Target/Lanai/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Project\ollvm-tll\build\lib\Target\Lanai\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule D:/Project/ollvm-tll/lib/Target/Lanai/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/Project/ollvm-tll -BD:/Project/ollvm-tll/build --check-stamp-file D:/Project/ollvm-tll/build/lib/Target/Lanai/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Project\ollvm-tll\build\lib\Target\Lanai\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule D:/Project/ollvm-tll/lib/Target/Lanai/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/Project/ollvm-tll -BD:/Project/ollvm-tll/build --check-stamp-file D:/Project/ollvm-tll/build/lib/Target/Lanai/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Project\ollvm-tll\build\lib\Target\Lanai\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="D:\Project\ollvm-tll\build\lib\Target\Lanai\CMakeFiles\LanaiCommonTableGen" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:\Project\ollvm-tll\build\ZERO_CHECK.vcxproj">
+      <Project>{991F28C1-BAA2-3294-A8DB-19EEB6478608}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\ollvm-tll\build\include\llvm\IR\intrinsics_gen.vcxproj">
+      <Project>{CFADA3AD-9E25-396B-9ABE-5EB7D06EC363}</Project>
+      <Name>intrinsics_gen</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\ollvm-tll\build\utils\TableGen\llvm-tblgen.vcxproj">
+      <Project>{CD111E96-FFF2-3391-A865-D4796CC65128}</Project>
+      <Name>llvm-tblgen</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

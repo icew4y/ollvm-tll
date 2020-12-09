@@ -1,0 +1,4 @@
+﻿  Building Custom Rule D:/Project/ollvm-tll/lib/XRay/CMakeLists.txt
+  InstrumentationMap.cpp
+  Trace.cpp
+  LLVMXRay.vcxproj -> D:\Project\ollvm-tll\build\Release\lib\LLVMXRay.lib

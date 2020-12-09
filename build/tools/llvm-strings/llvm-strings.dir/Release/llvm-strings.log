@@ -1,0 +1,3 @@
+﻿  Building Custom Rule D:/Project/ollvm-tll/tools/llvm-strings/CMakeLists.txt
+  llvm-strings.cpp
+  llvm-strings.vcxproj -> D:\Project\ollvm-tll\build\Release\bin\llvm-strings.exe

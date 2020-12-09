@@ -1,0 +1,3 @@
+﻿  Building Custom Rule D:/Project/ollvm-tll/lib/Target/Mips/InstPrinter/CMakeLists.txt
+  MipsInstPrinter.cpp
+  LLVMMipsAsmPrinter.vcxproj -> D:\Project\ollvm-tll\build\Release\lib\LLVMMipsAsmPrinter.lib

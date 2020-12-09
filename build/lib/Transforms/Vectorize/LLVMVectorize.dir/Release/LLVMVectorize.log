@@ -1,0 +1,7 @@
+﻿  Building Custom Rule D:/Project/ollvm-tll/lib/Transforms/Vectorize/CMakeLists.txt
+  LoadStoreVectorizer.cpp
+  LoopVectorize.cpp
+  SLPVectorizer.cpp
+  Vectorize.cpp
+  VPlan.cpp
+  LLVMVectorize.vcxproj -> D:\Project\ollvm-tll\build\Release\lib\LLVMVectorize.lib

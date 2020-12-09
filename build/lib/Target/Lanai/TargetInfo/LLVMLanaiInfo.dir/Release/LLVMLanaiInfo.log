@@ -1,0 +1,3 @@
+﻿  Building Custom Rule D:/Project/ollvm-tll/lib/Target/Lanai/TargetInfo/CMakeLists.txt
+  LanaiTargetInfo.cpp
+  LLVMLanaiInfo.vcxproj -> D:\Project\ollvm-tll\build\Release\lib\LLVMLanaiInfo.lib

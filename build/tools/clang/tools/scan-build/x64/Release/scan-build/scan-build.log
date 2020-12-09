@@ -1,0 +1,10 @@
+﻿  Generating ../../../../bin/scan-build
+  Generating ../../../../bin/scan-build.bat
+  Generating ../../../../libexec/ccc-analyzer
+  Generating ../../../../libexec/c++-analyzer
+  Generating ../../../../libexec/ccc-analyzer.bat
+  Generating ../../../../libexec/c++-analyzer.bat
+  Generating ../../../../share/man/man1/scan-build.1
+  Generating ../../../../share/scan-build/scanview.css
+  Generating ../../../../share/scan-build/sorttable.js
+  Building Custom Rule D:/Project/ollvm-tll/tools/clang/tools/scan-build/CMakeLists.txt

@@ -1,0 +1,8 @@
+﻿  Building Custom Rule D:/Project/ollvm-tll/lib/Transforms/Coroutines/CMakeLists.txt
+  Coroutines.cpp
+  CoroCleanup.cpp
+  CoroEarly.cpp
+  CoroElide.cpp
+  CoroFrame.cpp
+  CoroSplit.cpp
+  LLVMCoroutines.vcxproj -> D:\Project\ollvm-tll\build\Release\lib\LLVMCoroutines.lib

@@ -1,0 +1,4 @@
+﻿  Building Custom Rule D:/Project/ollvm-tll/lib/Target/XCore/MCTargetDesc/CMakeLists.txt
+  XCoreMCTargetDesc.cpp
+  XCoreMCAsmInfo.cpp
+  LLVMXCoreDesc.vcxproj -> D:\Project\ollvm-tll\build\Release\lib\LLVMXCoreDesc.lib

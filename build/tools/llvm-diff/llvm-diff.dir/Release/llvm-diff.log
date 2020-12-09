@@ -1,0 +1,6 @@
+﻿  Building Custom Rule D:/Project/ollvm-tll/tools/llvm-diff/CMakeLists.txt
+  llvm-diff.cpp
+  DiffConsumer.cpp
+  DiffLog.cpp
+  DifferenceEngine.cpp
+  llvm-diff.vcxproj -> D:\Project\ollvm-tll\build\Release\bin\llvm-diff.exe

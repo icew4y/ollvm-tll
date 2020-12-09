@@ -1,0 +1,8 @@
+﻿  Building Custom Rule D:/Project/ollvm-tll/lib/Target/Lanai/MCTargetDesc/CMakeLists.txt
+  LanaiAsmBackend.cpp
+  LanaiELFObjectWriter.cpp
+  LanaiMCAsmInfo.cpp
+  LanaiMCCodeEmitter.cpp
+  LanaiMCExpr.cpp
+  LanaiMCTargetDesc.cpp
+  LLVMLanaiDesc.vcxproj -> D:\Project\ollvm-tll\build\Release\lib\LLVMLanaiDesc.lib

@@ -1,0 +1,3 @@
+﻿  Building Custom Rule D:/Project/ollvm-tll/tools/clang/tools/clang-func-mapping/CMakeLists.txt
+  ClangFnMapGen.cpp
+  clang-func-mapping.vcxproj -> D:\Project\ollvm-tll\build\Release\bin\clang-func-mapping.exe

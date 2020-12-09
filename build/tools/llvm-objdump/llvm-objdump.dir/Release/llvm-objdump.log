@@ -1,0 +1,7 @@
+﻿  Building Custom Rule D:/Project/ollvm-tll/tools/llvm-objdump/CMakeLists.txt
+  llvm-objdump.cpp
+  COFFDump.cpp
+  ELFDump.cpp
+  MachODump.cpp
+  WasmDump.cpp
+  llvm-objdump.vcxproj -> D:\Project\ollvm-tll\build\Release\bin\llvm-objdump.exe

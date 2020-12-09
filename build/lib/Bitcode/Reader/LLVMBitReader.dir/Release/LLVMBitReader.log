@@ -1,0 +1,7 @@
+﻿  Building Custom Rule D:/Project/ollvm-tll/lib/Bitcode/Reader/CMakeLists.txt
+  BitReader.cpp
+  BitcodeReader.cpp
+  BitstreamReader.cpp
+  MetadataLoader.cpp
+  ValueList.cpp
+  LLVMBitReader.vcxproj -> D:\Project\ollvm-tll\build\Release\lib\LLVMBitReader.lib

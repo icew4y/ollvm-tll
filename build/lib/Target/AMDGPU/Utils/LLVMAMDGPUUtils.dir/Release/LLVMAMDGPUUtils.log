@@ -1,0 +1,5 @@
+﻿  Building Custom Rule D:/Project/ollvm-tll/lib/Target/AMDGPU/Utils/CMakeLists.txt
+  AMDGPUBaseInfo.cpp
+  AMDKernelCodeTUtils.cpp
+  AMDGPUAsmUtils.cpp
+  LLVMAMDGPUUtils.vcxproj -> D:\Project\ollvm-tll\build\Release\lib\LLVMAMDGPUUtils.lib

@@ -1,0 +1,5 @@
+﻿  Building Custom Rule D:/Project/ollvm-tll/lib/ExecutionEngine/Interpreter/CMakeLists.txt
+  Execution.cpp
+  ExternalFunctions.cpp
+  Interpreter.cpp
+  LLVMInterpreter.vcxproj -> D:\Project\ollvm-tll\build\Release\lib\LLVMInterpreter.lib

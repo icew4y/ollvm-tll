@@ -1,0 +1,3 @@
+﻿  Building Custom Rule D:/Project/ollvm-tll/tools/clang/lib/FrontendTool/CMakeLists.txt
+  ExecuteCompilerInvocation.cpp
+  clangFrontendTool.vcxproj -> D:\Project\ollvm-tll\build\Release\lib\clangFrontendTool.lib

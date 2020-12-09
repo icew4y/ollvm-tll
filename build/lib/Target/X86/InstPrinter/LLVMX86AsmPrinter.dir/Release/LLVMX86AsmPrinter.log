@@ -1,0 +1,5 @@
+﻿  Building Custom Rule D:/Project/ollvm-tll/lib/Target/X86/InstPrinter/CMakeLists.txt
+  X86ATTInstPrinter.cpp
+  X86IntelInstPrinter.cpp
+  X86InstComments.cpp
+  LLVMX86AsmPrinter.vcxproj -> D:\Project\ollvm-tll\build\Release\lib\LLVMX86AsmPrinter.lib

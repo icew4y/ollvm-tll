@@ -1,0 +1,3 @@
+﻿  Building Custom Rule D:/Project/ollvm-tll/lib/Target/ARM/Utils/CMakeLists.txt
+  ARMBaseInfo.cpp
+  LLVMARMUtils.vcxproj -> D:\Project\ollvm-tll\build\Release\lib\LLVMARMUtils.lib

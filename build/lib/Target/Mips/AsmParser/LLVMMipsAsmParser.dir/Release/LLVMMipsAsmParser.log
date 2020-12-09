@@ -1,0 +1,3 @@
+﻿  Building Custom Rule D:/Project/ollvm-tll/lib/Target/Mips/AsmParser/CMakeLists.txt
+  MipsAsmParser.cpp
+  LLVMMipsAsmParser.vcxproj -> D:\Project\ollvm-tll\build\Release\lib\LLVMMipsAsmParser.lib

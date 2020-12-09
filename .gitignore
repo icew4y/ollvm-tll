@@ -1,0 +1,8 @@
+build/.vs/
+build/CMakeFiles/
+*.obj
+*.tlog
+build/Release/
+build/x64/
+*.lib
+*.tmp

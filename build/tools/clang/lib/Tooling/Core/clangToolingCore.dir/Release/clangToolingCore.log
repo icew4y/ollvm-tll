@@ -1,0 +1,5 @@
+﻿  Building Custom Rule D:/Project/ollvm-tll/tools/clang/lib/Tooling/Core/CMakeLists.txt
+  Lookup.cpp
+  Replacement.cpp
+  Diagnostic.cpp
+  clangToolingCore.vcxproj -> D:\Project\ollvm-tll\build\Release\lib\clangToolingCore.lib

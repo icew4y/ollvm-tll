@@ -1,0 +1,3 @@
+﻿  Building Custom Rule D:/Project/ollvm-tll/tools/llvm-opt-report/CMakeLists.txt
+  OptReport.cpp
+  llvm-opt-report.vcxproj -> D:\Project\ollvm-tll\build\Release\bin\llvm-opt-report.exe

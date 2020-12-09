@@ -1,0 +1,3 @@
+﻿  Building Custom Rule D:/Project/ollvm-tll/tools/clang/tools/clang-offload-bundler/CMakeLists.txt
+  ClangOffloadBundler.cpp
+  clang-offload-bundler.vcxproj -> D:\Project\ollvm-tll\build\Release\bin\clang-offload-bundler.exe

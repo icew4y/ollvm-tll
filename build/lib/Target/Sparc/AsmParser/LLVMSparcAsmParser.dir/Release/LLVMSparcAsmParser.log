@@ -1,0 +1,3 @@
+﻿  Building Custom Rule D:/Project/ollvm-tll/lib/Target/Sparc/AsmParser/CMakeLists.txt
+  SparcAsmParser.cpp
+  LLVMSparcAsmParser.vcxproj -> D:\Project\ollvm-tll\build\Release\lib\LLVMSparcAsmParser.lib

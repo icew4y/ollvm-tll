@@ -1,0 +1,542 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{36F5CADC-60AE-3AD1-BB91-AD4AB0FA1EB1}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.18362.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>clangBasic</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Project\ollvm-tll\build\Debug\lib\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">clangBasic.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">clangBasic</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Project\ollvm-tll\build\Release\lib\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">clangBasic.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">clangBasic</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Project\ollvm-tll\build\MinSizeRel\lib\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">clangBasic.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">clangBasic</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Project\ollvm-tll\build\RelWithDebInfo\lib\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">clangBasic.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">clangBasic</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\Project\ollvm-tll\build\tools\clang\lib\Basic;D:\Project\ollvm-tll\tools\clang\lib\Basic;D:\Project\ollvm-tll\tools\clang\include;D:\Project\ollvm-tll\build\tools\clang\include;D:\Project\ollvm-tll\build\include;D:\Project\ollvm-tll\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /Zc:strictStrings -w14062 /EHs-c-</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4141;4146;4180;4244;4258;4267;4291;4345;4351;4355;4456;4457;4458;4459;4503;4624;4722;4800;4100;4127;4512;4505;4610;4510;4702;4245;4706;4310;4701;4703;4389;4611;4805;4204;4577;4091;4592;4319;4324</DisableSpecificWarnings>
+      <EnforceTypeConversionRules>true</EnforceTypeConversionRules>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RemoveUnreferencedCodeData>true</RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>false</RuntimeTypeInfo>
+      <TreatSpecificWarningsAsErrors>4238</TreatSpecificWarningsAsErrors>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_HAS_EXCEPTIONS=0;GTEST_HAS_RTTI=0;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;_CRT_NONSTDC_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;UNICODE;_UNICODE;__STDC_CONSTANT_MACROS;__STDC_FORMAT_MACROS;__STDC_LIMIT_MACROS;_GNU_SOURCE;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_HAS_EXCEPTIONS=0;GTEST_HAS_RTTI=0;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;_CRT_NONSTDC_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;UNICODE;_UNICODE;__STDC_CONSTANT_MACROS;__STDC_FORMAT_MACROS;__STDC_LIMIT_MACROS;_GNU_SOURCE;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\Project\ollvm-tll\build\tools\clang\lib\Basic;D:\Project\ollvm-tll\tools\clang\lib\Basic;D:\Project\ollvm-tll\tools\clang\include;D:\Project\ollvm-tll\build\tools\clang\include;D:\Project\ollvm-tll\build\include;D:\Project\ollvm-tll\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Project\ollvm-tll\build\tools\clang\lib\Basic;D:\Project\ollvm-tll\tools\clang\lib\Basic;D:\Project\ollvm-tll\tools\clang\include;D:\Project\ollvm-tll\build\tools\clang\include;D:\Project\ollvm-tll\build\include;D:\Project\ollvm-tll\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\Project\ollvm-tll\build\tools\clang\lib\Basic;D:\Project\ollvm-tll\tools\clang\lib\Basic;D:\Project\ollvm-tll\tools\clang\include;D:\Project\ollvm-tll\build\tools\clang\include;D:\Project\ollvm-tll\build\include;D:\Project\ollvm-tll\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /Zc:strictStrings -w14062 /EHs-c-</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings>4141;4146;4180;4244;4258;4267;4291;4345;4351;4355;4456;4457;4458;4459;4503;4624;4722;4800;4100;4127;4512;4505;4610;4510;4702;4245;4706;4310;4701;4703;4389;4611;4805;4204;4577;4091;4592;4319;4324</DisableSpecificWarnings>
+      <EnforceTypeConversionRules>true</EnforceTypeConversionRules>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RemoveUnreferencedCodeData>true</RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>false</RuntimeTypeInfo>
+      <TreatSpecificWarningsAsErrors>4238</TreatSpecificWarningsAsErrors>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_HAS_EXCEPTIONS=0;GTEST_HAS_RTTI=0;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;_CRT_NONSTDC_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;UNICODE;_UNICODE;__STDC_CONSTANT_MACROS;__STDC_FORMAT_MACROS;__STDC_LIMIT_MACROS;_GNU_SOURCE;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_HAS_EXCEPTIONS=0;GTEST_HAS_RTTI=0;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;_CRT_NONSTDC_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;UNICODE;_UNICODE;__STDC_CONSTANT_MACROS;__STDC_FORMAT_MACROS;__STDC_LIMIT_MACROS;_GNU_SOURCE;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\Project\ollvm-tll\build\tools\clang\lib\Basic;D:\Project\ollvm-tll\tools\clang\lib\Basic;D:\Project\ollvm-tll\tools\clang\include;D:\Project\ollvm-tll\build\tools\clang\include;D:\Project\ollvm-tll\build\include;D:\Project\ollvm-tll\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Project\ollvm-tll\build\tools\clang\lib\Basic;D:\Project\ollvm-tll\tools\clang\lib\Basic;D:\Project\ollvm-tll\tools\clang\include;D:\Project\ollvm-tll\build\tools\clang\include;D:\Project\ollvm-tll\build\include;D:\Project\ollvm-tll\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\Project\ollvm-tll\build\tools\clang\lib\Basic;D:\Project\ollvm-tll\tools\clang\lib\Basic;D:\Project\ollvm-tll\tools\clang\include;D:\Project\ollvm-tll\build\tools\clang\include;D:\Project\ollvm-tll\build\include;D:\Project\ollvm-tll\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /Zc:strictStrings -w14062 /EHs-c-</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings>4141;4146;4180;4244;4258;4267;4291;4345;4351;4355;4456;4457;4458;4459;4503;4624;4722;4800;4100;4127;4512;4505;4610;4510;4702;4245;4706;4310;4701;4703;4389;4611;4805;4204;4577;4091;4592;4319;4324</DisableSpecificWarnings>
+      <EnforceTypeConversionRules>true</EnforceTypeConversionRules>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RemoveUnreferencedCodeData>true</RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>false</RuntimeTypeInfo>
+      <TreatSpecificWarningsAsErrors>4238</TreatSpecificWarningsAsErrors>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_HAS_EXCEPTIONS=0;GTEST_HAS_RTTI=0;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;_CRT_NONSTDC_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;UNICODE;_UNICODE;__STDC_CONSTANT_MACROS;__STDC_FORMAT_MACROS;__STDC_LIMIT_MACROS;_GNU_SOURCE;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_HAS_EXCEPTIONS=0;GTEST_HAS_RTTI=0;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;_CRT_NONSTDC_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;UNICODE;_UNICODE;__STDC_CONSTANT_MACROS;__STDC_FORMAT_MACROS;__STDC_LIMIT_MACROS;_GNU_SOURCE;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\Project\ollvm-tll\build\tools\clang\lib\Basic;D:\Project\ollvm-tll\tools\clang\lib\Basic;D:\Project\ollvm-tll\tools\clang\include;D:\Project\ollvm-tll\build\tools\clang\include;D:\Project\ollvm-tll\build\include;D:\Project\ollvm-tll\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Project\ollvm-tll\build\tools\clang\lib\Basic;D:\Project\ollvm-tll\tools\clang\lib\Basic;D:\Project\ollvm-tll\tools\clang\include;D:\Project\ollvm-tll\build\tools\clang\include;D:\Project\ollvm-tll\build\include;D:\Project\ollvm-tll\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\Project\ollvm-tll\build\tools\clang\lib\Basic;D:\Project\ollvm-tll\tools\clang\lib\Basic;D:\Project\ollvm-tll\tools\clang\include;D:\Project\ollvm-tll\build\tools\clang\include;D:\Project\ollvm-tll\build\include;D:\Project\ollvm-tll\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /Zc:strictStrings -w14062 /EHs-c-</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4141;4146;4180;4244;4258;4267;4291;4345;4351;4355;4456;4457;4458;4459;4503;4624;4722;4800;4100;4127;4512;4505;4610;4510;4702;4245;4706;4310;4701;4703;4389;4611;4805;4204;4577;4091;4592;4319;4324</DisableSpecificWarnings>
+      <EnforceTypeConversionRules>true</EnforceTypeConversionRules>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RemoveUnreferencedCodeData>true</RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>false</RuntimeTypeInfo>
+      <TreatSpecificWarningsAsErrors>4238</TreatSpecificWarningsAsErrors>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_HAS_EXCEPTIONS=0;GTEST_HAS_RTTI=0;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;_CRT_NONSTDC_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;UNICODE;_UNICODE;__STDC_CONSTANT_MACROS;__STDC_FORMAT_MACROS;__STDC_LIMIT_MACROS;_GNU_SOURCE;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_HAS_EXCEPTIONS=0;GTEST_HAS_RTTI=0;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;_CRT_NONSTDC_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;UNICODE;_UNICODE;__STDC_CONSTANT_MACROS;__STDC_FORMAT_MACROS;__STDC_LIMIT_MACROS;_GNU_SOURCE;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\Project\ollvm-tll\build\tools\clang\lib\Basic;D:\Project\ollvm-tll\tools\clang\lib\Basic;D:\Project\ollvm-tll\tools\clang\include;D:\Project\ollvm-tll\build\tools\clang\include;D:\Project\ollvm-tll\build\include;D:\Project\ollvm-tll\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Project\ollvm-tll\build\tools\clang\lib\Basic;D:\Project\ollvm-tll\tools\clang\lib\Basic;D:\Project\ollvm-tll\tools\clang\include;D:\Project\ollvm-tll\build\tools\clang\include;D:\Project\ollvm-tll\build\include;D:\Project\ollvm-tll\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Project\ollvm-tll\build\CMakeFiles\be5dada3c481fdcd8177835dc6a88899\SVNVersion.inc.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating SVNVersion.inc</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -DFIRST_SOURCE_DIR=D:/Project/ollvm-tll -DFIRST_NAME=LLVM -DSECOND_SOURCE_DIR=D:/Project/ollvm-tll/tools/clang -DSECOND_NAME=SVN -DHEADER_FILE=D:/Project/ollvm-tll/build/tools/clang/lib/Basic/SVNVersion.inc -P D:/Project/ollvm-tll/cmake/modules/GetSVN.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Project\ollvm-tll\.git\logs\HEAD;D:\Project\ollvm-tll\cmake\modules\GetSVN.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Project\ollvm-tll\build\tools\clang\lib\Basic\SVNVersion.inc</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating SVNVersion.inc</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -DFIRST_SOURCE_DIR=D:/Project/ollvm-tll -DFIRST_NAME=LLVM -DSECOND_SOURCE_DIR=D:/Project/ollvm-tll/tools/clang -DSECOND_NAME=SVN -DHEADER_FILE=D:/Project/ollvm-tll/build/tools/clang/lib/Basic/SVNVersion.inc -P D:/Project/ollvm-tll/cmake/modules/GetSVN.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Project\ollvm-tll\.git\logs\HEAD;D:\Project\ollvm-tll\cmake\modules\GetSVN.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Project\ollvm-tll\build\tools\clang\lib\Basic\SVNVersion.inc</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating SVNVersion.inc</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -DFIRST_SOURCE_DIR=D:/Project/ollvm-tll -DFIRST_NAME=LLVM -DSECOND_SOURCE_DIR=D:/Project/ollvm-tll/tools/clang -DSECOND_NAME=SVN -DHEADER_FILE=D:/Project/ollvm-tll/build/tools/clang/lib/Basic/SVNVersion.inc -P D:/Project/ollvm-tll/cmake/modules/GetSVN.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Project\ollvm-tll\.git\logs\HEAD;D:\Project\ollvm-tll\cmake\modules\GetSVN.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Project\ollvm-tll\build\tools\clang\lib\Basic\SVNVersion.inc</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating SVNVersion.inc</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -DFIRST_SOURCE_DIR=D:/Project/ollvm-tll -DFIRST_NAME=LLVM -DSECOND_SOURCE_DIR=D:/Project/ollvm-tll/tools/clang -DSECOND_NAME=SVN -DHEADER_FILE=D:/Project/ollvm-tll/build/tools/clang/lib/Basic/SVNVersion.inc -P D:/Project/ollvm-tll/cmake/modules/GetSVN.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Project\ollvm-tll\.git\logs\HEAD;D:\Project\ollvm-tll\cmake\modules\GetSVN.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Project\ollvm-tll\build\tools\clang\lib\Basic\SVNVersion.inc</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Project\ollvm-tll\tools\clang\lib\Basic\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/Project/ollvm-tll/tools/clang/lib/Basic/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/Project/ollvm-tll -BD:/Project/ollvm-tll/build --check-stamp-file D:/Project/ollvm-tll/build/tools/clang/lib/Basic/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Project\ollvm-tll\build\tools\clang\lib\Basic\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/Project/ollvm-tll/tools/clang/lib/Basic/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/Project/ollvm-tll -BD:/Project/ollvm-tll/build --check-stamp-file D:/Project/ollvm-tll/build/tools/clang/lib/Basic/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Project\ollvm-tll\build\tools\clang\lib\Basic\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule D:/Project/ollvm-tll/tools/clang/lib/Basic/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/Project/ollvm-tll -BD:/Project/ollvm-tll/build --check-stamp-file D:/Project/ollvm-tll/build/tools/clang/lib/Basic/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Project\ollvm-tll\build\tools\clang\lib\Basic\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule D:/Project/ollvm-tll/tools/clang/lib/Basic/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/Project/ollvm-tll -BD:/Project/ollvm-tll/build --check-stamp-file D:/Project/ollvm-tll/build/tools/clang/lib/Basic/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Project\ollvm-tll\build\tools\clang\lib\Basic\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="D:\Project\ollvm-tll\tools\clang\lib\Basic\Attributes.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\tools\clang\lib\Basic\Builtins.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\tools\clang\lib\Basic\CharInfo.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\tools\clang\lib\Basic\Cuda.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\tools\clang\lib\Basic\Diagnostic.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\tools\clang\lib\Basic\DiagnosticIDs.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\tools\clang\lib\Basic\DiagnosticOptions.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\tools\clang\lib\Basic\FileManager.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\tools\clang\lib\Basic\FileSystemStatCache.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\tools\clang\lib\Basic\IdentifierTable.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\tools\clang\lib\Basic\LangOptions.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\tools\clang\lib\Basic\MemoryBufferCache.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\tools\clang\lib\Basic\Module.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\tools\clang\lib\Basic\ObjCRuntime.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\tools\clang\lib\Basic\OpenMPKinds.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\tools\clang\lib\Basic\OperatorPrecedence.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\tools\clang\lib\Basic\SanitizerBlacklist.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\tools\clang\lib\Basic\SanitizerSpecialCaseList.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\tools\clang\lib\Basic\Sanitizers.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\tools\clang\lib\Basic\SourceLocation.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\tools\clang\lib\Basic\SourceManager.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\tools\clang\lib\Basic\TargetInfo.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\tools\clang\lib\Basic\Targets.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\tools\clang\lib\Basic\Targets\AArch64.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\tools\clang\lib\Basic\Targets\AMDGPU.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\tools\clang\lib\Basic\Targets\ARM.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\tools\clang\lib\Basic\Targets\AVR.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\tools\clang\lib\Basic\Targets\BPF.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\tools\clang\lib\Basic\Targets\Hexagon.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\tools\clang\lib\Basic\Targets\Lanai.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\tools\clang\lib\Basic\Targets\Le64.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\tools\clang\lib\Basic\Targets\MSP430.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\tools\clang\lib\Basic\Targets\Mips.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\tools\clang\lib\Basic\Targets\NVPTX.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\tools\clang\lib\Basic\Targets\Nios2.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\tools\clang\lib\Basic\Targets\OSTargets.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\tools\clang\lib\Basic\Targets\PNaCl.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\tools\clang\lib\Basic\Targets\PPC.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\tools\clang\lib\Basic\Targets\SPIR.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\tools\clang\lib\Basic\Targets\Sparc.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\tools\clang\lib\Basic\Targets\SystemZ.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\tools\clang\lib\Basic\Targets\TCE.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\tools\clang\lib\Basic\Targets\WebAssembly.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\tools\clang\lib\Basic\Targets\X86.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\tools\clang\lib\Basic\Targets\XCore.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\tools\clang\lib\Basic\TokenKinds.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\tools\clang\lib\Basic\Version.cpp">
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">HAVE_SVN_VERSION_INC;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">HAVE_SVN_VERSION_INC;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">HAVE_SVN_VERSION_INC;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">HAVE_SVN_VERSION_INC;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="D:\Project\ollvm-tll\tools\clang\lib\Basic\VersionTuple.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\tools\clang\lib\Basic\VirtualFileSystem.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\tools\clang\lib\Basic\Warnings.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\tools\clang\lib\Basic\XRayLists.cpp" />
+    <ClInclude Include="D:\Project\ollvm-tll\build\tools\clang\lib\Basic\SVNVersion.inc" />
+    <ClInclude Include="D:\Project\ollvm-tll\tools\clang\include\clang\Basic\ABI.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\tools\clang\include\clang\Basic\AddressSpaces.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\tools\clang\include\clang\Basic\AlignedAllocation.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\tools\clang\include\clang\Basic\AllDiagnostics.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\tools\clang\include\clang\Basic\AttrKinds.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\tools\clang\include\clang\Basic\AttrSubjectMatchRules.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\tools\clang\include\clang\Basic\Attributes.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\tools\clang\include\clang\Basic\Builtins.def" />
+    <ClInclude Include="D:\Project\ollvm-tll\tools\clang\include\clang\Basic\Builtins.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\tools\clang\include\clang\Basic\BuiltinsAArch64.def" />
+    <ClInclude Include="D:\Project\ollvm-tll\tools\clang\include\clang\Basic\BuiltinsAMDGPU.def" />
+    <ClInclude Include="D:\Project\ollvm-tll\tools\clang\include\clang\Basic\BuiltinsARM.def" />
+    <ClInclude Include="D:\Project\ollvm-tll\tools\clang\include\clang\Basic\BuiltinsHexagon.def" />
+    <ClInclude Include="D:\Project\ollvm-tll\tools\clang\include\clang\Basic\BuiltinsLe64.def" />
+    <ClInclude Include="D:\Project\ollvm-tll\tools\clang\include\clang\Basic\BuiltinsMips.def" />
+    <ClInclude Include="D:\Project\ollvm-tll\tools\clang\include\clang\Basic\BuiltinsNEON.def" />
+    <ClInclude Include="D:\Project\ollvm-tll\tools\clang\include\clang\Basic\BuiltinsNVPTX.def" />
+    <ClInclude Include="D:\Project\ollvm-tll\tools\clang\include\clang\Basic\BuiltinsNios2.def" />
+    <ClInclude Include="D:\Project\ollvm-tll\tools\clang\include\clang\Basic\BuiltinsPPC.def" />
+    <ClInclude Include="D:\Project\ollvm-tll\tools\clang\include\clang\Basic\BuiltinsSystemZ.def" />
+    <ClInclude Include="D:\Project\ollvm-tll\tools\clang\include\clang\Basic\BuiltinsWebAssembly.def" />
+    <ClInclude Include="D:\Project\ollvm-tll\tools\clang\include\clang\Basic\BuiltinsX86.def" />
+    <ClInclude Include="D:\Project\ollvm-tll\tools\clang\include\clang\Basic\BuiltinsX86_64.def" />
+    <ClInclude Include="D:\Project\ollvm-tll\tools\clang\include\clang\Basic\BuiltinsXCore.def" />
+    <ClInclude Include="D:\Project\ollvm-tll\tools\clang\include\clang\Basic\CapturedStmt.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\tools\clang\include\clang\Basic\CharInfo.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\tools\clang\include\clang\Basic\CommentOptions.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\tools\clang\include\clang\Basic\Cuda.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\tools\clang\include\clang\Basic\DebugInfoOptions.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\tools\clang\include\clang\Basic\Diagnostic.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\tools\clang\include\clang\Basic\DiagnosticCategories.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\tools\clang\include\clang\Basic\DiagnosticError.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\tools\clang\include\clang\Basic\DiagnosticIDs.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\tools\clang\include\clang\Basic\DiagnosticOptions.def" />
+    <ClInclude Include="D:\Project\ollvm-tll\tools\clang\include\clang\Basic\DiagnosticOptions.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\tools\clang\include\clang\Basic\ExceptionSpecificationType.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\tools\clang\include\clang\Basic\ExpressionTraits.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\tools\clang\include\clang\Basic\FileManager.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\tools\clang\include\clang\Basic\FileSystemOptions.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\tools\clang\include\clang\Basic\FileSystemStatCache.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\tools\clang\include\clang\Basic\IdentifierTable.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\tools\clang\include\clang\Basic\LLVM.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\tools\clang\include\clang\Basic\Lambda.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\tools\clang\include\clang\Basic\LangOptions.def" />
+    <ClInclude Include="D:\Project\ollvm-tll\tools\clang\include\clang\Basic\LangOptions.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\tools\clang\include\clang\Basic\Linkage.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\tools\clang\include\clang\Basic\MacroBuilder.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\tools\clang\include\clang\Basic\MemoryBufferCache.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\tools\clang\include\clang\Basic\Module.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\tools\clang\include\clang\Basic\ObjCRuntime.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\tools\clang\include\clang\Basic\OpenCLExtensions.def" />
+    <ClInclude Include="D:\Project\ollvm-tll\tools\clang\include\clang\Basic\OpenCLImageTypes.def" />
+    <ClInclude Include="D:\Project\ollvm-tll\tools\clang\include\clang\Basic\OpenCLOptions.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\tools\clang\include\clang\Basic\OpenMPKinds.def" />
+    <ClInclude Include="D:\Project\ollvm-tll\tools\clang\include\clang\Basic\OpenMPKinds.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\tools\clang\include\clang\Basic\OperatorKinds.def" />
+    <ClInclude Include="D:\Project\ollvm-tll\tools\clang\include\clang\Basic\OperatorKinds.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\tools\clang\include\clang\Basic\OperatorPrecedence.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\tools\clang\include\clang\Basic\PartialDiagnostic.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\tools\clang\include\clang\Basic\PlistSupport.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\tools\clang\include\clang\Basic\PragmaKinds.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\tools\clang\include\clang\Basic\PrettyStackTrace.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\tools\clang\include\clang\Basic\SanitizerBlacklist.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\tools\clang\include\clang\Basic\SanitizerSpecialCaseList.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\tools\clang\include\clang\Basic\Sanitizers.def" />
+    <ClInclude Include="D:\Project\ollvm-tll\tools\clang\include\clang\Basic\Sanitizers.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\tools\clang\include\clang\Basic\SourceLocation.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\tools\clang\include\clang\Basic\SourceManager.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\tools\clang\include\clang\Basic\SourceManagerInternals.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\tools\clang\include\clang\Basic\Specifiers.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\tools\clang\include\clang\Basic\SyncScope.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\tools\clang\include\clang\Basic\TargetBuiltins.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\tools\clang\include\clang\Basic\TargetCXXABI.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\tools\clang\include\clang\Basic\TargetInfo.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\tools\clang\include\clang\Basic\TargetOptions.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\tools\clang\include\clang\Basic\TemplateKinds.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\tools\clang\include\clang\Basic\TokenKinds.def" />
+    <ClInclude Include="D:\Project\ollvm-tll\tools\clang\include\clang\Basic\TokenKinds.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\tools\clang\include\clang\Basic\TypeTraits.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\tools\clang\include\clang\Basic\Version.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\tools\clang\include\clang\Basic\VersionTuple.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\tools\clang\include\clang\Basic\VirtualFileSystem.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\tools\clang\include\clang\Basic\Visibility.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\tools\clang\include\clang\Basic\X86Target.def" />
+    <ClInclude Include="D:\Project\ollvm-tll\tools\clang\include\clang\Basic\XRayLists.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\tools\clang\include\clang\Basic\Attr.td" />
+    <ClInclude Include="D:\Project\ollvm-tll\tools\clang\include\clang\Basic\AttrDocs.td" />
+    <ClInclude Include="D:\Project\ollvm-tll\tools\clang\include\clang\Basic\CommentNodes.td" />
+    <ClInclude Include="D:\Project\ollvm-tll\tools\clang\include\clang\Basic\DeclNodes.td" />
+    <ClInclude Include="D:\Project\ollvm-tll\tools\clang\include\clang\Basic\Diagnostic.td" />
+    <ClInclude Include="D:\Project\ollvm-tll\tools\clang\include\clang\Basic\DiagnosticASTKinds.td" />
+    <ClInclude Include="D:\Project\ollvm-tll\tools\clang\include\clang\Basic\DiagnosticAnalysisKinds.td" />
+    <ClInclude Include="D:\Project\ollvm-tll\tools\clang\include\clang\Basic\DiagnosticCategories.td" />
+    <ClInclude Include="D:\Project\ollvm-tll\tools\clang\include\clang\Basic\DiagnosticCommentKinds.td" />
+    <ClInclude Include="D:\Project\ollvm-tll\tools\clang\include\clang\Basic\DiagnosticCommonKinds.td" />
+    <ClInclude Include="D:\Project\ollvm-tll\tools\clang\include\clang\Basic\DiagnosticCrossTUKinds.td" />
+    <ClInclude Include="D:\Project\ollvm-tll\tools\clang\include\clang\Basic\DiagnosticDocs.td" />
+    <ClInclude Include="D:\Project\ollvm-tll\tools\clang\include\clang\Basic\DiagnosticDriverKinds.td" />
+    <ClInclude Include="D:\Project\ollvm-tll\tools\clang\include\clang\Basic\DiagnosticFrontendKinds.td" />
+    <ClInclude Include="D:\Project\ollvm-tll\tools\clang\include\clang\Basic\DiagnosticGroups.td" />
+    <ClInclude Include="D:\Project\ollvm-tll\tools\clang\include\clang\Basic\DiagnosticLexKinds.td" />
+    <ClInclude Include="D:\Project\ollvm-tll\tools\clang\include\clang\Basic\DiagnosticParseKinds.td" />
+    <ClInclude Include="D:\Project\ollvm-tll\tools\clang\include\clang\Basic\DiagnosticRefactoringKinds.td" />
+    <ClInclude Include="D:\Project\ollvm-tll\tools\clang\include\clang\Basic\DiagnosticSemaKinds.td" />
+    <ClInclude Include="D:\Project\ollvm-tll\tools\clang\include\clang\Basic\DiagnosticSerializationKinds.td" />
+    <ClInclude Include="D:\Project\ollvm-tll\tools\clang\include\clang\Basic\StmtNodes.td" />
+    <ClInclude Include="D:\Project\ollvm-tll\tools\clang\include\clang\Basic\arm_neon.td" />
+    <ClInclude Include="D:\Project\ollvm-tll\tools\clang\lib\Basic\Targets.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:\Project\ollvm-tll\build\ZERO_CHECK.vcxproj">
+      <Project>{991F28C1-BAA2-3294-A8DB-19EEB6478608}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\ollvm-tll\build\tools\clang\clang-tablegen-targets.vcxproj">
+      <Project>{2A41526D-4384-3821-9020-63CBECB192F5}</Project>
+      <Name>clang-tablegen-targets</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

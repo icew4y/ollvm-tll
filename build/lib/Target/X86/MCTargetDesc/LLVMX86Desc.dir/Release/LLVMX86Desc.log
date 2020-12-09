@@ -1,0 +1,11 @@
+﻿  Building Custom Rule D:/Project/ollvm-tll/lib/Target/X86/MCTargetDesc/CMakeLists.txt
+  X86AsmBackend.cpp
+  X86MCTargetDesc.cpp
+  X86MCAsmInfo.cpp
+  X86MCCodeEmitter.cpp
+  X86MachObjectWriter.cpp
+  X86ELFObjectWriter.cpp
+  X86WinCOFFObjectWriter.cpp
+  X86WinCOFFStreamer.cpp
+  X86WinCOFFTargetStreamer.cpp
+  LLVMX86Desc.vcxproj -> D:\Project\ollvm-tll\build\Release\lib\LLVMX86Desc.lib

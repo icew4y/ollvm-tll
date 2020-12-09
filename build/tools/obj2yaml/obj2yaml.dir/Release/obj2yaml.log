@@ -1,0 +1,9 @@
+﻿  Building Custom Rule D:/Project/ollvm-tll/tools/obj2yaml/CMakeLists.txt
+  obj2yaml.cpp
+  coff2yaml.cpp
+  dwarf2yaml.cpp
+  elf2yaml.cpp
+  macho2yaml.cpp
+  wasm2yaml.cpp
+  Error.cpp
+  obj2yaml.vcxproj -> D:\Project\ollvm-tll\build\Release\bin\obj2yaml.exe

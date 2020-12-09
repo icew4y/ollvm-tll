@@ -1,0 +1,6 @@
+﻿  Building Custom Rule D:/Project/ollvm-tll/tools/clang/lib/ASTMatchers/Dynamic/CMakeLists.txt
+  Diagnostics.cpp
+  VariantValue.cpp
+  Parser.cpp
+  Registry.cpp
+  clangDynamicASTMatchers.vcxproj -> D:\Project\ollvm-tll\build\Release\lib\clangDynamicASTMatchers.lib

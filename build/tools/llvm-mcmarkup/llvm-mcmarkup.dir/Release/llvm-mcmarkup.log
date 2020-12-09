@@ -1,0 +1,3 @@
+﻿  Building Custom Rule D:/Project/ollvm-tll/tools/llvm-mcmarkup/CMakeLists.txt
+  llvm-mcmarkup.cpp
+  llvm-mcmarkup.vcxproj -> D:\Project\ollvm-tll\build\Release\bin\llvm-mcmarkup.exe

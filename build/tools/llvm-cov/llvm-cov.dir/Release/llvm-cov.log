@@ -1,0 +1,13 @@
+﻿  Building Custom Rule D:/Project/ollvm-tll/tools/llvm-cov/CMakeLists.txt
+  llvm-cov.cpp
+  gcov.cpp
+  CodeCoverage.cpp
+  CoverageExporterJson.cpp
+  CoverageFilters.cpp
+  CoverageReport.cpp
+  CoverageSummaryInfo.cpp
+  SourceCoverageView.cpp
+  SourceCoverageViewHTML.cpp
+  SourceCoverageViewText.cpp
+  TestingSupport.cpp
+  llvm-cov.vcxproj -> D:\Project\ollvm-tll\build\Release\bin\llvm-cov.exe

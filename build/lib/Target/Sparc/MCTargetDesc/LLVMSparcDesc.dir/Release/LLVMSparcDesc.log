@@ -1,0 +1,9 @@
+﻿  Building Custom Rule D:/Project/ollvm-tll/lib/Target/Sparc/MCTargetDesc/CMakeLists.txt
+  SparcAsmBackend.cpp
+  SparcELFObjectWriter.cpp
+  SparcMCAsmInfo.cpp
+  SparcMCCodeEmitter.cpp
+  SparcMCTargetDesc.cpp
+  SparcMCExpr.cpp
+  SparcTargetStreamer.cpp
+  LLVMSparcDesc.vcxproj -> D:\Project\ollvm-tll\build\Release\lib\LLVMSparcDesc.lib

@@ -1,0 +1,7 @@
+﻿  Building Custom Rule D:/Project/ollvm-tll/lib/FuzzMutate/CMakeLists.txt
+  FuzzerCLI.cpp
+  IRMutator.cpp
+  OpDescriptor.cpp
+  Operations.cpp
+  RandomIRBuilder.cpp
+  LLVMFuzzMutate.vcxproj -> D:\Project\ollvm-tll\build\Release\lib\LLVMFuzzMutate.lib

@@ -1,0 +1,3 @@
+﻿  Building Custom Rule D:/Project/ollvm-tll/tools/clang/lib/Tooling/ASTDiff/CMakeLists.txt
+  ASTDiff.cpp
+  clangToolingASTDiff.vcxproj -> D:\Project\ollvm-tll\build\Release\lib\clangToolingASTDiff.lib

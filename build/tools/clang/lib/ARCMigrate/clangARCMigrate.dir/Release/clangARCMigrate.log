@@ -1,0 +1,22 @@
+﻿  Building Custom Rule D:/Project/ollvm-tll/tools/clang/lib/ARCMigrate/CMakeLists.txt
+  ARCMT.cpp
+  ARCMTActions.cpp
+  FileRemapper.cpp
+  ObjCMT.cpp
+  PlistReporter.cpp
+  TransAPIUses.cpp
+  TransARCAssign.cpp
+  TransAutoreleasePool.cpp
+  TransBlockObjCVariable.cpp
+  TransEmptyStatementsAndDealloc.cpp
+  TransGCAttrs.cpp
+  TransGCCalls.cpp
+  TransProperties.cpp
+  TransProtectedScope.cpp
+  TransRetainReleaseDealloc.cpp
+  TransUnbridgedCasts.cpp
+  TransUnusedInitDelegate.cpp
+  TransZeroOutPropsInDealloc.cpp
+  TransformActions.cpp
+  Transforms.cpp
+  clangARCMigrate.vcxproj -> D:\Project\ollvm-tll\build\Release\lib\clangARCMigrate.lib

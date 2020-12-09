@@ -1,0 +1,6 @@
+﻿  Building Custom Rule D:/Project/ollvm-tll/lib/Bitcode/Writer/CMakeLists.txt
+  BitWriter.cpp
+  BitcodeWriter.cpp
+  BitcodeWriterPass.cpp
+  ValueEnumerator.cpp
+  LLVMBitWriter.vcxproj -> D:\Project\ollvm-tll\build\Release\lib\LLVMBitWriter.lib

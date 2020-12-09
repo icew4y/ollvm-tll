@@ -1,0 +1,3 @@
+﻿  Building Custom Rule D:/Project/ollvm-tll/lib/Target/X86/Utils/CMakeLists.txt
+  X86ShuffleDecode.cpp
+  LLVMX86Utils.vcxproj -> D:\Project\ollvm-tll\build\Release\lib\LLVMX86Utils.lib

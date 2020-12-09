@@ -1,0 +1,7 @@
+﻿  Building Custom Rule D:/Project/ollvm-tll/lib/Target/SystemZ/MCTargetDesc/CMakeLists.txt
+  SystemZMCAsmBackend.cpp
+  SystemZMCAsmInfo.cpp
+  SystemZMCCodeEmitter.cpp
+  SystemZMCObjectWriter.cpp
+  SystemZMCTargetDesc.cpp
+  LLVMSystemZDesc.vcxproj -> D:\Project\ollvm-tll\build\Release\lib\LLVMSystemZDesc.lib

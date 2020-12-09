@@ -1,0 +1,3 @@
+﻿  Building Custom Rule D:/Project/ollvm-tll/tools/clang/lib/CrossTU/CMakeLists.txt
+  CrossTranslationUnit.cpp
+  clangCrossTU.vcxproj -> D:\Project\ollvm-tll\build\Release\lib\clangCrossTU.lib

@@ -1,0 +1,4 @@
+﻿  Building Custom Rule D:/Project/ollvm-tll/tools/llvm-dwp/CMakeLists.txt
+  llvm-dwp.cpp
+  DWPError.cpp
+  llvm-dwp.vcxproj -> D:\Project\ollvm-tll\build\Release\bin\llvm-dwp.exe

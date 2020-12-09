@@ -1,0 +1,3 @@
+﻿  Building Custom Rule D:/Project/ollvm-tll/lib/Target/X86/TargetInfo/CMakeLists.txt
+  X86TargetInfo.cpp
+  LLVMX86Info.vcxproj -> D:\Project\ollvm-tll\build\Release\lib\LLVMX86Info.lib

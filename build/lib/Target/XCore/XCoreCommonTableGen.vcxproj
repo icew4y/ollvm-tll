@@ -1,0 +1,1023 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{14BAC5D3-D3CF-3E5F-B290-EE71D79FD416}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.18362.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>XCoreCommonTableGen</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Project\ollvm-tll\build\lib\Target\XCore;D:\Project\ollvm-tll\lib\Target\XCore;D:\Project\ollvm-tll\build\include;D:\Project\ollvm-tll\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Project\ollvm-tll\build\lib\Target\XCore;D:\Project\ollvm-tll\lib\Target\XCore;D:\Project\ollvm-tll\build\include;D:\Project\ollvm-tll\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Project\ollvm-tll\build\lib\Target\XCore;D:\Project\ollvm-tll\lib\Target\XCore;D:\Project\ollvm-tll\build\include;D:\Project\ollvm-tll\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Project\ollvm-tll\build\lib\Target\XCore;D:\Project\ollvm-tll\lib\Target\XCore;D:\Project\ollvm-tll\build\include;D:\Project\ollvm-tll\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Project\ollvm-tll\build\CMakeFiles\354e0efa061eefda74ff2cef3c114c4d\XCoreGenRegisterInfo.inc.tmp.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building XCoreGenRegisterInfo.inc...</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+..\..\..\Debug\bin\llvm-tblgen.exe -gen-register-info -I D:/Project/ollvm-tll/lib/Target/XCore -I D:/Project/ollvm-tll/include -I D:/Project/ollvm-tll/lib/Target D:/Project/ollvm-tll/lib/Target/XCore/XCore.td -o D:/Project/ollvm-tll/build/lib/Target/XCore/XCoreGenRegisterInfo.inc.tmp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Project\ollvm-tll\build\Debug\bin\llvm-tblgen.exe;D:\Project\ollvm-tll\lib\Target\XCore\XCore.td;D:\Project\ollvm-tll\lib\Target\XCore\XCoreCallingConv.td;D:\Project\ollvm-tll\lib\Target\XCore\XCoreInstrFormats.td;D:\Project\ollvm-tll\lib\Target\XCore\XCoreInstrInfo.td;D:\Project\ollvm-tll\lib\Target\XCore\XCoreRegisterInfo.td;D:\Project\ollvm-tll\include\llvm\CodeGen\SDNodeProperties.td;D:\Project\ollvm-tll\include\llvm\CodeGen\ValueTypes.td;D:\Project\ollvm-tll\include\llvm\IR\Attributes.td;D:\Project\ollvm-tll\include\llvm\IR\Intrinsics.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsAArch64.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsAMDGPU.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsARM.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsBPF.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsHexagon.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsMips.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsNVVM.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsPowerPC.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsSystemZ.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsWebAssembly.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsX86.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsXCore.td;D:\Project\ollvm-tll\include\llvm\Option\OptParser.td;D:\Project\ollvm-tll\include\llvm\TableGen\SearchableTable.td;D:\Project\ollvm-tll\include\llvm\Target\GenericOpcodes.td;D:\Project\ollvm-tll\include\llvm\Target\GlobalISel\RegisterBank.td;D:\Project\ollvm-tll\include\llvm\Target\GlobalISel\SelectionDAGCompat.td;D:\Project\ollvm-tll\include\llvm\Target\GlobalISel\Target.td;D:\Project\ollvm-tll\include\llvm\Target\Target.td;D:\Project\ollvm-tll\include\llvm\Target\TargetCallingConv.td;D:\Project\ollvm-tll\include\llvm\Target\TargetItinerary.td;D:\Project\ollvm-tll\include\llvm\Target\TargetSchedule.td;D:\Project\ollvm-tll\include\llvm\Target\TargetSelectionDAG.td;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Project\ollvm-tll\build\lib\Target\XCore\XCoreGenRegisterInfo.inc.tmp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building XCoreGenRegisterInfo.inc...</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+..\..\..\Release\bin\llvm-tblgen.exe -gen-register-info -I D:/Project/ollvm-tll/lib/Target/XCore -I D:/Project/ollvm-tll/include -I D:/Project/ollvm-tll/lib/Target D:/Project/ollvm-tll/lib/Target/XCore/XCore.td -o D:/Project/ollvm-tll/build/lib/Target/XCore/XCoreGenRegisterInfo.inc.tmp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Project\ollvm-tll\build\Release\bin\llvm-tblgen.exe;D:\Project\ollvm-tll\lib\Target\XCore\XCore.td;D:\Project\ollvm-tll\lib\Target\XCore\XCoreCallingConv.td;D:\Project\ollvm-tll\lib\Target\XCore\XCoreInstrFormats.td;D:\Project\ollvm-tll\lib\Target\XCore\XCoreInstrInfo.td;D:\Project\ollvm-tll\lib\Target\XCore\XCoreRegisterInfo.td;D:\Project\ollvm-tll\include\llvm\CodeGen\SDNodeProperties.td;D:\Project\ollvm-tll\include\llvm\CodeGen\ValueTypes.td;D:\Project\ollvm-tll\include\llvm\IR\Attributes.td;D:\Project\ollvm-tll\include\llvm\IR\Intrinsics.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsAArch64.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsAMDGPU.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsARM.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsBPF.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsHexagon.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsMips.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsNVVM.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsPowerPC.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsSystemZ.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsWebAssembly.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsX86.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsXCore.td;D:\Project\ollvm-tll\include\llvm\Option\OptParser.td;D:\Project\ollvm-tll\include\llvm\TableGen\SearchableTable.td;D:\Project\ollvm-tll\include\llvm\Target\GenericOpcodes.td;D:\Project\ollvm-tll\include\llvm\Target\GlobalISel\RegisterBank.td;D:\Project\ollvm-tll\include\llvm\Target\GlobalISel\SelectionDAGCompat.td;D:\Project\ollvm-tll\include\llvm\Target\GlobalISel\Target.td;D:\Project\ollvm-tll\include\llvm\Target\Target.td;D:\Project\ollvm-tll\include\llvm\Target\TargetCallingConv.td;D:\Project\ollvm-tll\include\llvm\Target\TargetItinerary.td;D:\Project\ollvm-tll\include\llvm\Target\TargetSchedule.td;D:\Project\ollvm-tll\include\llvm\Target\TargetSelectionDAG.td;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Project\ollvm-tll\build\lib\Target\XCore\XCoreGenRegisterInfo.inc.tmp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building XCoreGenRegisterInfo.inc...</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+..\..\..\MinSizeRel\bin\llvm-tblgen.exe -gen-register-info -I D:/Project/ollvm-tll/lib/Target/XCore -I D:/Project/ollvm-tll/include -I D:/Project/ollvm-tll/lib/Target D:/Project/ollvm-tll/lib/Target/XCore/XCore.td -o D:/Project/ollvm-tll/build/lib/Target/XCore/XCoreGenRegisterInfo.inc.tmp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Project\ollvm-tll\build\MinSizeRel\bin\llvm-tblgen.exe;D:\Project\ollvm-tll\lib\Target\XCore\XCore.td;D:\Project\ollvm-tll\lib\Target\XCore\XCoreCallingConv.td;D:\Project\ollvm-tll\lib\Target\XCore\XCoreInstrFormats.td;D:\Project\ollvm-tll\lib\Target\XCore\XCoreInstrInfo.td;D:\Project\ollvm-tll\lib\Target\XCore\XCoreRegisterInfo.td;D:\Project\ollvm-tll\include\llvm\CodeGen\SDNodeProperties.td;D:\Project\ollvm-tll\include\llvm\CodeGen\ValueTypes.td;D:\Project\ollvm-tll\include\llvm\IR\Attributes.td;D:\Project\ollvm-tll\include\llvm\IR\Intrinsics.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsAArch64.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsAMDGPU.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsARM.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsBPF.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsHexagon.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsMips.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsNVVM.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsPowerPC.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsSystemZ.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsWebAssembly.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsX86.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsXCore.td;D:\Project\ollvm-tll\include\llvm\Option\OptParser.td;D:\Project\ollvm-tll\include\llvm\TableGen\SearchableTable.td;D:\Project\ollvm-tll\include\llvm\Target\GenericOpcodes.td;D:\Project\ollvm-tll\include\llvm\Target\GlobalISel\RegisterBank.td;D:\Project\ollvm-tll\include\llvm\Target\GlobalISel\SelectionDAGCompat.td;D:\Project\ollvm-tll\include\llvm\Target\GlobalISel\Target.td;D:\Project\ollvm-tll\include\llvm\Target\Target.td;D:\Project\ollvm-tll\include\llvm\Target\TargetCallingConv.td;D:\Project\ollvm-tll\include\llvm\Target\TargetItinerary.td;D:\Project\ollvm-tll\include\llvm\Target\TargetSchedule.td;D:\Project\ollvm-tll\include\llvm\Target\TargetSelectionDAG.td;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Project\ollvm-tll\build\lib\Target\XCore\XCoreGenRegisterInfo.inc.tmp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building XCoreGenRegisterInfo.inc...</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+..\..\..\RelWithDebInfo\bin\llvm-tblgen.exe -gen-register-info -I D:/Project/ollvm-tll/lib/Target/XCore -I D:/Project/ollvm-tll/include -I D:/Project/ollvm-tll/lib/Target D:/Project/ollvm-tll/lib/Target/XCore/XCore.td -o D:/Project/ollvm-tll/build/lib/Target/XCore/XCoreGenRegisterInfo.inc.tmp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Project\ollvm-tll\build\RelWithDebInfo\bin\llvm-tblgen.exe;D:\Project\ollvm-tll\lib\Target\XCore\XCore.td;D:\Project\ollvm-tll\lib\Target\XCore\XCoreCallingConv.td;D:\Project\ollvm-tll\lib\Target\XCore\XCoreInstrFormats.td;D:\Project\ollvm-tll\lib\Target\XCore\XCoreInstrInfo.td;D:\Project\ollvm-tll\lib\Target\XCore\XCoreRegisterInfo.td;D:\Project\ollvm-tll\include\llvm\CodeGen\SDNodeProperties.td;D:\Project\ollvm-tll\include\llvm\CodeGen\ValueTypes.td;D:\Project\ollvm-tll\include\llvm\IR\Attributes.td;D:\Project\ollvm-tll\include\llvm\IR\Intrinsics.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsAArch64.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsAMDGPU.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsARM.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsBPF.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsHexagon.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsMips.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsNVVM.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsPowerPC.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsSystemZ.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsWebAssembly.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsX86.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsXCore.td;D:\Project\ollvm-tll\include\llvm\Option\OptParser.td;D:\Project\ollvm-tll\include\llvm\TableGen\SearchableTable.td;D:\Project\ollvm-tll\include\llvm\Target\GenericOpcodes.td;D:\Project\ollvm-tll\include\llvm\Target\GlobalISel\RegisterBank.td;D:\Project\ollvm-tll\include\llvm\Target\GlobalISel\SelectionDAGCompat.td;D:\Project\ollvm-tll\include\llvm\Target\GlobalISel\Target.td;D:\Project\ollvm-tll\include\llvm\Target\Target.td;D:\Project\ollvm-tll\include\llvm\Target\TargetCallingConv.td;D:\Project\ollvm-tll\include\llvm\Target\TargetItinerary.td;D:\Project\ollvm-tll\include\llvm\Target\TargetSchedule.td;D:\Project\ollvm-tll\include\llvm\Target\TargetSelectionDAG.td;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Project\ollvm-tll\build\lib\Target\XCore\XCoreGenRegisterInfo.inc.tmp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Project\ollvm-tll\build\CMakeFiles\354e0efa061eefda74ff2cef3c114c4d\XCoreGenRegisterInfo.inc.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Updating XCoreGenRegisterInfo.inc...</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different D:/Project/ollvm-tll/build/lib/Target/XCore/XCoreGenRegisterInfo.inc.tmp D:/Project/ollvm-tll/build/lib/Target/XCore/XCoreGenRegisterInfo.inc
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Project\ollvm-tll\build\lib\Target\XCore\XCoreGenRegisterInfo.inc.tmp;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Project\ollvm-tll\build\lib\Target\XCore\XCoreGenRegisterInfo.inc</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Updating XCoreGenRegisterInfo.inc...</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different D:/Project/ollvm-tll/build/lib/Target/XCore/XCoreGenRegisterInfo.inc.tmp D:/Project/ollvm-tll/build/lib/Target/XCore/XCoreGenRegisterInfo.inc
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Project\ollvm-tll\build\lib\Target\XCore\XCoreGenRegisterInfo.inc.tmp;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Project\ollvm-tll\build\lib\Target\XCore\XCoreGenRegisterInfo.inc</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Updating XCoreGenRegisterInfo.inc...</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different D:/Project/ollvm-tll/build/lib/Target/XCore/XCoreGenRegisterInfo.inc.tmp D:/Project/ollvm-tll/build/lib/Target/XCore/XCoreGenRegisterInfo.inc
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Project\ollvm-tll\build\lib\Target\XCore\XCoreGenRegisterInfo.inc.tmp;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Project\ollvm-tll\build\lib\Target\XCore\XCoreGenRegisterInfo.inc</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Updating XCoreGenRegisterInfo.inc...</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different D:/Project/ollvm-tll/build/lib/Target/XCore/XCoreGenRegisterInfo.inc.tmp D:/Project/ollvm-tll/build/lib/Target/XCore/XCoreGenRegisterInfo.inc
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Project\ollvm-tll\build\lib\Target\XCore\XCoreGenRegisterInfo.inc.tmp;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Project\ollvm-tll\build\lib\Target\XCore\XCoreGenRegisterInfo.inc</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Project\ollvm-tll\build\CMakeFiles\354e0efa061eefda74ff2cef3c114c4d\XCoreGenInstrInfo.inc.tmp.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building XCoreGenInstrInfo.inc...</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+..\..\..\Debug\bin\llvm-tblgen.exe -gen-instr-info -I D:/Project/ollvm-tll/lib/Target/XCore -I D:/Project/ollvm-tll/include -I D:/Project/ollvm-tll/lib/Target D:/Project/ollvm-tll/lib/Target/XCore/XCore.td -o D:/Project/ollvm-tll/build/lib/Target/XCore/XCoreGenInstrInfo.inc.tmp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Project\ollvm-tll\build\Debug\bin\llvm-tblgen.exe;D:\Project\ollvm-tll\lib\Target\XCore\XCore.td;D:\Project\ollvm-tll\lib\Target\XCore\XCoreCallingConv.td;D:\Project\ollvm-tll\lib\Target\XCore\XCoreInstrFormats.td;D:\Project\ollvm-tll\lib\Target\XCore\XCoreInstrInfo.td;D:\Project\ollvm-tll\lib\Target\XCore\XCoreRegisterInfo.td;D:\Project\ollvm-tll\include\llvm\CodeGen\SDNodeProperties.td;D:\Project\ollvm-tll\include\llvm\CodeGen\ValueTypes.td;D:\Project\ollvm-tll\include\llvm\IR\Attributes.td;D:\Project\ollvm-tll\include\llvm\IR\Intrinsics.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsAArch64.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsAMDGPU.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsARM.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsBPF.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsHexagon.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsMips.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsNVVM.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsPowerPC.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsSystemZ.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsWebAssembly.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsX86.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsXCore.td;D:\Project\ollvm-tll\include\llvm\Option\OptParser.td;D:\Project\ollvm-tll\include\llvm\TableGen\SearchableTable.td;D:\Project\ollvm-tll\include\llvm\Target\GenericOpcodes.td;D:\Project\ollvm-tll\include\llvm\Target\GlobalISel\RegisterBank.td;D:\Project\ollvm-tll\include\llvm\Target\GlobalISel\SelectionDAGCompat.td;D:\Project\ollvm-tll\include\llvm\Target\GlobalISel\Target.td;D:\Project\ollvm-tll\include\llvm\Target\Target.td;D:\Project\ollvm-tll\include\llvm\Target\TargetCallingConv.td;D:\Project\ollvm-tll\include\llvm\Target\TargetItinerary.td;D:\Project\ollvm-tll\include\llvm\Target\TargetSchedule.td;D:\Project\ollvm-tll\include\llvm\Target\TargetSelectionDAG.td;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Project\ollvm-tll\build\lib\Target\XCore\XCoreGenInstrInfo.inc.tmp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building XCoreGenInstrInfo.inc...</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+..\..\..\Release\bin\llvm-tblgen.exe -gen-instr-info -I D:/Project/ollvm-tll/lib/Target/XCore -I D:/Project/ollvm-tll/include -I D:/Project/ollvm-tll/lib/Target D:/Project/ollvm-tll/lib/Target/XCore/XCore.td -o D:/Project/ollvm-tll/build/lib/Target/XCore/XCoreGenInstrInfo.inc.tmp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Project\ollvm-tll\build\Release\bin\llvm-tblgen.exe;D:\Project\ollvm-tll\lib\Target\XCore\XCore.td;D:\Project\ollvm-tll\lib\Target\XCore\XCoreCallingConv.td;D:\Project\ollvm-tll\lib\Target\XCore\XCoreInstrFormats.td;D:\Project\ollvm-tll\lib\Target\XCore\XCoreInstrInfo.td;D:\Project\ollvm-tll\lib\Target\XCore\XCoreRegisterInfo.td;D:\Project\ollvm-tll\include\llvm\CodeGen\SDNodeProperties.td;D:\Project\ollvm-tll\include\llvm\CodeGen\ValueTypes.td;D:\Project\ollvm-tll\include\llvm\IR\Attributes.td;D:\Project\ollvm-tll\include\llvm\IR\Intrinsics.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsAArch64.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsAMDGPU.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsARM.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsBPF.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsHexagon.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsMips.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsNVVM.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsPowerPC.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsSystemZ.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsWebAssembly.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsX86.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsXCore.td;D:\Project\ollvm-tll\include\llvm\Option\OptParser.td;D:\Project\ollvm-tll\include\llvm\TableGen\SearchableTable.td;D:\Project\ollvm-tll\include\llvm\Target\GenericOpcodes.td;D:\Project\ollvm-tll\include\llvm\Target\GlobalISel\RegisterBank.td;D:\Project\ollvm-tll\include\llvm\Target\GlobalISel\SelectionDAGCompat.td;D:\Project\ollvm-tll\include\llvm\Target\GlobalISel\Target.td;D:\Project\ollvm-tll\include\llvm\Target\Target.td;D:\Project\ollvm-tll\include\llvm\Target\TargetCallingConv.td;D:\Project\ollvm-tll\include\llvm\Target\TargetItinerary.td;D:\Project\ollvm-tll\include\llvm\Target\TargetSchedule.td;D:\Project\ollvm-tll\include\llvm\Target\TargetSelectionDAG.td;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Project\ollvm-tll\build\lib\Target\XCore\XCoreGenInstrInfo.inc.tmp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building XCoreGenInstrInfo.inc...</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+..\..\..\MinSizeRel\bin\llvm-tblgen.exe -gen-instr-info -I D:/Project/ollvm-tll/lib/Target/XCore -I D:/Project/ollvm-tll/include -I D:/Project/ollvm-tll/lib/Target D:/Project/ollvm-tll/lib/Target/XCore/XCore.td -o D:/Project/ollvm-tll/build/lib/Target/XCore/XCoreGenInstrInfo.inc.tmp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Project\ollvm-tll\build\MinSizeRel\bin\llvm-tblgen.exe;D:\Project\ollvm-tll\lib\Target\XCore\XCore.td;D:\Project\ollvm-tll\lib\Target\XCore\XCoreCallingConv.td;D:\Project\ollvm-tll\lib\Target\XCore\XCoreInstrFormats.td;D:\Project\ollvm-tll\lib\Target\XCore\XCoreInstrInfo.td;D:\Project\ollvm-tll\lib\Target\XCore\XCoreRegisterInfo.td;D:\Project\ollvm-tll\include\llvm\CodeGen\SDNodeProperties.td;D:\Project\ollvm-tll\include\llvm\CodeGen\ValueTypes.td;D:\Project\ollvm-tll\include\llvm\IR\Attributes.td;D:\Project\ollvm-tll\include\llvm\IR\Intrinsics.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsAArch64.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsAMDGPU.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsARM.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsBPF.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsHexagon.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsMips.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsNVVM.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsPowerPC.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsSystemZ.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsWebAssembly.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsX86.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsXCore.td;D:\Project\ollvm-tll\include\llvm\Option\OptParser.td;D:\Project\ollvm-tll\include\llvm\TableGen\SearchableTable.td;D:\Project\ollvm-tll\include\llvm\Target\GenericOpcodes.td;D:\Project\ollvm-tll\include\llvm\Target\GlobalISel\RegisterBank.td;D:\Project\ollvm-tll\include\llvm\Target\GlobalISel\SelectionDAGCompat.td;D:\Project\ollvm-tll\include\llvm\Target\GlobalISel\Target.td;D:\Project\ollvm-tll\include\llvm\Target\Target.td;D:\Project\ollvm-tll\include\llvm\Target\TargetCallingConv.td;D:\Project\ollvm-tll\include\llvm\Target\TargetItinerary.td;D:\Project\ollvm-tll\include\llvm\Target\TargetSchedule.td;D:\Project\ollvm-tll\include\llvm\Target\TargetSelectionDAG.td;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Project\ollvm-tll\build\lib\Target\XCore\XCoreGenInstrInfo.inc.tmp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building XCoreGenInstrInfo.inc...</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+..\..\..\RelWithDebInfo\bin\llvm-tblgen.exe -gen-instr-info -I D:/Project/ollvm-tll/lib/Target/XCore -I D:/Project/ollvm-tll/include -I D:/Project/ollvm-tll/lib/Target D:/Project/ollvm-tll/lib/Target/XCore/XCore.td -o D:/Project/ollvm-tll/build/lib/Target/XCore/XCoreGenInstrInfo.inc.tmp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Project\ollvm-tll\build\RelWithDebInfo\bin\llvm-tblgen.exe;D:\Project\ollvm-tll\lib\Target\XCore\XCore.td;D:\Project\ollvm-tll\lib\Target\XCore\XCoreCallingConv.td;D:\Project\ollvm-tll\lib\Target\XCore\XCoreInstrFormats.td;D:\Project\ollvm-tll\lib\Target\XCore\XCoreInstrInfo.td;D:\Project\ollvm-tll\lib\Target\XCore\XCoreRegisterInfo.td;D:\Project\ollvm-tll\include\llvm\CodeGen\SDNodeProperties.td;D:\Project\ollvm-tll\include\llvm\CodeGen\ValueTypes.td;D:\Project\ollvm-tll\include\llvm\IR\Attributes.td;D:\Project\ollvm-tll\include\llvm\IR\Intrinsics.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsAArch64.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsAMDGPU.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsARM.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsBPF.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsHexagon.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsMips.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsNVVM.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsPowerPC.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsSystemZ.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsWebAssembly.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsX86.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsXCore.td;D:\Project\ollvm-tll\include\llvm\Option\OptParser.td;D:\Project\ollvm-tll\include\llvm\TableGen\SearchableTable.td;D:\Project\ollvm-tll\include\llvm\Target\GenericOpcodes.td;D:\Project\ollvm-tll\include\llvm\Target\GlobalISel\RegisterBank.td;D:\Project\ollvm-tll\include\llvm\Target\GlobalISel\SelectionDAGCompat.td;D:\Project\ollvm-tll\include\llvm\Target\GlobalISel\Target.td;D:\Project\ollvm-tll\include\llvm\Target\Target.td;D:\Project\ollvm-tll\include\llvm\Target\TargetCallingConv.td;D:\Project\ollvm-tll\include\llvm\Target\TargetItinerary.td;D:\Project\ollvm-tll\include\llvm\Target\TargetSchedule.td;D:\Project\ollvm-tll\include\llvm\Target\TargetSelectionDAG.td;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Project\ollvm-tll\build\lib\Target\XCore\XCoreGenInstrInfo.inc.tmp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Project\ollvm-tll\build\CMakeFiles\354e0efa061eefda74ff2cef3c114c4d\XCoreGenInstrInfo.inc.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Updating XCoreGenInstrInfo.inc...</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different D:/Project/ollvm-tll/build/lib/Target/XCore/XCoreGenInstrInfo.inc.tmp D:/Project/ollvm-tll/build/lib/Target/XCore/XCoreGenInstrInfo.inc
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Project\ollvm-tll\build\lib\Target\XCore\XCoreGenInstrInfo.inc.tmp;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Project\ollvm-tll\build\lib\Target\XCore\XCoreGenInstrInfo.inc</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Updating XCoreGenInstrInfo.inc...</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different D:/Project/ollvm-tll/build/lib/Target/XCore/XCoreGenInstrInfo.inc.tmp D:/Project/ollvm-tll/build/lib/Target/XCore/XCoreGenInstrInfo.inc
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Project\ollvm-tll\build\lib\Target\XCore\XCoreGenInstrInfo.inc.tmp;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Project\ollvm-tll\build\lib\Target\XCore\XCoreGenInstrInfo.inc</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Updating XCoreGenInstrInfo.inc...</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different D:/Project/ollvm-tll/build/lib/Target/XCore/XCoreGenInstrInfo.inc.tmp D:/Project/ollvm-tll/build/lib/Target/XCore/XCoreGenInstrInfo.inc
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Project\ollvm-tll\build\lib\Target\XCore\XCoreGenInstrInfo.inc.tmp;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Project\ollvm-tll\build\lib\Target\XCore\XCoreGenInstrInfo.inc</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Updating XCoreGenInstrInfo.inc...</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different D:/Project/ollvm-tll/build/lib/Target/XCore/XCoreGenInstrInfo.inc.tmp D:/Project/ollvm-tll/build/lib/Target/XCore/XCoreGenInstrInfo.inc
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Project\ollvm-tll\build\lib\Target\XCore\XCoreGenInstrInfo.inc.tmp;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Project\ollvm-tll\build\lib\Target\XCore\XCoreGenInstrInfo.inc</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Project\ollvm-tll\build\CMakeFiles\354e0efa061eefda74ff2cef3c114c4d\XCoreGenDisassemblerTables.inc.tmp.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building XCoreGenDisassemblerTables.inc...</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+..\..\..\Debug\bin\llvm-tblgen.exe -gen-disassembler -I D:/Project/ollvm-tll/lib/Target/XCore -I D:/Project/ollvm-tll/include -I D:/Project/ollvm-tll/lib/Target D:/Project/ollvm-tll/lib/Target/XCore/XCore.td -o D:/Project/ollvm-tll/build/lib/Target/XCore/XCoreGenDisassemblerTables.inc.tmp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Project\ollvm-tll\build\Debug\bin\llvm-tblgen.exe;D:\Project\ollvm-tll\lib\Target\XCore\XCore.td;D:\Project\ollvm-tll\lib\Target\XCore\XCoreCallingConv.td;D:\Project\ollvm-tll\lib\Target\XCore\XCoreInstrFormats.td;D:\Project\ollvm-tll\lib\Target\XCore\XCoreInstrInfo.td;D:\Project\ollvm-tll\lib\Target\XCore\XCoreRegisterInfo.td;D:\Project\ollvm-tll\include\llvm\CodeGen\SDNodeProperties.td;D:\Project\ollvm-tll\include\llvm\CodeGen\ValueTypes.td;D:\Project\ollvm-tll\include\llvm\IR\Attributes.td;D:\Project\ollvm-tll\include\llvm\IR\Intrinsics.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsAArch64.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsAMDGPU.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsARM.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsBPF.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsHexagon.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsMips.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsNVVM.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsPowerPC.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsSystemZ.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsWebAssembly.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsX86.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsXCore.td;D:\Project\ollvm-tll\include\llvm\Option\OptParser.td;D:\Project\ollvm-tll\include\llvm\TableGen\SearchableTable.td;D:\Project\ollvm-tll\include\llvm\Target\GenericOpcodes.td;D:\Project\ollvm-tll\include\llvm\Target\GlobalISel\RegisterBank.td;D:\Project\ollvm-tll\include\llvm\Target\GlobalISel\SelectionDAGCompat.td;D:\Project\ollvm-tll\include\llvm\Target\GlobalISel\Target.td;D:\Project\ollvm-tll\include\llvm\Target\Target.td;D:\Project\ollvm-tll\include\llvm\Target\TargetCallingConv.td;D:\Project\ollvm-tll\include\llvm\Target\TargetItinerary.td;D:\Project\ollvm-tll\include\llvm\Target\TargetSchedule.td;D:\Project\ollvm-tll\include\llvm\Target\TargetSelectionDAG.td;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Project\ollvm-tll\build\lib\Target\XCore\XCoreGenDisassemblerTables.inc.tmp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building XCoreGenDisassemblerTables.inc...</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+..\..\..\Release\bin\llvm-tblgen.exe -gen-disassembler -I D:/Project/ollvm-tll/lib/Target/XCore -I D:/Project/ollvm-tll/include -I D:/Project/ollvm-tll/lib/Target D:/Project/ollvm-tll/lib/Target/XCore/XCore.td -o D:/Project/ollvm-tll/build/lib/Target/XCore/XCoreGenDisassemblerTables.inc.tmp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Project\ollvm-tll\build\Release\bin\llvm-tblgen.exe;D:\Project\ollvm-tll\lib\Target\XCore\XCore.td;D:\Project\ollvm-tll\lib\Target\XCore\XCoreCallingConv.td;D:\Project\ollvm-tll\lib\Target\XCore\XCoreInstrFormats.td;D:\Project\ollvm-tll\lib\Target\XCore\XCoreInstrInfo.td;D:\Project\ollvm-tll\lib\Target\XCore\XCoreRegisterInfo.td;D:\Project\ollvm-tll\include\llvm\CodeGen\SDNodeProperties.td;D:\Project\ollvm-tll\include\llvm\CodeGen\ValueTypes.td;D:\Project\ollvm-tll\include\llvm\IR\Attributes.td;D:\Project\ollvm-tll\include\llvm\IR\Intrinsics.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsAArch64.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsAMDGPU.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsARM.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsBPF.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsHexagon.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsMips.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsNVVM.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsPowerPC.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsSystemZ.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsWebAssembly.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsX86.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsXCore.td;D:\Project\ollvm-tll\include\llvm\Option\OptParser.td;D:\Project\ollvm-tll\include\llvm\TableGen\SearchableTable.td;D:\Project\ollvm-tll\include\llvm\Target\GenericOpcodes.td;D:\Project\ollvm-tll\include\llvm\Target\GlobalISel\RegisterBank.td;D:\Project\ollvm-tll\include\llvm\Target\GlobalISel\SelectionDAGCompat.td;D:\Project\ollvm-tll\include\llvm\Target\GlobalISel\Target.td;D:\Project\ollvm-tll\include\llvm\Target\Target.td;D:\Project\ollvm-tll\include\llvm\Target\TargetCallingConv.td;D:\Project\ollvm-tll\include\llvm\Target\TargetItinerary.td;D:\Project\ollvm-tll\include\llvm\Target\TargetSchedule.td;D:\Project\ollvm-tll\include\llvm\Target\TargetSelectionDAG.td;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Project\ollvm-tll\build\lib\Target\XCore\XCoreGenDisassemblerTables.inc.tmp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building XCoreGenDisassemblerTables.inc...</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+..\..\..\MinSizeRel\bin\llvm-tblgen.exe -gen-disassembler -I D:/Project/ollvm-tll/lib/Target/XCore -I D:/Project/ollvm-tll/include -I D:/Project/ollvm-tll/lib/Target D:/Project/ollvm-tll/lib/Target/XCore/XCore.td -o D:/Project/ollvm-tll/build/lib/Target/XCore/XCoreGenDisassemblerTables.inc.tmp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Project\ollvm-tll\build\MinSizeRel\bin\llvm-tblgen.exe;D:\Project\ollvm-tll\lib\Target\XCore\XCore.td;D:\Project\ollvm-tll\lib\Target\XCore\XCoreCallingConv.td;D:\Project\ollvm-tll\lib\Target\XCore\XCoreInstrFormats.td;D:\Project\ollvm-tll\lib\Target\XCore\XCoreInstrInfo.td;D:\Project\ollvm-tll\lib\Target\XCore\XCoreRegisterInfo.td;D:\Project\ollvm-tll\include\llvm\CodeGen\SDNodeProperties.td;D:\Project\ollvm-tll\include\llvm\CodeGen\ValueTypes.td;D:\Project\ollvm-tll\include\llvm\IR\Attributes.td;D:\Project\ollvm-tll\include\llvm\IR\Intrinsics.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsAArch64.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsAMDGPU.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsARM.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsBPF.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsHexagon.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsMips.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsNVVM.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsPowerPC.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsSystemZ.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsWebAssembly.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsX86.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsXCore.td;D:\Project\ollvm-tll\include\llvm\Option\OptParser.td;D:\Project\ollvm-tll\include\llvm\TableGen\SearchableTable.td;D:\Project\ollvm-tll\include\llvm\Target\GenericOpcodes.td;D:\Project\ollvm-tll\include\llvm\Target\GlobalISel\RegisterBank.td;D:\Project\ollvm-tll\include\llvm\Target\GlobalISel\SelectionDAGCompat.td;D:\Project\ollvm-tll\include\llvm\Target\GlobalISel\Target.td;D:\Project\ollvm-tll\include\llvm\Target\Target.td;D:\Project\ollvm-tll\include\llvm\Target\TargetCallingConv.td;D:\Project\ollvm-tll\include\llvm\Target\TargetItinerary.td;D:\Project\ollvm-tll\include\llvm\Target\TargetSchedule.td;D:\Project\ollvm-tll\include\llvm\Target\TargetSelectionDAG.td;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Project\ollvm-tll\build\lib\Target\XCore\XCoreGenDisassemblerTables.inc.tmp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building XCoreGenDisassemblerTables.inc...</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+..\..\..\RelWithDebInfo\bin\llvm-tblgen.exe -gen-disassembler -I D:/Project/ollvm-tll/lib/Target/XCore -I D:/Project/ollvm-tll/include -I D:/Project/ollvm-tll/lib/Target D:/Project/ollvm-tll/lib/Target/XCore/XCore.td -o D:/Project/ollvm-tll/build/lib/Target/XCore/XCoreGenDisassemblerTables.inc.tmp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Project\ollvm-tll\build\RelWithDebInfo\bin\llvm-tblgen.exe;D:\Project\ollvm-tll\lib\Target\XCore\XCore.td;D:\Project\ollvm-tll\lib\Target\XCore\XCoreCallingConv.td;D:\Project\ollvm-tll\lib\Target\XCore\XCoreInstrFormats.td;D:\Project\ollvm-tll\lib\Target\XCore\XCoreInstrInfo.td;D:\Project\ollvm-tll\lib\Target\XCore\XCoreRegisterInfo.td;D:\Project\ollvm-tll\include\llvm\CodeGen\SDNodeProperties.td;D:\Project\ollvm-tll\include\llvm\CodeGen\ValueTypes.td;D:\Project\ollvm-tll\include\llvm\IR\Attributes.td;D:\Project\ollvm-tll\include\llvm\IR\Intrinsics.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsAArch64.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsAMDGPU.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsARM.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsBPF.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsHexagon.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsMips.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsNVVM.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsPowerPC.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsSystemZ.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsWebAssembly.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsX86.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsXCore.td;D:\Project\ollvm-tll\include\llvm\Option\OptParser.td;D:\Project\ollvm-tll\include\llvm\TableGen\SearchableTable.td;D:\Project\ollvm-tll\include\llvm\Target\GenericOpcodes.td;D:\Project\ollvm-tll\include\llvm\Target\GlobalISel\RegisterBank.td;D:\Project\ollvm-tll\include\llvm\Target\GlobalISel\SelectionDAGCompat.td;D:\Project\ollvm-tll\include\llvm\Target\GlobalISel\Target.td;D:\Project\ollvm-tll\include\llvm\Target\Target.td;D:\Project\ollvm-tll\include\llvm\Target\TargetCallingConv.td;D:\Project\ollvm-tll\include\llvm\Target\TargetItinerary.td;D:\Project\ollvm-tll\include\llvm\Target\TargetSchedule.td;D:\Project\ollvm-tll\include\llvm\Target\TargetSelectionDAG.td;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Project\ollvm-tll\build\lib\Target\XCore\XCoreGenDisassemblerTables.inc.tmp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Project\ollvm-tll\build\CMakeFiles\354e0efa061eefda74ff2cef3c114c4d\XCoreGenDisassemblerTables.inc.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Updating XCoreGenDisassemblerTables.inc...</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different D:/Project/ollvm-tll/build/lib/Target/XCore/XCoreGenDisassemblerTables.inc.tmp D:/Project/ollvm-tll/build/lib/Target/XCore/XCoreGenDisassemblerTables.inc
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Project\ollvm-tll\build\lib\Target\XCore\XCoreGenDisassemblerTables.inc.tmp;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Project\ollvm-tll\build\lib\Target\XCore\XCoreGenDisassemblerTables.inc</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Updating XCoreGenDisassemblerTables.inc...</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different D:/Project/ollvm-tll/build/lib/Target/XCore/XCoreGenDisassemblerTables.inc.tmp D:/Project/ollvm-tll/build/lib/Target/XCore/XCoreGenDisassemblerTables.inc
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Project\ollvm-tll\build\lib\Target\XCore\XCoreGenDisassemblerTables.inc.tmp;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Project\ollvm-tll\build\lib\Target\XCore\XCoreGenDisassemblerTables.inc</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Updating XCoreGenDisassemblerTables.inc...</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different D:/Project/ollvm-tll/build/lib/Target/XCore/XCoreGenDisassemblerTables.inc.tmp D:/Project/ollvm-tll/build/lib/Target/XCore/XCoreGenDisassemblerTables.inc
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Project\ollvm-tll\build\lib\Target\XCore\XCoreGenDisassemblerTables.inc.tmp;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Project\ollvm-tll\build\lib\Target\XCore\XCoreGenDisassemblerTables.inc</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Updating XCoreGenDisassemblerTables.inc...</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different D:/Project/ollvm-tll/build/lib/Target/XCore/XCoreGenDisassemblerTables.inc.tmp D:/Project/ollvm-tll/build/lib/Target/XCore/XCoreGenDisassemblerTables.inc
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Project\ollvm-tll\build\lib\Target\XCore\XCoreGenDisassemblerTables.inc.tmp;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Project\ollvm-tll\build\lib\Target\XCore\XCoreGenDisassemblerTables.inc</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Project\ollvm-tll\build\CMakeFiles\354e0efa061eefda74ff2cef3c114c4d\XCoreGenAsmWriter.inc.tmp.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building XCoreGenAsmWriter.inc...</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+..\..\..\Debug\bin\llvm-tblgen.exe -gen-asm-writer -I D:/Project/ollvm-tll/lib/Target/XCore -I D:/Project/ollvm-tll/include -I D:/Project/ollvm-tll/lib/Target D:/Project/ollvm-tll/lib/Target/XCore/XCore.td -o D:/Project/ollvm-tll/build/lib/Target/XCore/XCoreGenAsmWriter.inc.tmp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Project\ollvm-tll\build\Debug\bin\llvm-tblgen.exe;D:\Project\ollvm-tll\lib\Target\XCore\XCore.td;D:\Project\ollvm-tll\lib\Target\XCore\XCoreCallingConv.td;D:\Project\ollvm-tll\lib\Target\XCore\XCoreInstrFormats.td;D:\Project\ollvm-tll\lib\Target\XCore\XCoreInstrInfo.td;D:\Project\ollvm-tll\lib\Target\XCore\XCoreRegisterInfo.td;D:\Project\ollvm-tll\include\llvm\CodeGen\SDNodeProperties.td;D:\Project\ollvm-tll\include\llvm\CodeGen\ValueTypes.td;D:\Project\ollvm-tll\include\llvm\IR\Attributes.td;D:\Project\ollvm-tll\include\llvm\IR\Intrinsics.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsAArch64.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsAMDGPU.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsARM.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsBPF.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsHexagon.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsMips.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsNVVM.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsPowerPC.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsSystemZ.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsWebAssembly.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsX86.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsXCore.td;D:\Project\ollvm-tll\include\llvm\Option\OptParser.td;D:\Project\ollvm-tll\include\llvm\TableGen\SearchableTable.td;D:\Project\ollvm-tll\include\llvm\Target\GenericOpcodes.td;D:\Project\ollvm-tll\include\llvm\Target\GlobalISel\RegisterBank.td;D:\Project\ollvm-tll\include\llvm\Target\GlobalISel\SelectionDAGCompat.td;D:\Project\ollvm-tll\include\llvm\Target\GlobalISel\Target.td;D:\Project\ollvm-tll\include\llvm\Target\Target.td;D:\Project\ollvm-tll\include\llvm\Target\TargetCallingConv.td;D:\Project\ollvm-tll\include\llvm\Target\TargetItinerary.td;D:\Project\ollvm-tll\include\llvm\Target\TargetSchedule.td;D:\Project\ollvm-tll\include\llvm\Target\TargetSelectionDAG.td;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Project\ollvm-tll\build\lib\Target\XCore\XCoreGenAsmWriter.inc.tmp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building XCoreGenAsmWriter.inc...</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+..\..\..\Release\bin\llvm-tblgen.exe -gen-asm-writer -I D:/Project/ollvm-tll/lib/Target/XCore -I D:/Project/ollvm-tll/include -I D:/Project/ollvm-tll/lib/Target D:/Project/ollvm-tll/lib/Target/XCore/XCore.td -o D:/Project/ollvm-tll/build/lib/Target/XCore/XCoreGenAsmWriter.inc.tmp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Project\ollvm-tll\build\Release\bin\llvm-tblgen.exe;D:\Project\ollvm-tll\lib\Target\XCore\XCore.td;D:\Project\ollvm-tll\lib\Target\XCore\XCoreCallingConv.td;D:\Project\ollvm-tll\lib\Target\XCore\XCoreInstrFormats.td;D:\Project\ollvm-tll\lib\Target\XCore\XCoreInstrInfo.td;D:\Project\ollvm-tll\lib\Target\XCore\XCoreRegisterInfo.td;D:\Project\ollvm-tll\include\llvm\CodeGen\SDNodeProperties.td;D:\Project\ollvm-tll\include\llvm\CodeGen\ValueTypes.td;D:\Project\ollvm-tll\include\llvm\IR\Attributes.td;D:\Project\ollvm-tll\include\llvm\IR\Intrinsics.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsAArch64.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsAMDGPU.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsARM.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsBPF.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsHexagon.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsMips.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsNVVM.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsPowerPC.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsSystemZ.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsWebAssembly.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsX86.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsXCore.td;D:\Project\ollvm-tll\include\llvm\Option\OptParser.td;D:\Project\ollvm-tll\include\llvm\TableGen\SearchableTable.td;D:\Project\ollvm-tll\include\llvm\Target\GenericOpcodes.td;D:\Project\ollvm-tll\include\llvm\Target\GlobalISel\RegisterBank.td;D:\Project\ollvm-tll\include\llvm\Target\GlobalISel\SelectionDAGCompat.td;D:\Project\ollvm-tll\include\llvm\Target\GlobalISel\Target.td;D:\Project\ollvm-tll\include\llvm\Target\Target.td;D:\Project\ollvm-tll\include\llvm\Target\TargetCallingConv.td;D:\Project\ollvm-tll\include\llvm\Target\TargetItinerary.td;D:\Project\ollvm-tll\include\llvm\Target\TargetSchedule.td;D:\Project\ollvm-tll\include\llvm\Target\TargetSelectionDAG.td;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Project\ollvm-tll\build\lib\Target\XCore\XCoreGenAsmWriter.inc.tmp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building XCoreGenAsmWriter.inc...</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+..\..\..\MinSizeRel\bin\llvm-tblgen.exe -gen-asm-writer -I D:/Project/ollvm-tll/lib/Target/XCore -I D:/Project/ollvm-tll/include -I D:/Project/ollvm-tll/lib/Target D:/Project/ollvm-tll/lib/Target/XCore/XCore.td -o D:/Project/ollvm-tll/build/lib/Target/XCore/XCoreGenAsmWriter.inc.tmp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Project\ollvm-tll\build\MinSizeRel\bin\llvm-tblgen.exe;D:\Project\ollvm-tll\lib\Target\XCore\XCore.td;D:\Project\ollvm-tll\lib\Target\XCore\XCoreCallingConv.td;D:\Project\ollvm-tll\lib\Target\XCore\XCoreInstrFormats.td;D:\Project\ollvm-tll\lib\Target\XCore\XCoreInstrInfo.td;D:\Project\ollvm-tll\lib\Target\XCore\XCoreRegisterInfo.td;D:\Project\ollvm-tll\include\llvm\CodeGen\SDNodeProperties.td;D:\Project\ollvm-tll\include\llvm\CodeGen\ValueTypes.td;D:\Project\ollvm-tll\include\llvm\IR\Attributes.td;D:\Project\ollvm-tll\include\llvm\IR\Intrinsics.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsAArch64.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsAMDGPU.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsARM.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsBPF.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsHexagon.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsMips.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsNVVM.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsPowerPC.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsSystemZ.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsWebAssembly.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsX86.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsXCore.td;D:\Project\ollvm-tll\include\llvm\Option\OptParser.td;D:\Project\ollvm-tll\include\llvm\TableGen\SearchableTable.td;D:\Project\ollvm-tll\include\llvm\Target\GenericOpcodes.td;D:\Project\ollvm-tll\include\llvm\Target\GlobalISel\RegisterBank.td;D:\Project\ollvm-tll\include\llvm\Target\GlobalISel\SelectionDAGCompat.td;D:\Project\ollvm-tll\include\llvm\Target\GlobalISel\Target.td;D:\Project\ollvm-tll\include\llvm\Target\Target.td;D:\Project\ollvm-tll\include\llvm\Target\TargetCallingConv.td;D:\Project\ollvm-tll\include\llvm\Target\TargetItinerary.td;D:\Project\ollvm-tll\include\llvm\Target\TargetSchedule.td;D:\Project\ollvm-tll\include\llvm\Target\TargetSelectionDAG.td;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Project\ollvm-tll\build\lib\Target\XCore\XCoreGenAsmWriter.inc.tmp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building XCoreGenAsmWriter.inc...</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+..\..\..\RelWithDebInfo\bin\llvm-tblgen.exe -gen-asm-writer -I D:/Project/ollvm-tll/lib/Target/XCore -I D:/Project/ollvm-tll/include -I D:/Project/ollvm-tll/lib/Target D:/Project/ollvm-tll/lib/Target/XCore/XCore.td -o D:/Project/ollvm-tll/build/lib/Target/XCore/XCoreGenAsmWriter.inc.tmp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Project\ollvm-tll\build\RelWithDebInfo\bin\llvm-tblgen.exe;D:\Project\ollvm-tll\lib\Target\XCore\XCore.td;D:\Project\ollvm-tll\lib\Target\XCore\XCoreCallingConv.td;D:\Project\ollvm-tll\lib\Target\XCore\XCoreInstrFormats.td;D:\Project\ollvm-tll\lib\Target\XCore\XCoreInstrInfo.td;D:\Project\ollvm-tll\lib\Target\XCore\XCoreRegisterInfo.td;D:\Project\ollvm-tll\include\llvm\CodeGen\SDNodeProperties.td;D:\Project\ollvm-tll\include\llvm\CodeGen\ValueTypes.td;D:\Project\ollvm-tll\include\llvm\IR\Attributes.td;D:\Project\ollvm-tll\include\llvm\IR\Intrinsics.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsAArch64.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsAMDGPU.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsARM.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsBPF.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsHexagon.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsMips.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsNVVM.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsPowerPC.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsSystemZ.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsWebAssembly.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsX86.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsXCore.td;D:\Project\ollvm-tll\include\llvm\Option\OptParser.td;D:\Project\ollvm-tll\include\llvm\TableGen\SearchableTable.td;D:\Project\ollvm-tll\include\llvm\Target\GenericOpcodes.td;D:\Project\ollvm-tll\include\llvm\Target\GlobalISel\RegisterBank.td;D:\Project\ollvm-tll\include\llvm\Target\GlobalISel\SelectionDAGCompat.td;D:\Project\ollvm-tll\include\llvm\Target\GlobalISel\Target.td;D:\Project\ollvm-tll\include\llvm\Target\Target.td;D:\Project\ollvm-tll\include\llvm\Target\TargetCallingConv.td;D:\Project\ollvm-tll\include\llvm\Target\TargetItinerary.td;D:\Project\ollvm-tll\include\llvm\Target\TargetSchedule.td;D:\Project\ollvm-tll\include\llvm\Target\TargetSelectionDAG.td;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Project\ollvm-tll\build\lib\Target\XCore\XCoreGenAsmWriter.inc.tmp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Project\ollvm-tll\build\CMakeFiles\354e0efa061eefda74ff2cef3c114c4d\XCoreGenAsmWriter.inc.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Updating XCoreGenAsmWriter.inc...</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different D:/Project/ollvm-tll/build/lib/Target/XCore/XCoreGenAsmWriter.inc.tmp D:/Project/ollvm-tll/build/lib/Target/XCore/XCoreGenAsmWriter.inc
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Project\ollvm-tll\build\lib\Target\XCore\XCoreGenAsmWriter.inc.tmp;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Project\ollvm-tll\build\lib\Target\XCore\XCoreGenAsmWriter.inc</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Updating XCoreGenAsmWriter.inc...</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different D:/Project/ollvm-tll/build/lib/Target/XCore/XCoreGenAsmWriter.inc.tmp D:/Project/ollvm-tll/build/lib/Target/XCore/XCoreGenAsmWriter.inc
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Project\ollvm-tll\build\lib\Target\XCore\XCoreGenAsmWriter.inc.tmp;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Project\ollvm-tll\build\lib\Target\XCore\XCoreGenAsmWriter.inc</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Updating XCoreGenAsmWriter.inc...</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different D:/Project/ollvm-tll/build/lib/Target/XCore/XCoreGenAsmWriter.inc.tmp D:/Project/ollvm-tll/build/lib/Target/XCore/XCoreGenAsmWriter.inc
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Project\ollvm-tll\build\lib\Target\XCore\XCoreGenAsmWriter.inc.tmp;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Project\ollvm-tll\build\lib\Target\XCore\XCoreGenAsmWriter.inc</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Updating XCoreGenAsmWriter.inc...</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different D:/Project/ollvm-tll/build/lib/Target/XCore/XCoreGenAsmWriter.inc.tmp D:/Project/ollvm-tll/build/lib/Target/XCore/XCoreGenAsmWriter.inc
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Project\ollvm-tll\build\lib\Target\XCore\XCoreGenAsmWriter.inc.tmp;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Project\ollvm-tll\build\lib\Target\XCore\XCoreGenAsmWriter.inc</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Project\ollvm-tll\build\CMakeFiles\354e0efa061eefda74ff2cef3c114c4d\XCoreGenDAGISel.inc.tmp.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building XCoreGenDAGISel.inc...</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+..\..\..\Debug\bin\llvm-tblgen.exe -gen-dag-isel -I D:/Project/ollvm-tll/lib/Target/XCore -I D:/Project/ollvm-tll/include -I D:/Project/ollvm-tll/lib/Target D:/Project/ollvm-tll/lib/Target/XCore/XCore.td -o D:/Project/ollvm-tll/build/lib/Target/XCore/XCoreGenDAGISel.inc.tmp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Project\ollvm-tll\build\Debug\bin\llvm-tblgen.exe;D:\Project\ollvm-tll\lib\Target\XCore\XCore.td;D:\Project\ollvm-tll\lib\Target\XCore\XCoreCallingConv.td;D:\Project\ollvm-tll\lib\Target\XCore\XCoreInstrFormats.td;D:\Project\ollvm-tll\lib\Target\XCore\XCoreInstrInfo.td;D:\Project\ollvm-tll\lib\Target\XCore\XCoreRegisterInfo.td;D:\Project\ollvm-tll\include\llvm\CodeGen\SDNodeProperties.td;D:\Project\ollvm-tll\include\llvm\CodeGen\ValueTypes.td;D:\Project\ollvm-tll\include\llvm\IR\Attributes.td;D:\Project\ollvm-tll\include\llvm\IR\Intrinsics.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsAArch64.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsAMDGPU.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsARM.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsBPF.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsHexagon.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsMips.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsNVVM.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsPowerPC.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsSystemZ.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsWebAssembly.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsX86.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsXCore.td;D:\Project\ollvm-tll\include\llvm\Option\OptParser.td;D:\Project\ollvm-tll\include\llvm\TableGen\SearchableTable.td;D:\Project\ollvm-tll\include\llvm\Target\GenericOpcodes.td;D:\Project\ollvm-tll\include\llvm\Target\GlobalISel\RegisterBank.td;D:\Project\ollvm-tll\include\llvm\Target\GlobalISel\SelectionDAGCompat.td;D:\Project\ollvm-tll\include\llvm\Target\GlobalISel\Target.td;D:\Project\ollvm-tll\include\llvm\Target\Target.td;D:\Project\ollvm-tll\include\llvm\Target\TargetCallingConv.td;D:\Project\ollvm-tll\include\llvm\Target\TargetItinerary.td;D:\Project\ollvm-tll\include\llvm\Target\TargetSchedule.td;D:\Project\ollvm-tll\include\llvm\Target\TargetSelectionDAG.td;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Project\ollvm-tll\build\lib\Target\XCore\XCoreGenDAGISel.inc.tmp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building XCoreGenDAGISel.inc...</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+..\..\..\Release\bin\llvm-tblgen.exe -gen-dag-isel -I D:/Project/ollvm-tll/lib/Target/XCore -I D:/Project/ollvm-tll/include -I D:/Project/ollvm-tll/lib/Target D:/Project/ollvm-tll/lib/Target/XCore/XCore.td -o D:/Project/ollvm-tll/build/lib/Target/XCore/XCoreGenDAGISel.inc.tmp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Project\ollvm-tll\build\Release\bin\llvm-tblgen.exe;D:\Project\ollvm-tll\lib\Target\XCore\XCore.td;D:\Project\ollvm-tll\lib\Target\XCore\XCoreCallingConv.td;D:\Project\ollvm-tll\lib\Target\XCore\XCoreInstrFormats.td;D:\Project\ollvm-tll\lib\Target\XCore\XCoreInstrInfo.td;D:\Project\ollvm-tll\lib\Target\XCore\XCoreRegisterInfo.td;D:\Project\ollvm-tll\include\llvm\CodeGen\SDNodeProperties.td;D:\Project\ollvm-tll\include\llvm\CodeGen\ValueTypes.td;D:\Project\ollvm-tll\include\llvm\IR\Attributes.td;D:\Project\ollvm-tll\include\llvm\IR\Intrinsics.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsAArch64.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsAMDGPU.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsARM.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsBPF.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsHexagon.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsMips.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsNVVM.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsPowerPC.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsSystemZ.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsWebAssembly.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsX86.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsXCore.td;D:\Project\ollvm-tll\include\llvm\Option\OptParser.td;D:\Project\ollvm-tll\include\llvm\TableGen\SearchableTable.td;D:\Project\ollvm-tll\include\llvm\Target\GenericOpcodes.td;D:\Project\ollvm-tll\include\llvm\Target\GlobalISel\RegisterBank.td;D:\Project\ollvm-tll\include\llvm\Target\GlobalISel\SelectionDAGCompat.td;D:\Project\ollvm-tll\include\llvm\Target\GlobalISel\Target.td;D:\Project\ollvm-tll\include\llvm\Target\Target.td;D:\Project\ollvm-tll\include\llvm\Target\TargetCallingConv.td;D:\Project\ollvm-tll\include\llvm\Target\TargetItinerary.td;D:\Project\ollvm-tll\include\llvm\Target\TargetSchedule.td;D:\Project\ollvm-tll\include\llvm\Target\TargetSelectionDAG.td;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Project\ollvm-tll\build\lib\Target\XCore\XCoreGenDAGISel.inc.tmp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building XCoreGenDAGISel.inc...</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+..\..\..\MinSizeRel\bin\llvm-tblgen.exe -gen-dag-isel -I D:/Project/ollvm-tll/lib/Target/XCore -I D:/Project/ollvm-tll/include -I D:/Project/ollvm-tll/lib/Target D:/Project/ollvm-tll/lib/Target/XCore/XCore.td -o D:/Project/ollvm-tll/build/lib/Target/XCore/XCoreGenDAGISel.inc.tmp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Project\ollvm-tll\build\MinSizeRel\bin\llvm-tblgen.exe;D:\Project\ollvm-tll\lib\Target\XCore\XCore.td;D:\Project\ollvm-tll\lib\Target\XCore\XCoreCallingConv.td;D:\Project\ollvm-tll\lib\Target\XCore\XCoreInstrFormats.td;D:\Project\ollvm-tll\lib\Target\XCore\XCoreInstrInfo.td;D:\Project\ollvm-tll\lib\Target\XCore\XCoreRegisterInfo.td;D:\Project\ollvm-tll\include\llvm\CodeGen\SDNodeProperties.td;D:\Project\ollvm-tll\include\llvm\CodeGen\ValueTypes.td;D:\Project\ollvm-tll\include\llvm\IR\Attributes.td;D:\Project\ollvm-tll\include\llvm\IR\Intrinsics.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsAArch64.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsAMDGPU.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsARM.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsBPF.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsHexagon.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsMips.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsNVVM.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsPowerPC.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsSystemZ.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsWebAssembly.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsX86.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsXCore.td;D:\Project\ollvm-tll\include\llvm\Option\OptParser.td;D:\Project\ollvm-tll\include\llvm\TableGen\SearchableTable.td;D:\Project\ollvm-tll\include\llvm\Target\GenericOpcodes.td;D:\Project\ollvm-tll\include\llvm\Target\GlobalISel\RegisterBank.td;D:\Project\ollvm-tll\include\llvm\Target\GlobalISel\SelectionDAGCompat.td;D:\Project\ollvm-tll\include\llvm\Target\GlobalISel\Target.td;D:\Project\ollvm-tll\include\llvm\Target\Target.td;D:\Project\ollvm-tll\include\llvm\Target\TargetCallingConv.td;D:\Project\ollvm-tll\include\llvm\Target\TargetItinerary.td;D:\Project\ollvm-tll\include\llvm\Target\TargetSchedule.td;D:\Project\ollvm-tll\include\llvm\Target\TargetSelectionDAG.td;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Project\ollvm-tll\build\lib\Target\XCore\XCoreGenDAGISel.inc.tmp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building XCoreGenDAGISel.inc...</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+..\..\..\RelWithDebInfo\bin\llvm-tblgen.exe -gen-dag-isel -I D:/Project/ollvm-tll/lib/Target/XCore -I D:/Project/ollvm-tll/include -I D:/Project/ollvm-tll/lib/Target D:/Project/ollvm-tll/lib/Target/XCore/XCore.td -o D:/Project/ollvm-tll/build/lib/Target/XCore/XCoreGenDAGISel.inc.tmp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Project\ollvm-tll\build\RelWithDebInfo\bin\llvm-tblgen.exe;D:\Project\ollvm-tll\lib\Target\XCore\XCore.td;D:\Project\ollvm-tll\lib\Target\XCore\XCoreCallingConv.td;D:\Project\ollvm-tll\lib\Target\XCore\XCoreInstrFormats.td;D:\Project\ollvm-tll\lib\Target\XCore\XCoreInstrInfo.td;D:\Project\ollvm-tll\lib\Target\XCore\XCoreRegisterInfo.td;D:\Project\ollvm-tll\include\llvm\CodeGen\SDNodeProperties.td;D:\Project\ollvm-tll\include\llvm\CodeGen\ValueTypes.td;D:\Project\ollvm-tll\include\llvm\IR\Attributes.td;D:\Project\ollvm-tll\include\llvm\IR\Intrinsics.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsAArch64.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsAMDGPU.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsARM.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsBPF.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsHexagon.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsMips.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsNVVM.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsPowerPC.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsSystemZ.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsWebAssembly.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsX86.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsXCore.td;D:\Project\ollvm-tll\include\llvm\Option\OptParser.td;D:\Project\ollvm-tll\include\llvm\TableGen\SearchableTable.td;D:\Project\ollvm-tll\include\llvm\Target\GenericOpcodes.td;D:\Project\ollvm-tll\include\llvm\Target\GlobalISel\RegisterBank.td;D:\Project\ollvm-tll\include\llvm\Target\GlobalISel\SelectionDAGCompat.td;D:\Project\ollvm-tll\include\llvm\Target\GlobalISel\Target.td;D:\Project\ollvm-tll\include\llvm\Target\Target.td;D:\Project\ollvm-tll\include\llvm\Target\TargetCallingConv.td;D:\Project\ollvm-tll\include\llvm\Target\TargetItinerary.td;D:\Project\ollvm-tll\include\llvm\Target\TargetSchedule.td;D:\Project\ollvm-tll\include\llvm\Target\TargetSelectionDAG.td;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Project\ollvm-tll\build\lib\Target\XCore\XCoreGenDAGISel.inc.tmp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Project\ollvm-tll\build\CMakeFiles\354e0efa061eefda74ff2cef3c114c4d\XCoreGenDAGISel.inc.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Updating XCoreGenDAGISel.inc...</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different D:/Project/ollvm-tll/build/lib/Target/XCore/XCoreGenDAGISel.inc.tmp D:/Project/ollvm-tll/build/lib/Target/XCore/XCoreGenDAGISel.inc
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Project\ollvm-tll\build\lib\Target\XCore\XCoreGenDAGISel.inc.tmp;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Project\ollvm-tll\build\lib\Target\XCore\XCoreGenDAGISel.inc</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Updating XCoreGenDAGISel.inc...</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different D:/Project/ollvm-tll/build/lib/Target/XCore/XCoreGenDAGISel.inc.tmp D:/Project/ollvm-tll/build/lib/Target/XCore/XCoreGenDAGISel.inc
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Project\ollvm-tll\build\lib\Target\XCore\XCoreGenDAGISel.inc.tmp;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Project\ollvm-tll\build\lib\Target\XCore\XCoreGenDAGISel.inc</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Updating XCoreGenDAGISel.inc...</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different D:/Project/ollvm-tll/build/lib/Target/XCore/XCoreGenDAGISel.inc.tmp D:/Project/ollvm-tll/build/lib/Target/XCore/XCoreGenDAGISel.inc
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Project\ollvm-tll\build\lib\Target\XCore\XCoreGenDAGISel.inc.tmp;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Project\ollvm-tll\build\lib\Target\XCore\XCoreGenDAGISel.inc</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Updating XCoreGenDAGISel.inc...</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different D:/Project/ollvm-tll/build/lib/Target/XCore/XCoreGenDAGISel.inc.tmp D:/Project/ollvm-tll/build/lib/Target/XCore/XCoreGenDAGISel.inc
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Project\ollvm-tll\build\lib\Target\XCore\XCoreGenDAGISel.inc.tmp;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Project\ollvm-tll\build\lib\Target\XCore\XCoreGenDAGISel.inc</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Project\ollvm-tll\build\CMakeFiles\354e0efa061eefda74ff2cef3c114c4d\XCoreGenCallingConv.inc.tmp.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building XCoreGenCallingConv.inc...</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+..\..\..\Debug\bin\llvm-tblgen.exe -gen-callingconv -I D:/Project/ollvm-tll/lib/Target/XCore -I D:/Project/ollvm-tll/include -I D:/Project/ollvm-tll/lib/Target D:/Project/ollvm-tll/lib/Target/XCore/XCore.td -o D:/Project/ollvm-tll/build/lib/Target/XCore/XCoreGenCallingConv.inc.tmp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Project\ollvm-tll\build\Debug\bin\llvm-tblgen.exe;D:\Project\ollvm-tll\lib\Target\XCore\XCore.td;D:\Project\ollvm-tll\lib\Target\XCore\XCoreCallingConv.td;D:\Project\ollvm-tll\lib\Target\XCore\XCoreInstrFormats.td;D:\Project\ollvm-tll\lib\Target\XCore\XCoreInstrInfo.td;D:\Project\ollvm-tll\lib\Target\XCore\XCoreRegisterInfo.td;D:\Project\ollvm-tll\include\llvm\CodeGen\SDNodeProperties.td;D:\Project\ollvm-tll\include\llvm\CodeGen\ValueTypes.td;D:\Project\ollvm-tll\include\llvm\IR\Attributes.td;D:\Project\ollvm-tll\include\llvm\IR\Intrinsics.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsAArch64.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsAMDGPU.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsARM.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsBPF.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsHexagon.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsMips.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsNVVM.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsPowerPC.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsSystemZ.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsWebAssembly.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsX86.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsXCore.td;D:\Project\ollvm-tll\include\llvm\Option\OptParser.td;D:\Project\ollvm-tll\include\llvm\TableGen\SearchableTable.td;D:\Project\ollvm-tll\include\llvm\Target\GenericOpcodes.td;D:\Project\ollvm-tll\include\llvm\Target\GlobalISel\RegisterBank.td;D:\Project\ollvm-tll\include\llvm\Target\GlobalISel\SelectionDAGCompat.td;D:\Project\ollvm-tll\include\llvm\Target\GlobalISel\Target.td;D:\Project\ollvm-tll\include\llvm\Target\Target.td;D:\Project\ollvm-tll\include\llvm\Target\TargetCallingConv.td;D:\Project\ollvm-tll\include\llvm\Target\TargetItinerary.td;D:\Project\ollvm-tll\include\llvm\Target\TargetSchedule.td;D:\Project\ollvm-tll\include\llvm\Target\TargetSelectionDAG.td;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Project\ollvm-tll\build\lib\Target\XCore\XCoreGenCallingConv.inc.tmp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building XCoreGenCallingConv.inc...</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+..\..\..\Release\bin\llvm-tblgen.exe -gen-callingconv -I D:/Project/ollvm-tll/lib/Target/XCore -I D:/Project/ollvm-tll/include -I D:/Project/ollvm-tll/lib/Target D:/Project/ollvm-tll/lib/Target/XCore/XCore.td -o D:/Project/ollvm-tll/build/lib/Target/XCore/XCoreGenCallingConv.inc.tmp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Project\ollvm-tll\build\Release\bin\llvm-tblgen.exe;D:\Project\ollvm-tll\lib\Target\XCore\XCore.td;D:\Project\ollvm-tll\lib\Target\XCore\XCoreCallingConv.td;D:\Project\ollvm-tll\lib\Target\XCore\XCoreInstrFormats.td;D:\Project\ollvm-tll\lib\Target\XCore\XCoreInstrInfo.td;D:\Project\ollvm-tll\lib\Target\XCore\XCoreRegisterInfo.td;D:\Project\ollvm-tll\include\llvm\CodeGen\SDNodeProperties.td;D:\Project\ollvm-tll\include\llvm\CodeGen\ValueTypes.td;D:\Project\ollvm-tll\include\llvm\IR\Attributes.td;D:\Project\ollvm-tll\include\llvm\IR\Intrinsics.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsAArch64.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsAMDGPU.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsARM.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsBPF.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsHexagon.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsMips.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsNVVM.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsPowerPC.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsSystemZ.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsWebAssembly.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsX86.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsXCore.td;D:\Project\ollvm-tll\include\llvm\Option\OptParser.td;D:\Project\ollvm-tll\include\llvm\TableGen\SearchableTable.td;D:\Project\ollvm-tll\include\llvm\Target\GenericOpcodes.td;D:\Project\ollvm-tll\include\llvm\Target\GlobalISel\RegisterBank.td;D:\Project\ollvm-tll\include\llvm\Target\GlobalISel\SelectionDAGCompat.td;D:\Project\ollvm-tll\include\llvm\Target\GlobalISel\Target.td;D:\Project\ollvm-tll\include\llvm\Target\Target.td;D:\Project\ollvm-tll\include\llvm\Target\TargetCallingConv.td;D:\Project\ollvm-tll\include\llvm\Target\TargetItinerary.td;D:\Project\ollvm-tll\include\llvm\Target\TargetSchedule.td;D:\Project\ollvm-tll\include\llvm\Target\TargetSelectionDAG.td;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Project\ollvm-tll\build\lib\Target\XCore\XCoreGenCallingConv.inc.tmp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building XCoreGenCallingConv.inc...</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+..\..\..\MinSizeRel\bin\llvm-tblgen.exe -gen-callingconv -I D:/Project/ollvm-tll/lib/Target/XCore -I D:/Project/ollvm-tll/include -I D:/Project/ollvm-tll/lib/Target D:/Project/ollvm-tll/lib/Target/XCore/XCore.td -o D:/Project/ollvm-tll/build/lib/Target/XCore/XCoreGenCallingConv.inc.tmp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Project\ollvm-tll\build\MinSizeRel\bin\llvm-tblgen.exe;D:\Project\ollvm-tll\lib\Target\XCore\XCore.td;D:\Project\ollvm-tll\lib\Target\XCore\XCoreCallingConv.td;D:\Project\ollvm-tll\lib\Target\XCore\XCoreInstrFormats.td;D:\Project\ollvm-tll\lib\Target\XCore\XCoreInstrInfo.td;D:\Project\ollvm-tll\lib\Target\XCore\XCoreRegisterInfo.td;D:\Project\ollvm-tll\include\llvm\CodeGen\SDNodeProperties.td;D:\Project\ollvm-tll\include\llvm\CodeGen\ValueTypes.td;D:\Project\ollvm-tll\include\llvm\IR\Attributes.td;D:\Project\ollvm-tll\include\llvm\IR\Intrinsics.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsAArch64.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsAMDGPU.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsARM.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsBPF.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsHexagon.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsMips.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsNVVM.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsPowerPC.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsSystemZ.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsWebAssembly.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsX86.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsXCore.td;D:\Project\ollvm-tll\include\llvm\Option\OptParser.td;D:\Project\ollvm-tll\include\llvm\TableGen\SearchableTable.td;D:\Project\ollvm-tll\include\llvm\Target\GenericOpcodes.td;D:\Project\ollvm-tll\include\llvm\Target\GlobalISel\RegisterBank.td;D:\Project\ollvm-tll\include\llvm\Target\GlobalISel\SelectionDAGCompat.td;D:\Project\ollvm-tll\include\llvm\Target\GlobalISel\Target.td;D:\Project\ollvm-tll\include\llvm\Target\Target.td;D:\Project\ollvm-tll\include\llvm\Target\TargetCallingConv.td;D:\Project\ollvm-tll\include\llvm\Target\TargetItinerary.td;D:\Project\ollvm-tll\include\llvm\Target\TargetSchedule.td;D:\Project\ollvm-tll\include\llvm\Target\TargetSelectionDAG.td;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Project\ollvm-tll\build\lib\Target\XCore\XCoreGenCallingConv.inc.tmp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building XCoreGenCallingConv.inc...</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+..\..\..\RelWithDebInfo\bin\llvm-tblgen.exe -gen-callingconv -I D:/Project/ollvm-tll/lib/Target/XCore -I D:/Project/ollvm-tll/include -I D:/Project/ollvm-tll/lib/Target D:/Project/ollvm-tll/lib/Target/XCore/XCore.td -o D:/Project/ollvm-tll/build/lib/Target/XCore/XCoreGenCallingConv.inc.tmp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Project\ollvm-tll\build\RelWithDebInfo\bin\llvm-tblgen.exe;D:\Project\ollvm-tll\lib\Target\XCore\XCore.td;D:\Project\ollvm-tll\lib\Target\XCore\XCoreCallingConv.td;D:\Project\ollvm-tll\lib\Target\XCore\XCoreInstrFormats.td;D:\Project\ollvm-tll\lib\Target\XCore\XCoreInstrInfo.td;D:\Project\ollvm-tll\lib\Target\XCore\XCoreRegisterInfo.td;D:\Project\ollvm-tll\include\llvm\CodeGen\SDNodeProperties.td;D:\Project\ollvm-tll\include\llvm\CodeGen\ValueTypes.td;D:\Project\ollvm-tll\include\llvm\IR\Attributes.td;D:\Project\ollvm-tll\include\llvm\IR\Intrinsics.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsAArch64.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsAMDGPU.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsARM.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsBPF.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsHexagon.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsMips.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsNVVM.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsPowerPC.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsSystemZ.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsWebAssembly.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsX86.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsXCore.td;D:\Project\ollvm-tll\include\llvm\Option\OptParser.td;D:\Project\ollvm-tll\include\llvm\TableGen\SearchableTable.td;D:\Project\ollvm-tll\include\llvm\Target\GenericOpcodes.td;D:\Project\ollvm-tll\include\llvm\Target\GlobalISel\RegisterBank.td;D:\Project\ollvm-tll\include\llvm\Target\GlobalISel\SelectionDAGCompat.td;D:\Project\ollvm-tll\include\llvm\Target\GlobalISel\Target.td;D:\Project\ollvm-tll\include\llvm\Target\Target.td;D:\Project\ollvm-tll\include\llvm\Target\TargetCallingConv.td;D:\Project\ollvm-tll\include\llvm\Target\TargetItinerary.td;D:\Project\ollvm-tll\include\llvm\Target\TargetSchedule.td;D:\Project\ollvm-tll\include\llvm\Target\TargetSelectionDAG.td;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Project\ollvm-tll\build\lib\Target\XCore\XCoreGenCallingConv.inc.tmp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Project\ollvm-tll\build\CMakeFiles\354e0efa061eefda74ff2cef3c114c4d\XCoreGenCallingConv.inc.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Updating XCoreGenCallingConv.inc...</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different D:/Project/ollvm-tll/build/lib/Target/XCore/XCoreGenCallingConv.inc.tmp D:/Project/ollvm-tll/build/lib/Target/XCore/XCoreGenCallingConv.inc
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Project\ollvm-tll\build\lib\Target\XCore\XCoreGenCallingConv.inc.tmp;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Project\ollvm-tll\build\lib\Target\XCore\XCoreGenCallingConv.inc</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Updating XCoreGenCallingConv.inc...</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different D:/Project/ollvm-tll/build/lib/Target/XCore/XCoreGenCallingConv.inc.tmp D:/Project/ollvm-tll/build/lib/Target/XCore/XCoreGenCallingConv.inc
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Project\ollvm-tll\build\lib\Target\XCore\XCoreGenCallingConv.inc.tmp;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Project\ollvm-tll\build\lib\Target\XCore\XCoreGenCallingConv.inc</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Updating XCoreGenCallingConv.inc...</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different D:/Project/ollvm-tll/build/lib/Target/XCore/XCoreGenCallingConv.inc.tmp D:/Project/ollvm-tll/build/lib/Target/XCore/XCoreGenCallingConv.inc
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Project\ollvm-tll\build\lib\Target\XCore\XCoreGenCallingConv.inc.tmp;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Project\ollvm-tll\build\lib\Target\XCore\XCoreGenCallingConv.inc</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Updating XCoreGenCallingConv.inc...</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different D:/Project/ollvm-tll/build/lib/Target/XCore/XCoreGenCallingConv.inc.tmp D:/Project/ollvm-tll/build/lib/Target/XCore/XCoreGenCallingConv.inc
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Project\ollvm-tll\build\lib\Target\XCore\XCoreGenCallingConv.inc.tmp;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Project\ollvm-tll\build\lib\Target\XCore\XCoreGenCallingConv.inc</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Project\ollvm-tll\build\CMakeFiles\354e0efa061eefda74ff2cef3c114c4d\XCoreGenSubtargetInfo.inc.tmp.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building XCoreGenSubtargetInfo.inc...</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+..\..\..\Debug\bin\llvm-tblgen.exe -gen-subtarget -I D:/Project/ollvm-tll/lib/Target/XCore -I D:/Project/ollvm-tll/include -I D:/Project/ollvm-tll/lib/Target D:/Project/ollvm-tll/lib/Target/XCore/XCore.td -o D:/Project/ollvm-tll/build/lib/Target/XCore/XCoreGenSubtargetInfo.inc.tmp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Project\ollvm-tll\build\Debug\bin\llvm-tblgen.exe;D:\Project\ollvm-tll\lib\Target\XCore\XCore.td;D:\Project\ollvm-tll\lib\Target\XCore\XCoreCallingConv.td;D:\Project\ollvm-tll\lib\Target\XCore\XCoreInstrFormats.td;D:\Project\ollvm-tll\lib\Target\XCore\XCoreInstrInfo.td;D:\Project\ollvm-tll\lib\Target\XCore\XCoreRegisterInfo.td;D:\Project\ollvm-tll\include\llvm\CodeGen\SDNodeProperties.td;D:\Project\ollvm-tll\include\llvm\CodeGen\ValueTypes.td;D:\Project\ollvm-tll\include\llvm\IR\Attributes.td;D:\Project\ollvm-tll\include\llvm\IR\Intrinsics.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsAArch64.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsAMDGPU.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsARM.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsBPF.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsHexagon.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsMips.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsNVVM.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsPowerPC.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsSystemZ.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsWebAssembly.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsX86.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsXCore.td;D:\Project\ollvm-tll\include\llvm\Option\OptParser.td;D:\Project\ollvm-tll\include\llvm\TableGen\SearchableTable.td;D:\Project\ollvm-tll\include\llvm\Target\GenericOpcodes.td;D:\Project\ollvm-tll\include\llvm\Target\GlobalISel\RegisterBank.td;D:\Project\ollvm-tll\include\llvm\Target\GlobalISel\SelectionDAGCompat.td;D:\Project\ollvm-tll\include\llvm\Target\GlobalISel\Target.td;D:\Project\ollvm-tll\include\llvm\Target\Target.td;D:\Project\ollvm-tll\include\llvm\Target\TargetCallingConv.td;D:\Project\ollvm-tll\include\llvm\Target\TargetItinerary.td;D:\Project\ollvm-tll\include\llvm\Target\TargetSchedule.td;D:\Project\ollvm-tll\include\llvm\Target\TargetSelectionDAG.td;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Project\ollvm-tll\build\lib\Target\XCore\XCoreGenSubtargetInfo.inc.tmp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building XCoreGenSubtargetInfo.inc...</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+..\..\..\Release\bin\llvm-tblgen.exe -gen-subtarget -I D:/Project/ollvm-tll/lib/Target/XCore -I D:/Project/ollvm-tll/include -I D:/Project/ollvm-tll/lib/Target D:/Project/ollvm-tll/lib/Target/XCore/XCore.td -o D:/Project/ollvm-tll/build/lib/Target/XCore/XCoreGenSubtargetInfo.inc.tmp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Project\ollvm-tll\build\Release\bin\llvm-tblgen.exe;D:\Project\ollvm-tll\lib\Target\XCore\XCore.td;D:\Project\ollvm-tll\lib\Target\XCore\XCoreCallingConv.td;D:\Project\ollvm-tll\lib\Target\XCore\XCoreInstrFormats.td;D:\Project\ollvm-tll\lib\Target\XCore\XCoreInstrInfo.td;D:\Project\ollvm-tll\lib\Target\XCore\XCoreRegisterInfo.td;D:\Project\ollvm-tll\include\llvm\CodeGen\SDNodeProperties.td;D:\Project\ollvm-tll\include\llvm\CodeGen\ValueTypes.td;D:\Project\ollvm-tll\include\llvm\IR\Attributes.td;D:\Project\ollvm-tll\include\llvm\IR\Intrinsics.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsAArch64.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsAMDGPU.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsARM.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsBPF.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsHexagon.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsMips.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsNVVM.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsPowerPC.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsSystemZ.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsWebAssembly.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsX86.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsXCore.td;D:\Project\ollvm-tll\include\llvm\Option\OptParser.td;D:\Project\ollvm-tll\include\llvm\TableGen\SearchableTable.td;D:\Project\ollvm-tll\include\llvm\Target\GenericOpcodes.td;D:\Project\ollvm-tll\include\llvm\Target\GlobalISel\RegisterBank.td;D:\Project\ollvm-tll\include\llvm\Target\GlobalISel\SelectionDAGCompat.td;D:\Project\ollvm-tll\include\llvm\Target\GlobalISel\Target.td;D:\Project\ollvm-tll\include\llvm\Target\Target.td;D:\Project\ollvm-tll\include\llvm\Target\TargetCallingConv.td;D:\Project\ollvm-tll\include\llvm\Target\TargetItinerary.td;D:\Project\ollvm-tll\include\llvm\Target\TargetSchedule.td;D:\Project\ollvm-tll\include\llvm\Target\TargetSelectionDAG.td;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Project\ollvm-tll\build\lib\Target\XCore\XCoreGenSubtargetInfo.inc.tmp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building XCoreGenSubtargetInfo.inc...</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+..\..\..\MinSizeRel\bin\llvm-tblgen.exe -gen-subtarget -I D:/Project/ollvm-tll/lib/Target/XCore -I D:/Project/ollvm-tll/include -I D:/Project/ollvm-tll/lib/Target D:/Project/ollvm-tll/lib/Target/XCore/XCore.td -o D:/Project/ollvm-tll/build/lib/Target/XCore/XCoreGenSubtargetInfo.inc.tmp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Project\ollvm-tll\build\MinSizeRel\bin\llvm-tblgen.exe;D:\Project\ollvm-tll\lib\Target\XCore\XCore.td;D:\Project\ollvm-tll\lib\Target\XCore\XCoreCallingConv.td;D:\Project\ollvm-tll\lib\Target\XCore\XCoreInstrFormats.td;D:\Project\ollvm-tll\lib\Target\XCore\XCoreInstrInfo.td;D:\Project\ollvm-tll\lib\Target\XCore\XCoreRegisterInfo.td;D:\Project\ollvm-tll\include\llvm\CodeGen\SDNodeProperties.td;D:\Project\ollvm-tll\include\llvm\CodeGen\ValueTypes.td;D:\Project\ollvm-tll\include\llvm\IR\Attributes.td;D:\Project\ollvm-tll\include\llvm\IR\Intrinsics.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsAArch64.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsAMDGPU.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsARM.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsBPF.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsHexagon.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsMips.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsNVVM.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsPowerPC.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsSystemZ.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsWebAssembly.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsX86.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsXCore.td;D:\Project\ollvm-tll\include\llvm\Option\OptParser.td;D:\Project\ollvm-tll\include\llvm\TableGen\SearchableTable.td;D:\Project\ollvm-tll\include\llvm\Target\GenericOpcodes.td;D:\Project\ollvm-tll\include\llvm\Target\GlobalISel\RegisterBank.td;D:\Project\ollvm-tll\include\llvm\Target\GlobalISel\SelectionDAGCompat.td;D:\Project\ollvm-tll\include\llvm\Target\GlobalISel\Target.td;D:\Project\ollvm-tll\include\llvm\Target\Target.td;D:\Project\ollvm-tll\include\llvm\Target\TargetCallingConv.td;D:\Project\ollvm-tll\include\llvm\Target\TargetItinerary.td;D:\Project\ollvm-tll\include\llvm\Target\TargetSchedule.td;D:\Project\ollvm-tll\include\llvm\Target\TargetSelectionDAG.td;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Project\ollvm-tll\build\lib\Target\XCore\XCoreGenSubtargetInfo.inc.tmp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building XCoreGenSubtargetInfo.inc...</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+..\..\..\RelWithDebInfo\bin\llvm-tblgen.exe -gen-subtarget -I D:/Project/ollvm-tll/lib/Target/XCore -I D:/Project/ollvm-tll/include -I D:/Project/ollvm-tll/lib/Target D:/Project/ollvm-tll/lib/Target/XCore/XCore.td -o D:/Project/ollvm-tll/build/lib/Target/XCore/XCoreGenSubtargetInfo.inc.tmp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Project\ollvm-tll\build\RelWithDebInfo\bin\llvm-tblgen.exe;D:\Project\ollvm-tll\lib\Target\XCore\XCore.td;D:\Project\ollvm-tll\lib\Target\XCore\XCoreCallingConv.td;D:\Project\ollvm-tll\lib\Target\XCore\XCoreInstrFormats.td;D:\Project\ollvm-tll\lib\Target\XCore\XCoreInstrInfo.td;D:\Project\ollvm-tll\lib\Target\XCore\XCoreRegisterInfo.td;D:\Project\ollvm-tll\include\llvm\CodeGen\SDNodeProperties.td;D:\Project\ollvm-tll\include\llvm\CodeGen\ValueTypes.td;D:\Project\ollvm-tll\include\llvm\IR\Attributes.td;D:\Project\ollvm-tll\include\llvm\IR\Intrinsics.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsAArch64.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsAMDGPU.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsARM.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsBPF.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsHexagon.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsMips.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsNVVM.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsPowerPC.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsSystemZ.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsWebAssembly.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsX86.td;D:\Project\ollvm-tll\include\llvm\IR\IntrinsicsXCore.td;D:\Project\ollvm-tll\include\llvm\Option\OptParser.td;D:\Project\ollvm-tll\include\llvm\TableGen\SearchableTable.td;D:\Project\ollvm-tll\include\llvm\Target\GenericOpcodes.td;D:\Project\ollvm-tll\include\llvm\Target\GlobalISel\RegisterBank.td;D:\Project\ollvm-tll\include\llvm\Target\GlobalISel\SelectionDAGCompat.td;D:\Project\ollvm-tll\include\llvm\Target\GlobalISel\Target.td;D:\Project\ollvm-tll\include\llvm\Target\Target.td;D:\Project\ollvm-tll\include\llvm\Target\TargetCallingConv.td;D:\Project\ollvm-tll\include\llvm\Target\TargetItinerary.td;D:\Project\ollvm-tll\include\llvm\Target\TargetSchedule.td;D:\Project\ollvm-tll\include\llvm\Target\TargetSelectionDAG.td;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Project\ollvm-tll\build\lib\Target\XCore\XCoreGenSubtargetInfo.inc.tmp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Project\ollvm-tll\build\CMakeFiles\354e0efa061eefda74ff2cef3c114c4d\XCoreGenSubtargetInfo.inc.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Updating XCoreGenSubtargetInfo.inc...</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different D:/Project/ollvm-tll/build/lib/Target/XCore/XCoreGenSubtargetInfo.inc.tmp D:/Project/ollvm-tll/build/lib/Target/XCore/XCoreGenSubtargetInfo.inc
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Project\ollvm-tll\build\lib\Target\XCore\XCoreGenSubtargetInfo.inc.tmp;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Project\ollvm-tll\build\lib\Target\XCore\XCoreGenSubtargetInfo.inc</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Updating XCoreGenSubtargetInfo.inc...</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different D:/Project/ollvm-tll/build/lib/Target/XCore/XCoreGenSubtargetInfo.inc.tmp D:/Project/ollvm-tll/build/lib/Target/XCore/XCoreGenSubtargetInfo.inc
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Project\ollvm-tll\build\lib\Target\XCore\XCoreGenSubtargetInfo.inc.tmp;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Project\ollvm-tll\build\lib\Target\XCore\XCoreGenSubtargetInfo.inc</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Updating XCoreGenSubtargetInfo.inc...</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different D:/Project/ollvm-tll/build/lib/Target/XCore/XCoreGenSubtargetInfo.inc.tmp D:/Project/ollvm-tll/build/lib/Target/XCore/XCoreGenSubtargetInfo.inc
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Project\ollvm-tll\build\lib\Target\XCore\XCoreGenSubtargetInfo.inc.tmp;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Project\ollvm-tll\build\lib\Target\XCore\XCoreGenSubtargetInfo.inc</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Updating XCoreGenSubtargetInfo.inc...</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different D:/Project/ollvm-tll/build/lib/Target/XCore/XCoreGenSubtargetInfo.inc.tmp D:/Project/ollvm-tll/build/lib/Target/XCore/XCoreGenSubtargetInfo.inc
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Project\ollvm-tll\build\lib\Target\XCore\XCoreGenSubtargetInfo.inc.tmp;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Project\ollvm-tll\build\lib\Target\XCore\XCoreGenSubtargetInfo.inc</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Project\ollvm-tll\build\CMakeFiles\06b917ce56a6f47e51d04be77d57f7f9\XCoreCommonTableGen.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Project\ollvm-tll\build\lib\Target\XCore\XCoreGenRegisterInfo.inc;D:\Project\ollvm-tll\build\lib\Target\XCore\XCoreGenInstrInfo.inc;D:\Project\ollvm-tll\build\lib\Target\XCore\XCoreGenDisassemblerTables.inc;D:\Project\ollvm-tll\build\lib\Target\XCore\XCoreGenAsmWriter.inc;D:\Project\ollvm-tll\build\lib\Target\XCore\XCoreGenDAGISel.inc;D:\Project\ollvm-tll\build\lib\Target\XCore\XCoreGenCallingConv.inc;D:\Project\ollvm-tll\build\lib\Target\XCore\XCoreGenSubtargetInfo.inc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Project\ollvm-tll\build\lib\Target\XCore\CMakeFiles\XCoreCommonTableGen</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</VerifyInputsAndOutputsExist>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Project\ollvm-tll\build\lib\Target\XCore\XCoreGenRegisterInfo.inc;D:\Project\ollvm-tll\build\lib\Target\XCore\XCoreGenInstrInfo.inc;D:\Project\ollvm-tll\build\lib\Target\XCore\XCoreGenDisassemblerTables.inc;D:\Project\ollvm-tll\build\lib\Target\XCore\XCoreGenAsmWriter.inc;D:\Project\ollvm-tll\build\lib\Target\XCore\XCoreGenDAGISel.inc;D:\Project\ollvm-tll\build\lib\Target\XCore\XCoreGenCallingConv.inc;D:\Project\ollvm-tll\build\lib\Target\XCore\XCoreGenSubtargetInfo.inc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Project\ollvm-tll\build\lib\Target\XCore\CMakeFiles\XCoreCommonTableGen</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</VerifyInputsAndOutputsExist>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Project\ollvm-tll\build\lib\Target\XCore\XCoreGenRegisterInfo.inc;D:\Project\ollvm-tll\build\lib\Target\XCore\XCoreGenInstrInfo.inc;D:\Project\ollvm-tll\build\lib\Target\XCore\XCoreGenDisassemblerTables.inc;D:\Project\ollvm-tll\build\lib\Target\XCore\XCoreGenAsmWriter.inc;D:\Project\ollvm-tll\build\lib\Target\XCore\XCoreGenDAGISel.inc;D:\Project\ollvm-tll\build\lib\Target\XCore\XCoreGenCallingConv.inc;D:\Project\ollvm-tll\build\lib\Target\XCore\XCoreGenSubtargetInfo.inc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Project\ollvm-tll\build\lib\Target\XCore\CMakeFiles\XCoreCommonTableGen</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</VerifyInputsAndOutputsExist>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Project\ollvm-tll\build\lib\Target\XCore\XCoreGenRegisterInfo.inc;D:\Project\ollvm-tll\build\lib\Target\XCore\XCoreGenInstrInfo.inc;D:\Project\ollvm-tll\build\lib\Target\XCore\XCoreGenDisassemblerTables.inc;D:\Project\ollvm-tll\build\lib\Target\XCore\XCoreGenAsmWriter.inc;D:\Project\ollvm-tll\build\lib\Target\XCore\XCoreGenDAGISel.inc;D:\Project\ollvm-tll\build\lib\Target\XCore\XCoreGenCallingConv.inc;D:\Project\ollvm-tll\build\lib\Target\XCore\XCoreGenSubtargetInfo.inc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Project\ollvm-tll\build\lib\Target\XCore\CMakeFiles\XCoreCommonTableGen</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+      <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</VerifyInputsAndOutputsExist>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Project\ollvm-tll\lib\Target\XCore\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/Project/ollvm-tll/lib/Target/XCore/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/Project/ollvm-tll -BD:/Project/ollvm-tll/build --check-stamp-file D:/Project/ollvm-tll/build/lib/Target/XCore/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Project\ollvm-tll\build\lib\Target\XCore\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/Project/ollvm-tll/lib/Target/XCore/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/Project/ollvm-tll -BD:/Project/ollvm-tll/build --check-stamp-file D:/Project/ollvm-tll/build/lib/Target/XCore/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Project\ollvm-tll\build\lib\Target\XCore\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule D:/Project/ollvm-tll/lib/Target/XCore/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/Project/ollvm-tll -BD:/Project/ollvm-tll/build --check-stamp-file D:/Project/ollvm-tll/build/lib/Target/XCore/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Project\ollvm-tll\build\lib\Target\XCore\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule D:/Project/ollvm-tll/lib/Target/XCore/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/Project/ollvm-tll -BD:/Project/ollvm-tll/build --check-stamp-file D:/Project/ollvm-tll/build/lib/Target/XCore/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Project\ollvm-tll\build\lib\Target\XCore\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="D:\Project\ollvm-tll\build\lib\Target\XCore\CMakeFiles\XCoreCommonTableGen" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:\Project\ollvm-tll\build\ZERO_CHECK.vcxproj">
+      <Project>{991F28C1-BAA2-3294-A8DB-19EEB6478608}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\ollvm-tll\build\include\llvm\IR\intrinsics_gen.vcxproj">
+      <Project>{CFADA3AD-9E25-396B-9ABE-5EB7D06EC363}</Project>
+      <Name>intrinsics_gen</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\ollvm-tll\build\utils\TableGen\llvm-tblgen.vcxproj">
+      <Project>{CD111E96-FFF2-3391-A865-D4796CC65128}</Project>
+      <Name>llvm-tblgen</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,4 @@
+﻿  Building Custom Rule D:/Project/ollvm-tll/tools/llvm-cfi-verify/lib/CMakeLists.txt
+  FileAnalysis.cpp
+  GraphBuilder.cpp
+  LLVMCFIVerify.vcxproj -> D:\Project\ollvm-tll\build\lib\Release\LLVMCFIVerify.lib

@@ -1,0 +1,3 @@
+﻿  Building Custom Rule D:/Project/ollvm-tll/lib/Target/BPF/Disassembler/CMakeLists.txt
+  BPFDisassembler.cpp
+  LLVMBPFDisassembler.vcxproj -> D:\Project\ollvm-tll\build\Release\lib\LLVMBPFDisassembler.lib

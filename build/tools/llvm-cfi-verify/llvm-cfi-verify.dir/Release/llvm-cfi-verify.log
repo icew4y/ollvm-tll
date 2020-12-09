@@ -1,0 +1,3 @@
+﻿  Building Custom Rule D:/Project/ollvm-tll/tools/llvm-cfi-verify/CMakeLists.txt
+  llvm-cfi-verify.cpp
+  llvm-cfi-verify.vcxproj -> D:\Project\ollvm-tll\build\Release\bin\llvm-cfi-verify.exe

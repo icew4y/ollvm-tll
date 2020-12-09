@@ -1,0 +1,3 @@
+﻿  Building Custom Rule D:/Project/ollvm-tll/tools/lli/ChildTarget/CMakeLists.txt
+  ChildTarget.cpp
+  lli-child-target.vcxproj -> D:\Project\ollvm-tll\build\Release\bin\lli-child-target.exe

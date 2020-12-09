@@ -1,0 +1,442 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{1E1F8360-01D8-39C7-B92E-AF5334CE9BEF}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.18362.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>LLVMHexagonCodeGen</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Project\ollvm-tll\build\Debug\lib\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">LLVMHexagonCodeGen.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">LLVMHexagonCodeGen</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Project\ollvm-tll\build\Release\lib\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">LLVMHexagonCodeGen.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">LLVMHexagonCodeGen</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Project\ollvm-tll\build\MinSizeRel\lib\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">LLVMHexagonCodeGen.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">LLVMHexagonCodeGen</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Project\ollvm-tll\build\RelWithDebInfo\lib\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">LLVMHexagonCodeGen.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">LLVMHexagonCodeGen</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\Project\ollvm-tll\build\lib\Target\Hexagon;D:\Project\ollvm-tll\lib\Target\Hexagon;D:\Project\ollvm-tll\build\include;D:\Project\ollvm-tll\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /Zc:strictStrings -w14062 /EHs-c-</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4141;4146;4180;4244;4258;4267;4291;4345;4351;4355;4456;4457;4458;4459;4503;4624;4722;4800;4100;4127;4512;4505;4610;4510;4702;4245;4706;4310;4701;4703;4389;4611;4805;4204;4577;4091;4592;4319;4324</DisableSpecificWarnings>
+      <EnforceTypeConversionRules>true</EnforceTypeConversionRules>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RemoveUnreferencedCodeData>true</RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>false</RuntimeTypeInfo>
+      <TreatSpecificWarningsAsErrors>4238</TreatSpecificWarningsAsErrors>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_HAS_EXCEPTIONS=0;GTEST_HAS_RTTI=0;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;_CRT_NONSTDC_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;UNICODE;_UNICODE;__STDC_CONSTANT_MACROS;__STDC_FORMAT_MACROS;__STDC_LIMIT_MACROS;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_HAS_EXCEPTIONS=0;GTEST_HAS_RTTI=0;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;_CRT_NONSTDC_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;UNICODE;_UNICODE;__STDC_CONSTANT_MACROS;__STDC_FORMAT_MACROS;__STDC_LIMIT_MACROS;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\Project\ollvm-tll\build\lib\Target\Hexagon;D:\Project\ollvm-tll\lib\Target\Hexagon;D:\Project\ollvm-tll\build\include;D:\Project\ollvm-tll\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Project\ollvm-tll\build\lib\Target\Hexagon;D:\Project\ollvm-tll\lib\Target\Hexagon;D:\Project\ollvm-tll\build\include;D:\Project\ollvm-tll\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\Project\ollvm-tll\build\lib\Target\Hexagon;D:\Project\ollvm-tll\lib\Target\Hexagon;D:\Project\ollvm-tll\build\include;D:\Project\ollvm-tll\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /Zc:strictStrings -w14062 /EHs-c-</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings>4141;4146;4180;4244;4258;4267;4291;4345;4351;4355;4456;4457;4458;4459;4503;4624;4722;4800;4100;4127;4512;4505;4610;4510;4702;4245;4706;4310;4701;4703;4389;4611;4805;4204;4577;4091;4592;4319;4324</DisableSpecificWarnings>
+      <EnforceTypeConversionRules>true</EnforceTypeConversionRules>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RemoveUnreferencedCodeData>true</RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>false</RuntimeTypeInfo>
+      <TreatSpecificWarningsAsErrors>4238</TreatSpecificWarningsAsErrors>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_HAS_EXCEPTIONS=0;GTEST_HAS_RTTI=0;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;_CRT_NONSTDC_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;UNICODE;_UNICODE;__STDC_CONSTANT_MACROS;__STDC_FORMAT_MACROS;__STDC_LIMIT_MACROS;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_HAS_EXCEPTIONS=0;GTEST_HAS_RTTI=0;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;_CRT_NONSTDC_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;UNICODE;_UNICODE;__STDC_CONSTANT_MACROS;__STDC_FORMAT_MACROS;__STDC_LIMIT_MACROS;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\Project\ollvm-tll\build\lib\Target\Hexagon;D:\Project\ollvm-tll\lib\Target\Hexagon;D:\Project\ollvm-tll\build\include;D:\Project\ollvm-tll\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Project\ollvm-tll\build\lib\Target\Hexagon;D:\Project\ollvm-tll\lib\Target\Hexagon;D:\Project\ollvm-tll\build\include;D:\Project\ollvm-tll\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\Project\ollvm-tll\build\lib\Target\Hexagon;D:\Project\ollvm-tll\lib\Target\Hexagon;D:\Project\ollvm-tll\build\include;D:\Project\ollvm-tll\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /Zc:strictStrings -w14062 /EHs-c-</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings>4141;4146;4180;4244;4258;4267;4291;4345;4351;4355;4456;4457;4458;4459;4503;4624;4722;4800;4100;4127;4512;4505;4610;4510;4702;4245;4706;4310;4701;4703;4389;4611;4805;4204;4577;4091;4592;4319;4324</DisableSpecificWarnings>
+      <EnforceTypeConversionRules>true</EnforceTypeConversionRules>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RemoveUnreferencedCodeData>true</RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>false</RuntimeTypeInfo>
+      <TreatSpecificWarningsAsErrors>4238</TreatSpecificWarningsAsErrors>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_HAS_EXCEPTIONS=0;GTEST_HAS_RTTI=0;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;_CRT_NONSTDC_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;UNICODE;_UNICODE;__STDC_CONSTANT_MACROS;__STDC_FORMAT_MACROS;__STDC_LIMIT_MACROS;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_HAS_EXCEPTIONS=0;GTEST_HAS_RTTI=0;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;_CRT_NONSTDC_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;UNICODE;_UNICODE;__STDC_CONSTANT_MACROS;__STDC_FORMAT_MACROS;__STDC_LIMIT_MACROS;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\Project\ollvm-tll\build\lib\Target\Hexagon;D:\Project\ollvm-tll\lib\Target\Hexagon;D:\Project\ollvm-tll\build\include;D:\Project\ollvm-tll\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Project\ollvm-tll\build\lib\Target\Hexagon;D:\Project\ollvm-tll\lib\Target\Hexagon;D:\Project\ollvm-tll\build\include;D:\Project\ollvm-tll\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\Project\ollvm-tll\build\lib\Target\Hexagon;D:\Project\ollvm-tll\lib\Target\Hexagon;D:\Project\ollvm-tll\build\include;D:\Project\ollvm-tll\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /Zc:strictStrings -w14062 /EHs-c-</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4141;4146;4180;4244;4258;4267;4291;4345;4351;4355;4456;4457;4458;4459;4503;4624;4722;4800;4100;4127;4512;4505;4610;4510;4702;4245;4706;4310;4701;4703;4389;4611;4805;4204;4577;4091;4592;4319;4324</DisableSpecificWarnings>
+      <EnforceTypeConversionRules>true</EnforceTypeConversionRules>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RemoveUnreferencedCodeData>true</RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>false</RuntimeTypeInfo>
+      <TreatSpecificWarningsAsErrors>4238</TreatSpecificWarningsAsErrors>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_HAS_EXCEPTIONS=0;GTEST_HAS_RTTI=0;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;_CRT_NONSTDC_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;UNICODE;_UNICODE;__STDC_CONSTANT_MACROS;__STDC_FORMAT_MACROS;__STDC_LIMIT_MACROS;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_HAS_EXCEPTIONS=0;GTEST_HAS_RTTI=0;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;_CRT_NONSTDC_NO_WARNINGS;_SCL_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;UNICODE;_UNICODE;__STDC_CONSTANT_MACROS;__STDC_FORMAT_MACROS;__STDC_LIMIT_MACROS;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\Project\ollvm-tll\build\lib\Target\Hexagon;D:\Project\ollvm-tll\lib\Target\Hexagon;D:\Project\ollvm-tll\build\include;D:\Project\ollvm-tll\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Project\ollvm-tll\build\lib\Target\Hexagon;D:\Project\ollvm-tll\lib\Target\Hexagon;D:\Project\ollvm-tll\build\include;D:\Project\ollvm-tll\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Project\ollvm-tll\lib\Target\Hexagon\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/Project/ollvm-tll/lib/Target/Hexagon/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/Project/ollvm-tll -BD:/Project/ollvm-tll/build --check-stamp-file D:/Project/ollvm-tll/build/lib/Target/Hexagon/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Project\ollvm-tll\build\lib\Target\Hexagon\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/Project/ollvm-tll/lib/Target/Hexagon/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/Project/ollvm-tll -BD:/Project/ollvm-tll/build --check-stamp-file D:/Project/ollvm-tll/build/lib/Target/Hexagon/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Project\ollvm-tll\build\lib\Target\Hexagon\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule D:/Project/ollvm-tll/lib/Target/Hexagon/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/Project/ollvm-tll -BD:/Project/ollvm-tll/build --check-stamp-file D:/Project/ollvm-tll/build/lib/Target/Hexagon/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Project\ollvm-tll\build\lib\Target\Hexagon\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule D:/Project/ollvm-tll/lib/Target/Hexagon/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/Project/ollvm-tll -BD:/Project/ollvm-tll/build --check-stamp-file D:/Project/ollvm-tll/build/lib/Target/Hexagon/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Project\ollvm-tll\build\lib\Target\Hexagon\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="D:\Project\ollvm-tll\lib\Target\Hexagon\BitTracker.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\lib\Target\Hexagon\HexagonAsmPrinter.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\lib\Target\Hexagon\HexagonBitSimplify.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\lib\Target\Hexagon\HexagonBitTracker.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\lib\Target\Hexagon\HexagonBlockRanges.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\lib\Target\Hexagon\HexagonBranchRelaxation.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\lib\Target\Hexagon\HexagonCFGOptimizer.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\lib\Target\Hexagon\HexagonCommonGEP.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\lib\Target\Hexagon\HexagonConstExtenders.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\lib\Target\Hexagon\HexagonConstPropagation.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\lib\Target\Hexagon\HexagonCopyToCombine.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\lib\Target\Hexagon\HexagonEarlyIfConv.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\lib\Target\Hexagon\HexagonExpandCondsets.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\lib\Target\Hexagon\HexagonFixupHwLoops.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\lib\Target\Hexagon\HexagonFrameLowering.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\lib\Target\Hexagon\HexagonGatherPacketize.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\lib\Target\Hexagon\HexagonGenExtract.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\lib\Target\Hexagon\HexagonGenInsert.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\lib\Target\Hexagon\HexagonGenMux.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\lib\Target\Hexagon\HexagonGenPredicate.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\lib\Target\Hexagon\HexagonHardwareLoops.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\lib\Target\Hexagon\HexagonHazardRecognizer.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\lib\Target\Hexagon\HexagonInstrInfo.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\lib\Target\Hexagon\HexagonISelDAGToDAG.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\lib\Target\Hexagon\HexagonISelDAGToDAGHVX.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\lib\Target\Hexagon\HexagonISelLowering.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\lib\Target\Hexagon\HexagonISelLoweringHVX.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\lib\Target\Hexagon\HexagonLoopIdiomRecognition.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\lib\Target\Hexagon\HexagonMachineFunctionInfo.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\lib\Target\Hexagon\HexagonMachineScheduler.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\lib\Target\Hexagon\HexagonMCInstLower.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\lib\Target\Hexagon\HexagonNewValueJump.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\lib\Target\Hexagon\HexagonOptAddrMode.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\lib\Target\Hexagon\HexagonOptimizeSZextends.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\lib\Target\Hexagon\HexagonPeephole.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\lib\Target\Hexagon\HexagonRDFOpt.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\lib\Target\Hexagon\HexagonRegisterInfo.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\lib\Target\Hexagon\HexagonSelectionDAGInfo.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\lib\Target\Hexagon\HexagonSplitConst32AndConst64.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\lib\Target\Hexagon\HexagonSplitDouble.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\lib\Target\Hexagon\HexagonStoreWidening.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\lib\Target\Hexagon\HexagonSubtarget.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\lib\Target\Hexagon\HexagonTargetMachine.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\lib\Target\Hexagon\HexagonTargetObjectFile.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\lib\Target\Hexagon\HexagonTargetTransformInfo.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\lib\Target\Hexagon\HexagonVectorLoopCarriedReuse.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\lib\Target\Hexagon\HexagonVectorPrint.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\lib\Target\Hexagon\HexagonVLIWPacketizer.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\lib\Target\Hexagon\RDFCopy.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\lib\Target\Hexagon\RDFDeadCode.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\lib\Target\Hexagon\RDFGraph.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\lib\Target\Hexagon\RDFLiveness.cpp" />
+    <ClCompile Include="D:\Project\ollvm-tll\lib\Target\Hexagon\RDFRegisters.cpp" />
+    <ClInclude Include="D:\Project\ollvm-tll\lib\Target\Hexagon\Hexagon.td" />
+    <ClInclude Include="D:\Project\ollvm-tll\lib\Target\Hexagon\HexagonDepArch.td" />
+    <ClInclude Include="D:\Project\ollvm-tll\lib\Target\Hexagon\HexagonDepIICHVX.td" />
+    <ClInclude Include="D:\Project\ollvm-tll\lib\Target\Hexagon\HexagonDepIICScalar.td" />
+    <ClInclude Include="D:\Project\ollvm-tll\lib\Target\Hexagon\HexagonDepITypes.td" />
+    <ClInclude Include="D:\Project\ollvm-tll\lib\Target\Hexagon\HexagonDepInstrFormats.td" />
+    <ClInclude Include="D:\Project\ollvm-tll\lib\Target\Hexagon\HexagonDepInstrInfo.td" />
+    <ClInclude Include="D:\Project\ollvm-tll\lib\Target\Hexagon\HexagonDepMappings.td" />
+    <ClInclude Include="D:\Project\ollvm-tll\lib\Target\Hexagon\HexagonDepOperands.td" />
+    <ClInclude Include="D:\Project\ollvm-tll\lib\Target\Hexagon\HexagonIICHVX.td" />
+    <ClInclude Include="D:\Project\ollvm-tll\lib\Target\Hexagon\HexagonIICScalar.td" />
+    <ClInclude Include="D:\Project\ollvm-tll\lib\Target\Hexagon\HexagonInstrFormats.td" />
+    <ClInclude Include="D:\Project\ollvm-tll\lib\Target\Hexagon\HexagonInstrFormatsV4.td" />
+    <ClInclude Include="D:\Project\ollvm-tll\lib\Target\Hexagon\HexagonInstrFormatsV60.td" />
+    <ClInclude Include="D:\Project\ollvm-tll\lib\Target\Hexagon\HexagonInstrFormatsV65.td" />
+    <ClInclude Include="D:\Project\ollvm-tll\lib\Target\Hexagon\HexagonIntrinsics.td" />
+    <ClInclude Include="D:\Project\ollvm-tll\lib\Target\Hexagon\HexagonIntrinsicsV3.td" />
+    <ClInclude Include="D:\Project\ollvm-tll\lib\Target\Hexagon\HexagonIntrinsicsV4.td" />
+    <ClInclude Include="D:\Project\ollvm-tll\lib\Target\Hexagon\HexagonIntrinsicsV5.td" />
+    <ClInclude Include="D:\Project\ollvm-tll\lib\Target\Hexagon\HexagonIntrinsicsV60.td" />
+    <ClInclude Include="D:\Project\ollvm-tll\lib\Target\Hexagon\HexagonMapAsm2IntrinV62.gen.td" />
+    <ClInclude Include="D:\Project\ollvm-tll\lib\Target\Hexagon\HexagonMapAsm2IntrinV65.gen.td" />
+    <ClInclude Include="D:\Project\ollvm-tll\lib\Target\Hexagon\HexagonOperands.td" />
+    <ClInclude Include="D:\Project\ollvm-tll\lib\Target\Hexagon\HexagonPatterns.td" />
+    <ClInclude Include="D:\Project\ollvm-tll\lib\Target\Hexagon\HexagonPatternsV65.td" />
+    <ClInclude Include="D:\Project\ollvm-tll\lib\Target\Hexagon\HexagonPseudo.td" />
+    <ClInclude Include="D:\Project\ollvm-tll\lib\Target\Hexagon\HexagonRegisterInfo.td" />
+    <ClInclude Include="D:\Project\ollvm-tll\lib\Target\Hexagon\HexagonSchedule.td" />
+    <ClInclude Include="D:\Project\ollvm-tll\lib\Target\Hexagon\HexagonScheduleV4.td" />
+    <ClInclude Include="D:\Project\ollvm-tll\lib\Target\Hexagon\HexagonScheduleV55.td" />
+    <ClInclude Include="D:\Project\ollvm-tll\lib\Target\Hexagon\HexagonScheduleV60.td" />
+    <ClInclude Include="D:\Project\ollvm-tll\lib\Target\Hexagon\HexagonScheduleV62.td" />
+    <ClInclude Include="D:\Project\ollvm-tll\lib\Target\Hexagon\HexagonScheduleV65.td" />
+    <ClInclude Include="D:\Project\ollvm-tll\lib\Target\Hexagon\BitTracker.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\lib\Target\Hexagon\Hexagon.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\lib\Target\Hexagon\HexagonAsmPrinter.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\lib\Target\Hexagon\HexagonBitTracker.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\lib\Target\Hexagon\HexagonBlockRanges.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\lib\Target\Hexagon\HexagonDepArch.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\lib\Target\Hexagon\HexagonDepDecoders.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\lib\Target\Hexagon\HexagonDepITypes.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\lib\Target\Hexagon\HexagonDepTimingClasses.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\lib\Target\Hexagon\HexagonFrameLowering.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\lib\Target\Hexagon\HexagonHazardRecognizer.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\lib\Target\Hexagon\HexagonISelDAGToDAG.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\lib\Target\Hexagon\HexagonISelLowering.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\lib\Target\Hexagon\HexagonInstrInfo.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\lib\Target\Hexagon\HexagonMachineFunctionInfo.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\lib\Target\Hexagon\HexagonMachineScheduler.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\lib\Target\Hexagon\HexagonRegisterInfo.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\lib\Target\Hexagon\HexagonSelectionDAGInfo.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\lib\Target\Hexagon\HexagonSubtarget.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\lib\Target\Hexagon\HexagonTargetMachine.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\lib\Target\Hexagon\HexagonTargetObjectFile.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\lib\Target\Hexagon\HexagonTargetStreamer.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\lib\Target\Hexagon\HexagonTargetTransformInfo.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\lib\Target\Hexagon\HexagonVLIWPacketizer.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\lib\Target\Hexagon\RDFCopy.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\lib\Target\Hexagon\RDFDeadCode.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\lib\Target\Hexagon\RDFGraph.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\lib\Target\Hexagon\RDFLiveness.h" />
+    <ClInclude Include="D:\Project\ollvm-tll\lib\Target\Hexagon\RDFRegisters.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:\Project\ollvm-tll\build\ZERO_CHECK.vcxproj">
+      <Project>{991F28C1-BAA2-3294-A8DB-19EEB6478608}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\ollvm-tll\build\lib\Target\Hexagon\HexagonCommonTableGen.vcxproj">
+      <Project>{ECE58653-0AC0-3E44-B879-25FCA0709217}</Project>
+      <Name>HexagonCommonTableGen</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\ollvm-tll\build\include\llvm\IR\intrinsics_gen.vcxproj">
+      <Project>{CFADA3AD-9E25-396B-9ABE-5EB7D06EC363}</Project>
+      <Name>intrinsics_gen</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

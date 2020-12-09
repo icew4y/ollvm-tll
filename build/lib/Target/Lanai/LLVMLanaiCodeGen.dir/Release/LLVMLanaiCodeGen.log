@@ -1,0 +1,16 @@
+﻿  Building Custom Rule D:/Project/ollvm-tll/lib/Target/Lanai/CMakeLists.txt
+  LanaiAsmPrinter.cpp
+  LanaiDelaySlotFiller.cpp
+  LanaiFrameLowering.cpp
+  LanaiInstrInfo.cpp
+  LanaiISelDAGToDAG.cpp
+  LanaiISelLowering.cpp
+  LanaiMachineFunctionInfo.cpp
+  LanaiMCInstLower.cpp
+  LanaiMemAluCombiner.cpp
+  LanaiRegisterInfo.cpp
+  LanaiSelectionDAGInfo.cpp
+  LanaiSubtarget.cpp
+  LanaiTargetMachine.cpp
+  LanaiTargetObjectFile.cpp
+  LLVMLanaiCodeGen.vcxproj -> D:\Project\ollvm-tll\build\Release\lib\LLVMLanaiCodeGen.lib

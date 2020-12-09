@@ -1,0 +1,3 @@
+﻿  Building Custom Rule D:/Project/ollvm-tll/tools/clang/tools/clang-import-test/CMakeLists.txt
+  clang-import-test.cpp
+  clang-import-test.vcxproj -> D:\Project\ollvm-tll\build\Release\bin\clang-import-test.exe

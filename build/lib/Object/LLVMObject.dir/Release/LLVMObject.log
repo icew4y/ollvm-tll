@@ -1,0 +1,24 @@
+﻿  Building Custom Rule D:/Project/ollvm-tll/lib/Object/CMakeLists.txt
+  Archive.cpp
+  ArchiveWriter.cpp
+  Binary.cpp
+  COFFImportFile.cpp
+  COFFModuleDefinition.cpp
+  COFFObjectFile.cpp
+  Decompressor.cpp
+  ELF.cpp
+  ELFObjectFile.cpp
+  Error.cpp
+  IRObjectFile.cpp
+  IRSymtab.cpp
+  MachOObjectFile.cpp
+  MachOUniversal.cpp
+  ModuleSymbolTable.cpp
+  Object.cpp
+  ObjectFile.cpp
+  RecordStreamer.cpp
+  SymbolicFile.cpp
+  SymbolSize.cpp
+  WasmObjectFile.cpp
+  WindowsResource.cpp
+  LLVMObject.vcxproj -> D:\Project\ollvm-tll\build\Release\lib\LLVMObject.lib

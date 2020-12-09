@@ -1,0 +1,3 @@
+﻿  Building Custom Rule D:/Project/ollvm-tll/tools/sancov/CMakeLists.txt
+  sancov.cc
+  sancov.vcxproj -> D:\Project\ollvm-tll\build\Release\bin\sancov.exe

@@ -1,0 +1,13 @@
+﻿  Building Custom Rule D:/Project/ollvm-tll/tools/clang/lib/Tooling/CMakeLists.txt
+  ArgumentsAdjusters.cpp
+  CommonOptionsParser.cpp
+  CompilationDatabase.cpp
+  Execution.cpp
+  FileMatchTrie.cpp
+  FixIt.cpp
+  JSONCompilationDatabase.cpp
+  Refactoring.cpp
+  RefactoringCallbacks.cpp
+  StandaloneExecution.cpp
+  Tooling.cpp
+  clangTooling.vcxproj -> D:\Project\ollvm-tll\build\Release\lib\clangTooling.lib

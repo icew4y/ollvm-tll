@@ -1,0 +1,34 @@
+﻿  Building Custom Rule D:/Project/ollvm-tll/lib/Transforms/IPO/CMakeLists.txt
+  AlwaysInliner.cpp
+  ArgumentPromotion.cpp
+  BarrierNoopPass.cpp
+  CalledValuePropagation.cpp
+  ConstantMerge.cpp
+  CrossDSOCFI.cpp
+  DeadArgumentElimination.cpp
+  ElimAvailExtern.cpp
+  ExtractGV.cpp
+  ForceFunctionAttrs.cpp
+  FunctionAttrs.cpp
+  FunctionImport.cpp
+  GlobalDCE.cpp
+  GlobalOpt.cpp
+  GlobalSplit.cpp
+  IPConstantPropagation.cpp
+  IPO.cpp
+  InferFunctionAttrs.cpp
+  InlineSimple.cpp
+  Inliner.cpp
+  Internalize.cpp
+  LoopExtractor.cpp
+  LowerTypeTests.cpp
+  MergeFunctions.cpp
+  PartialInlining.cpp
+  PassManagerBuilder.cpp
+  PruneEH.cpp
+  SampleProfile.cpp
+  StripDeadPrototypes.cpp
+  StripSymbols.cpp
+  ThinLTOBitcodeWriter.cpp
+  WholeProgramDevirt.cpp
+  LLVMipo.vcxproj -> D:\Project\ollvm-tll\build\Release\lib\LLVMipo.lib

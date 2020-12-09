@@ -1,0 +1,3 @@
+﻿  Building Custom Rule D:/Project/ollvm-tll/lib/Target/PowerPC/InstPrinter/CMakeLists.txt
+  PPCInstPrinter.cpp
+  LLVMPowerPCAsmPrinter.vcxproj -> D:\Project\ollvm-tll\build\Release\lib\LLVMPowerPCAsmPrinter.lib

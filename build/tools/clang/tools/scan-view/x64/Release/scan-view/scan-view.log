@@ -1,0 +1,8 @@
+﻿  Generating ../../../../bin/scan-view
+  Generating ../../../../share/scan-view/ScanView.py
+  Generating ../../../../share/scan-view/Reporter.py
+  Generating ../../../../share/scan-view/startfile.py
+  Generating ../../../../share/scan-view/FileRadar.scpt
+  Generating ../../../../share/scan-view/GetRadarVersion.scpt
+  Generating ../../../../share/scan-view/bugcatcher.ico
+  Building Custom Rule D:/Project/ollvm-tll/tools/clang/tools/scan-view/CMakeLists.txt

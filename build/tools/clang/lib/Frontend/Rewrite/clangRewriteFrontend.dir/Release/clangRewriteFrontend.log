@@ -1,0 +1,10 @@
+﻿  Building Custom Rule D:/Project/ollvm-tll/tools/clang/lib/Frontend/Rewrite/CMakeLists.txt
+  FixItRewriter.cpp
+  FrontendActions.cpp
+  HTMLPrint.cpp
+  InclusionRewriter.cpp
+  RewriteMacros.cpp
+  RewriteModernObjC.cpp
+  RewriteObjC.cpp
+  RewriteTest.cpp
+  clangRewriteFrontend.vcxproj -> D:\Project\ollvm-tll\build\Release\lib\clangRewriteFrontend.lib

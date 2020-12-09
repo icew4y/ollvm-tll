@@ -1,0 +1,6 @@
+﻿  Building Custom Rule D:/Project/ollvm-tll/lib/DebugInfo/MSF/CMakeLists.txt
+  MappedBlockStream.cpp
+  MSFBuilder.cpp
+  MSFCommon.cpp
+  MSFError.cpp
+  LLVMDebugInfoMSF.vcxproj -> D:\Project\ollvm-tll\build\Release\lib\LLVMDebugInfoMSF.lib

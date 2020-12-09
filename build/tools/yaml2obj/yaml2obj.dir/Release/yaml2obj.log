@@ -1,0 +1,7 @@
+﻿  Building Custom Rule D:/Project/ollvm-tll/tools/yaml2obj/CMakeLists.txt
+  yaml2obj.cpp
+  yaml2coff.cpp
+  yaml2elf.cpp
+  yaml2macho.cpp
+  yaml2wasm.cpp
+  yaml2obj.vcxproj -> D:\Project\ollvm-tll\build\Release\bin\yaml2obj.exe

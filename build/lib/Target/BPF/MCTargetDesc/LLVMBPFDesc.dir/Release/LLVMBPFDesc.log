@@ -1,0 +1,6 @@
+﻿  Building Custom Rule D:/Project/ollvm-tll/lib/Target/BPF/MCTargetDesc/CMakeLists.txt
+  BPFMCTargetDesc.cpp
+  BPFAsmBackend.cpp
+  BPFMCCodeEmitter.cpp
+  BPFELFObjectWriter.cpp
+  LLVMBPFDesc.vcxproj -> D:\Project\ollvm-tll\build\Release\lib\LLVMBPFDesc.lib

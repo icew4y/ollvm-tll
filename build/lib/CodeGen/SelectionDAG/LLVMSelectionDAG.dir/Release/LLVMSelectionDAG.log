@@ -1,0 +1,27 @@
+﻿  Building Custom Rule D:/Project/ollvm-tll/lib/CodeGen/SelectionDAG/CMakeLists.txt
+  DAGCombiner.cpp
+  FastISel.cpp
+  FunctionLoweringInfo.cpp
+  InstrEmitter.cpp
+  LegalizeDAG.cpp
+  LegalizeFloatTypes.cpp
+  LegalizeIntegerTypes.cpp
+  LegalizeTypes.cpp
+  LegalizeTypesGeneric.cpp
+  LegalizeVectorOps.cpp
+  LegalizeVectorTypes.cpp
+  ResourcePriorityQueue.cpp
+  ScheduleDAGFast.cpp
+  ScheduleDAGRRList.cpp
+  ScheduleDAGSDNodes.cpp
+  ScheduleDAGVLIW.cpp
+  SelectionDAGBuilder.cpp
+  SelectionDAG.cpp
+  SelectionDAGAddressAnalysis.cpp
+  SelectionDAGDumper.cpp
+  SelectionDAGISel.cpp
+  SelectionDAGPrinter.cpp
+  SelectionDAGTargetInfo.cpp
+  StatepointLowering.cpp
+  TargetLowering.cpp
+  LLVMSelectionDAG.vcxproj -> D:\Project\ollvm-tll\build\Release\lib\LLVMSelectionDAG.lib

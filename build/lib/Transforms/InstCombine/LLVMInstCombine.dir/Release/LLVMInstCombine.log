@@ -1,0 +1,15 @@
+﻿  Building Custom Rule D:/Project/ollvm-tll/lib/Transforms/InstCombine/CMakeLists.txt
+  InstructionCombining.cpp
+  InstCombineAddSub.cpp
+  InstCombineAndOrXor.cpp
+  InstCombineCalls.cpp
+  InstCombineCasts.cpp
+  InstCombineCompares.cpp
+  InstCombineLoadStoreAlloca.cpp
+  InstCombineMulDivRem.cpp
+  InstCombinePHI.cpp
+  InstCombineSelect.cpp
+  InstCombineShifts.cpp
+  InstCombineSimplifyDemanded.cpp
+  InstCombineVectorOps.cpp
+  LLVMInstCombine.vcxproj -> D:\Project\ollvm-tll\build\Release\lib\LLVMInstCombine.lib

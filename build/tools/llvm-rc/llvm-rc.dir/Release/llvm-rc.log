@@ -1,0 +1,7 @@
+﻿  Building Custom Rule D:/Project/ollvm-tll/tools/llvm-rc/CMakeLists.txt
+  llvm-rc.cpp
+  ResourceFileWriter.cpp
+  ResourceScriptParser.cpp
+  ResourceScriptStmt.cpp
+  ResourceScriptToken.cpp
+  llvm-rc.vcxproj -> D:\Project\ollvm-tll\build\Release\bin\llvm-rc.exe

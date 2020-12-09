@@ -1,0 +1,9 @@
+﻿  Building Custom Rule D:/Project/ollvm-tll/tools/clang/tools/diagtool/CMakeLists.txt
+  diagtool_main.cpp
+  DiagTool.cpp
+  DiagnosticNames.cpp
+  FindDiagnosticID.cpp
+  ListWarnings.cpp
+  ShowEnabledWarnings.cpp
+  TreeView.cpp
+  diagtool.vcxproj -> D:\Project\ollvm-tll\build\Release\bin\diagtool.exe

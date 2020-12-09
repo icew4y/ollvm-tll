@@ -1,0 +1,3 @@
+﻿  Building Custom Rule D:/Project/ollvm-tll/lib/Target/Mips/TargetInfo/CMakeLists.txt
+  MipsTargetInfo.cpp
+  LLVMMipsInfo.vcxproj -> D:\Project\ollvm-tll\build\Release\lib\LLVMMipsInfo.lib

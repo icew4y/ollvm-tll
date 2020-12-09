@@ -1,0 +1,11 @@
+﻿  Building Custom Rule D:/Project/ollvm-tll/tools/clang/lib/Index/CMakeLists.txt
+  CodegenNameGenerator.cpp
+  CommentToXML.cpp
+  IndexBody.cpp
+  IndexDecl.cpp
+  IndexingAction.cpp
+  IndexingContext.cpp
+  IndexSymbol.cpp
+  IndexTypeSourceInfo.cpp
+  USRGeneration.cpp
+  clangIndex.vcxproj -> D:\Project\ollvm-tll\build\Release\lib\clangIndex.lib

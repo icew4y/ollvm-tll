@@ -1,0 +1,3 @@
+﻿  Building Custom Rule D:/Project/ollvm-tll/tools/llvm-size/CMakeLists.txt
+  llvm-size.cpp
+  llvm-size.vcxproj -> D:\Project\ollvm-tll\build\Release\bin\llvm-size.exe

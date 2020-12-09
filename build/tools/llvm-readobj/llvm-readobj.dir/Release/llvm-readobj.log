@@ -1,0 +1,13 @@
+﻿  Building Custom Rule D:/Project/ollvm-tll/tools/llvm-readobj/CMakeLists.txt
+  ARMWinEHPrinter.cpp
+  COFFDumper.cpp
+  COFFImportDumper.cpp
+  ELFDumper.cpp
+  Error.cpp
+  llvm-readobj.cpp
+  MachODumper.cpp
+  ObjDumper.cpp
+  WasmDumper.cpp
+  Win64EHDumper.cpp
+  WindowsResourceDumper.cpp
+  llvm-readobj.vcxproj -> D:\Project\ollvm-tll\build\Release\bin\llvm-readobj.exe

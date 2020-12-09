@@ -1,0 +1,5 @@
+﻿  Building Custom Rule D:/Project/ollvm-tll/lib/CodeGen/MIRParser/CMakeLists.txt
+  MILexer.cpp
+  MIParser.cpp
+  MIRParser.cpp
+  LLVMMIRParser.vcxproj -> D:\Project\ollvm-tll\build\Release\lib\LLVMMIRParser.lib

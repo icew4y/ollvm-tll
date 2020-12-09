@@ -1,0 +1,11 @@
+# CMake generation dependency list for this directory.
+C:/Program Files/CMake/share/cmake-3.17/Modules/CMakeParseArguments.cmake
+C:/Program Files/CMake/share/cmake-3.17/Modules/CheckIncludeFile.cmake
+C:/Program Files/CMake/share/cmake-3.17/Modules/FindLibXml2.cmake
+C:/Program Files/CMake/share/cmake-3.17/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files/CMake/share/cmake-3.17/Modules/FindPackageMessage.cmake
+C:/Program Files/CMake/share/cmake-3.17/Modules/FindPkgConfig.cmake
+D:/Project/ollvm-tll/tools/clang/CMakeLists.txt
+D:/Project/ollvm-tll/tools/clang/cmake/modules/AddClang.cmake
+D:/Project/ollvm-tll/tools/clang/include/clang/Basic/Version.inc.in
+D:/Project/ollvm-tll/tools/clang/include/clang/Config/config.h.cmake
